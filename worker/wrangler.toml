@@ -1,4 +1,4 @@
-name = "wpcna-demo13-posting-review"
+name = "wpcna-posting-review"
 main = "src/posting-worker.js"
 compatibility_date = "2026-04-21"
 
@@ -12,7 +12,7 @@ compatibility_date = "2026-04-21"
 
 [vars]
 ALLOWED_ORIGINS = "https://wp-cna.github.io"
-GITHUB_REPO = "wp-cna/demo13"
+GITHUB_REPO = "wp-cna/demo14"
 GITHUB_BRANCH = "main"
 POSTINGS_PATH = "src/_data/communityPostings.json"
 # Vetting model (default in code is claude-sonnet-4-6).
