@@ -3,8 +3,6 @@
     {
       "slug": "church-street",
       "name": "Church Street",
-      "group": "Central White Plains",
-      "published": false,
       "member": false,
       "description": "Church Street sits just off Downtown and shares much of its convenience, but at a slightly calmer scale. The mix of apartment buildings, smaller residential blocks, and longtime local institutions gives it a central location with a more settled feel.",
       "association": {
@@ -23,8 +21,6 @@
     {
       "slug": "downtown",
       "name": "Downtown",
-      "group": "Central White Plains",
-      "published": false,
       "description": "Downtown is the most walkable and built-up part of White Plains, centered on the Metro-North station, Mamaroneck Avenue, restaurants, shopping, and a growing collection of newer apartment buildings. It has the most day-to-night energy in the city and the strongest sense of White Plains as a compact urban center.",
       "association": {
         "name": "",
@@ -42,8 +38,6 @@
     {
       "slug": "government-center",
       "name": "Government Center",
-      "group": "Central White Plains",
-      "published": false,
       "description": "Government Center is one of the most central parts of White Plains and gives the surrounding streets an established, civic feel. It is easy to place on the map and easy to move through, with Downtown and several nearby neighborhoods close by.",
       "association": {
         "name": "",
@@ -61,8 +55,6 @@
     {
       "slug": "health-center",
       "name": "Health Center",
-      "group": "Central White Plains",
-      "published": false,
       "description": "Testing.",
       "association": {
         "name": "",
@@ -80,8 +72,6 @@
     {
       "slug": "winbrook",
       "name": "Winbrook",
-      "group": "Central White Plains",
-      "published": false,
       "description": "Winbrook is close to the center of the city and has long been one of White Plains' better-known residential areas. The Brookfield Commons redevelopment has added new affordable housing and community space, so the neighborhood now combines an established presence with visible new investment.",
       "association": {
         "name": "",
@@ -99,8 +89,6 @@
     {
       "slug": "gateway",
       "name": "Gateway",
-      "group": "Central White Plains",
-      "published": false,
       "description": "Gateway lives up to its name as the stretch between the city center and the residential neighborhoods around it. It feels connected and convenient, with a little breathing room from the busiest blocks while still staying close to them.",
       "association": {
         "name": "",
@@ -118,8 +106,6 @@
     {
       "slug": "battle-hill",
       "name": "Battle Hill",
-      "group": "West Side and Near-Downtown Neighborhoods",
-      "published": true,
       "member": true,
       "description": "Test description.",
       "association": {
@@ -145,8 +131,6 @@
     {
       "slug": "fisher-hill",
       "name": "Fisher Hill",
-      "group": "West Side and Near-Downtown Neighborhoods",
-      "published": true,
       "member": true,
       "description": "Fisher Hill is a historic neighborhood within walking distance of the central business district of White Plains, NY. Residential development began around 1900, and many of the large vintage homes from that era still define the neighborhood's character today. Fisher Hill is notably diverse in ethnicity, age, and income.",
       "association": {
@@ -184,8 +168,6 @@
     {
       "slug": "highlands",
       "name": "Highlands",
-      "group": "West Side and Near-Downtown Neighborhoods",
-      "published": false,
       "member": true,
       "description": "",
       "association": {
@@ -204,8 +186,6 @@
     {
       "slug": "fulton-street",
       "name": "Fulton Street",
-      "group": "West Side and Near-Downtown Neighborhoods",
-      "published": false,
       "description": "Fulton Street is a smaller west-side neighborhood with a long-standing residential feel. It is shaped more by familiar blocks and older housing than by large new development, which gives it a straightforward and established character.",
       "association": {
         "name": "",
@@ -223,8 +203,6 @@
     {
       "slug": "ferris-avenue",
       "name": "Ferris Avenue",
-      "group": "West Side and Near-Downtown Neighborhoods",
-      "published": false,
       "description": "Ferris Avenue follows one of the city's main north-south routes and feels closely tied to the surrounding west side. The area mixes housing with local activity, and its main draw is how easily it links Battle Hill, Downtown, and the neighborhoods to the north.",
       "association": {
         "name": "",
@@ -242,8 +220,6 @@
     {
       "slug": "bronx-river",
       "name": "Bronx River",
-      "group": "West Side and Near-Downtown Neighborhoods",
-      "published": false,
       "description": "Bronx River is a narrow edge neighborhood along the western side of White Plains. Its position gives it a tucked-along-the-corridor feel, with easy access to central White Plains while still feeling a little set apart.",
       "association": {
         "name": "",
@@ -261,8 +237,6 @@
     {
       "slug": "prospect-park",
       "name": "Prospect Park",
-      "group": "West Side and Near-Downtown Neighborhoods",
-      "published": false,
       "description": "Prospect Park is a small southwest pocket with a calm, local feel. It sits between busier parts of the city, but the neighborhood itself reads as modest, residential, and easygoing.",
       "association": {
         "name": "",
@@ -280,8 +254,6 @@
     {
       "slug": "north-broadway",
       "name": "North Broadway",
-      "group": "North and Northeast",
-      "published": false,
       "member": true,
       "description": "North Broadway has one of the most recognizable addresses in White Plains, combining a main route through the city with long-established residential stretches. It feels prominent without feeling overly busy, and it carries some of the north side's older character.",
       "association": {
@@ -300,8 +272,6 @@
     {
       "slug": "good-counsel",
       "name": "Good Counsel",
-      "group": "North and Northeast",
-      "published": false,
       "description": "Good Counsel takes much of its identity from the Good Counsel Complex on North Broadway, a White Plains landmark listed on the State and National Registers of Historic Places. That historic campus gives the area a distinctive look and a sense of permanence that sets it apart from the tighter street grid closer to Downtown.",
       "association": {
         "name": "",
@@ -319,8 +289,6 @@
     {
       "slug": "westminster-ridge",
       "name": "Westminster Ridge",
-      "group": "North and Northeast",
-      "published": false,
       "description": "Westminster Ridge sits just north of the city center and has a quiet hillside feel. It comes across as settled and residential, with a little separation from Downtown while still staying close to it.",
       "association": {
         "name": "",
@@ -338,8 +306,6 @@
     {
       "slug": "woodcrest-heights",
       "name": "Woodcrest Heights",
-      "group": "North and Northeast",
-      "published": false,
       "description": "Woodcrest Heights has a northeast setting that feels more tucked away than the city core. The name fits the area well: it reads as residential, slightly elevated, and a little quieter than the neighborhoods closer to the station.",
       "association": {
         "name": "",
@@ -357,8 +323,6 @@
     {
       "slug": "white-plains-reservoir",
       "name": "White Plains Reservoir",
-      "group": "North and Northeast",
-      "published": false,
       "description": "White Plains Reservoir occupies the far northern part of the map and feels more open than the middle of the city. Its position gives it a sense of extra space and a more outlying, edge-of-town character.",
       "association": {
         "name": "",
@@ -376,8 +340,6 @@
     {
       "slug": "eastview",
       "name": "Eastview",
-      "group": "North and Northeast",
-      "published": false,
       "description": "Eastview sits east of Downtown and works as one of the city's steady residential neighborhoods. It has a practical, everyday feel, with a location that keeps the center of White Plains and the eastern side of town close by.",
       "association": {
         "name": "",
@@ -395,8 +357,6 @@
     {
       "slug": "old-oak-ridge",
       "name": "Old Oak Ridge",
-      "group": "North and Northeast",
-      "published": false,
       "member": true,
       "description": "Old Oak Ridge is a small east-side pocket with a tucked-in, private feel. It reads as residential and somewhat apart from the busier blocks closer to the core, while still staying well placed for getting around.",
       "association": {
@@ -415,8 +375,6 @@
     {
       "slug": "westchester-avenue",
       "name": "Westchester Avenue",
-      "group": "North and Northeast",
-      "published": false,
       "description": "Westchester Avenue is shaped by one of White Plains' main east-west routes, so convenience is a big part of its identity. It feels connected, visible, and easy to place, with quick links to the eastern neighborhoods and the center of the city.",
       "association": {
         "name": "",
@@ -434,8 +392,6 @@
     {
       "slug": "old-mamaroneck-road",
       "name": "Old Mamaroneck Road",
-      "group": "East Side and Institutional Anchors",
-      "published": false,
       "description": "Old Mamaroneck Road feels defined by one of the city's long-running routes. It sits in a useful middle ground between central White Plains and the southeastern residential areas, with a familiar, well-established neighborhood feel.",
       "association": {
         "name": "",
@@ -453,8 +409,6 @@
     {
       "slug": "carhart",
       "name": "Carhart",
-      "group": "East Side and Institutional Anchors",
-      "published": false,
       "member": true,
       "description": "Carhart is a compact neighborhood area near the middle of White Plains, positioned between the close-in residential blocks, institutional anchors, and larger south-side neighborhoods around it. It is one of the neighborhood associations currently represented through WPCNA, giving residents another point of connection within the council.",
       "association": {
@@ -473,8 +427,6 @@
     {
       "slug": "kirkbride-asylum",
       "name": "Kirkbride Asylum",
-      "group": "East Side and Institutional Anchors",
-      "published": false,
       "description": "Kirkbride Asylum has one of the most distinctive names on the map, and the area carries a sense of older institutional history and larger grounds. It feels different from the tighter city blocks nearby, with a more open layout and a character shaped by place as much as by housing.",
       "association": {
         "name": "",
@@ -492,8 +444,6 @@
     {
       "slug": "bryant-gardens",
       "name": "Bryant Gardens",
-      "group": "East Side and Institutional Anchors",
-      "published": false,
       "description": "Bryant Gardens is best known for the garden-style cooperative community built there in the early 1950s, with landscaped grounds and a strong sense of internal identity. The name still carries that orderly, residential feel, and it remains one of the more recognizable small-scale neighborhoods in White Plains.",
       "association": {
         "name": "",
@@ -511,8 +461,6 @@
     {
       "slug": "burke-institute",
       "name": "Burke Institute",
-      "group": "East Side and Institutional Anchors",
-      "published": false,
       "description": "Burke Institute is anchored by the Burke campus on Mamaroneck Avenue, whose rehabilitation hospital opened in 1915. That longstanding institution gives the area a clear identity and a campus-like feel within the larger residential section around it.",
       "association": {
         "name": "",
@@ -530,8 +478,6 @@
     {
       "slug": "havilands-manor",
       "name": "Havilands Manor",
-      "group": "East Side and Institutional Anchors",
-      "published": false,
       "description": "Havilands Manor has a tucked-in east-side setting and a polished residential feel. It comes across as quiet, well established, and a little removed from the busiest parts of White Plains in a way that gives it its own character.",
       "association": {
         "name": "",
@@ -549,8 +495,6 @@
     {
       "slug": "north-street",
       "name": "North Street",
-      "group": "East Side and Institutional Anchors",
-      "published": false,
       "member": true,
       "description": "North Street covers a broad stretch of the east and southeast side and is one of the roomier-feeling sections of White Plains. Parts of it are known for larger homes and longer blocks, and the overall impression is residential, established, and spacious.",
       "association": {
@@ -569,8 +513,6 @@
     {
       "slug": "gedney-park",
       "name": "Gedney Park",
-      "group": "Gedney and the South Side",
-      "published": false,
       "description": "Gedney Park sits between the Old Mamaroneck Road corridor and the larger Gedney neighborhoods around it. It feels central within the south side of White Plains, with a settled residential character and easy connections in several directions.",
       "association": {
         "name": "",
@@ -588,8 +530,6 @@
     {
       "slug": "gedney-farms",
       "name": "Gedney Farms",
-      "group": "Gedney and the South Side",
-      "published": false,
       "member": true,
       "description": "Gedney Farms is one of the classic residential names in White Plains, with roots that trace back to the 1700s and a neighborhood association now marking its 100th year. It is known for quiet, tree-lined streets, larger homes, and the kind of traditional character that has made it one of the city's most established addresses.",
       "association": {
@@ -608,8 +548,6 @@
     {
       "slug": "gedney-circle",
       "name": "Gedney Circle",
-      "group": "Gedney and the South Side",
-      "published": false,
       "description": "Gedney Circle is small enough to feel like an enclave, which is part of its appeal. The name suggests a clearly defined pocket within the larger Gedney area, with a residential tone and a strong sense of place.",
       "association": {
         "name": "",
@@ -627,8 +565,6 @@
     {
       "slug": "gedney-commons",
       "name": "Gedney Commons",
-      "group": "Gedney and the South Side",
-      "published": false,
       "description": "Gedney Commons is one of the smaller Gedney sections, compact and closely tied to its surrounding streets. It feels approachable and neighborhood-scaled, with the established look that runs through much of the south side.",
       "association": {
         "name": "",
@@ -646,8 +582,6 @@
     {
       "slug": "gedney-manor",
       "name": "Gedney Manor",
-      "group": "Gedney and the South Side",
-      "published": false,
       "description": "Gedney Manor has a steady, settled feel and sits close to several of the other Gedney neighborhoods. It reads as residential and long established, with a quieter tone than the city center.",
       "association": {
         "name": "",
@@ -665,8 +599,6 @@
     {
       "slug": "gedney-meadows",
       "name": "Gedney Meadows",
-      "group": "Gedney and the South Side",
-      "published": false,
       "member": true,
       "description": "Gedney Meadows has a softer, more tucked-away feel than some of the busier south-side corridors. The area comes across as calm and residential, with a name that fits its gentler character.",
       "association": {
@@ -685,8 +617,6 @@
     {
       "slug": "brook-hills",
       "name": "Brook Hills",
-      "group": "Gedney and the South Side",
-      "published": false,
       "description": "Brook Hills is a small southeastern pocket that feels compact and residential. Its setting near the lower edge of the city gives it a bit of separation, while the neighborhood itself reads as neat and self-contained.",
       "association": {
         "name": "",
@@ -704,8 +634,6 @@
     {
       "slug": "holbrooke",
       "name": "Holbrooke",
-      "group": "Gedney and the South Side",
-      "published": false,
       "description": "Holbrooke sits among several south-side neighborhoods and feels modest, established, and local. It is the kind of small residential section that tends to come into focus once someone starts learning the White Plains map.",
       "association": {
         "name": "",
@@ -723,8 +651,6 @@
     {
       "slug": "reynal-park",
       "name": "Reynal Park",
-      "group": "Gedney and the South Side",
-      "published": false,
       "description": "Reynal Park is a small neighborhood with a distinctly local feel. The name gives it a bit of identity of its own, and the area reads as calm, residential, and tucked into the south side.",
       "association": {
         "name": "",
@@ -742,8 +668,6 @@
     {
       "slug": "hillair-circle",
       "name": "Hillair Circle",
-      "group": "Gedney and the South Side",
-      "published": false,
       "description": "Hillair Circle is one of the more clearly enclosed-feeling neighborhoods on the map. That small scale gives it a private, neighborhood-first character that stands out in a city with many larger, looser districts.",
       "association": {
         "name": "",
@@ -761,8 +685,6 @@
     {
       "slug": "colonial-corners",
       "name": "Colonial Corners",
-      "group": "Gedney and the South Side",
-      "published": false,
       "description": "Colonial Corners is a compact residential section near the southern middle of the city. It feels traditional and familiar, with a straightforward neighborhood presence that fits naturally among the Gedney areas.",
       "association": {
         "name": "",
@@ -780,8 +702,6 @@
     {
       "slug": "rocky-dell",
       "name": "Rocky Dell",
-      "group": "Gedney and the South Side",
-      "published": false,
       "description": "Rocky Dell is a tucked-away south-side neighborhood with a slightly more hidden feel. Its smaller footprint and position near the edge of the city give it a quiet, off-the-main-route quality.",
       "association": {
         "name": "",
@@ -799,8 +719,6 @@
     {
       "slug": "soundview",
       "name": "Soundview",
-      "group": "Gedney and the South Side",
-      "published": false,
       "description": "Soundview is a long-established residential neighborhood on the southwest side of White Plains. It has a plainspoken, lived-in feel and comes across as solid, familiar, and easy to understand.",
       "association": {
         "name": "",
@@ -818,8 +736,6 @@
     {
       "slug": "rosedale",
       "name": "Rosedale",
-      "group": "Gedney and the South Side",
-      "published": false,
       "member": true,
       "description": "Rosedale is one of the larger and better-known southern neighborhoods in White Plains. It feels residential, green, and well established, with a calmer pace and a strong sense of continuity from block to block.",
       "association": {
@@ -838,8 +754,6 @@
     {
       "slug": "saxon-woods",
       "name": "Saxon Woods",
-      "group": "Gedney and the South Side",
-      "published": false,
       "description": "Saxon Woods sits at the southern edge of the city near Saxon Woods Park, whose golf course, trails, pool, and recreation areas give this part of White Plains a greener identity. The neighborhood feels more open than the center and carries some of the outdoors-oriented appeal of the park beside it.",
       "association": {
         "name": "",
@@ -857,8 +771,6 @@
     {
       "slug": "idle-forest",
       "name": "Idle Forest",
-      "group": "Gedney and the South Side",
-      "published": false,
       "description": "Idle Forest is one of the quieter-sounding names on the map, and the area matches that impression. It feels tucked in and residential, with a softer, lower-profile presence than some of the more prominent White Plains neighborhoods.",
       "association": {
         "name": "",

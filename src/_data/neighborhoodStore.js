@@ -150,7 +150,7 @@ const resourceLinksBySlug = {
 const baseNeighborhoods = neighborhoods.map((item, index) => {
   const ov = overlayBySlug[item.slug] || {};
   const description = (ov.description && String(ov.description).trim()) || item.description;
-  const groupSlug = toKebab(item.group);
+  const groupSlug = toKebab(item.group || "");
   const detailUrl = `/neighborhoods/${item.slug}/`;
   const mapRegion = mapRegionBySlug.get(item.slug) || null;
   const sentences = splitSentences(description);
@@ -183,12 +183,11 @@ const baseNeighborhoods = neighborhoods.map((item, index) => {
     detailUrl,
     teaser: sentences[0] || firstSentence(item.description),
     detailParagraphs,
-    metaDescription: `Learn about ${item.name}, part of ${item.group}.`,
+    metaDescription: `Learn about ${item.name}.`,
     initials,
     referencePoints,
     cardContext,
     description,
-    published: ov.published === true,
     member: ov.member === true,
     association:
       ov.association && (ov.association.name || (ov.association.officers || []).length)
@@ -231,7 +230,11 @@ baseNeighborhoods.forEach((neighborhood) => {
 });
 
 const all = baseNeighborhoods.map((neighborhood) => {
-  const isFisherHill = neighborhood.published === true;
+  const isMember = neighborhood.member === true;
+  const hero = neighborhood.editableHero || neighborhood.hero || null;
+  const hasContent =
+    isMember && !!(neighborhood.description && String(neighborhood.description).trim());
+  const hasRealPhoto = isMember && !!neighborhood.editableHero;
   const group = groupMap.get(neighborhood.group);
   const relatedNeighborhoods = group.neighborhoods
     .filter((candidate) => candidate.slug !== neighborhood.slug)
@@ -241,18 +244,18 @@ const all = baseNeighborhoods.map((neighborhood) => {
   return {
     ...neighborhood,
     relatedNeighborhoods,
-    profilePlaceholder: !isFisherHill,
-    displayTeaser: isFisherHill ? neighborhood.teaser : guideDescriptionPlaceholder,
-    displayDetailParagraphs: isFisherHill
+    profilePlaceholder: !hasContent,
+    displayTeaser: hasContent ? neighborhood.teaser : guideDescriptionPlaceholder,
+    displayDetailParagraphs: hasContent
       ? neighborhood.detailParagraphs
       : [guideDescriptionPlaceholder],
-    displayHero: isFisherHill ? (neighborhood.editableHero || neighborhood.hero) : null,
-    displayMetaDescription: isFisherHill
+    displayHero: isMember ? hero : null,
+    displayMetaDescription: hasContent
       ? neighborhood.metaDescription
       : `${neighborhood.name} profile coming soon.`,
-    guidePlaceholder: !isFisherHill,
-    guideDescription: isFisherHill ? neighborhood.description : guideDescriptionPlaceholder,
-    guideImageLabel: isFisherHill ? "" : guideImagePlaceholder
+    guidePlaceholder: !hasContent,
+    guideDescription: hasContent ? neighborhood.description : guideDescriptionPlaceholder,
+    guideImageLabel: hasRealPhoto ? "" : guideImagePlaceholder
   };
 });
 

@@ -194,8 +194,6 @@ collections:
             fields:
               - { name: slug, label: "Slug (do not change)", widget: string }
               - { name: name, label: "Name", widget: string }
-              - { name: group, label: "Group", widget: string }
-              - { name: published, label: "Published (show on the site)", widget: boolean, default: false }
               - { name: member, label: "WPCNA member (feature at top + outline on map)", widget: boolean, default: false }
               - { name: description, label: "Description", widget: text, required: false }
               - name: association
