@@ -5,6 +5,7 @@
       "name": "Church Street",
       "group": "Central White Plains",
       "published": false,
+      "member": true,
       "description": "Church Street sits just off Downtown and shares much of its convenience, but at a slightly calmer scale. The mix of apartment buildings, smaller residential blocks, and longtime local institutions gives it a central location with a more settled feel.",
       "association": {
         "name": "",
@@ -116,10 +117,10 @@
     },
     {
       "slug": "battle-hill",
-      "member": true,
       "name": "Battle Hill",
       "group": "West Side and Near-Downtown Neighborhoods",
       "published": true,
+      "member": true,
       "description": "Test description.",
       "association": {
         "name": "",
@@ -143,10 +144,10 @@
     },
     {
       "slug": "fisher-hill",
-      "member": true,
       "name": "Fisher Hill",
       "group": "West Side and Near-Downtown Neighborhoods",
       "published": true,
+      "member": true,
       "description": "Fisher Hill is a historic neighborhood within walking distance of the central business district of White Plains, NY. Residential development began around 1900, and many of the large vintage homes from that era still define the neighborhood's character today. Fisher Hill is notably diverse in ethnicity, age, and income.",
       "association": {
         "name": "Fisher Hill Association",
@@ -182,10 +183,10 @@
     },
     {
       "slug": "highlands",
-      "member": true,
       "name": "Highlands",
       "group": "West Side and Near-Downtown Neighborhoods",
       "published": false,
+      "member": true,
       "description": "",
       "association": {
         "name": "",
@@ -278,10 +279,10 @@
     },
     {
       "slug": "north-broadway",
-      "member": true,
       "name": "North Broadway",
       "group": "North and Northeast",
       "published": false,
+      "member": true,
       "description": "North Broadway has one of the most recognizable addresses in White Plains, combining a main route through the city with long-established residential stretches. It feels prominent without feeling overly busy, and it carries some of the north side's older character.",
       "association": {
         "name": "",
@@ -393,10 +394,10 @@
     },
     {
       "slug": "old-oak-ridge",
-      "member": true,
       "name": "Old Oak Ridge",
       "group": "North and Northeast",
       "published": false,
+      "member": true,
       "description": "Old Oak Ridge is a small east-side pocket with a tucked-in, private feel. It reads as residential and somewhat apart from the busier blocks closer to the core, while still staying well placed for getting around.",
       "association": {
         "name": "",
@@ -451,10 +452,10 @@
     },
     {
       "slug": "carhart",
-      "member": true,
       "name": "Carhart",
       "group": "East Side and Institutional Anchors",
       "published": false,
+      "member": true,
       "description": "Carhart is a compact neighborhood area near the middle of White Plains, positioned between the close-in residential blocks, institutional anchors, and larger south-side neighborhoods around it. It is one of the neighborhood associations currently represented through WPCNA, giving residents another point of connection within the council.",
       "association": {
         "name": "",
@@ -547,10 +548,10 @@
     },
     {
       "slug": "north-street",
-      "member": true,
       "name": "North Street",
       "group": "East Side and Institutional Anchors",
       "published": false,
+      "member": true,
       "description": "North Street covers a broad stretch of the east and southeast side and is one of the roomier-feeling sections of White Plains. Parts of it are known for larger homes and longer blocks, and the overall impression is residential, established, and spacious.",
       "association": {
         "name": "",
@@ -586,10 +587,10 @@
     },
     {
       "slug": "gedney-farms",
-      "member": true,
       "name": "Gedney Farms",
       "group": "Gedney and the South Side",
       "published": false,
+      "member": true,
       "description": "Gedney Farms is one of the classic residential names in White Plains, with roots that trace back to the 1700s and a neighborhood association now marking its 100th year. It is known for quiet, tree-lined streets, larger homes, and the kind of traditional character that has made it one of the city's most established addresses.",
       "association": {
         "name": "",
@@ -663,10 +664,10 @@
     },
     {
       "slug": "gedney-meadows",
-      "member": true,
       "name": "Gedney Meadows",
       "group": "Gedney and the South Side",
       "published": false,
+      "member": true,
       "description": "Gedney Meadows has a softer, more tucked-away feel than some of the busier south-side corridors. The area comes across as calm and residential, with a name that fits its gentler character.",
       "association": {
         "name": "",
@@ -816,10 +817,10 @@
     },
     {
       "slug": "rosedale",
-      "member": true,
       "name": "Rosedale",
       "group": "Gedney and the South Side",
       "published": false,
+      "member": true,
       "description": "Rosedale is one of the larger and better-known southern neighborhoods in White Plains. It feels residential, green, and well established, with a calmer pace and a strong sense of continuity from block to block.",
       "association": {
         "name": "",
