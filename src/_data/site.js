@@ -174,7 +174,6 @@ module.exports = {
   contactFormAction: "https://formsubmit.co/michael.kushman@gmail.com",
   contactFormCc: "michael@mdalton.com",
   contactFormSubject: "WPCNA website contact",
-  askWhitePlainsApiUrl: process.env.ASK_WHITE_PLAINS_API_URL || "",
   // Posting form submits to the moderation serverless endpoint; set POSTING_API_URL per deployment.
   postingApiUrl: process.env.POSTING_API_URL || "",
   location: "White Plains, New York",
