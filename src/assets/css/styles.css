@@ -193,7 +193,7 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
   /* Use Arial Black first (matches the hero): the WPCNA Franklin Heavy subset
      has a malformed, over-tall "J" glyph that renders clipped in "Join the CNA". */
   font-family: "Arial Black", "Franklin Gothic Heavy", "Franklin Gothic Demi", sans-serif;
-  font-size: 17.5pt;
+  font-size: 14pt;
   font-weight: 900;
   letter-spacing: 0;
   text-transform: none;
@@ -2999,7 +2999,7 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
     justify-content: center;
     padding: 0 0.28rem;
     color: #fff;
-    font-size: 17.5pt;
+    font-size: 14pt;
     line-height: 1.08;
     text-align: center;
   }
