@@ -2,16 +2,16 @@
 # Editors sign in with GitHub; saving commits to the repo, which rebuilds the site.
 backend:
   name: github
-  repo: wp-cna/demo13
+  repo: wp-cna/demo14
   branch: main
   # Deployed Sveltia auth Worker (set up once). If you name the Worker
   # "wpcna-cms-auth" on your Cloudflare account, this URL is already correct.
   base_url: https://wpcna-cms-auth.wpcna.workers.dev
 
-site_url: https://wp-cna.github.io/demo13/
-display_url: https://wp-cna.github.io/demo13/
+site_url: https://wp-cna.github.io/demo14/
+display_url: https://wp-cna.github.io/demo14/
 media_folder: "src/assets/img/uploads"
-public_folder: "/demo13/assets/img/uploads"
+public_folder: "/demo14/assets/img/uploads"
 
 collections:
   - name: events

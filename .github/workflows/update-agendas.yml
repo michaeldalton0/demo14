@@ -19,8 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       SITE_BASE_URL: https://wp-cna.github.io
-      SITE_PATH_PREFIX: /demo13
-      CANONICAL_PATH_PREFIX: /demo13
+      SITE_PATH_PREFIX: /demo14
+      CANONICAL_PATH_PREFIX: /demo14
       ASK_WHITE_PLAINS_API_URL: ${{ vars.ASK_WHITE_PLAINS_API_URL }}
       POSTING_API_URL: ${{ vars.POSTING_API_URL }}
     steps:

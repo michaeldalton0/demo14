@@ -2,7 +2,7 @@ const neighborhoodStore = require("./neighborhoodStore");
 const siteContent = require("./siteContent.json");
 
 const runtimePathPrefix = process.env.SITE_PATH_PREFIX || "/";
-const canonicalPathPrefix = process.env.CANONICAL_PATH_PREFIX || process.env.SITE_PATH_PREFIX || "/demo13";
+const canonicalPathPrefix = process.env.CANONICAL_PATH_PREFIX || process.env.SITE_PATH_PREFIX || "/demo14";
 const deployBaseUrl = process.env.SITE_BASE_URL || "https://wp-cna.github.io";
 const cleanCanonicalPrefix = canonicalPathPrefix === "/" ? "" : canonicalPathPrefix.replace(/\/$/, "");
 const homeHeroImage = "/assets/img/home/legacy-carousel/White-Plains.jpeg";
