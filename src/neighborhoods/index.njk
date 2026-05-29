@@ -3,7 +3,6 @@ layout: layouts/base.njk
 title: White Plains Neighborhoods
 metaDescription: Explore White Plains through an interactive neighborhood map and a map-aligned neighborhood guide.
 ---
-{% from "components/macros.njk" import neighborhoodCard %}
 
 <section class="image-hero image-hero-neighborhoods">
   <img src="{{ site.neighborhoodsHeroImage | withPrefix }}" alt="{{ site.neighborhoodsHeroImageAlt }}" loading="eager">
@@ -117,14 +116,14 @@ metaDescription: Explore White Plains through an interactive neighborhood map an
       <div>
         <p class="eyebrow">Directory</p>
         <h2>All Neighborhoods</h2>
-        <p>An alphabetical guide to White Plains neighborhoods and association profile pages.</p>
+        <p>All {{ neighborhoodStore.allAlphabetical.length }} White Plains neighborhoods, listed A to Z.</p>
       </div>
     </div>
 
-    <div class="neighborhood-grid neighborhood-directory-grid">
+    <ul class="neighborhood-name-grid">
       {% for neighborhood in neighborhoodStore.allAlphabetical %}
-        {{ neighborhoodCard(neighborhood, true, true) }}
+        <li class="neighborhood-name-tile">{{ neighborhood.name }}</li>
       {% endfor %}
-    </div>
+    </ul>
   </div>
 </section>
