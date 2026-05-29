@@ -116,6 +116,7 @@
     },
     {
       "slug": "battle-hill",
+      "member": true,
       "name": "Battle Hill",
       "group": "West Side and Near-Downtown Neighborhoods",
       "published": true,
@@ -142,6 +143,7 @@
     },
     {
       "slug": "fisher-hill",
+      "member": true,
       "name": "Fisher Hill",
       "group": "West Side and Near-Downtown Neighborhoods",
       "published": true,
@@ -180,6 +182,7 @@
     },
     {
       "slug": "highlands",
+      "member": true,
       "name": "Highlands",
       "group": "West Side and Near-Downtown Neighborhoods",
       "published": false,
@@ -275,6 +278,7 @@
     },
     {
       "slug": "north-broadway",
+      "member": true,
       "name": "North Broadway",
       "group": "North and Northeast",
       "published": false,
@@ -389,6 +393,7 @@
     },
     {
       "slug": "old-oak-ridge",
+      "member": true,
       "name": "Old Oak Ridge",
       "group": "North and Northeast",
       "published": false,
@@ -446,6 +451,7 @@
     },
     {
       "slug": "carhart",
+      "member": true,
       "name": "Carhart",
       "group": "East Side and Institutional Anchors",
       "published": false,
@@ -541,6 +547,7 @@
     },
     {
       "slug": "north-street",
+      "member": true,
       "name": "North Street",
       "group": "East Side and Institutional Anchors",
       "published": false,
@@ -579,6 +586,7 @@
     },
     {
       "slug": "gedney-farms",
+      "member": true,
       "name": "Gedney Farms",
       "group": "Gedney and the South Side",
       "published": false,
@@ -655,6 +663,7 @@
     },
     {
       "slug": "gedney-meadows",
+      "member": true,
       "name": "Gedney Meadows",
       "group": "Gedney and the South Side",
       "published": false,
@@ -807,6 +816,7 @@
     },
     {
       "slug": "rosedale",
+      "member": true,
       "name": "Rosedale",
       "group": "Gedney and the South Side",
       "published": false,

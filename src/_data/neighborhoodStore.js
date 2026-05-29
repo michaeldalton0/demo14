@@ -189,6 +189,7 @@ const baseNeighborhoods = neighborhoods.map((item, index) => {
     cardContext,
     description,
     published: ov.published === true,
+    member: ov.member === true,
     association:
       ov.association && (ov.association.name || (ov.association.officers || []).length)
         ? ov.association

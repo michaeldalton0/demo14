@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const imagePath = "/assets/img/maps/white-plains-neighborhood-map-050526-pastel.png";
+const imagePath = "/assets/img/maps/white-plains-neighborhood-map-clean.png";
 const svgPath = path.join(
   __dirname,
   "../assets/img/maps/white-plains-neighborhood-map-050526-pastel.svg"

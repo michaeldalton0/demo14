@@ -856,10 +856,9 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
 }
 
 .represented-map-svg :is(path, polygon) {
-  fill: rgba(180, 77, 27, 0.16);
-  stroke: transparent;
-  stroke-width: 0;
-  vector-effect: non-scaling-stroke;
+  fill: transparent;
+  stroke: #1c1c1c;
+  stroke-width: 2.2;
   transition: fill 0.18s ease, stroke 0.18s ease, filter 0.18s ease;
 }
 
@@ -2611,9 +2610,9 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
 }
 
 .interactive-map-svg :is(path, polygon) {
-  fill: rgba(180, 77, 27, 0.14);
-  stroke: transparent;
-  stroke-width: 0;
+  fill: transparent;
+  stroke: #1c1c1c;
+  stroke-width: 2.2;
   transition: fill 0.18s ease, stroke 0.18s ease, filter 0.18s ease;
 }
 

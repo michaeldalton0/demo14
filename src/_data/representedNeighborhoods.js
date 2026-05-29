@@ -1,115 +1,49 @@
 const neighborhoodStore = require("./neighborhoodStore");
 const featuredNeighborhoodMap = require("./featuredNeighborhoodMap");
+
 const mapRegionBySlug = new Map(
-  (featuredNeighborhoodMap.allRegions || featuredNeighborhoodMap.regions).map((region) => [
-    region.slug,
-    region
-  ])
+  (featuredNeighborhoodMap.allRegions || featuredNeighborhoodMap.regions || []).map(function (region) {
+    return [region.slug, region];
+  })
 );
-const includeGedneyMeadows = true;
 
-function uniqueParagraphs(paragraphs = []) {
-  const seen = new Set();
-
-  return paragraphs
-    .map((paragraph) => String(paragraph || "").trim())
-    .filter(Boolean)
-    .filter((paragraph) => {
-      const normalized = paragraph.toLowerCase();
-      if (seen.has(normalized)) return false;
-      seen.add(normalized);
-      return true;
-    });
-}
-
-function removeLeadDupes(paragraphs = [], lead = "") {
-  const normalizedLead = String(lead || "").trim().toLowerCase();
-
-  if (!normalizedLead) {
-    return paragraphs;
-  }
-
-  return paragraphs.filter((paragraph) => paragraph.toLowerCase() !== normalizedLead);
-}
-
-function buildExisting(slug, overrides = {}) {
-  const neighborhood = neighborhoodStore.bySlug[slug];
-  const mapSlug = overrides.mapSlug || slug;
-  const mapRegion = mapRegionBySlug.get(mapSlug) || null;
-  const isFisherHill = slug === "fisher-hill";
-  const teaser = isFisherHill
-    ? overrides.teaser || neighborhood.teaser
-    : neighborhood.displayTeaser || "Description coming soon";
-
-  if (!neighborhood) {
-    throw new Error(`Missing represented neighborhood data for slug: ${slug}`);
-  }
-
-  const bodyParagraphs = isFisherHill
-    ? removeLeadDupes(
-        uniqueParagraphs(overrides.bodyParagraphs || neighborhood.detailParagraphs || []),
-        teaser
-      )
-    : [];
-
-  return {
-    slug: overrides.slug || slug,
-    name: overrides.name || neighborhood.name,
-    group: overrides.group || neighborhood.group,
-    teaser,
-    bodyParagraphs,
-    profilePlaceholder: !isFisherHill,
-    guideImageLabel: neighborhood.guideImageLabel || "Image coming soon",
-    hero: isFisherHill && neighborhood.hero
-      ? {
-          imagePath: neighborhood.hero.imagePath,
-          cardImagePath: neighborhood.hero.cardImagePath,
-          altText: neighborhood.hero.altText,
-          cardAltText: neighborhood.hero.cardAltText
-        }
-      : null,
-    resourceLinks: neighborhood.resourceLinks || [],
-    association: isFisherHill ? overrides.association || neighborhood.association || null : null,
-    detailUrl: neighborhood.detailUrl,
-    reviewNote: overrides.reviewNote || "",
-    aliases: overrides.aliases || [],
-    isPlaceholder: false,
-    mapRegionSlug: mapRegion ? mapSlug : "",
-    mapRegion: mapRegion
-      ? {
-          pathD: mapRegion.pathD,
-          points: mapRegion.points || ""
-        }
-      : null
-  };
-}
-
-const items = [
-  buildExisting("north-broadway"),
-  buildExisting("battle-hill"),
-  buildExisting("fisher-hill"),
-  buildExisting("highlands"),
-  buildExisting("carhart"),
-  buildExisting("gedney-farms"),
-  buildExisting("north-street"),
-  buildExisting("rosedale"),
-  buildExisting("old-oak-ridge")
-];
-
-if (includeGedneyMeadows) {
-  items.push(buildExisting("gedney-meadows"));
-}
+// Membership is CMS-driven: a neighborhood is featured (top section + map outline)
+// when its `member` flag is true in neighborhoods.json. No hardcoded list.
+const items = neighborhoodStore.all
+  .filter(function (n) { return n.member === true; })
+  .sort(function (a, b) { return a.name.localeCompare(b.name); })
+  .map(function (n) {
+    const mapRegion = mapRegionBySlug.get(n.slug) || null;
+    return {
+      slug: n.slug,
+      name: n.name,
+      group: n.group,
+      teaser: n.displayTeaser,
+      bodyParagraphs: n.published === true ? (n.detailParagraphs || []) : [],
+      profilePlaceholder: n.profilePlaceholder,
+      guideImageLabel: n.guideImageLabel || "Image coming soon",
+      hero: n.displayHero || null,
+      resourceLinks: n.resourceLinks || [],
+      association: n.published === true ? (n.association || null) : null,
+      detailUrl: n.detailUrl,
+      reviewNote: "",
+      aliases: [],
+      isPlaceholder: false,
+      mapRegionSlug: mapRegion ? n.slug : "",
+      mapRegion: mapRegion ? { pathD: mapRegion.pathD, points: mapRegion.points || "" } : null
+    };
+  });
 
 module.exports = {
   imagePath: featuredNeighborhoodMap.imagePath,
   imageVersion: featuredNeighborhoodMap.imageVersion,
   imageAlt:
-    "White Plains neighborhood map with clickable highlights for the neighborhoods currently represented through WPCNA.",
+    "White Plains neighborhood map with the neighborhoods currently represented through WPCNA outlined.",
   imageWidth: featuredNeighborhoodMap.imageWidth,
   imageHeight: featuredNeighborhoodMap.imageHeight,
   viewBoxWidth: featuredNeighborhoodMap.viewBoxWidth,
   viewBoxHeight: featuredNeighborhoodMap.viewBoxHeight,
-  includeGedneyMeadows,
-  items,
-  mappedItems: items.filter((item) => item.mapRegion)
+  includeGedneyMeadows: true,
+  items: items,
+  mappedItems: items.filter(function (i) { return i.mapRegion; })
 };
