@@ -171,8 +171,8 @@ module.exports = {
   themeColor: "#d65f22",
   assetVersion: "2026-05-14-demo12-posting-api",
   contactName: "Michael Dalton, President",
-  contactFormAction: "https://formsubmit.co/d3e6b1864b641c2a285418e86d7465c8",
-  contactFormCc: "",
+  contactFormAction: "https://formsubmit.co/michael.kushman@gmail.com",
+  contactFormCc: "michael@mdalton.com",
   contactFormSubject: "WPCNA website contact",
   askWhitePlainsApiUrl: process.env.ASK_WHITE_PLAINS_API_URL || "",
   // Posting form submits to the moderation serverless endpoint; set POSTING_API_URL per deployment.
