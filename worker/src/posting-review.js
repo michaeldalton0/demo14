@@ -641,11 +641,16 @@ function postingRecipients(env) {
   return [...new Set(recipients)];
 }
 
+function postingBcc(env) {
+  return [...new Set(parseEmailList(env.POSTING_BCC_EMAILS))];
+}
+
 async function sendViaResend({ env, subject, body, replyTo }) {
   const from = env.POSTING_EMAIL_FROM || "WPCNA <onboarding@resend.dev>";
   const recipients = postingRecipients(env);
+  const bcc = postingBcc(env);
 
-  if (!env.RESEND_API_KEY || !recipients.length) {
+  if (!env.RESEND_API_KEY || (!recipients.length && !bcc.length)) {
     return false;
   }
 
@@ -658,6 +663,7 @@ async function sendViaResend({ env, subject, body, replyTo }) {
     body: JSON.stringify({
       from,
       to: recipients,
+      bcc: bcc.length ? bcc : undefined,
       subject,
       text: body,
       reply_to: replyTo ? [replyTo] : undefined

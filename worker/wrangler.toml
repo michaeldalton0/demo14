@@ -5,7 +5,8 @@ compatibility_date = "2026-04-21"
 # Secrets (set with `wrangler secret put`):
 #   ANTHROPIC_API_KEY        <- powers AI vetting
 #   RESEND_API_KEY           <- email delivery
-#   POSTING_RECIPIENT_EMAILS <- who gets the vetting reports
+#   POSTING_RECIPIENT_EMAILS <- primary To recipient(s), comma-separated
+#   POSTING_BCC_EMAILS       <- BCC recipient(s), comma-separated (optional)
 #   GITHUB_TOKEN             <- fine-grained token, Contents:write on GITHUB_REPO (one-click publish)
 #   APPROVE_SIGNING_SECRET   <- random string; signs the Approve & Publish links
 
