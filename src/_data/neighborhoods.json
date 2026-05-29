@@ -5,7 +5,7 @@
       "name": "Church Street",
       "group": "Central White Plains",
       "published": false,
-      "member": true,
+      "member": false,
       "description": "Church Street sits just off Downtown and shares much of its convenience, but at a slightly calmer scale. The mix of apartment buildings, smaller residential blocks, and longtime local institutions gives it a central location with a more settled feel.",
       "association": {
         "name": "",
