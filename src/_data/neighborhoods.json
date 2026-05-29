@@ -11,17 +11,17 @@
         "officers": []
       },
       "image": {
-        "src": "/assets/img/neighborhoods/wp-mlk-library.jpg",
-        "alt": "View along Dr. Martin Luther King Drive in White Plains with the public library in the foreground and civic buildings beyond.",
-        "credit": "Paul Sableman via Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dr._Martin_Luther_King_Drive_-_White_Plains,_NY_and_the_White_Plains_Library.jpg",
-        "license": "CC BY 2.0"
+        "src": "",
+        "alt": "",
+        "credit": "",
+        "sourceUrl": "",
+        "license": ""
       }
     },
     {
       "slug": "downtown",
       "name": "Downtown",
-      "member": true,
+      "member": false,
       "description": "Downtown is the most walkable and built-up part of White Plains, centered on the Metro-North station, Mamaroneck Avenue, restaurants, shopping, and a growing collection of newer apartment buildings. It has the most day-to-night energy in the city and the strongest sense of White Plains as a compact urban center.",
       "association": {
         "name": "",
@@ -39,7 +39,7 @@
     {
       "slug": "government-center",
       "name": "Government Center",
-      "member": true,
+      "member": false,
       "description": "Government Center is one of the most central parts of White Plains and gives the surrounding streets an established, civic feel. It is easy to place on the map and easy to move through, with Downtown and several nearby neighborhoods close by.",
       "association": {
         "name": "",
