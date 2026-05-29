@@ -40,7 +40,7 @@ jobs:
       - name: Validate posting API URL
         run: |
           if [ -z "$POSTING_API_URL" ]; then
-            echo "::error::POSTING_API_URL repository variable is required for demo12 so the Community Posting form has a backend endpoint."
+            echo "::error::POSTING_API_URL repository variable is required for demo14 so the Community Posting form has a backend endpoint."
             exit 1
           fi
 
