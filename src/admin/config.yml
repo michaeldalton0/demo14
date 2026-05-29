@@ -139,6 +139,45 @@ collections:
           - { name: handbookHeroImageAlt, label: "Join the CNA banner alt text", widget: string, required: false }
           - { name: postingHeroImage, label: "Community Postings banner image", widget: image, required: false }
           - { name: postingHeroImageAlt, label: "Community Postings banner alt text", widget: string, required: false }
+          # --- About page (Phase 3c) ---
+          - { name: aboutMissionHeading, label: "About: mission heading", widget: string }
+          - { name: aboutMissionQuote, label: "About: mission quote", widget: text }
+          - { name: aboutMissionAttribution, label: "About: mission attribution", widget: string }
+          - { name: aboutWhatHeading, label: "About: 'What WPCNA does' heading", widget: string }
+          - { name: aboutWhatIntro, label: "About: 'What WPCNA does' intro", widget: text }
+          - name: aboutWhatCards
+            label: "About: 'What WPCNA does' cards"
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { name: title, label: "Card title", widget: string }
+              - { name: body, label: "Card text", widget: text }
+          - { name: aboutHelpHeading, label: "About: 'How this site helps' heading", widget: string }
+          - { name: aboutHelpBody, label: "About: 'How this site helps' text", widget: text, hint: "Separate paragraphs with a blank line." }
+          - { name: aboutHelpList, label: "About: 'How this site helps' list items", widget: list }
+          - { name: aboutGovernanceEyebrow, label: "About: governance eyebrow", widget: string }
+          - { name: aboutGovernanceHeading, label: "About: governance heading", widget: string }
+          - { name: aboutGovernanceBody, label: "About: governance text", widget: text }
+          # --- Join the CNA / handbook page (Phase 3c) ---
+          - { name: handbookIntroHeading, label: "Join: intro heading", widget: string }
+          - { name: handbookIntroBody, label: "Join: intro text", widget: text, hint: "Separate paragraphs with a blank line." }
+          - name: handbookResources
+            label: "Join: resource downloads"
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { name: title, label: "Title", widget: string }
+              - { name: description, label: "Description", widget: text }
+              - { name: pdfUrl, label: "PDF link URL", widget: string }
+              - { name: pdfLabel, label: "Button label", widget: string }
+              - { name: style, label: "Button style", widget: select, options: ["primary", "outline"], default: "primary" }
+          - { name: handbookUseHeading, label: "Join: 'Use it with WPCNA' heading", widget: string }
+          - { name: handbookUseBody, label: "Join: 'Use it with WPCNA' text", widget: text }
+          # --- Home section intros + Contact (Phase 3c) ---
+          - { name: homeNeighborhoodsIntro, label: "Home: neighborhoods section intro", widget: text }
+          - { name: homeEventsIntro, label: "Home: events section intro", widget: text }
+          - { name: homeUsefulIntro, label: "Home: useful-pages section intro", widget: text }
+          - { name: contactIntro, label: "Contact: intro line", widget: text }
 
   - name: neighborhoods
     label: "Neighborhoods"

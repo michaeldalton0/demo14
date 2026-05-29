@@ -29,5 +29,60 @@
   "handbookHeroImage": "/assets/img/heroes/cna-workshop-classroom.jpg",
   "handbookHeroImageAlt": "An instructor teaching adults in a classroom during a workshop.",
   "postingHeroImage": "/assets/img/heroes/wpcna-parade-community-posting.png",
-  "postingHeroImageAlt": "WPCNA members and neighbors holding a WPCNA banner during a White Plains parade."
+  "postingHeroImageAlt": "WPCNA members and neighbors holding a WPCNA banner during a White Plains parade.",
+  "aboutMissionHeading": "Our mission",
+  "aboutMissionQuote": "“The White Plains Council of Neighborhood Associations coordinates the neighborhood associations in White Plains, NY. Its purpose is to enhance the quality of life in the City, and in particular, in its neighborhoods. As an advisory council, the WPCNA functions by disseminating information and opinion to the public and public officials, and by encouraging local action.”",
+  "aboutMissionAttribution": "Archived WPCNA mission statement",
+  "aboutWhatHeading": "What WPCNA does",
+  "aboutWhatIntro": "WPCNA is a forum for neighborhood associations across White Plains. Its role is practical: keep information moving, help associations stay connected, and support local action when neighborhood concerns need attention.",
+  "aboutWhatCards": [
+    {
+      "title": "Share information",
+      "body": "WPCNA helps circulate neighborhood concerns, meeting information, civic updates, and public-interest items that residents may otherwise have to find across several different sources."
+    },
+    {
+      "title": "Connect associations",
+      "body": "The council gives neighborhood associations a place to exchange ideas, compare concerns, and learn from one another."
+    },
+    {
+      "title": "Encourage local action",
+      "body": "When issues affect neighborhoods, WPCNA helps residents stay organized, informed, and connected to the right public process."
+    }
+  ],
+  "aboutHelpHeading": "How this site helps residents",
+  "aboutHelpBody": "This site brings together the most useful WPCNA and community information in one place.\n\nThe goal is simple: make it easier for residents to see what is happening, understand where it fits, and find the right next step.",
+  "aboutHelpList": [
+    "Neighborhood profiles and map-based orientation",
+    "Events and community activity",
+    "Meeting agendas and minutes",
+    "Community posting guidelines",
+    "CNA workshop materials for forming or strengthening a neighborhood association"
+  ],
+  "aboutGovernanceEyebrow": "How WPCNA works",
+  "aboutGovernanceHeading": "Governance, by-laws, and committees",
+  "aboutGovernanceBody": "WPCNA’s by-laws and committee work help give the council structure. They support regular communication among neighborhood associations, provide a way to track issues, and help organize discussion around citywide topics.",
+  "handbookIntroHeading": "A practical starting point",
+  "handbookIntroBody": "WPCNA supports residents who want to build stronger neighborhood organizations in White Plains. This handbook grows out of last year's workshop and is meant to be a practical guide for people who are starting fresh, reviving an older association, or figuring out what organized neighborhood work looks like in real life.\n\nThe material below walks through the basics: building a contact list, setting a regular meeting rhythm, working with the City, and staying connected to other neighborhood groups through WPCNA.",
+  "handbookResources": [
+    {
+      "title": "Workshop guide and slides",
+      "description": "Full presentation deck from the March 11, 2025 workshop, covering organizing basics, sample agendas, and practical templates.",
+      "pdfUrl": "https://img1.wsimg.com/blobby/go/9af9db1d-be96-4dfe-bdfb-bcff6ea7f7c0/WPCNA%20Workshop%20PPT%203-11-25.pdf",
+      "pdfLabel": "Download slides (PDF)",
+      "style": "primary"
+    },
+    {
+      "title": "Workshop flyer",
+      "description": "The original flyer with the workshop date, location, and agenda.",
+      "pdfUrl": "https://img1.wsimg.com/blobby/go/9af9db1d-be96-4dfe-bdfb-bcff6ea7f7c0/CNA%20Workshop%20Flyer%203-11-25-d9e1063.pdf",
+      "pdfLabel": "Download flyer (PDF)",
+      "style": "outline"
+    }
+  ],
+  "handbookUseHeading": "Use it with WPCNA",
+  "handbookUseBody": "If you are thinking about starting a neighborhood association, this is a good first resource. Use it to get oriented, then reach out to WPCNA if you want help talking through the next step, finding out how other associations are organized, or getting connected to the wider council.",
+  "homeNeighborhoodsIntro": "Explore the neighborhood associations currently represented in WPCNA. Use the map for citywide context, then open an association profile to learn more.",
+  "homeEventsIntro": "A curated selection of public meetings, arts events, downtown happenings, and neighborhood programs.",
+  "homeUsefulIntro": "Helpful pages for following meetings, sharing updates, and getting oriented around White Plains.",
+  "contactIntro": "Send questions, corrections, meeting information, or neighborhood news."
 }

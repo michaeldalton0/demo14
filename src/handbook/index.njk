@@ -12,24 +12,19 @@ metaDescription: A practical guide from WPCNA's workshop materials for residents
   <div class="wrap">
     <div class="handbook-content">
       <article class="about-copy">
-        <h2>A practical starting point</h2>
-        <p>WPCNA supports residents who want to build stronger neighborhood organizations in White Plains. This handbook grows out of last year's workshop and is meant to be a practical guide for people who are starting fresh, reviving an older association, or figuring out what organized neighborhood work looks like in real life.</p>
-        <p>The material below walks through the basics: building a contact list, setting a regular meeting rhythm, working with the City, and staying connected to other neighborhood groups through WPCNA.</p>
+        <h2>{{ site.handbookIntroHeading }}</h2>
+        {{ site.handbookIntroBody | paragraphs | safe }}
 
-        <h3>Workshop guide and slides</h3>
-        <p>Full presentation deck from the March 11, 2025 workshop, covering organizing basics, sample agendas, and practical templates.</p>
+        {% for resource in site.handbookResources %}
+        <h3>{{ resource.title }}</h3>
+        <p>{{ resource.description }}</p>
         <p class="resource-action-stack">
-          <a class="btn btn-primary" href="https://img1.wsimg.com/blobby/go/9af9db1d-be96-4dfe-bdfb-bcff6ea7f7c0/WPCNA%20Workshop%20PPT%203-11-25.pdf" target="_blank" rel="noopener">Download slides (PDF)</a>
+          <a class="btn btn-{{ resource.style }}" href="{{ resource.pdfUrl }}" target="_blank" rel="noopener">{{ resource.pdfLabel }}</a>
         </p>
+        {% endfor %}
 
-        <h3>Workshop flyer</h3>
-        <p>The original flyer with the workshop date, location, and agenda.</p>
-        <p class="resource-action-stack">
-          <a class="btn btn-outline" href="https://img1.wsimg.com/blobby/go/9af9db1d-be96-4dfe-bdfb-bcff6ea7f7c0/CNA%20Workshop%20Flyer%203-11-25-d9e1063.pdf" target="_blank" rel="noopener">Download flyer (PDF)</a>
-        </p>
-
-        <h2>Use it with WPCNA</h2>
-        <p>If you are thinking about starting a neighborhood association, this is a good first resource. Use it to get oriented, then reach out to WPCNA if you want help talking through the next step, finding out how other associations are organized, or getting connected to the wider council.</p>
+        <h2>{{ site.handbookUseHeading }}</h2>
+        <p>{{ site.handbookUseBody }}</p>
       </article>
     </div>
   </div>

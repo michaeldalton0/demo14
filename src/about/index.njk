@@ -12,59 +12,48 @@ metaDescription: Learn what WPCNA is, how it supports White Plains neighborhood 
 <section class="section about-page-section">
   <div class="wrap about-story">
     <article class="about-mission" aria-labelledby="about-mission-heading">
-      <h2 id="about-mission-heading">Our mission</h2>
+      <h2 id="about-mission-heading">{{ site.aboutMissionHeading }}</h2>
       <blockquote>
-        <p>&ldquo;The White Plains Council of Neighborhood Associations coordinates the neighborhood associations in White Plains, NY. Its purpose is to enhance the quality of life in the City, and in particular, in its neighborhoods. As an advisory council, the WPCNA functions by disseminating information and opinion to the public and public officials, and by encouraging local action.&rdquo;</p>
+        <p>{{ site.aboutMissionQuote }}</p>
       </blockquote>
-      <p class="about-attribution">Archived WPCNA mission statement</p>
+      <p class="about-attribution">{{ site.aboutMissionAttribution }}</p>
     </article>
 
     <section class="about-story-block" aria-labelledby="what-wpcna-does">
       <div class="about-section-header">
-        <h2 id="what-wpcna-does">What WPCNA does</h2>
-        <p>WPCNA is a forum for neighborhood associations across White Plains. Its role is practical: keep information moving, help associations stay connected, and support local action when neighborhood concerns need attention.</p>
+        <h2 id="what-wpcna-does">{{ site.aboutWhatHeading }}</h2>
+        <p>{{ site.aboutWhatIntro }}</p>
       </div>
 
       <div class="about-card-grid about-card-grid-three">
+        {% for card in site.aboutWhatCards %}
         <article class="about-card">
-          <h3>Share information</h3>
-          <p>WPCNA helps circulate neighborhood concerns, meeting information, civic updates, and public-interest items that residents may otherwise have to find across several different sources.</p>
+          <h3>{{ card.title }}</h3>
+          <p>{{ card.body }}</p>
         </article>
-
-        <article class="about-card">
-          <h3>Connect associations</h3>
-          <p>The council gives neighborhood associations a place to exchange ideas, compare concerns, and learn from one another.</p>
-        </article>
-
-        <article class="about-card">
-          <h3>Encourage local action</h3>
-          <p>When issues affect neighborhoods, WPCNA helps residents stay organized, informed, and connected to the right public process.</p>
-        </article>
+        {% endfor %}
       </div>
     </section>
 
     <section class="about-story-block about-site-help" aria-labelledby="site-helps-residents">
       <div class="about-site-help-copy">
-        <h2 id="site-helps-residents">How this site helps residents</h2>
-        <p>This site brings together the most useful WPCNA and community information in one place.</p>
-        <p>The goal is simple: make it easier for residents to see what is happening, understand where it fits, and find the right next step.</p>
+        <h2 id="site-helps-residents">{{ site.aboutHelpHeading }}</h2>
+        {{ site.aboutHelpBody | paragraphs | safe }}
       </div>
 
       <div class="about-list-card">
         <ul class="about-resource-list">
-          <li>Neighborhood profiles and map-based orientation</li>
-          <li>Events and community activity</li>
-          <li>Meeting agendas and minutes</li>
-          <li>Community posting guidelines</li>
-          <li>CNA workshop materials for forming or strengthening a neighborhood association</li>
+          {% for item in site.aboutHelpList %}
+          <li>{{ item }}</li>
+          {% endfor %}
         </ul>
       </div>
     </section>
 
     <section class="about-story-block about-governance" aria-labelledby="governance-bylaws-committees">
-      <p class="eyebrow">How WPCNA works</p>
-      <h2 id="governance-bylaws-committees">Governance, by-laws, and committees</h2>
-      <p>WPCNA&rsquo;s by-laws and committee work help give the council structure. They support regular communication among neighborhood associations, provide a way to track issues, and help organize discussion around citywide topics.</p>
+      <p class="eyebrow">{{ site.aboutGovernanceEyebrow }}</p>
+      <h2 id="governance-bylaws-committees">{{ site.aboutGovernanceHeading }}</h2>
+      <p>{{ site.aboutGovernanceBody }}</p>
       <p>If you are looking for governance materials, committee information, or guidance on how the council is organized, <a href="{{ '/contact/' | withPrefix }}">contact WPCNA</a> and someone can point you in the right direction.</p>
     </section>
   </div>
