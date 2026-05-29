@@ -14,11 +14,11 @@ eleventyExcludeFromCollections: true
 <section class="section posting-listing-section">
   <div class="wrap">
     <div class="posting-listing-count">
-      <span class="archive-count">{{ communityPostings.all.length }} postings</span>
+      <span class="archive-count">{{ communityPostings.current.length }} postings</span>
     </div>
 
     <div class="card-grid">
-      {% for posting in communityPostings.all %}
+      {% for posting in communityPostings.current %}
         {{ postingCard(posting) }}
       {% endfor %}
     </div>

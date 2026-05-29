@@ -3,6 +3,21 @@
 // This module loads that data and adds the derived fields the templates use.
 const rawPostings = require("./communityPostings.json").postings;
 
+const POSTINGS_TIME_ZONE = "America/New_York";
+function postingsTodayIso() {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: POSTINGS_TIME_ZONE,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).format(new Date());
+}
+const todayIso = postingsTodayIso();
+function isPastPosting(posting) {
+  const end = posting.endDate || posting.startDate;
+  return Boolean(end) && end < todayIso;
+}
+
 function toSearchText(posting) {
   return [
     posting.title,
@@ -40,8 +55,11 @@ const all = rawPostings
   .map(withDerivedFields)
   .sort((a, b) => `${a.startDate}T${a.startTime}`.localeCompare(`${b.startDate}T${b.startTime}`));
 
+const current = all.filter((posting) => !isPastPosting(posting));
+
 module.exports = {
   all,
-  upcoming: all.filter((posting) => posting.status === "upcoming"),
-  categories: [...new Set(all.map((posting) => posting.category))]
+  current,
+  upcoming: current,
+  categories: [...new Set(current.map((posting) => posting.category))]
 };
