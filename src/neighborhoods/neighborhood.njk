@@ -8,21 +8,21 @@ layout: layouts/base.njk
 eleventyComputed:
   title: "{{ neighborhood.name }}"
   metaDescription: "{{ neighborhood.displayMetaDescription }}"
-  ogImage: "{{ neighborhood.displayHero and neighborhood.displayHero.imagePath or site.defaultOgImage }}"
+  ogImage: "{{ (neighborhood.displayHero.status == 'photo') and neighborhood.displayHero.imagePath or site.defaultOgImage }}"
 ---
-<section class="neighborhood-detail-hero{% if neighborhood.profilePlaceholder %} neighborhood-detail-hero-placeholder{% endif %}">
-  {% if neighborhood.profilePlaceholder %}
+<section class="neighborhood-detail-hero{% if neighborhood.displayHero.status != 'photo' %} neighborhood-detail-hero-placeholder{% endif %}">
+  {% if neighborhood.displayHero.status != 'photo' %}
     <div class="neighborhood-detail-hero-media neighborhood-detail-hero-placeholder-media" aria-label="{{ neighborhood.guideImageLabel }}">
       <span>{{ neighborhood.guideImageLabel }}</span>
     </div>
-  {% elif neighborhood.displayHero %}
+  {% else %}
     <img class="neighborhood-detail-hero-media" src="{{ neighborhood.displayHero.imagePath | withPrefix }}" alt="{{ neighborhood.displayHero.altText }}" loading="eager">
   {% endif %}
 
   <h1 class="image-hero-label">{{ neighborhood.name }}</h1>
 </section>
 
-{% if not neighborhood.profilePlaceholder and neighborhood.displayHero %}
+{% if neighborhood.displayHero.status == 'photo' %}
   {% set heroAttributionUrl = neighborhood.displayHero.attributionUrl or '' %}
   {% set heroAttributionExternal = heroAttributionUrl.startsWith('http') %}
   <div class="neighborhood-hero-creditbar">

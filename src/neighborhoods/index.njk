@@ -74,19 +74,9 @@ metaDescription: Explore White Plains through an interactive neighborhood map an
               {% else %}
                 <div class="map-tile-card" aria-hidden="true">
               {% endif %}
-                {% if neighborhood.profilePlaceholder %}
-                  <span class="map-tile-media map-tile-placeholder" aria-label="{{ neighborhood.guideImageLabel }}">
-                    <span>{{ neighborhood.guideImageLabel }}</span>
-                  </span>
-                {% elif neighborhood.hero %}
-                  <span class="map-tile-media">
-                    <img
-                      src="{{ (neighborhood.hero.cardImagePath or neighborhood.hero.imagePath) | withPrefix }}"
-                      alt="{{ neighborhood.hero.cardAltText or neighborhood.hero.altText }}"
-                      loading="lazy"
-                    >
-                  </span>
-                {% endif %}
+                <span class="map-tile-media">
+                  <img src="{{ (neighborhood.hero.cardImagePath or neighborhood.hero.imagePath) | withPrefix }}" alt="{{ neighborhood.hero.cardAltText or neighborhood.hero.altText }}" loading="lazy">
+                </span>
                 <span class="map-tile-body map-tile-body-simple">
                   <strong>{{ neighborhood.name }}</strong>
                   {% if neighborhood.detailUrl %}

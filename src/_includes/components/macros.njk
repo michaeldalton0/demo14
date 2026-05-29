@@ -88,15 +88,10 @@
     {% else %}
       <div class="neighborhood-card-static" role="group" aria-label="{{ neighborhood.name }} profile coming soon">
     {% endif %}
-      {% if (guideMode and neighborhood.guidePlaceholder) or neighborhood.profilePlaceholder %}
-        <span class="neighborhood-card-img neighborhood-card-placeholder" aria-label="{{ neighborhood.guideImageLabel }}">
-          <span>{{ neighborhood.guideImageLabel }}</span>
-        </span>
-      {% elif neighborhood.hero %}
-        <span class="neighborhood-card-img">
-          <img src="{{ (neighborhood.hero.cardImagePath or neighborhood.hero.imagePath) | withPrefix }}" alt="{{ neighborhood.hero.cardAltText or neighborhood.hero.altText }}" loading="lazy">
-        </span>
-      {% endif %}
+      {% set cardHero = neighborhood.displayHero or neighborhood.hero %}
+      <span class="neighborhood-card-img">
+        <img src="{{ (cardHero.cardImagePath or cardHero.imagePath) | withPrefix }}" alt="{{ cardHero.cardAltText or cardHero.altText }}" loading="lazy">
+      </span>
       <span class="neighborhood-card-body{% if guideMode %} neighborhood-card-body-simple{% endif %}">
         {% if not guideMode %}
         {% endif %}

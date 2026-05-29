@@ -229,9 +229,21 @@ baseNeighborhoods.forEach((neighborhood) => {
   groupMap.get(neighborhood.group).neighborhoods.push(neighborhood);
 });
 
+const PLACEHOLDER_HERO = {
+  imagePath: "/assets/img/neighborhoods/placeholders/image-coming-soon.svg",
+  cardImagePath: "/assets/img/neighborhoods/placeholders/image-coming-soon.svg",
+  altText: "Neighborhood photo coming soon.",
+  cardAltText: "Neighborhood photo coming soon.",
+  attributionText: "",
+  attributionUrl: "",
+  sourceUrl: "",
+  license: "",
+  status: "placeholder"
+};
+
 const all = baseNeighborhoods.map((neighborhood) => {
   const isMember = neighborhood.member === true;
-  const hero = neighborhood.editableHero || neighborhood.hero || null;
+  const hero = neighborhood.editableHero || null;
   const hasContent =
     isMember && !!(neighborhood.description && String(neighborhood.description).trim());
   const hasRealPhoto = isMember && !!neighborhood.editableHero;
@@ -249,7 +261,7 @@ const all = baseNeighborhoods.map((neighborhood) => {
     displayDetailParagraphs: hasContent
       ? neighborhood.detailParagraphs
       : [guideDescriptionPlaceholder],
-    displayHero: isMember ? hero : null,
+    displayHero: hero || PLACEHOLDER_HERO,
     displayMetaDescription: hasContent
       ? neighborhood.metaDescription
       : `${neighborhood.name} profile coming soon.`,

@@ -81,15 +81,9 @@ metaDescription: The neighborhood-centered civic hub for agendas, events, repres
               data-map-tile="{{ neighborhood.slug }}"
               aria-label="Open {{ neighborhood.name }} neighborhood profile"
             >
-              {% if neighborhood.profilePlaceholder %}
-                <span class="represented-neighborhood-card-thumb represented-placeholder-thumb" aria-label="{{ neighborhood.guideImageLabel }}">
-                  <span>{{ neighborhood.guideImageLabel }}</span>
-                </span>
-              {% else %}
-                <span class="represented-neighborhood-card-thumb">
-                  <img src="{{ (neighborhood.hero.cardImagePath or neighborhood.hero.imagePath) | withPrefix }}" alt="{{ neighborhood.hero.cardAltText or neighborhood.hero.altText }}" loading="lazy">
-                </span>
-              {% endif %}
+              <span class="represented-neighborhood-card-thumb">
+                <img src="{{ (neighborhood.hero.cardImagePath or neighborhood.hero.imagePath) | withPrefix }}" alt="{{ neighborhood.hero.cardAltText or neighborhood.hero.altText }}" loading="lazy">
+              </span>
               <span>
                 <strong>{{ neighborhood.name }}</strong>
                 <span class="represented-neighborhood-card-link">View profile</span>
@@ -108,16 +102,10 @@ metaDescription: The neighborhood-centered civic hub for agendas, events, repres
 
     {% for neighborhood in representedNeighborhoods.items %}
       <article class="represented-modal-panel" data-neighborhood-panel="{{ neighborhood.slug }}" aria-hidden="true" hidden>
-        <div class="represented-modal-layout{% if neighborhood.hero or neighborhood.profilePlaceholder %} represented-modal-layout-media{% endif %}">
-          {% if neighborhood.profilePlaceholder %}
-            <figure class="represented-modal-figure represented-modal-placeholder" aria-label="{{ neighborhood.guideImageLabel }}">
-              <span>{{ neighborhood.guideImageLabel }}</span>
-            </figure>
-          {% elif neighborhood.hero %}
-            <figure class="represented-modal-figure">
-              <img src="{{ neighborhood.hero.imagePath | withPrefix }}" alt="{{ neighborhood.hero.altText }}" loading="lazy">
-            </figure>
-          {% endif %}
+        <div class="represented-modal-layout represented-modal-layout-media">
+          <figure class="represented-modal-figure">
+            <img src="{{ neighborhood.hero.imagePath | withPrefix }}" alt="{{ neighborhood.hero.altText }}" loading="lazy">
+          </figure>
 
           <div class="represented-modal-copy">
             <h2 id="represented-modal-title-{{ neighborhood.slug }}">{{ neighborhood.name }}</h2>
