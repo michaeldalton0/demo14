@@ -65,6 +65,8 @@ module.exports = function (eleventyConfig) {
     const cleanPath = path === "/" ? "/" : `/${String(path).replace(/^\/+/, "")}`;
     if (!cleanPrefix) return cleanPath;
     if (cleanPath === "/") return `${cleanPrefix}/`;
+    // Idempotent: if the path already carries the prefix, do not add it again.
+    if (cleanPath === cleanPrefix || cleanPath.startsWith(`${cleanPrefix}/`)) return cleanPath;
     return `${cleanPrefix}${cleanPath}`;
   });
 
