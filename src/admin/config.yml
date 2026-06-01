@@ -11,7 +11,7 @@ backend:
 site_url: https://wp-cna.github.io/demo14/
 display_url: https://wp-cna.github.io/demo14/
 media_folder: "src/assets/img/uploads"
-public_folder: "/demo14/assets/img/uploads"
+public_folder: "/assets/img/uploads"
 
 collections:
   - name: events
