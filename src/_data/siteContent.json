@@ -67,14 +67,14 @@
     {
       "title": "Workshop guide and slides",
       "description": "Full presentation deck from the March 11, 2025 workshop, covering organizing basics, sample agendas, and practical templates.",
-      "pdfUrl": "https://img1.wsimg.com/blobby/go/9af9db1d-be96-4dfe-bdfb-bcff6ea7f7c0/WPCNA%20Workshop%20PPT%203-11-25.pdf",
+      "pdfUrl": "/assets/docs/wpcna-workshop-ppt-3-11-25.pdf",
       "pdfLabel": "Download slides (PDF)",
       "style": "primary"
     },
     {
       "title": "Workshop flyer",
       "description": "The original flyer with the workshop date, location, and agenda.",
-      "pdfUrl": "https://img1.wsimg.com/blobby/go/9af9db1d-be96-4dfe-bdfb-bcff6ea7f7c0/CNA%20Workshop%20Flyer%203-11-25-d9e1063.pdf",
+      "pdfUrl": "/assets/docs/cna-workshop-flyer-3-11-25-d9e1063.pdf",
       "pdfLabel": "Download flyer (PDF)",
       "style": "outline"
     }
