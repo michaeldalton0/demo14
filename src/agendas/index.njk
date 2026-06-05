@@ -24,7 +24,7 @@ metaDescription: WPCNA monthly meeting agendas, minutes, and recordings.
           <h3>{{ item.title }}</h3>
           {% if item.note %}<p>{{ item.note }}</p>{% endif %}
           <div class="event-card-actions">
-            <a class="btn btn-primary" href="{{ item.pdf }}" target="_blank" rel="noopener">Download PDF</a>
+            <a class="btn btn-primary" href="{{ item.pdf | withPrefix }}" target="_blank" rel="noopener">Download PDF</a>
             {% if item.zoom %}
               <a class="link-arrow" href="{{ item.zoom }}" target="_blank" rel="noopener">Zoom recording</a>
             {% endif %}
@@ -51,7 +51,7 @@ metaDescription: WPCNA monthly meeting agendas, minutes, and recordings.
           <h3>{{ item.title }}</h3>
           {% if item.note %}<p>{{ item.note }}</p>{% endif %}
           <div class="event-card-actions">
-            <a class="btn btn-primary" href="{{ item.pdf }}" target="_blank" rel="noopener">Download PDF</a>
+            <a class="btn btn-primary" href="{{ item.pdf | withPrefix }}" target="_blank" rel="noopener">Download PDF</a>
             {% if item.zoom %}
               <a class="link-arrow" href="{{ item.zoom }}" target="_blank" rel="noopener">Recording</a>
             {% endif %}

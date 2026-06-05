@@ -19,7 +19,7 @@ metaDescription: A practical guide from WPCNA's workshop materials for residents
         <h3>{{ resource.title }}</h3>
         <p>{{ resource.description }}</p>
         <p class="resource-action-stack">
-          <a class="btn btn-{{ resource.style }}" href="{{ resource.pdfUrl }}" target="_blank" rel="noopener">{{ resource.pdfLabel }}</a>
+          <a class="btn btn-{{ resource.style }}" href="{{ resource.pdfUrl | withPrefix }}" target="_blank" rel="noopener">{{ resource.pdfLabel }}</a>
         </p>
         {% endfor %}
 
