@@ -2920,6 +2920,10 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
   color: rgba(255,255,255,0.35);
 }
 
+.footer-fineprint { margin-top: 0.4rem; font-size: 0.72rem; }
+.footer-fineprint a { color: rgba(255,255,255,0.28); text-decoration: none; }
+.footer-fineprint a:hover { color: rgba(255,255,255,0.6); text-decoration: underline; }
+
 /* ─── Responsive ─── */
 @media (max-width: 900px) {
   .detail-grid,
