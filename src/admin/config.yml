@@ -8,8 +8,8 @@ backend:
   # "wpcna-cms-auth" on your Cloudflare account, this URL is already correct.
   base_url: https://wpcna-cms-auth.wpcna.workers.dev
 
-site_url: https://wp-cna.github.io/demo14/
-display_url: https://wp-cna.github.io/demo14/
+site_url: https://wp-cna.org/
+display_url: https://wp-cna.org/
 media_folder: "src/assets/img/uploads"
 public_folder: "/assets/img/uploads"
 

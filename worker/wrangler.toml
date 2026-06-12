@@ -11,7 +11,7 @@ compatibility_date = "2026-04-21"
 #   APPROVE_SIGNING_SECRET   <- random string; signs the Approve & Publish links
 
 [vars]
-ALLOWED_ORIGINS = "https://wp-cna.github.io"
+ALLOWED_ORIGINS = "https://wp-cna.org,https://wp-cna.github.io"
 GITHUB_REPO = "wp-cna/demo14"
 GITHUB_BRANCH = "main"
 POSTINGS_PATH = "src/_data/communityPostings.json"
