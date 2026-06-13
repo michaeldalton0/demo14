@@ -6,7 +6,7 @@ backend:
   branch: main
   # Deployed Sveltia auth Worker (set up once). If you name the Worker
   # "wpcna-cms-auth" on your Cloudflare account, this URL is already correct.
-  base_url: https://wpcna-cms-auth.wpcna.workers.dev
+  base_url: https://wpcna-cms-auth.michael-kushman.workers.dev
 
 site_url: https://wp-cna.org/
 display_url: https://wp-cna.org/
