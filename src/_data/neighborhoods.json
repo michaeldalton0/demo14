@@ -4,7 +4,7 @@
       "slug": "church-street",
       "name": "Church Street",
       "member": false,
-      "description": "Church Street sits just off Downtown and shares much of its convenience, but at a slightly calmer scale. The mix of apartment buildings, smaller residential blocks, and longtime local institutions gives it a central location with a more settled feel.",
+      "description": "",
       "association": {
         "name": "",
         "url": "",
@@ -15,7 +15,7 @@
       "slug": "downtown",
       "name": "Downtown",
       "member": false,
-      "description": "Downtown is the most walkable and built-up part of White Plains, centered on the Metro-North station, Mamaroneck Avenue, restaurants, shopping, and a growing collection of newer apartment buildings. It has the most day-to-night energy in the city and the strongest sense of White Plains as a compact urban center.",
+      "description": "",
       "association": {
         "name": "",
         "url": "",
@@ -26,7 +26,7 @@
       "slug": "government-center",
       "name": "Government Center",
       "member": false,
-      "description": "Government Center is one of the most central parts of White Plains and gives the surrounding streets an established, civic feel. It is easy to place on the map and easy to move through, with Downtown and several nearby neighborhoods close by.",
+      "description": "",
       "association": {
         "name": "",
         "url": "",
@@ -56,7 +56,7 @@
     {
       "slug": "gateway",
       "name": "Gateway",
-      "description": "Gateway lives up to its name as the stretch between the city center and the residential neighborhoods around it. It feels connected and convenient, with a little breathing room from the busiest blocks while still staying close to them.",
+      "description": "",
       "association": {
         "name": "",
         "url": "",
@@ -124,9 +124,29 @@
       "member": true,
       "description": "",
       "association": {
-        "name": "",
-        "url": "",
-        "officers": []
+        "name": "Highlands Civic Association",
+        "url": "https://www.wphighlands.org.",
+        "officers": [
+          {
+            "name": "Bill Brady",
+            "role": "President",
+            "phone": "",
+            "email": ""
+          },
+          {
+            "name": "Robert Kahn",
+            "role": "Vice President",
+            "phone": "",
+            "email": ""
+          }
+        ]
+      },
+      "image": {
+        "src": "/assets/img/uploads/Highlands CNA Photo - Copy.png",
+        "alt": "",
+        "credit": "",
+        "sourceUrl": "",
+        "license": ""
       }
     },
     {
