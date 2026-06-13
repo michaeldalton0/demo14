@@ -171,7 +171,7 @@ module.exports = {
   themeColor: "#d65f22",
   assetVersion: "2026-05-14-demo12-posting-api",
   contactName: "Michael Dalton, President",
-  contactFormAction: "https://formsubmit.co/michael.kushman@gmail.com",
+  contactFormAction: "https://formsubmit.co/michael@mdalton.com",
   contactFormCc: "michael@mdalton.com",
   contactFormSubject: "WPCNA website contact",
   // Posting form submits to the moderation serverless endpoint; set POSTING_API_URL per deployment.
