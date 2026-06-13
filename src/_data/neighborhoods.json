@@ -479,11 +479,31 @@
       "slug": "rosedale",
       "name": "Rosedale",
       "member": true,
-      "description": "Rosedale is one of the larger and better-known southern neighborhoods in White Plains. It feels residential, green, and well established, with a calmer pace and a strong sense of continuity from block to block.",
+      "description": "",
       "association": {
-        "name": "",
-        "url": "",
-        "officers": []
+        "name": "Rosedale Residential Association",
+        "url": "https://wprra.org/",
+        "officers": [
+          {
+            "name": "Anthony Fiorenza",
+            "role": "President",
+            "phone": "",
+            "email": ""
+          },
+          {
+            "name": "Shawn Woodford",
+            "role": "Vice President",
+            "phone": "",
+            "email": ""
+          }
+        ]
+      },
+      "image": {
+        "src": "/assets/img/uploads/Rosedale CNA Photo.jpg",
+        "alt": "",
+        "credit": "",
+        "sourceUrl": "",
+        "license": ""
       }
     },
     {
