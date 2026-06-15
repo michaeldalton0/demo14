@@ -3089,36 +3089,6 @@
     "importSource": "city"
   },
   {
-    "id": "bid-white-plains-soccer-fest-2026-06-14",
-    "slug": "bid-white-plains-soccer-fest-2026-06-14",
-    "title": "White Plains Soccer Fest",
-    "category": "Food & Downtown",
-    "shortSummary": "Sunday, June 14 | Noon – 9 pmWhite Plains Soccer Fest Block PartyLocation: FanFest on Mamaroneck Avenue between E.",
-    "fullDescription": "Sunday, June 14 | Noon – 9 pmWhite Plains Soccer Fest Block PartyLocation: FanFest on Mamaroneck Avenue between E. Post Road and Maple Avenue Free admission for all ages – family friendly Free shuttles to the Fest from/to WP MetroNorth Station Restaurants serving meals to. Use the BID page for tickets, participating businesses, and weather updates.",
-    "startDate": "2026-06-14",
-    "endDate": "2026-06-14",
-    "startTime": "12:00",
-    "endTime": "23:00",
-    "locationName": "Mamaroneck Avenue Streetscape",
-    "locationAddress": "Mamaroneck Avenue between Maple Avenue and East Post Road, White Plains, NY 10601",
-    "image": "/assets/img/events/food.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://wpbid.com/events/white-plains-soccer-fest/",
-    "ctaLabel": "Open event page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "downtown",
-      "bid",
-      "free",
-      "family"
-    ],
-    "organizer": "White Plains Business Improvement District",
-    "sourceUrl": "https://wpbid.com/events/white-plains-soccer-fest/",
-    "sourceLabel": "White Plains BID",
-    "importSource": "bid"
-  },
-  {
     "id": "city-soccer-fest-crochet-kick-off-crafting-the-classic-soccer-ball-2026-06-15",
     "slug": "city-soccer-fest-crochet-kick-off-crafting-the-classic-soccer-ball-2026-06-15",
     "title": "Soccer Fest - Crochet Kick-off! Crafting the Classic Soccer Ball",
@@ -3726,6 +3696,36 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4322&month=6&year=2026&day=24&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "bid-white-plains-soccer-fest-2026-06-24",
+    "slug": "bid-white-plains-soccer-fest-2026-06-24",
+    "title": "White Plains Soccer Fest",
+    "category": "Food & Downtown",
+    "shortSummary": "Sunday, June 14 | Noon – 9 pmWhite Plains Soccer Fest Block PartyLocation: FanFest on Mamaroneck Avenue between E.",
+    "fullDescription": "Sunday, June 14 | Noon – 9 pmWhite Plains Soccer Fest Block PartyLocation: FanFest on Mamaroneck Avenue between E. Post Road and Maple Avenue Free admission for all ages – family friendly Free shuttles to the Fest from/to WP MetroNorth Station Restaurants serving meals to. Use the BID page for tickets, participating businesses, and weather updates.",
+    "startDate": "2026-06-24",
+    "endDate": "2026-06-24",
+    "startTime": "12:00",
+    "endTime": "23:00",
+    "locationName": "Mamaroneck Avenue Streetscape",
+    "locationAddress": "Mamaroneck Avenue between Maple Avenue and East Post Road, White Plains, NY 10601",
+    "image": "/assets/img/events/food.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://wpbid.com/events/white-plains-soccer-fest/",
+    "ctaLabel": "Open event page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "downtown",
+      "bid",
+      "free",
+      "family"
+    ],
+    "organizer": "White Plains Business Improvement District",
+    "sourceUrl": "https://wpbid.com/events/white-plains-soccer-fest/",
+    "sourceLabel": "White Plains BID",
+    "importSource": "bid"
   },
   {
     "id": "city-soccer-fest-watch-party-brazil-v-scotland-2026-06-24",
