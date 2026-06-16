@@ -3641,6 +3641,34 @@
     "importSource": "city"
   },
   {
+    "id": "city-white-plains-urban-renewal-agency-special-meeting-2026-06-23",
+    "slug": "city-white-plains-urban-renewal-agency-special-meeting-2026-06-23",
+    "title": "White Plains Urban Renewal Agency Special Meeting",
+    "category": "Civic",
+    "shortSummary": "White Plains Urban Renewal Agency Special Meeting is listed on the official White Plains city calendar.",
+    "fullDescription": "White Plains Urban Renewal Agency Special Meeting is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-06-23",
+    "endDate": "2026-06-23",
+    "startTime": "14:00",
+    "endTime": null,
+    "locationName": "White Plains",
+    "locationAddress": "White Plains, NY",
+    "image": "/assets/img/events/civic.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4353&month=6&year=2026&day=23&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar",
+      "public meeting"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4353&month=6&year=2026&day=23&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
     "id": "library-america-250-the-importance-of-revolutionary-war-pensions-2026-06-23",
     "slug": "library-america-250-the-importance-of-revolutionary-war-pensions-2026-06-23",
     "title": "America 250: The Importance of Revolutionary War Pensions",
