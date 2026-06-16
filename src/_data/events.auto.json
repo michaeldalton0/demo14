@@ -3106,7 +3106,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4295&month=6&year=2026&day=15&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -3133,7 +3133,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4142&month=6&year=2026&day=15&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar",
       "public meeting"
