@@ -357,11 +357,49 @@
       "slug": "gedney-farms",
       "name": "Gedney Farms",
       "member": true,
-      "description": "Gedney Farms is one of the classic residential names in White Plains, with roots that trace back to the 1700s and a neighborhood association now marking its 100th year. It is known for quiet, tree-lined streets, larger homes, and the kind of traditional character that has made it one of the city's most established addresses.",
+      "description": "Gedney Farms is a historic residential neighborhood located in the southern portion of White Plains, New York. Celebrating its 100th anniversary in 2025, the neighborhood is known for its quiet, tree-lined streets, distinctive pre-war homes, and strong sense of community. Formed in 1925, the Gedney Association is one of the oldest neighborhood associations in the country and is dedicated to preserving and enhancing the neighborhood’s historic character, promoting thoughtful land-use planning, improving neighborhood safety, and fostering community engagement among approximately 506 households.",
       "association": {
-        "name": "",
-        "url": "",
-        "officers": []
+        "name": "The Gedney Association",
+        "url": "https://gedneyfarms.net/",
+        "officers": [
+          {
+            "name": "John Sheehan",
+            "role": "President",
+            "phone": "",
+            "email": ""
+          },
+          {
+            "name": "John Rand",
+            "role": "Vice President",
+            "phone": "",
+            "email": ""
+          },
+          {
+            "name": "Al Dold",
+            "role": "Treasurer",
+            "phone": "",
+            "email": ""
+          },
+          {
+            "name": "Carol Corbin",
+            "role": "Secretary",
+            "phone": "",
+            "email": ""
+          },
+          {
+            "name": "Melanie Kolby",
+            "role": "Information Officer",
+            "phone": "",
+            "email": "info@gedneyfarms.net"
+          }
+        ]
+      },
+      "image": {
+        "src": "/assets/img/uploads/pasted-image-1781656119441.png",
+        "alt": "",
+        "credit": "",
+        "sourceUrl": "",
+        "license": ""
       }
     },
     {
