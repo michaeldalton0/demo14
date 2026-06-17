@@ -29,37 +29,6 @@
     "importSource": "wppac"
   },
   {
-    "id": "library-lifting-up-westchester-2026-04-17",
-    "slug": "library-lifting-up-westchester-2026-04-17",
-    "title": "Lifting Up Westchester",
-    "category": "Learning",
-    "shortSummary": "Victor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.",
-    "fullDescription": "Victor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area. Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-04-17",
-    "endDate": "2026-04-17",
-    "startTime": "11:30",
-    "endTime": "13:00",
-    "locationName": "White Plains Public Library, Lobby",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/learning.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16201441",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "health and wellness",
-      "teens",
-      "parents",
-      "adults",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16201441",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
     "id": "city-little-league-parade-2026-04-18",
     "slug": "city-little-league-parade-2026-04-18",
     "title": "Little League Parade",
@@ -3161,7 +3130,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=3657&month=6&year=2026&day=16&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar",
       "public meeting",
@@ -3190,7 +3159,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/15261295",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "history & genealogy",
       "educational presentations",
@@ -3224,7 +3193,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4296&month=6&year=2026&day=16&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -3251,7 +3220,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4297&month=6&year=2026&day=16&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -3278,7 +3247,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/16055271",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "health and wellness",
       "educational presentations",
@@ -3310,7 +3279,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/16314701",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "educational presentations",
       "adults",
@@ -3611,6 +3580,34 @@
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/15962889",
     "sourceLabel": "Library calendar",
     "importSource": "library"
+  },
+  {
+    "id": "city-board-of-ethics-meeting-2026-06-22",
+    "slug": "city-board-of-ethics-meeting-2026-06-22",
+    "title": "Board of Ethics Meeting",
+    "category": "Civic",
+    "shortSummary": "Board of Ethics Meeting is listed on the official White Plains city calendar.",
+    "fullDescription": "Board of Ethics Meeting is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-06-22",
+    "endDate": "2026-06-22",
+    "startTime": "18:00",
+    "endTime": null,
+    "locationName": "White Plains",
+    "locationAddress": "White Plains, NY",
+    "image": "/assets/img/events/civic.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4354&month=6&year=2026&day=22&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar",
+      "public meeting"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4354&month=6&year=2026&day=22&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
   },
   {
     "id": "city-westchester-county-rent-guideline-board-rebuttal-and-vote-meeting-2026-06-22",
@@ -4083,39 +4080,6 @@
     "importSource": "library"
   },
   {
-    "id": "library-robert-the-guitar-guy-2026-07-01",
-    "slug": "library-robert-the-guitar-guy-2026-07-01",
-    "title": "Robert the Guitar Guy",
-    "category": "Learning",
-    "shortSummary": "Local favorite Robert the Guitar Guy comes to the Library!",
-    "fullDescription": "Local favorite Robert the Guitar Guy comes to the Library! Sing and dance with Robert as he plays your favorite songs! Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-07-01",
-    "endDate": "2026-07-01",
-    "startTime": "11:00",
-    "endTime": "12:00",
-    "locationName": "White Plains Public Library, Auditorium",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/learning.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/13434851",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "upcoming",
-    "tags": [
-      "performing arts",
-      "fun and games",
-      "families",
-      "children",
-      "ages 4 - 6",
-      "ages 2 - 4",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/13434851",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
     "id": "library-the-birth-of-ny-in-white-plains-history-via-igloo-2026-07-01",
     "slug": "library-the-birth-of-ny-in-white-plains-history-via-igloo-2026-07-01",
     "title": "The Birth of NY in White Plains (History via Igloo)",
@@ -4355,6 +4319,36 @@
     ],
     "organizer": "White Plains Public Library",
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16705641",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
+  },
+  {
+    "id": "library-digital-decluttering-2026-07-08",
+    "slug": "library-digital-decluttering-2026-07-08",
+    "title": "Digital Decluttering",
+    "category": "Workshop",
+    "shortSummary": "In this workshop, we'll slow down and actually understand why digital chaos builds up &mdash; and what to do about it.",
+    "fullDescription": "In this workshop, we'll slow down and actually understand why digital chaos builds up &mdash; and what to do about it. You'll walk away with a clear framework, a few simple strategies to start right away, and a whole lot less dread about opening your laptop. Shannon Reilly is the founder of Simplify Space &amp; Soul, a holistic wellness and organizing practice dedicated to helping people feel more at ease in their spaces, their schedules, and themselves. She holds certifications as a Professional Organizer (CPO&reg;, CVPO), Neurodiversity Coach, and Productivity Specialist, and has been teaching Therapeutic Yoga for over a decade. For more than ten years, Shannon has helped people cut through overwhelm &mdash; whether that shows up as a cluttered home, an overflowing inbox, a packed calendar, or just the feeling that life is moving too fast to catch up with. Her work is always customized, never judgmental, and rooted in the belief that small, sustainable changes make the biggest difference. This program takes place on Zoom and registration is required. Click here to register. The program is being presented in partnership with the Ruth Keeler Memorial Library and several other Westchester Libraries. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-07-08",
+    "endDate": "2026-07-08",
+    "startTime": "19:00",
+    "endTime": "20:00",
+    "locationName": "White Plains Public Library, Ask Staff For More Information",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/workshop.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16752438",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "educational presentations",
+      "digital technology",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16752438",
     "sourceLabel": "Library calendar",
     "importSource": "library"
   },
