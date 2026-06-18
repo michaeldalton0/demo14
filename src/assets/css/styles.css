@@ -546,7 +546,11 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
   box-sizing: border-box;
   background: var(--brand);
   color: #fff;
-  font-family: "Arial Black", "WPCNA Franklin Heavy", "Franklin Gothic Heavy", "Franklin Gothic Demi", sans-serif;
+  /* iOS has no "Arial Black" family, so it used to fall through to the
+     WPCNA Franklin Heavy SUBSET, which is missing outlines for many
+     letters (R, O, etc.) and renders them blank. Dropped that subset so
+     iOS lands on the complete system heavy sans (SF Black at weight 900). */
+  font-family: "Arial Black", "Franklin Gothic Heavy", "Franklin Gothic Demi", sans-serif;
   font-size: clamp(21pt, 1.75vw, 24pt);
   font-weight: 900;
   line-height: 1.1;
@@ -586,7 +590,7 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
   align-items: center;
   justify-content: center;
   padding: clamp(0.48rem, 0.82vw, 0.9rem) clamp(0.6rem, 0.9vw, 0.95rem);
-  font-family: "WPCNA Franklin Heavy", "Franklin Gothic Heavy", "Franklin Gothic Demi", "Arial Black", sans-serif;
+  font-family: "Arial Black", "Franklin Gothic Heavy", "Franklin Gothic Demi", sans-serif;
   font-size: clamp(20pt, 1.55vw, 30pt);
   line-height: 1.1;
   text-align: center;
