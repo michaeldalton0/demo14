@@ -29,33 +29,6 @@
     "importSource": "wppac"
   },
   {
-    "id": "city-little-league-parade-2026-04-18",
-    "slug": "city-little-league-parade-2026-04-18",
-    "title": "Little League Parade",
-    "category": "Family",
-    "shortSummary": "Little League Parade is listed on the official White Plains city calendar.",
-    "fullDescription": "Little League Parade is listed on the official White Plains city calendar. It is set for Gillie Field, White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-04-18",
-    "endDate": "2026-04-18",
-    "startTime": "11:00",
-    "endTime": "12:00",
-    "locationName": "Gillie Field",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/family.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4250&month=4&year=2026&day=18&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4250&month=4&year=2026&day=18&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
     "id": "library-film-screening-the-librarians-2026-04-19",
     "slug": "library-film-screening-the-librarians-2026-04-19",
     "title": "Film Screening: The Librarians",
@@ -3308,7 +3281,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/16457419",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "volunteering",
       "teens",
@@ -3319,36 +3292,6 @@
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16457419",
     "sourceLabel": "Library calendar",
     "importSource": "library"
-  },
-  {
-    "id": "bid-downtown-white-plains-rock-the-block-2026-2026-06-17",
-    "slug": "bid-downtown-white-plains-rock-the-block-2026-2026-06-17",
-    "title": "Downtown White Plains Rock the Block 2026",
-    "category": "Music & Family",
-    "shortSummary": "Location: Mamaroneck Ave.",
-    "fullDescription": "Location: Mamaroneck Ave. (between E. Post Rd. and Maple Ave.) Rock the Block is back for its third year! Join us every third Wednesday from May through August for an evening of live music, outdoor dining, and family-friendly fun in the heart of downtown White. Use the BID page for tickets, participating businesses, and weather updates.",
-    "startDate": "2026-06-17",
-    "endDate": "2026-06-17",
-    "startTime": "17:30",
-    "endTime": "20:30",
-    "locationName": "Downtown White Plains",
-    "locationAddress": "Downtown White Plains, NY 10601",
-    "image": "/assets/img/events/music.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://wpbid.com/events/rock-the-block-2026/",
-    "ctaLabel": "Open event page",
-    "featured": false,
-    "status": "upcoming",
-    "tags": [
-      "downtown",
-      "bid",
-      "family",
-      "music"
-    ],
-    "organizer": "White Plains Business Improvement District",
-    "sourceUrl": "https://wpbid.com/events/rock-the-block-2026/",
-    "sourceLabel": "White Plains BID",
-    "importSource": "bid"
   },
   {
     "id": "bid-june-17-downtown-white-plains-rock-the-block-2026-06-17",
@@ -3368,7 +3311,7 @@
     "externalUrl": "https://wpbid.com/events/june-17-downtown-white-plains-rock-the-block/",
     "ctaLabel": "Open event page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "downtown",
       "bid"
@@ -3396,7 +3339,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4318&month=6&year=2026&day=17&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar",
       "downtown"
@@ -3518,6 +3461,35 @@
     "importSource": "city"
   },
   {
+    "id": "bid-puerto-rican-street-fair-2026-06-20",
+    "slug": "bid-puerto-rican-street-fair-2026-06-20",
+    "title": "Puerto Rican Street Fair",
+    "category": "Music & Family",
+    "shortSummary": "Puerto Rican Street Fair June 20 | 1:00 pm – 7:00 pmCourt Street & Renaissance PlazaCelebrate Puerto Rican culture and heritage with a ceremonial flag raising,…",
+    "fullDescription": "Puerto Rican Street Fair June 20 | 1:00 pm – 7:00 pmCourt Street & Renaissance PlazaCelebrate Puerto Rican culture and heritage with a ceremonial flag raising, followed by a festival featuring live music, dance performances, Latin food, artists, crafts, and vendors. Use the BID page for tickets, participating businesses, and weather updates.",
+    "startDate": "2026-06-20",
+    "endDate": "2026-06-20",
+    "startTime": "13:00",
+    "endTime": "19:00",
+    "locationName": "White Plains BID District",
+    "locationAddress": "Downtown White Plains, NY 10601",
+    "image": "/assets/img/events/music.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://wpbid.com/events/puerto-rican-street-fair/",
+    "ctaLabel": "Open event page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "downtown",
+      "bid",
+      "music"
+    ],
+    "organizer": "White Plains Business Improvement District",
+    "sourceUrl": "https://wpbid.com/events/puerto-rican-street-fair/",
+    "sourceLabel": "White Plains BID",
+    "importSource": "bid"
+  },
+  {
     "id": "library-youth-leadership-institute-2026-06-20",
     "slug": "library-youth-leadership-institute-2026-06-20",
     "title": "Youth Leadership Institute",
@@ -3528,7 +3500,7 @@
     "endDate": "2026-06-20",
     "startTime": "14:00",
     "endTime": "17:00",
-    "locationName": "White Plains Public Library, Auditorium",
+    "locationName": "White Plains Public Library, Galaxy Hall",
     "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
     "image": "/assets/img/events/civic.svg",
     "flyerPdf": null,
@@ -4588,6 +4560,36 @@
     "importSource": "library"
   },
   {
+    "id": "bid-downtown-white-plains-rock-the-block-2026-2026-07-15",
+    "slug": "bid-downtown-white-plains-rock-the-block-2026-2026-07-15",
+    "title": "Downtown White Plains Rock the Block 2026",
+    "category": "Music & Family",
+    "shortSummary": "Location: Mamaroneck Ave.",
+    "fullDescription": "Location: Mamaroneck Ave. (between E. Post Rd. and Maple Ave.) Rock the Block is back for its third year! Join us every third Wednesday from May through August for an evening of live music, outdoor dining, and family-friendly fun in the heart of downtown White. Use the BID page for tickets, participating businesses, and weather updates.",
+    "startDate": "2026-07-15",
+    "endDate": "2026-07-15",
+    "startTime": "17:30",
+    "endTime": "20:30",
+    "locationName": "Downtown White Plains",
+    "locationAddress": "Downtown White Plains, NY 10601",
+    "image": "/assets/img/events/music.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://wpbid.com/events/rock-the-block-2026/",
+    "ctaLabel": "Open event page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "downtown",
+      "bid",
+      "family",
+      "music"
+    ],
+    "organizer": "White Plains Business Improvement District",
+    "sourceUrl": "https://wpbid.com/events/rock-the-block-2026/",
+    "sourceLabel": "White Plains BID",
+    "importSource": "bid"
+  },
+  {
     "id": "bid-july-15-downtown-white-plains-rock-the-block-2026-07-15",
     "slug": "bid-july-15-downtown-white-plains-rock-the-block-2026-07-15",
     "title": "July 15 — Downtown White Plains Rock the Block",
@@ -5129,6 +5131,35 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4344&month=7&year=2026&day=30&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "library-r-and-b-soul-line-dancing-2026-08-01",
+    "slug": "library-r-and-b-soul-line-dancing-2026-08-01",
+    "title": "R&B Soul Line Dancing",
+    "category": "Learning",
+    "shortSummary": "R&amp;B Soul Line Dancing",
+    "fullDescription": "R&amp;B Soul Line Dancing Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-08-01",
+    "endDate": "2026-08-01",
+    "startTime": "13:00",
+    "endTime": "14:00",
+    "locationName": "White Plains Public Library, Library Plaza,Museum Gallery",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16078999",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "health and wellness",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16078999",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
   },
   {
     "id": "city-neighborhood-nights-2026-08-03",
