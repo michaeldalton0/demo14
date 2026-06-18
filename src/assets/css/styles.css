@@ -2048,6 +2048,94 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
   max-width: 52rem;
 }
 
+/* ─── Join the CNA: how-to-join steps ─── */
+.section-join-how {
+  padding-bottom: 0;
+}
+
+.join-how {
+  max-width: 52rem;
+}
+
+.join-how-lead {
+  color: var(--ink-secondary);
+  font-size: clamp(1.05rem, 1.6vw, 1.2rem);
+  line-height: 1.7;
+  margin-bottom: clamp(1.75rem, 3vw, 2.5rem);
+}
+
+.join-steps {
+  list-style: none;
+  margin: 0 0 1.75rem;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.join-step {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.1rem;
+  align-items: start;
+  padding: clamp(1.1rem, 2vw, 1.5rem);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+}
+
+.join-step-num {
+  display: grid;
+  place-items: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  background: var(--brand);
+  color: #fff;
+  font-family: "Arial Black", "Franklin Gothic Heavy", "Franklin Gothic Demi", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.join-step-body h3 {
+  margin: 0 0 0.35rem;
+}
+
+.join-step-body p {
+  margin: 0;
+  color: var(--ink-secondary);
+  line-height: 1.6;
+}
+
+.join-note {
+  margin: 0 0 1.75rem;
+  padding: clamp(1.1rem, 2vw, 1.5rem);
+  background: var(--brand-soft);
+  border: 1px solid var(--brand-light);
+  border-left: 4px solid var(--brand);
+}
+
+.join-note p {
+  margin: 0;
+  color: var(--ink-secondary);
+  line-height: 1.6;
+}
+
+.join-cta {
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  .join-step {
+    gap: 0.85rem;
+    padding: 1rem;
+  }
+  .join-step-num {
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 1.15rem;
+  }
+}
+
 .about-story {
   display: grid;
   gap: 3.25rem;
