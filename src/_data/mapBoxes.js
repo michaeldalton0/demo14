@@ -6,10 +6,8 @@ module.exports = {
   imageHeight: 2560,
   boxes: {
     "battle-hill": [260, 1082, 260, 200],
-    "bronx-river": [257, 859, 260, 200],
     "brook-hills": [1086, 1870, 260, 200],
     "bryant-gardens": [725, 1375, 260, 200],
-    "burke-institute": [797, 1441, 260, 200],
     "church-street": [462, 875, 260, 200],
     "colonial-corners": [565, 1745, 260, 200],
     "downtown": [476, 1048, 260, 200],
@@ -45,7 +43,6 @@ module.exports = {
     "soundview": [445, 1678, 260, 200],
     "westchester-avenue": [1333, 1273, 260, 200],
     "westminster-ridge": [602, 696, 260, 200],
-    "white-plains-reservoir": [670, 382, 260, 200],
     "winbrook": [485, 1155, 260, 200],
     "woodcrest-heights": [756, 721, 260, 200],
   }

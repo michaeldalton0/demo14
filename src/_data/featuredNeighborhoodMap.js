@@ -40,7 +40,6 @@ const featuredSlugs = [
   "gedney-farms",
   "saxon-woods",
   "rosedale",
-  "white-plains-reservoir"
 ];
 
 const allRegionSlugs = [

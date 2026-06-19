@@ -170,16 +170,6 @@
       }
     },
     {
-      "slug": "bronx-river",
-      "name": "Bronx River",
-      "description": "Bronx River is a narrow edge neighborhood along the western side of White Plains. Its position gives it a tucked-along-the-corridor feel, with easy access to central White Plains while still feeling a little set apart.",
-      "association": {
-        "name": "",
-        "url": "",
-        "officers": []
-      }
-    },
-    {
       "slug": "prospect-park",
       "name": "Prospect Park",
       "description": "Prospect Park is a small southwest pocket with a calm, local feel. It sits between busier parts of the city, but the neighborhood itself reads as modest, residential, and easygoing.",
@@ -224,16 +214,6 @@
       "slug": "woodcrest-heights",
       "name": "Woodcrest Heights",
       "description": "Woodcrest Heights has a northeast setting that feels more tucked away than the city core. The name fits the area well: it reads as residential, slightly elevated, and a little quieter than the neighborhoods closer to the station.",
-      "association": {
-        "name": "",
-        "url": "",
-        "officers": []
-      }
-    },
-    {
-      "slug": "white-plains-reservoir",
-      "name": "White Plains Reservoir",
-      "description": "White Plains Reservoir occupies the far northern part of the map and feels more open than the middle of the city. Its position gives it a sense of extra space and a more outlying, edge-of-town character.",
       "association": {
         "name": "",
         "url": "",
@@ -306,16 +286,6 @@
       "slug": "bryant-gardens",
       "name": "Bryant Gardens",
       "description": "Bryant Gardens is best known for the garden-style cooperative community built there in the early 1950s, with landscaped grounds and a strong sense of internal identity. The name still carries that orderly, residential feel, and it remains one of the more recognizable small-scale neighborhoods in White Plains.",
-      "association": {
-        "name": "",
-        "url": "",
-        "officers": []
-      }
-    },
-    {
-      "slug": "burke-institute",
-      "name": "Burke Institute",
-      "description": "Burke Institute is anchored by the Burke campus on Mamaroneck Avenue, whose rehabilitation hospital opened in 1915. That longstanding institution gives the area a clear identity and a campus-like feel within the larger residential section around it.",
       "association": {
         "name": "",
         "url": "",

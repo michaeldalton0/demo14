@@ -2137,6 +2137,35 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
 }
 
 /* ─── Join the CNA: what's inside the workshop guide ─── */
+/* ─── Join the CNA: eligibility criteria ─── */
+.join-eligibility {
+  margin: 1.5rem 0 0.5rem;
+  padding: clamp(1.1rem, 2vw, 1.5rem);
+  background: var(--brand-soft);
+  border: 1px solid var(--brand-light);
+  border-left: 4px solid var(--brand);
+}
+
+.join-eligibility h3 {
+  margin: 0 0 0.6rem;
+}
+
+.join-eligibility p {
+  color: var(--ink-secondary);
+  line-height: 1.6;
+}
+
+.join-criteria {
+  margin: 0.6rem 0;
+  padding-left: 1.25rem;
+}
+
+.join-criteria li {
+  color: var(--ink-secondary);
+  line-height: 1.55;
+  margin-bottom: 0.25rem;
+}
+
 .workshop-topics {
   list-style: none;
   margin: 1.25rem 0 0;
