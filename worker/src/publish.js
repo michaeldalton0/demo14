@@ -235,3 +235,62 @@ export async function handlePublish({ request, env }) {
 function escapeHtml(s = "") {
   return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
+
+// ---- submitter notification (human-approved, rejected items only) ---------
+// Sends a single courteous email to the person who made the submission,
+// explaining why it was not posted. Triggered only when a trusted reviewer
+// clicks the signed /notify-submitter link in the review email.
+async function sendSubmitterEmail({ env, to, subject, body }) {
+  if (!env.RESEND_API_KEY) {
+    throw new Error("Email is not configured (RESEND_API_KEY missing).");
+  }
+  const from = env.POSTING_EMAIL_FROM || "WPCNA <onboarding@resend.dev>";
+  const replyTo = env.POSTING_REPLY_TO || undefined;
+  const response = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${env.RESEND_API_KEY}`
+    },
+    body: JSON.stringify({
+      from,
+      to: [to],
+      subject,
+      text: body,
+      reply_to: replyTo ? [replyTo] : undefined
+    })
+  });
+  if (!response.ok) {
+    throw new Error(`Resend email failed with ${response.status}: ${(await response.text()).slice(0, 200)}`);
+  }
+  return true;
+}
+
+export async function handleNotifySubmitter({ request, env }) {
+  const secret = env.APPROVE_SIGNING_SECRET;
+  if (!secret) {
+    return htmlPage("Not configured", "<h1>Not configured</h1><p>The signing secret is missing on the server.</p>");
+  }
+  const token = new URL(request.url).searchParams.get("token");
+  const data = await verifyToken(token, secret);
+  if (!data || data.kind !== "notify" || !data.to || !data.message) {
+    return htmlPage("Invalid link", "<h1>This link is invalid or expired</h1><p>Please re-open the original review email.</p>");
+  }
+  try {
+    await sendSubmitterEmail({
+      env,
+      to: data.to,
+      subject: `About your WPCNA community posting submission${data.subject ? `: ${data.subject}` : ""}`,
+      body: data.message
+    });
+    return htmlPage(
+      "Explanation sent",
+      `<h1>✅ Explanation sent</h1><p>A note explaining the decision was emailed to ${escapeHtml(data.to)}.</p>`
+    );
+  } catch (error) {
+    return htmlPage(
+      "Send failed",
+      `<h1>Couldn't send the explanation</h1><p>The email didn't go out. The most common cause is that the Resend sending domain isn't verified yet, so mail can only reach your own Resend address.</p><pre style="white-space:pre-wrap;color:#a33">${escapeHtml(String(error.message || error))}</pre>`
+    );
+  }
+}

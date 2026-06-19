@@ -2136,6 +2136,30 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
   }
 }
 
+/* ─── Join the CNA: what's inside the workshop guide ─── */
+.workshop-topics {
+  list-style: none;
+  margin: 1.25rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 0.75rem;
+}
+
+.workshop-topics li {
+  margin: 0;
+  padding: 0.85rem 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  color: var(--ink-secondary);
+  line-height: 1.5;
+}
+
+.workshop-topics li strong {
+  color: var(--ink);
+}
+
 .about-story {
   display: grid;
   gap: 3.25rem;

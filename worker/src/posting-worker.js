@@ -1,5 +1,5 @@
 import { handlePostingSubmission } from "./posting-review.js";
-import { handlePublish } from "./publish.js";
+import { handlePublish, handleNotifySubmitter } from "./publish.js";
 
 const DEFAULT_ALLOWED_ORIGINS = ["https://wp-cna.github.io"];
 
@@ -72,6 +72,10 @@ export default {
 
     if (request.method === "GET" && url.pathname === "/publish") {
       return handlePublish({ request, env });
+    }
+
+    if (request.method === "GET" && url.pathname === "/notify-submitter") {
+      return handleNotifySubmitter({ request, env });
     }
 
     if (url.pathname === "/posting-review" || url.pathname === "/api/posting-review") {

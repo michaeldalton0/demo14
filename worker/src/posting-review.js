@@ -567,13 +567,50 @@ function formatAiReviewSection(aiReview) {
   return lines;
 }
 
-function formatEmailBody({ review, aiReview, approveUrl, rawSubmission, timestamp, request }) {
+function buildSubmitterExplanation({ name = "", subject = "", aiReview = null }) {
+  const greeting = name ? `Hello ${String(name).trim()},` : "Hello,";
+  const cleanSubject = String(subject || "your submission").trim() || "your submission";
+  const reason =
+    (aiReview && safeEmailText(aiReview.reason, 900)) ||
+    "It does not fit our community posting guidelines.";
+  const followUp =
+    aiReview && aiReview.suggestedFollowUp && aiReview.suggestedFollowUp !== "None."
+      ? safeEmailText(aiReview.suggestedFollowUp, 600)
+      : "";
+  const lines = [
+    greeting,
+    "",
+    `Thank you for submitting "${cleanSubject}" to the White Plains Council of Neighborhood Associations (WPCNA) community postings.`,
+    "",
+    "After review, we are not able to post this item at this time.",
+    "",
+    `Why: ${reason}`
+  ];
+  if (followUp) {
+    lines.push("", `If you would like us to take another look: ${followUp}`);
+  }
+  lines.push(
+    "",
+    "Our community postings are limited to civic, neighborhood, and community-serving information for White Plains residents \u2014 we do not post classifieds, advertising, or personal listings. You are welcome to resubmit if your item fits those guidelines.",
+    "",
+    "Thank you for helping keep neighbors informed.",
+    "\u2014 White Plains Council of Neighborhood Associations"
+  );
+  return lines.join("\n");
+}
+
+function formatEmailBody({ review, aiReview, approveUrl, notifyUrl, submitterExplanation, rawSubmission, timestamp, request }) {
   const sections = [
     ...formatAiReviewSection(aiReview),
     ...(approveUrl
       ? (aiReview && aiReview.recommendation === "NEEDS_REVIEW"
           ? ["", "PUBLISH AS-IS (one click) - review the missing items above first", approveUrl, "Clicking this publishes the posting to the site as-is. Address any gaps above first if needed."]
           : ["", "APPROVE & PUBLISH (one click)", approveUrl, "Clicking the link above publishes this posting to the site right away."])
+      : []),
+    ...(notifyUrl
+      ? ["", "SEND EXPLANATION TO SUBMITTER (one click)", notifyUrl,
+         "Clicking this emails the submitter the note below explaining why this was not posted. Nothing is sent to them until you click.",
+         "", "Preview of the message the submitter will receive:", submitterExplanation || ""]
       : []),
     "",
     "CIVIC INTAKE SUMMARY",
@@ -767,15 +804,33 @@ export async function handlePostingSubmission({ request, env, corsHeaders, jsonR
     aiReview = null;
   }
 
+  const origin = new URL(request.url).origin;
+
   let approveUrl = null;
   try {
-    if (aiReview && !aiReview.escalate && ["READY_TO_POST", "NEEDS_REVIEW"].includes(aiReview.recommendation) && env.APPROVE_SIGNING_SECRET) {
+    if (aiReview && ["READY_TO_POST", "NEEDS_REVIEW"].includes(aiReview.recommendation) && env.APPROVE_SIGNING_SECRET) {
       const posting = postingFromSubmission(clean, aiReview);
       const token = await signPosting(posting, env.APPROVE_SIGNING_SECRET);
-      approveUrl = `${new URL(request.url).origin}/publish?token=${token}`;
+      approveUrl = `${origin}/publish?token=${token}`;
     }
   } catch (error) {
     console.error("Approve-link build failed:", error);
+  }
+
+  // Human-approved "explain to the submitter" link for rejected items only.
+  let notifyUrl = null;
+  let submitterExplanation = "";
+  try {
+    if (aiReview && aiReview.recommendation === "NOT_QUALIFIED" && env.APPROVE_SIGNING_SECRET && isEmail(clean.email)) {
+      submitterExplanation = buildSubmitterExplanation({ name: clean.name, subject: clean.subject, aiReview });
+      const notifyToken = await signPosting(
+        { kind: "notify", to: clean.email, subject: clean.subject || "", message: submitterExplanation },
+        env.APPROVE_SIGNING_SECRET
+      );
+      notifyUrl = `${origin}/notify-submitter?token=${notifyToken}`;
+    }
+  } catch (error) {
+    console.error("Notify-submitter link build failed:", error);
   }
 
   const timestamp = new Date().toISOString();
@@ -784,6 +839,8 @@ export async function handlePostingSubmission({ request, env, corsHeaders, jsonR
     review,
     aiReview,
     approveUrl,
+    notifyUrl,
+    submitterExplanation,
     rawSubmission: raw,
     timestamp,
     request
