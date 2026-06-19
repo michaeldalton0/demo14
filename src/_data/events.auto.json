@@ -29,36 +29,6 @@
     "importSource": "wppac"
   },
   {
-    "id": "library-film-screening-the-librarians-2026-04-19",
-    "slug": "library-film-screening-the-librarians-2026-04-19",
-    "title": "Film Screening: The Librarians",
-    "category": "Learning",
-    "shortSummary": "Across the U.S., librarians face the impact of uniting against library collection standards that include restrictions on race-related and LGBTQIA+ content.",
-    "fullDescription": "Across the U.S., librarians face the impact of uniting against library collection standards that include restrictions on race-related and LGBTQIA+ content. Join us for a screening of the award-winning documentary that will make you think deeply about the role of librarians, censorship, and our changing political landscape. The film screening will conclude with a community discussion of the important themes presented in The Librarians . This event is presented in partnership with the League of Women Voters and Indie Lens. Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-04-19",
-    "endDate": "2026-04-19",
-    "startTime": "14:00",
-    "endTime": "16:00",
-    "locationName": "White Plains Public Library, Auditorium",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/learning.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/15962045",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "film",
-      "educational presentations",
-      "adults",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/15962045",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
     "id": "city-conservation-board-meeting-2026-04-20",
     "slug": "city-conservation-board-meeting-2026-04-20",
     "title": "Conservation Board Meeting",
@@ -3367,7 +3337,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/16549450",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "history & genealogy",
       "educational presentations",
@@ -3397,7 +3367,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4257&month=6&year=2026&day=18&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
