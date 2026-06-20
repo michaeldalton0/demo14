@@ -29,34 +29,6 @@
     "importSource": "wppac"
   },
   {
-    "id": "city-conservation-board-meeting-2026-04-20",
-    "slug": "city-conservation-board-meeting-2026-04-20",
-    "title": "Conservation Board Meeting",
-    "category": "Civic",
-    "shortSummary": "Conservation Board Meeting is listed on the official White Plains city calendar.",
-    "fullDescription": "Conservation Board Meeting is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-04-20",
-    "endDate": "2026-04-20",
-    "startTime": "19:30",
-    "endTime": null,
-    "locationName": "White Plains",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/civic.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4140&month=4&year=2026&day=20&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar",
-      "public meeting"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4140&month=4&year=2026&day=20&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
     "id": "city-transportation-commission-meeting-2026-04-21",
     "slug": "city-transportation-commission-meeting-2026-04-21",
     "title": "Transportation Commission Meeting",
