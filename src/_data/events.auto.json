@@ -29,67 +29,6 @@
     "importSource": "wppac"
   },
   {
-    "id": "city-transportation-commission-meeting-2026-04-21",
-    "slug": "city-transportation-commission-meeting-2026-04-21",
-    "title": "Transportation Commission Meeting",
-    "category": "Civic",
-    "shortSummary": "Transportation Commission Meeting is listed on the official White Plains city calendar.",
-    "fullDescription": "Transportation Commission Meeting is listed on the official White Plains city calendar. It is set for City Hall Common Council Chambers, White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-04-21",
-    "endDate": "2026-04-21",
-    "startTime": "09:15",
-    "endTime": "10:15",
-    "locationName": "City Hall Common Council Chambers",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/civic.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=3655&month=4&year=2026&day=21&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar",
-      "public meeting",
-      "city hall"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=3655&month=4&year=2026&day=21&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
-    "id": "library-creating-a-compelling-college-application-this-summer-2026-04-21",
-    "slug": "library-creating-a-compelling-college-application-this-summer-2026-04-21",
-    "title": "Creating a Compelling College Application this Summer",
-    "category": "Learning",
-    "shortSummary": "Program for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and…",
-    "fullDescription": "Program for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and their parents understand how to use the upcoming summer productively to create a compelling college application. We will cover the college application process, including current admissions trends, writing the personal statement and supplemental essays, securing strong teacher recommendations, and understanding how students can position themselves to increase their chances of admission. We will also explore why a student's ability to express insights, experiences, and personal growth through their essays is more important than ever. Our presentation will include application strategies, such as the advantages and disadvantages of early decision, early action, and regular decision. We will review the factors students should consider when deciding whether to submit standardized test scores for test optional colleges and universities. We will also explain the different pathways through which students can be admitted to a particular school. We will examine the holistic admissions review process, what admissions officers consider important when evaluating applicants, and how students can develop a compelling narrative that strengthens their applications. We will also discuss the importance of community service and how it offers opportunities for personal growth and character development. Admissions officers place significant emphasis on a student's character and the ways they have contributed to their communities. This program provides a detailed and strategic overview of what students should focus on to make their college applications as compelling as possible. The presentation will be led by Ron Feuchs and Jackie Tepper, partners at Stand Out For College, LLC (www.standoutforcollege.com). Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-04-21",
-    "endDate": "2026-04-21",
-    "startTime": "19:30",
-    "endTime": "20:30",
-    "locationName": "White Plains Public Library",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/learning.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/15467240",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "educational presentations",
-      "teens",
-      "parents",
-      "families",
-      "adults",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/15467240",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
     "id": "library-white-plains-in-1776-history-via-igloo-2026-04-22",
     "slug": "library-white-plains-in-1776-history-via-igloo-2026-04-22",
     "title": "White Plains in 1776 (History via Igloo)",
@@ -3366,7 +3305,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4330&month=6&year=2026&day=20&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -3393,7 +3332,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4331&month=6&year=2026&day=20&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -3420,7 +3359,7 @@
     "externalUrl": "https://wpbid.com/events/puerto-rican-street-fair/",
     "ctaLabel": "Open event page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "downtown",
       "bid",
@@ -3449,7 +3388,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/14610202",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "training and course instruction",
       "jobs and careers",
@@ -5158,6 +5097,39 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=3607&month=8&year=2026&day=3&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "library-engineering-camp-for-youth-2026-08-04",
+    "slug": "library-engineering-camp-for-youth-2026-08-04",
+    "title": "Engineering Camp for Youth",
+    "category": "Learning",
+    "shortSummary": "Youth participants of all levels will be able to engage with engineering through hands-on challenges and creative problem-solving.",
+    "fullDescription": "Youth participants of all levels will be able to engage with engineering through hands-on challenges and creative problem-solving. Led by Digital Media Specialist Austin Olney. Registration is for all four days. Please register only if you can attend all four days. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-08-04",
+    "endDate": "2026-08-04",
+    "startTime": "12:00",
+    "endTime": "13:30",
+    "locationName": "White Plains Public Library, Edge Media Lab",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16757266",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "steam",
+      "educational presentations",
+      "digital technology",
+      "teens",
+      "middle school (grades 6 - 8)",
+      "high school (grades 9 - 12)",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16757266",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
   },
   {
     "id": "city-national-night-out-2026-08-04",
