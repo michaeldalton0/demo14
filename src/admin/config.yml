@@ -93,7 +93,7 @@ collections:
               - { name: date, label: "Date", widget: string, hint: "YYYY-MM-DD" }
               - { name: label, label: "Label", widget: string }
               - { name: title, label: "Title", widget: string }
-              - { name: pdf, label: "PDF URL", widget: string }
+              - { name: pdf, label: "PDF (drag & drop to upload, or pick existing)", widget: file, media_folder: "/src/assets/docs", public_folder: "/assets/docs", hint: "Drag a PDF here or click to choose a file from your computer." }
           - name: archive
             label: "Archived minutes"
             widget: list
@@ -102,7 +102,7 @@ collections:
               - { name: date, label: "Date", widget: string }
               - { name: label, label: "Label", widget: string }
               - { name: title, label: "Title", widget: string }
-              - { name: pdf, label: "PDF URL", widget: string }
+              - { name: pdf, label: "PDF (drag & drop to upload, or pick existing)", widget: file, media_folder: "/src/assets/docs", public_folder: "/assets/docs", hint: "Drag a PDF here or click to choose a file from your computer." }
 
   - name: site
     label: "Site Text"
