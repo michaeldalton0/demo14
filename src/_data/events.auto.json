@@ -29,37 +29,6 @@
     "importSource": "wppac"
   },
   {
-    "id": "library-soap-making-class-2026-04-26",
-    "slug": "library-soap-making-class-2026-04-26",
-    "title": "Soap Making Class",
-    "category": "Workshop",
-    "shortSummary": "Ever wondered how a few simple oils can turn into a luxurious, bubbly bar of soap?",
-    "fullDescription": "Ever wondered how a few simple oils can turn into a luxurious, bubbly bar of soap? Join us for a beginner-friendly workshop where we&rsquo;ll show you how to ditch the store-bought chemicals and create your own custom soap at home. Check out the full lineup of sewing and crafting classes here! Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-04-26",
-    "endDate": "2026-04-26",
-    "startTime": "13:00",
-    "endTime": "14:30",
-    "locationName": "White Plains Public Library, Auditorium",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/workshop.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/15959870",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "fun and games",
-      "arts and crafts",
-      "adults about 55 and over",
-      "adults",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/15959870",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
     "id": "library-brown-bag-luncheon-series-meet-your-county-legislators-2026-04-27",
     "slug": "library-brown-bag-luncheon-series-meet-your-county-legislators-2026-04-27",
     "title": "Brown Bag Luncheon Series: Meet Your County Legislators",
@@ -3404,7 +3373,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/15423853",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "film",
       "books and authors",
@@ -3434,7 +3403,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/15261296",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "history & genealogy",
       "educational presentations",
