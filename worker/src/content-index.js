@@ -1,6 +1,6 @@
 export default {
-  "generatedAt": "2026-06-29T14:29:59.137Z",
-  "itemCount": 230,
+  "generatedAt": "2026-06-30T08:01:54.320Z",
+  "itemCount": 231,
   "items": [
     {
       "id": "page:/",
@@ -253,6 +253,15 @@ export default {
       "type": "event",
       "excerpt": "Public city meeting in White Plains. Agenda and updates are available from the City.",
       "text": "Public city meeting in White Plains. Agenda and updates are available from the City.\n\nCivic\n\nCommon Council Work Session\n\nPublic city meeting in White Plains. Agenda and updates are available from the City.\n\nAbout this event\n\nCommon Council Work Session is on the City of White Plains calendar.\n\nUse the City listing for the agenda, location updates, and schedule changes.\n\nAt a Glance\n\nStatus\n\nPast\n\nDate\n\nTuesday, May 26, 2026\n\nTime\n\n6:30 PM - 7:30 PM\n\nLocation\n\nWhite Plains\n\nAddress\n\nWhite Plains, NY\n\nSource\n\nCity of White Plains\n\nMore Events\n\nRelated events\n\nCommon Council Meeting\n\nMay 4, 2026\n\nPublic meeting at Common Council Chamber. Agenda and updates are available from the City.\n\nTransportation Commission Meeting\n\nMay 19, 2026\n\nPublic meeting at City Hall Common Council Chambers. Agenda and updates are available from the City.\n\nCommon Council Meeting\n\nJun 1, 2026\n\nPublic meeting at Common Council Chamber. Agenda and updates are available from the City."
+    },
+    {
+      "id": "page:/events/city-common-council-work-session-2026-06-29/",
+      "sourceId": "page:/events/city-common-council-work-session-2026-06-29/",
+      "title": "Common Council Work Session",
+      "url": "/events/city-common-council-work-session-2026-06-29/",
+      "type": "event",
+      "excerpt": "Public city meeting in White Plains. Agenda and updates are available from the City.",
+      "text": "Public city meeting in White Plains. Agenda and updates are available from the City.\n\nCivic\n\nCommon Council Work Session\n\nPublic city meeting in White Plains. Agenda and updates are available from the City.\n\nAbout this event\n\nCommon Council Work Session is on the City of White Plains calendar.\n\nUse the City listing for the agenda, location updates, and schedule changes.\n\nAt a Glance\n\nStatus\n\nPast\n\nDate\n\nMonday, June 29, 2026\n\nTime\n\n6:30 PM - 7:30 PM\n\nLocation\n\nWhite Plains\n\nAddress\n\nWhite Plains, NY\n\nSource\n\nCity of White Plains\n\nMore Events\n\nRelated events\n\nCommon Council Meeting\n\nMay 4, 2026\n\nPublic meeting at Common Council Chamber. Agenda and updates are available from the City.\n\nTransportation Commission Meeting\n\nMay 19, 2026\n\nPublic meeting at City Hall Common Council Chambers. Agenda and updates are available from the City.\n\nCommon Council Work Session\n\nMay 26, 2026\n\nPublic city meeting in White Plains. Agenda and updates are available from the City."
     },
     {
       "id": "page:/events/city-concerts-at-renaissance-plaza-2026-07-23/",
