@@ -1,33 +1,5 @@
 [
   {
-    "id": "city-historic-preservation-meeting-2026-05-05",
-    "slug": "city-historic-preservation-meeting-2026-05-05",
-    "title": "Historic Preservation Meeting",
-    "category": "Civic",
-    "shortSummary": "Historic Preservation Meeting is listed on the official White Plains city calendar.",
-    "fullDescription": "Historic Preservation Meeting is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-05-05",
-    "endDate": "2026-05-05",
-    "startTime": "19:00",
-    "endTime": "21:00",
-    "locationName": "White Plains",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/civic.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4305&month=5&year=2026&day=5&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar",
-      "public meeting"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4305&month=5&year=2026&day=5&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
     "id": "city-monthly-educational-speaker-series-2026-05-06",
     "slug": "city-monthly-educational-speaker-series-2026-05-06",
     "title": "Monthly Educational Speaker Series",
