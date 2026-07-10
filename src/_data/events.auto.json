@@ -3298,7 +3298,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4338&month=7&year=2026&day=9&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -3325,7 +3325,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4301&month=7&year=2026&day=9&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -3510,6 +3510,33 @@
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16573459",
     "sourceLabel": "Library calendar",
     "importSource": "library"
+  },
+  {
+    "id": "city-soccer-fest-family-movie-night-air-bud-world-pup-2001-2026-07-14",
+    "slug": "city-soccer-fest-family-movie-night-air-bud-world-pup-2001-2026-07-14",
+    "title": "Soccer Fest - Family Movie Night: Air Bud World Pup (2001)",
+    "category": "Family",
+    "shortSummary": "Soccer Fest - Family Movie Night: Air Bud World Pup (2001) is listed on the official White Plains city calendar.",
+    "fullDescription": "Soccer Fest - Family Movie Night: Air Bud World Pup (2001) is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-07-14",
+    "endDate": "2026-07-14",
+    "startTime": "20:30",
+    "endTime": "22:00",
+    "locationName": "White Plains",
+    "locationAddress": "White Plains, NY",
+    "image": "/assets/img/events/family.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4301&month=7&year=2026&day=14&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4301&month=7&year=2026&day=14&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
   },
   {
     "id": "library-score-meeting-2026-07-15",
@@ -4611,6 +4638,36 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4351&month=8&year=2026&day=13&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "library-afternoon-concert-four-for-a-song-2026-08-13",
+    "slug": "library-afternoon-concert-four-for-a-song-2026-08-13",
+    "title": "Afternoon Concert: Four for a Song",
+    "category": "Learning",
+    "shortSummary": "Come along for a musical journey with the delectable cabaret husband and wife duo, Dawn and Eric Spitz and their friends classically trained Soprano, Brett…",
+    "fullDescription": "Come along for a musical journey with the delectable cabaret husband and wife duo, Dawn and Eric Spitz and their friends classically trained Soprano, Brett Kroeger and magnificent pianist Tom Cuffari. A show for all generations, you do not want to miss! Brett Kroeger also performs two arias from La Boh&egrave;me, along with many other beloved Broadway favorites. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-08-13",
+    "endDate": "2026-08-13",
+    "startTime": "14:00",
+    "endTime": "15:00",
+    "locationName": "White Plains Public Library, Auditorium",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16616497",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "performing arts",
+      "adults about 55 and over",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16616497",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
   },
   {
     "id": "city-neighborhood-nights-2026-08-13",
