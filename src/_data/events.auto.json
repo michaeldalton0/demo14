@@ -1,34 +1,5 @@
 [
   {
-    "id": "library-short-story-film-discussion-series-2026-05-14",
-    "slug": "library-short-story-film-discussion-series-2026-05-14",
-    "title": "Short-Story/Film Discussion Series",
-    "category": "Civic",
-    "shortSummary": "Join White Plains Librarian Barbara Wenglin to explore compelling readings from the rich anthology, Music Stories (ed.",
-    "fullDescription": "Join White Plains Librarian Barbara Wenglin to explore compelling readings from the rich anthology, Music Stories (ed. Wesley Stace, Everyman&rsquo;s Pocket Classics, 2024). These vibrant and varied works by diverse authors capture the universal &ndash; sometimes controversial -- world of music, paying tribute to one art form through another. We will also discuss related film selections at some sessions, to view before we meet. The reading for this session is: &ldquo; A Mother &rdquo; by James Joyce (1914; p.203) from Dubliners . Mr. Holohan arranges with Mrs. Kearney for her pianist daughter Kathleen to accompany singers at a concert series. With poor attendance, payment becomes an issue with Mrs. K demanding their rights. Copies of the series anthology are available to reserve through the catalog with one held at the Reference Desk for reading in the Library. We will meet Thursdays from 2:00 - 4:00 p.m on 5/14, 6/4, 6/25. Meeting ID for all sessions is: 837 1709 4842 or phone in at 1-929-436-2866, no password needed. Click This Zoom Link to register once for the full series and join us when you can. The program is supported by The Friends of the White Plains Library. All are welcome, including newcomers! Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-05-14",
-    "endDate": "2026-05-14",
-    "startTime": "14:00",
-    "endTime": "16:00",
-    "locationName": "White Plains Public Library, Ask Staff For More Information",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/civic.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/15422319",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "books and authors",
-      "adults",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/15422319",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
     "id": "city-the-spot-2026-05-15",
     "slug": "city-the-spot-2026-05-15",
     "title": "The Spot",
@@ -3262,12 +3233,39 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4339&month=7&year=2026&day=13&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
     "organizer": "City of White Plains",
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4339&month=7&year=2026&day=13&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
+    "id": "city-design-review-board-2026-07-13",
+    "slug": "city-design-review-board-2026-07-13",
+    "title": "Design Review Board",
+    "category": "Civic",
+    "shortSummary": "Design Review Board is listed on the official White Plains city calendar.",
+    "fullDescription": "Design Review Board is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-07-13",
+    "endDate": "2026-07-13",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "locationName": "White Plains",
+    "locationAddress": "White Plains, NY",
+    "image": "/assets/img/events/civic.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4524&month=7&year=2026&day=13&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "past",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4524&month=7&year=2026&day=13&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
