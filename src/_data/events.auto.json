@@ -1,32 +1,5 @@
 [
   {
-    "id": "city-the-spot-2026-05-15",
-    "slug": "city-the-spot-2026-05-15",
-    "title": "The Spot",
-    "category": "Community",
-    "shortSummary": "The Spot is listed on the official White Plains city calendar.",
-    "fullDescription": "The Spot is listed on the official White Plains city calendar. It is set for Ebersole Ice Rink, White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-05-15",
-    "endDate": "2026-05-15",
-    "startTime": "18:00",
-    "endTime": "21:00",
-    "locationName": "Ebersole Ice Rink",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/community.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4332&month=5&year=2026&day=15&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4332&month=5&year=2026&day=15&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
     "id": "city-let-s-pawty-dog-party-2026-05-16",
     "slug": "city-let-s-pawty-dog-party-2026-05-16",
     "title": "Let's Pawty - Dog Party",
@@ -3287,7 +3260,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/16573459",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "educational presentations",
       "adults about 55 and over",
@@ -3317,7 +3290,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4301&month=7&year=2026&day=14&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -3586,6 +3559,8 @@
     "tags": [
       "art exhibit and gallery opening",
       "families",
+      "adults about 55 and over",
+      "adults",
       "library"
     ],
     "organizer": "White Plains Public Library",
