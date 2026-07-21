@@ -1,70 +1,5 @@
 [
   {
-    "id": "library-lifting-up-westchester-2026-05-21",
-    "slug": "library-lifting-up-westchester-2026-05-21",
-    "title": "Lifting Up Westchester",
-    "category": "Learning",
-    "shortSummary": "Victor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.",
-    "fullDescription": "Victor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area. Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-05-21",
-    "endDate": "2026-05-21",
-    "startTime": "13:30",
-    "endTime": "15:00",
-    "locationName": "White Plains Public Library, Lobby",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/learning.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16522849",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "health and wellness",
-      "teens",
-      "parents",
-      "adults",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16522849",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
-    "id": "library-westchester-during-revolutionary-war-history-via-igloo-2026-05-21",
-    "slug": "library-westchester-during-revolutionary-war-history-via-igloo-2026-05-21",
-    "title": "Westchester During Revolutionary War (History via Igloo)",
-    "category": "Learning",
-    "shortSummary": "Learn about Westchester County during the Revolutionary War and what happened throughout the conflict.",
-    "fullDescription": "Learn about Westchester County during the Revolutionary War and what happened throughout the conflict. Held in the Library's panoramic Igloo content room (near the Trove entrance on the 2nd floor), funded by the Library Foundation and Optimum. Presented by Digital Media Specialist Austin Olney. Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-05-21",
-    "endDate": "2026-05-21",
-    "startTime": "17:00",
-    "endTime": "17:45",
-    "locationName": "White Plains Public Library, The Igloo - Optimum Technology Room",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/learning.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16137628",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "history & genealogy",
-      "educational presentations",
-      "digital technology",
-      "middle school (grades 6 - 8)",
-      "high school (grades 9 - 12)",
-      "adults about 55 and over",
-      "adults",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16137628",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
     "id": "city-memorial-day-parade-and-ceremony-2026-05-25",
     "slug": "city-memorial-day-parade-and-ceremony-2026-05-25",
     "title": "Memorial Day Parade & Ceremony",
@@ -3092,35 +3027,6 @@
     "importSource": "library"
   },
   {
-    "id": "wppac-school-of-rock-young-actors-2026-07-20",
-    "slug": "wppac-school-of-rock-young-actors-2026-07-20",
-    "title": "School Of Rock: Young Actors",
-    "category": "Arts",
-    "shortSummary": "Andrew Lloyd Webber’s School of Rock: Young Actors Edition is a dynamic, one-hour version of the musical based on the hit movie.",
-    "fullDescription": "Andrew Lloyd Webber’s School of Rock: Young Actors Edition is a dynamic, one-hour version of the musical based on the hit movie. The tuner follows Dewey Finn, a failed, wannabe rock star who decides to earn an extra bit of cash by posing as a substitute teacher at a prestigious prep school. There he turns a class of straight-A pupils into a guitar-shredding, bass-slapping, mind-blowing rock band. But can he get them to the Battle of the Bands without their parents and the school’s headmistress finding out? Please note this version of the show does NOT require any of the actors to play instruments. $23 Use the show page for tickets and the full performance schedule.",
-    "startDate": "2026-07-20",
-    "endDate": "2026-08-08",
-    "startTime": null,
-    "endTime": null,
-    "locationName": "White Plains Performing Arts Center",
-    "locationAddress": "11 City Place, 3rd Floor, White Plains, NY 10601",
-    "image": "/assets/img/events/arts.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://wppac.com/shows/school-of-rock-young-actors-edition/",
-    "ctaLabel": "Open show page",
-    "featured": false,
-    "status": "upcoming",
-    "tags": [
-      "performing arts",
-      "theater",
-      "music"
-    ],
-    "organizer": "White Plains Performing Arts Center",
-    "sourceUrl": "https://wppac.com/shows/school-of-rock-young-actors-edition/",
-    "sourceLabel": "WPPAC",
-    "importSource": "wppac"
-  },
-  {
     "id": "city-neighborhood-nights-2026-07-20",
     "slug": "city-neighborhood-nights-2026-07-20",
     "title": "Neighborhood Nights",
@@ -3138,7 +3044,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4341&month=7&year=2026&day=20&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -3165,7 +3071,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4143&month=7&year=2026&day=20&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar",
       "public meeting"
@@ -3846,34 +3752,6 @@
     "importSource": "library"
   },
   {
-    "id": "wppac-trolls-jr-2026-08-10",
-    "slug": "wppac-trolls-jr-2026-08-10",
-    "title": "Trolls Jr.",
-    "category": "Arts",
-    "shortSummary": "Trolls JR. is based on the irreverent DreamWorks Animation movie franchise and features a colorful, wondrous world populated by hilariously unforgettable…",
-    "fullDescription": "Trolls JR. is based on the irreverent DreamWorks Animation movie franchise and features a colorful, wondrous world populated by hilariously unforgettable characters. The show follows the overly optimistic Trolls, constantly with a song on their lips, and the comically pessimistic Bergens, who are only happy when they have Trolls in their stomach. $23 Use the show page for tickets and the full performance schedule.",
-    "startDate": "2026-08-10",
-    "endDate": "2026-08-22",
-    "startTime": null,
-    "endTime": null,
-    "locationName": "White Plains Performing Arts Center",
-    "locationAddress": "11 City Place, 3rd Floor, White Plains, NY 10601",
-    "image": "/assets/img/events/arts.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://wppac.com/shows/trolls-jr/",
-    "ctaLabel": "Open show page",
-    "featured": false,
-    "status": "upcoming",
-    "tags": [
-      "performing arts",
-      "theater"
-    ],
-    "organizer": "White Plains Performing Arts Center",
-    "sourceUrl": "https://wppac.com/shows/trolls-jr/",
-    "sourceLabel": "WPPAC",
-    "importSource": "wppac"
-  },
-  {
     "id": "city-neighborhood-nights-2026-08-10",
     "slug": "city-neighborhood-nights-2026-08-10",
     "title": "Neighborhood Nights",
@@ -4277,37 +4155,6 @@
     "importSource": "library"
   },
   {
-    "id": "wppac-shrek-kids-2026-08-24",
-    "slug": "wppac-shrek-kids-2026-08-24",
-    "title": "Shrek Kids",
-    "category": "Arts",
-    "shortSummary": "Beauty is in the eye of the ogre in Shrek The Musical KIDS, based on the Oscar-winning DreamWorks Animation film and fantastic Broadway musical.",
-    "fullDescription": "Beauty is in the eye of the ogre in Shrek The Musical KIDS, based on the Oscar-winning DreamWorks Animation film and fantastic Broadway musical. It’s a “big bright beautiful world” as everyone’s favorite ogre, Shrek, leads a cast of fairytale misfits on an adventure to rescue a princess and find true acceptance. Part romance and part twisted fairy tale, Shrek KIDS is an irreverently fun show with a powerful message for the whole family. $16 Use the show page for tickets and the full performance schedule.",
-    "startDate": "2026-08-24",
-    "endDate": "2026-08-28",
-    "startTime": null,
-    "endTime": null,
-    "locationName": "White Plains Performing Arts Center",
-    "locationAddress": "11 City Place, 3rd Floor, White Plains, NY 10601",
-    "image": "/assets/img/events/arts.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://wppac.com/shows/shrek-kids/",
-    "ctaLabel": "Open show page",
-    "featured": false,
-    "status": "upcoming",
-    "tags": [
-      "performing arts",
-      "theater",
-      "family",
-      "kids",
-      "music"
-    ],
-    "organizer": "White Plains Performing Arts Center",
-    "sourceUrl": "https://wppac.com/shows/shrek-kids/",
-    "sourceLabel": "WPPAC",
-    "importSource": "wppac"
-  },
-  {
     "id": "library-blood-drive-2026-08-25",
     "slug": "library-blood-drive-2026-08-25",
     "title": "Blood Drive",
@@ -4617,6 +4464,33 @@
     "importSource": "city"
   },
   {
+    "id": "city-consolidated-annual-performance-and-evaluation-report-caper-public-hearing-2026-09-24",
+    "slug": "city-consolidated-annual-performance-and-evaluation-report-caper-public-hearing-2026-09-24",
+    "title": "Consolidated Annual Performance and Evaluation Report (CAPER) Public Hearing",
+    "category": "Civic",
+    "shortSummary": "Consolidated Annual Performance and Evaluation Report (CAPER) Public Hearing is listed on the official White Plains city calendar.",
+    "fullDescription": "Consolidated Annual Performance and Evaluation Report (CAPER) Public Hearing is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-09-24",
+    "endDate": "2026-09-24",
+    "startTime": "18:30",
+    "endTime": null,
+    "locationName": "White Plains",
+    "locationAddress": "White Plains, NY",
+    "image": "/assets/img/events/civic.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4525&month=9&year=2026&day=24&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4525&month=9&year=2026&day=24&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
     "id": "city-common-council-work-session-2026-09-28",
     "slug": "city-common-council-work-session-2026-09-28",
     "title": "Common Council Work Session",
@@ -4670,34 +4544,6 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4326&month=9&year=2026&day=30&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
-  },
-  {
-    "id": "wppac-dear-evan-hansen-2026-10-02",
-    "slug": "wppac-dear-evan-hansen-2026-10-02",
-    "title": "Dear Evan Hansen",
-    "category": "Arts",
-    "shortSummary": "Featuring a Tony Award-winning book by Steven Levenson (Fosse/Verdon), and a score by Grammy®, Tony®, Emmy® and Academy Award® winners Benj Pasek and Justin Paul…",
-    "fullDescription": "Featuring a Tony Award-winning book by Steven Levenson (Fosse/Verdon), and a score by Grammy®, Tony®, Emmy® and Academy Award® winners Benj Pasek and Justin Paul (The Greatest Showman, La La Land, Dogfight, James and the Giant Peach) $50 – $69 (Including Fees | Prices subject to change) Use the show page for tickets and the full performance schedule.",
-    "startDate": "2026-10-02",
-    "endDate": "2026-10-25",
-    "startTime": null,
-    "endTime": null,
-    "locationName": "White Plains Performing Arts Center",
-    "locationAddress": "11 City Place, 3rd Floor, White Plains, NY 10601",
-    "image": "/assets/img/events/arts.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://wppac.com/shows/dear-evan-hansen/",
-    "ctaLabel": "Open show page",
-    "featured": false,
-    "status": "upcoming",
-    "tags": [
-      "performing arts",
-      "theater"
-    ],
-    "organizer": "White Plains Performing Arts Center",
-    "sourceUrl": "https://wppac.com/shows/dear-evan-hansen/",
-    "sourceLabel": "WPPAC",
-    "importSource": "wppac"
   },
   {
     "id": "city-common-council-meeting-2026-10-05",
@@ -5094,35 +4940,6 @@
     "importSource": "city"
   },
   {
-    "id": "wppac-disney-s-frozen-2026-12-11",
-    "slug": "wppac-disney-s-frozen-2026-12-11",
-    "title": "Disney’S Frozen",
-    "category": "Arts",
-    "shortSummary": "Based on the Academy Award-winning animated feature film, Disney’s Frozen includes all the film’s beloved songs by Kristen Anderson-Lopez and Robert Lopez, along…",
-    "fullDescription": "Based on the Academy Award-winning animated feature film, Disney’s Frozen includes all the film’s beloved songs by Kristen Anderson-Lopez and Robert Lopez, along with new music written exclusively for the stage. $50 – $69 (Including Fees | Prices subject to change) Use the show page for tickets and the full performance schedule.",
-    "startDate": "2026-12-11",
-    "endDate": "2027-01-03",
-    "startTime": null,
-    "endTime": null,
-    "locationName": "White Plains Performing Arts Center",
-    "locationAddress": "11 City Place, 3rd Floor, White Plains, NY 10601",
-    "image": "/assets/img/events/arts.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://wppac.com/shows/disneys-frozen/",
-    "ctaLabel": "Open show page",
-    "featured": false,
-    "status": "upcoming",
-    "tags": [
-      "performing arts",
-      "theater",
-      "music"
-    ],
-    "organizer": "White Plains Performing Arts Center",
-    "sourceUrl": "https://wppac.com/shows/disneys-frozen/",
-    "sourceLabel": "WPPAC",
-    "importSource": "wppac"
-  },
-  {
     "id": "city-transportation-commission-meeting-2026-12-15",
     "slug": "city-transportation-commission-meeting-2026-12-15",
     "title": "Transportation Commission Meeting",
@@ -5206,34 +5023,5 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4148&month=12&year=2026&day=21&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
-  },
-  {
-    "id": "wppac-9-to-5-2027-04-09",
-    "slug": "wppac-9-to-5-2027-04-09",
-    "title": "9 To 5",
-    "category": "Arts",
-    "shortSummary": "9 to 5, with music and lyrics by Dolly Parton and book by Patricia Resnick, is based on the seminal 1980 hit movie.",
-    "fullDescription": "9 to 5, with music and lyrics by Dolly Parton and book by Patricia Resnick, is based on the seminal 1980 hit movie. Set in the late 1970’s, this hilarious story of friendship and revenge in the Rolodex era is outrageous, thought-provoking and even a little romantic. $50 – $69 (Including Fees | Prices subject to change) Use the show page for tickets and the full performance schedule.",
-    "startDate": "2027-04-09",
-    "endDate": "2027-05-02",
-    "startTime": null,
-    "endTime": null,
-    "locationName": "White Plains Performing Arts Center",
-    "locationAddress": "11 City Place, 3rd Floor, White Plains, NY 10601",
-    "image": "/assets/img/events/arts.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://wppac.com/shows/9-to-5/",
-    "ctaLabel": "Open show page",
-    "featured": false,
-    "status": "upcoming",
-    "tags": [
-      "performing arts",
-      "theater",
-      "music"
-    ],
-    "organizer": "White Plains Performing Arts Center",
-    "sourceUrl": "https://wppac.com/shows/9-to-5/",
-    "sourceLabel": "WPPAC",
-    "importSource": "wppac"
   }
 ]
