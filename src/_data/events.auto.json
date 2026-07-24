@@ -3216,7 +3216,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/16741085",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "steam",
       "health and wellness",
@@ -3247,7 +3247,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4342&month=7&year=2026&day=23&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -3274,7 +3274,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4350&month=7&year=2026&day=23&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -3872,6 +3872,35 @@
     "importSource": "library"
   },
   {
+    "id": "library-neighborhood-conditions-coordinator-2026-08-10",
+    "slug": "library-neighborhood-conditions-coordinator-2026-08-10",
+    "title": "Neighborhood Conditions Coordinator",
+    "category": "Learning",
+    "shortSummary": "Topics that she can assist with include, but are not limited to: Code enforcement information and guidance Tenant rights information and guidance Housing…",
+    "fullDescription": "Topics that she can assist with include, but are not limited to: Code enforcement information and guidance Tenant rights information and guidance Housing insecurity Housing information (affordable housing programs, senior housing) Referral to resources available in White Plains such as assistance with utilities, rent, food, etc. Recreation programs in White Plains To sign up for a 45-minute appointment, click register at the top of the page OR call 914-422-6977 (please leave your name and phone number) OR email librarian@whiteplainslibrary.org with the subject \"Schedule Appointment\". Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-08-10",
+    "endDate": "2026-08-10",
+    "startTime": "10:00",
+    "endTime": "13:00",
+    "locationName": "White Plains Public Library, Classroom 1",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16865612",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "other city department program",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16865612",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
+  },
+  {
     "id": "city-neighborhood-nights-2026-08-10",
     "slug": "city-neighborhood-nights-2026-08-10",
     "title": "Neighborhood Nights",
@@ -4366,6 +4395,35 @@
     ],
     "organizer": "White Plains Public Library",
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16031563",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
+  },
+  {
+    "id": "library-neighborhood-conditions-coordinator-2026-08-27",
+    "slug": "library-neighborhood-conditions-coordinator-2026-08-27",
+    "title": "Neighborhood Conditions Coordinator",
+    "category": "Learning",
+    "shortSummary": "Topics that she can assist with include, but are not limited to: Code enforcement information and guidance Tenant rights information and guidance Housing…",
+    "fullDescription": "Topics that she can assist with include, but are not limited to: Code enforcement information and guidance Tenant rights information and guidance Housing insecurity Housing information (affordable housing programs, senior housing) Referral to resources available in White Plains such as assistance with utilities, rent, food, etc. Recreation programs in White Plains To sign up for a 45-minute appointment, click register at the top of the page OR call 914-422-6977 (please leave your name and phone number) OR email librarian@whiteplainslibrary.org with the subject \"Schedule Appointment\". Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-08-27",
+    "endDate": "2026-08-27",
+    "startTime": "10:00",
+    "endTime": "13:00",
+    "locationName": "White Plains Public Library, Classroom 1",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16865637",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "other city department program",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16865637",
     "sourceLabel": "Library calendar",
     "importSource": "library"
   },
