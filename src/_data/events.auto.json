@@ -1,61 +1,5 @@
 [
   {
-    "id": "library-citywide-school-art-show-2026-05-27",
-    "slug": "library-citywide-school-art-show-2026-05-27",
-    "title": "Citywide School Art Show",
-    "category": "Learning",
-    "shortSummary": "Reception Details: Church Street and George Washington Schools: Thursday, May 28 4:30-5:30pm Mamaroneck Ave., Post Road and Ridgeway Schools: Tuesday, June 2,…",
-    "fullDescription": "Reception Details: Church Street and George Washington Schools: Thursday, May 28 4:30-5:30pm Mamaroneck Ave., Post Road and Ridgeway Schools: Tuesday, June 2, 4:30-5:30pm Eastview, Highlands, Rochambeau and White Plains High School: Wednesday, June 3, 4:30-5:30pm Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-05-27",
-    "endDate": "2026-05-27",
-    "startTime": "00:00",
-    "endTime": "23:59",
-    "locationName": "White Plains Public Library, Auditorium,Museum Gallery",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/learning.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16443334",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "art exhibit and gallery opening",
-      "families",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16443334",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
-    "id": "city-music-at-the-market-2026-05-27",
-    "slug": "city-music-at-the-market-2026-05-27",
-    "title": "Music at the Market",
-    "category": "Music & Family",
-    "shortSummary": "Music at the Market is listed on the official White Plains city calendar.",
-    "fullDescription": "Music at the Market is listed on the official White Plains city calendar. It is set for Court St., White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-05-27",
-    "endDate": "2026-05-27",
-    "startTime": "12:00",
-    "endTime": null,
-    "locationName": "Court St.",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/music.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4312&month=5&year=2026&day=27&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4312&month=5&year=2026&day=27&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
     "id": "library-citywide-school-art-show-2026-05-28",
     "slug": "library-citywide-school-art-show-2026-05-28",
     "title": "Citywide School Art Show",
@@ -3219,7 +3163,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4271&month=7&year=2026&day=26&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -3246,7 +3190,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/16580716",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "fun and games",
       "arts and crafts",
