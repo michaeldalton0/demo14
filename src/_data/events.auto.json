@@ -1,63 +1,5 @@
 [
   {
-    "id": "library-citywide-school-art-show-2026-05-28",
-    "slug": "library-citywide-school-art-show-2026-05-28",
-    "title": "Citywide School Art Show",
-    "category": "Learning",
-    "shortSummary": "Reception Details: Church Street and George Washington Schools: Thursday, May 28 4:30-5:30pm Mamaroneck Ave., Post Road and Ridgeway Schools: Tuesday, June 2,…",
-    "fullDescription": "Reception Details: Church Street and George Washington Schools: Thursday, May 28 4:30-5:30pm Mamaroneck Ave., Post Road and Ridgeway Schools: Tuesday, June 2, 4:30-5:30pm Eastview, Highlands, Rochambeau and White Plains High School: Wednesday, June 3, 4:30-5:30pm Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-05-28",
-    "endDate": "2026-05-28",
-    "startTime": "00:00",
-    "endTime": "23:59",
-    "locationName": "White Plains Public Library, Auditorium,Museum Gallery",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/learning.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16443335",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "art exhibit and gallery opening",
-      "families",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16443335",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
-    "id": "library-computer-basics-introduction-to-computers-2026-05-28",
-    "slug": "library-computer-basics-introduction-to-computers-2026-05-28",
-    "title": "Computer Basics: Introduction to Computers",
-    "category": "Learning",
-    "shortSummary": "Introduction to Computers: Learn the Basics This beginner-friendly class is designed for those who are new to computers or looking to build confidence with…",
-    "fullDescription": "Introduction to Computers: Learn the Basics This beginner-friendly class is designed for those who are new to computers or looking to build confidence with technology. Participants will learn how to use a mouse and keyboard, navigate a computer, and understand basic terminology. The class will also cover how to browse the internet, set up and use email, and practice essential skills for everyday use. No prior experience is needed. Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-05-28",
-    "endDate": "2026-05-28",
-    "startTime": "14:00",
-    "endTime": "15:30",
-    "locationName": "White Plains Public Library, Edge Media Lab",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/learning.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16355058",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "educational presentations",
-      "adults",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16355058",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
     "id": "city-chess-tournament-with-nscf-2026-05-30",
     "slug": "city-chess-tournament-with-nscf-2026-05-30",
     "title": "Chess Tournament with NSCF",
@@ -3221,7 +3163,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4264&month=7&year=2026&day=27&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar",
       "city hall"
@@ -3249,7 +3191,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4343&month=7&year=2026&day=27&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -4185,6 +4127,7 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
+      "writing and poetry",
       "training and course instruction",
       "educational presentations",
       "teens",
