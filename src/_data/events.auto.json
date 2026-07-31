@@ -3280,7 +3280,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/16665684",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "steam",
       "fun and games",
@@ -3311,7 +3311,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4344&month=7&year=2026&day=30&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -4317,6 +4317,35 @@
     ],
     "organizer": "White Plains Public Library",
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16611373",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
+  },
+  {
+    "id": "library-intro-to-google-sheets-part-1-2026-09-08",
+    "slug": "library-intro-to-google-sheets-part-1-2026-09-08",
+    "title": "Intro to Google Sheets, Part 1",
+    "category": "Learning",
+    "shortSummary": "Google Sheets is a free online spreadsheet program.",
+    "fullDescription": "Google Sheets is a free online spreadsheet program. Anyone with a Google account and Internet access can use it. The spreadsheets you create are automatically saved by Google in the cloud. In this class we will learn to create a simple spreadsheet and chart. Participants must have a Gmail account and know their username and password. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-09-08",
+    "endDate": "2026-09-08",
+    "startTime": "16:00",
+    "endTime": "17:15",
+    "locationName": "White Plains Public Library, Community Room",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/17085083",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "digital technology",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17085083",
     "sourceLabel": "Library calendar",
     "importSource": "library"
   },
