@@ -13,9 +13,11 @@
 //   GITHUB_REPO             - e.g. "wp-cna/demo13"
 //   GITHUB_BRANCH           - default "main"
 //   POSTINGS_PATH           - default "src/_data/communityPostings.json"
+//   SITE_BASE_URL           - default "https://wp-cna.org"
 
 const POSTINGS_PATH_DEFAULT = "src/_data/communityPostings.json";
 const BRANCH_DEFAULT = "main";
+const SITE_BASE_URL_DEFAULT = "https://wp-cna.org";
 
 // ---- base64url + HMAC (Workers Web Crypto) -------------------------------
 function bytesToB64url(bytes) {
@@ -201,13 +203,44 @@ function htmlPage(title, body) {
   );
 }
 
+function isEmailAddress(value = "") {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(value).trim());
+}
+
+function postingUrl(env, posting) {
+  const baseUrl = String(env.SITE_BASE_URL || SITE_BASE_URL_DEFAULT).replace(/\/+$/, "");
+  return `${baseUrl}/posting/${encodeURIComponent(posting.slug)}/`;
+}
+
+function publishedConfirmation({ submitter, posting, url }) {
+  const greeting = submitter.name ? `Hi ${submitter.name},` : "Hello,";
+  return [
+    greeting,
+    "",
+    "Your WPCNA community posting has been accepted and published:",
+    "",
+    posting.title,
+    "",
+    "View it here:",
+    url,
+    "",
+    "The page may take a minute or two to finish appearing everywhere after approval.",
+    "",
+    "Thank you for sharing useful community information with White Plains residents.",
+    "",
+    "— WPCNA"
+  ].join("\n");
+}
+
 export async function handlePublish({ request, env }) {
   const secret = env.APPROVE_SIGNING_SECRET;
   if (!secret) {
     return htmlPage("Not configured", "<h1>Publishing isn't configured</h1><p>The approval signing secret is missing on the server.</p>");
   }
   const token = new URL(request.url).searchParams.get("token");
-  const posting = await verifyToken(token, secret);
+  const signedData = await verifyToken(token, secret);
+  const posting = signedData && signedData.kind === "publish" ? signedData.posting : signedData;
+  const submitter = signedData && signedData.kind === "publish" ? signedData.submitter : null;
   if (!posting || !posting.slug || !posting.title) {
     return htmlPage("Invalid link", "<h1>This approval link is invalid or expired</h1><p>Please re-open the original submission email, or publish the posting manually.</p>");
   }
@@ -220,9 +253,40 @@ export async function handlePublish({ request, env }) {
         `<h1>Already published</h1><p>“${escapeHtml(posting.title)}” is already on the site, so nothing was changed.</p>`
       );
     }
+
+    const url = postingUrl(env, posting);
+    let confirmationStatus = "";
+    if (submitter && isEmailAddress(submitter.email)) {
+      try {
+        await sendSubmitterEmail({
+          env,
+          to: submitter.email,
+          subject: `Your WPCNA community posting is published: ${posting.title}`,
+          body: publishedConfirmation({ submitter, posting, url })
+        });
+        confirmationStatus = `<p>A confirmation with the live link was emailed to ${escapeHtml(submitter.email)}.</p>`;
+      } catch (error) {
+        console.error(
+          JSON.stringify({
+            message: "Published posting confirmation email failed",
+            postingSlug: posting.slug,
+            error: String(error && error.message ? error.message : error)
+          })
+        );
+        confirmationStatus =
+          `<p><strong>The posting was published, but the submitter confirmation email failed.</strong></p>` +
+          `<pre style="white-space:pre-wrap;color:#a33">${escapeHtml(String(error && error.message ? error.message : error))}</pre>`;
+      }
+    } else {
+      confirmationStatus = "<p>No submitter confirmation was sent because no email address was provided.</p>";
+    }
+
     return htmlPage(
       "Published",
-      `<h1>✅ Published</h1><p>“${escapeHtml(posting.title)}” has been added and will appear on the site within a minute or two as the site rebuilds.</p>`
+      `<h1>✅ Published</h1>` +
+        `<p>“${escapeHtml(posting.title)}” has been added and will appear on the site within a minute or two as the site rebuilds.</p>` +
+        `<p><a href="${escapeHtml(url)}">View the posting</a></p>` +
+        confirmationStatus
     );
   } catch (error) {
     return htmlPage(
@@ -236,10 +300,9 @@ function escapeHtml(s = "") {
   return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
 
-// ---- submitter notification (human-approved, rejected items only) ---------
-// Sends a single courteous email to the person who made the submission,
-// explaining why it was not posted. Triggered only when a trusted reviewer
-// clicks the signed /notify-submitter link in the review email.
+// ---- submitter notification -----------------------------------------------
+// Sends a single transactional email after a trusted reviewer either publishes
+// a posting or chooses to explain why a rejected item was not posted.
 async function sendSubmitterEmail({ env, to, subject, body }) {
   if (!env.RESEND_API_KEY) {
     throw new Error("Email is not configured (RESEND_API_KEY missing).");

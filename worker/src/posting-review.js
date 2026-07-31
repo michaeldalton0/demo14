@@ -23,7 +23,6 @@ const POSTING_MAX_LENGTHS = {
 };
 const REQUIRED_POSTING_FIELDS = [
   "name",
-  "email",
   "subject",
   "category",
   "postingType",
@@ -287,7 +286,7 @@ function validateSubmission(submission) {
     return "Please confirm the WPCNA posting guidelines before submitting.";
   }
 
-  if (!isEmail(submission.email)) {
+  if (submission.email && !isEmail(submission.email)) {
     return "Please enter a valid email address.";
   }
 
@@ -810,7 +809,19 @@ export async function handlePostingSubmission({ request, env, corsHeaders, jsonR
   try {
     if (aiReview && ["READY_TO_POST", "NEEDS_REVIEW"].includes(aiReview.recommendation) && env.APPROVE_SIGNING_SECRET) {
       const posting = postingFromSubmission(clean, aiReview);
-      const token = await signPosting(posting, env.APPROVE_SIGNING_SECRET);
+      const token = await signPosting(
+        {
+          kind: "publish",
+          posting,
+          submitter: isEmail(clean.email)
+            ? {
+                email: clean.email,
+                name: clean.name
+              }
+            : null
+        },
+        env.APPROVE_SIGNING_SECRET
+      );
       approveUrl = `${origin}/publish?token=${token}`;
     }
   } catch (error) {
