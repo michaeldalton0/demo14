@@ -1,0 +1,113 @@
+---
+layout: layouts/base.njk
+bodyClass: sports-page
+title: White Plains High School Sports
+metaDescription: Varsity schedules for every White Plains High School team, boys and girls, plus the games coming up this week.
+---
+{% from "components/macros.njk" import gameCard %}
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Tigers athletics</p>
+    <h1>White Plains High School sports</h1>
+    <p>Varsity schedules for every team, boys and girls, pulled straight from the Section 1 scheduling system and refreshed daily.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">Next 7 days</p>
+        <h2>This week</h2>
+        <p>
+          Every varsity game on the calendar over the next week.
+          <strong>This page refreshes daily</strong>, so upcoming games appear here
+          as soon as the school posts them — including playoff dates, which are usually set late.
+        </p>
+      </div>
+      <span class="archive-count">{{ sportsStore.thisWeek.length }} {{ "event" if sportsStore.thisWeek.length == 1 else "events" }}</span>
+    </div>
+
+    {% if sportsStore.thisWeek.length %}
+      <div class="card-grid">
+        {% for game in sportsStore.thisWeek %}
+          {{ gameCard(game) }}
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="empty-state">
+        <h3>Nothing on the varsity calendar in the next seven days.</h3>
+        <p>Browse the full schedules by sport below, or check back once the season is underway.</p>
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+{% if sportsStore.sportsWithSchedules.length %}
+  <section class="section section-alt">
+    <div class="wrap">
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">Schedules</p>
+          <h2>By sport</h2>
+          <p>Teams with a schedule posted for the current season.</p>
+        </div>
+      </div>
+      <div class="card-grid card-grid-2">
+        {% for entry in sportsStore.sportsWithSchedules %}
+          <article class="resource-card">
+            <p class="eyebrow">{{ entry.genders | join(" &amp; ") | safe }}</p>
+            <h3>{{ entry.sport }}</h3>
+            <p>{{ entry.upcomingLabel }} coming up, {{ entry.gameCount }} posted this season.</p>
+            <a class="link-arrow" href="{{ entry.detailUrl | withPrefix }}" aria-label="{{ entry.sport }} schedule">View schedule</a>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+{% endif %}
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">Every varsity team</p>
+        <h2>All {{ sportsStore.teamCount }} teams</h2>
+        <p>Schedules appear here as the athletic department posts them.</p>
+      </div>
+    </div>
+
+    <div class="card-grid card-grid-2">
+      {% for team in sportsStore.teams %}
+        <article class="resource-card">
+          <p class="eyebrow">{{ team.gender }} {{ team.level }}</p>
+          <h3>{{ team.sport }}</h3>
+          {% if team.gameCount %}
+            <p>{{ team.gameCountLabel }} posted.</p>
+            <a class="link-arrow" href="{{ ('/sports/' + team.sportSlug + '/') | withPrefix }}" aria-label="{{ team.name }} schedule">View schedule</a>
+          {% else %}
+            <p>No {{ team.nounPlural }} posted yet — check back soon.</p>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">About this page</p>
+        <h2>Where the schedules come from</h2>
+        <p>
+          Schedules come from the Section 1 scheduling system used by
+          {{ sportsStore.school }}, refreshed once a day — so newly posted games, including playoff
+          dates that are usually set late, show up here on their own. Everything the school publishes
+          about a game is reproduced on this page. Times and locations can change late in the week.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

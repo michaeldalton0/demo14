@@ -44,6 +44,18 @@ metaDescription: A selective calendar of events, meetings, and public life aroun
       <button type="reset" class="btn">Clear</button>
     </form>
 
+    <div class="category-key" role="list" aria-label="Event category colour key">
+      <span class="category-key-label">Key</span>
+      {% for entry in eventStore.categoryLegend %}
+        <span class="category-key-item cat-{{ entry.slug }}" role="listitem">{{ entry.category }}</span>
+      {% endfor %}
+    </div>
+
+    <p class="section-footnote">
+      Marquee Tigers games appear in this list — full varsity schedules for every team are on the
+      <a href="{{ '/sports/' | withPrefix }}">Sports page</a>.
+    </p>
+
     {% if eventStore.upcoming.length %}
       <div class="card-grid">
         {% for event in eventStore.upcoming %}

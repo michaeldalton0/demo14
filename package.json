@@ -11,6 +11,7 @@
     "clean": "rm -rf _site .site-local",
     "update-agendas": "node ./scripts/update-agendas.mjs",
     "update-events": "node ./scripts/update-events.mjs",
+    "update-sports": "node ./scripts/update-sports.mjs",
     "worker:dev": "npm --prefix ./worker run dev",
     "worker:deploy": "npm --prefix ./worker run deploy"
   },

@@ -16,6 +16,7 @@ const MAX_UPCOMING_PER_SERIES_PER_MONTH = 3;
 const HOME_UPCOMING_LIMIT = 6;
 const HOME_UPCOMING_POOL_SIZE = 30;
 const MIN_UPCOMING_SELECTION_SCORE = 10;
+const UPCOMING_DISPLAY_TARGET = 100;
 const HTML_ENTITY_MAP = {
   "&amp;": "&",
   "&quot;": "\"",
@@ -308,6 +309,13 @@ function normalizeEventCopy(event) {
   };
 }
 
+function categorySlug(category = "") {
+  return normalizeText(category)
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 function eventKeys(event) {
   const keys = [];
 
@@ -473,6 +481,8 @@ function scoreUpcomingSelection(event) {
     score += 10;
   } else if (event.importSource === "schools") {
     score += 10;
+  } else if (event.importSource === "sports") {
+    score += 10;
   } else if (event.importSource === "library") {
     score += 8;
   }
@@ -481,6 +491,8 @@ function scoreUpcomingSelection(event) {
     score += 14;
   } else if (event.category === "Parks & Recreation") {
     score += 16;
+  } else if (event.category === "Sports") {
+    score += 14;
   } else if (event.category === "Family" || event.category === "Arts") {
     score += 11;
   } else if (event.category === "Workshop") {
@@ -499,6 +511,11 @@ function scoreUpcomingSelection(event) {
 
   if (/\b(common council meeting|vision zero|housing|financial aid|energy|college|genealogy|narcan|history|white plains|saxon woods|cranberry lake|silver lake|county center)\b/.test(haystack)) {
     score += 9;
+  }
+
+  // Postseason and rivalry games are the ones people plan their week around.
+  if (/\b(playoffs?|sectionals?|regionals?|championships?|turkey bowl|rivalry|senior night)\b/.test(haystack)) {
+    score += 12;
   }
 
   if (/\b(work session|board|commission|agency|corporation|review board|transportation commission|conservation board|planning board|zoning board|special meeting)\b/.test(haystack)) {
@@ -583,6 +600,66 @@ function dedupeDisplayEvents(events) {
   return selected.sort(compareUpcoming);
 }
 
+/**
+ * Fills the events page to UPCOMING_DISPLAY_TARGET, spread as evenly across
+ * categories as the data allows.
+ *
+ * Straight score-ranking buries the small categories — the calendar is dominated
+ * by library programming and city meetings, so a pure top-N is ~80% Learning and
+ * Civic. Instead each category gets a queue ordered by score, and we take one
+ * from each in rotation. Small categories empty out early and the rest of the
+ * slots fall to the big ones, which is "as even as possible" given the supply.
+ * The per-series cap still applies so a weekly series cannot fill its own queue.
+ */
+function selectUpcomingForDisplay(events) {
+  const queues = new Map();
+
+  for (const event of events) {
+    const list = queues.get(event.category) || [];
+    list.push(event);
+    queues.set(event.category, list);
+  }
+
+  const ordered = [...queues.entries()]
+    .sort((a, b) => a[0].localeCompare(b[0]))
+    .map(([, list]) => list.sort(compareUpcomingSelection));
+
+  const selected = [];
+  const seriesCounts = new Map();
+  let tookOne = true;
+
+  while (selected.length < UPCOMING_DISPLAY_TARGET && tookOne) {
+    tookOne = false;
+
+    for (const queue of ordered) {
+      if (selected.length >= UPCOMING_DISPLAY_TARGET) {
+        break;
+      }
+
+      while (queue.length) {
+        const event = queue.shift();
+        const seriesKey = eventSeriesKey(event);
+        const countKey = `${seriesKey}|${event.monthKey}`;
+
+        if (seriesKey && (seriesCounts.get(countKey) || 0) >= MAX_UPCOMING_PER_SERIES_PER_MONTH) {
+          continue;
+        }
+
+        selected.push(event);
+
+        if (seriesKey) {
+          seriesCounts.set(countKey, (seriesCounts.get(countKey) || 0) + 1);
+        }
+
+        tookOne = true;
+        break;
+      }
+    }
+  }
+
+  return selected.sort(compareUpcoming);
+}
+
 function limitUpcomingByMonth(events) {
   const monthMap = new Map();
 
@@ -661,6 +738,7 @@ const all = mergedEvents.map((rawEvent) => {
     primaryAction: buildPrimaryAction(event),
     secondaryLinks: buildSecondaryLinks(event),
     monthKey: event.startDate.slice(0, 7),
+    categorySlug: categorySlug(event.category),
     hasIllustration,
     displayImage: hasIllustration ? null : event.image,
     searchText: [
@@ -678,7 +756,7 @@ const all = mergedEvents.map((rawEvent) => {
 });
 
 const rawUpcoming = all.filter((event) => event.status === "upcoming").sort(compareUpcoming);
-const selectedUpcoming = limitUpcomingByMonth(rawUpcoming);
+const selectedUpcoming = selectUpcomingForDisplay(rawUpcoming);
 const upcoming = dedupeDisplayEvents(selectedUpcoming);
 const selectedUpcomingSlugSet = new Set(selectedUpcoming.map((event) => event.slug));
 const past = all.filter((event) => event.status === "past").sort(comparePast);
@@ -708,6 +786,11 @@ for (const event of visibleAll) {
 }
 
 const categories = [...new Set(visibleAll.map((event) => event.category))].sort();
+// Legend for the events page — only categories actually on show, so the key
+// never advertises a colour the reader cannot find on the page.
+const categoryLegend = [...new Set(upcoming.map((event) => event.category))]
+  .sort()
+  .map((category) => ({ category, slug: categorySlug(category) }));
 const months = [...new Set(visibleAll.map((event) => event.monthKey))].sort();
 
 const featuredUpcoming = upcoming.filter((event) => event.featured);
@@ -721,6 +804,7 @@ module.exports = {
   upcoming,
   past,
   categories,
+  categoryLegend,
   months,
   homeUpcomingLimit: HOME_UPCOMING_LIMIT,
   homeUpcoming,

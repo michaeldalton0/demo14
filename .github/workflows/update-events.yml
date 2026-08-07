@@ -42,6 +42,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # ScheduleGalaxy gets swept once a day (42 varsity teams, ~126 requests),
+      # not on all three event runs. Playoff dates land late, so a daily pass is
+      # what gets them onto the events page in time.
+      - name: Refresh varsity sports schedules
+        if: github.event_name != 'schedule' || github.event.schedule == '15 4 * * *'
+        run: npm run update-sports
+
       - name: Refresh event data
         run: npm run update-events
 
@@ -51,7 +58,7 @@ jobs:
       - name: Check for event changes
         id: changes
         run: |
-          if git diff --quiet -- src/_data/events.auto.json ai/content-index.json worker/src/content-index.js; then
+          if git diff --quiet -- src/_data/events.auto.json src/_data/sports.auto.json ai/content-index.json worker/src/content-index.js; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
@@ -62,7 +69,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/_data/events.auto.json ai/content-index.json worker/src/content-index.js
+          git add src/_data/events.auto.json src/_data/sports.auto.json ai/content-index.json worker/src/content-index.js
           git commit -m "Update event feed"
           git push origin HEAD:main
 

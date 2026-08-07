@@ -3507,3 +3507,155 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
   line-height: 1.25;
   color: var(--ink);
 }
+
+/* ─── Events: muted pointer to the sports hub ─── */
+.section-footnote {
+  margin-top: 0.85rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--ink-muted);
+}
+
+.section-footnote a {
+  color: var(--ink-muted);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.section-footnote a:hover,
+.section-footnote a:focus-visible {
+  color: var(--brand);
+}
+
+/* ─── Sports hub density ───
+   Page-scoped via body.sports-page so the global rhythm is untouched
+   everywhere else. The hub is a dense reference page, not a reading page. */
+.sports-page .page-hero {
+  padding: clamp(1.5rem, 3vw, 2.75rem) 0 clamp(1.1rem, 2vw, 1.75rem);
+}
+
+.sports-page .section {
+  padding: clamp(1.9rem, 3.25vw, 3rem) 0;
+}
+
+.sports-page .section-header {
+  margin-bottom: clamp(0.9rem, 1.6vw, 1.35rem);
+}
+
+.sports-page .card-grid {
+  gap: 0.9rem;
+}
+
+.sports-page .empty-state {
+  padding: 1.4rem 1rem;
+}
+
+.sports-page .archive-panel {
+  margin-top: 0;
+}
+
+/* ─── Event category colour coding ───
+   Nine vivid hues so every category is told apart at a glance — no shared
+   neutral. Brand orange is PINNED to Sports (school spirit); the other eight
+   are placed around the hue wheel with chroma pushed to 0.185 (short of
+   fluorescent) and lightness alternated through the blue-green stretch, where
+   hue alone separates slowly.
+   Worst pair: ΔE 13.3 (Sports vs Workshop — orange against yellow is the price
+   of keeping yellow). Sports vs Food & Downtown is 14.3, up from 6.4 when Food
+   was red. Colour is REDUNDANT: every card and key chip also carries the
+   category name as text, so nothing depends on hue alone. */
+.event-card {
+  --cat: var(--ink-muted);
+  border-left: 4px solid var(--cat);
+}
+
+.cat-sports               { --cat: #d65f22; }  /* brand orange — school spirit */
+.cat-workshop             { --cat: #b49100; }
+.cat-parks-and-recreation { --cat: #108a02; }
+.cat-learning             { --cat: #00736e; }
+.cat-music-and-family     { --cat: #00a1cc; }
+.cat-civic                { --cat: #2760d1; }
+.cat-seasonal             { --cat: #8e61df; }
+.cat-arts                 { --cat: #992d94; }
+.cat-food-and-downtown    { --cat: #e25491; }
+
+/* The swatch carries the hue; the label stays in ink so contrast never
+   depends on the category colour. */
+.event-card .tag::before,
+.category-key-item::before {
+  content: "";
+  display: inline-block;
+  width: 0.55rem;
+  height: 0.55rem;
+  margin-right: 0.4rem;
+  border-radius: 50%;
+  background: var(--cat);
+  vertical-align: baseline;
+}
+
+.event-card .tag {
+  border-color: color-mix(in srgb, var(--cat) 22%, var(--border));
+  background: color-mix(in srgb, var(--cat) 7%, var(--surface));
+  color: var(--ink-secondary);
+}
+
+/* ─── Category key ─── */
+.category-key {
+  /* Default lives on the container, not the item: --cat inherits, so a .cat-*
+     class on the item still wins. Declaring it on the item itself would tie on
+     specificity with .cat-* and beat it on source order — every swatch gray. */
+  --cat: var(--ink-muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  align-items: center;
+  margin-top: 0.85rem;
+  padding: 0.7rem 0.85rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.category-key-label {
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.category-key-item {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.8rem;
+  color: var(--ink-secondary);
+  white-space: nowrap;
+}
+
+/* ─── Game card details (kept on-site, no outbound link) ─── */
+.game-card-details {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.2rem 0.75rem;
+  margin-top: 0.75rem;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.85rem;
+}
+
+.game-card-details > div {
+  display: contents;
+}
+
+.game-card-details dt {
+  font-weight: 700;
+  color: var(--ink-muted);
+  text-transform: uppercase;
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  align-self: center;
+}
+
+.game-card-details dd {
+  margin: 0;
+  color: var(--ink-secondary);
+}

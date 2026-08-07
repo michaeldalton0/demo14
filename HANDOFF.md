@@ -108,6 +108,49 @@ Don't act on these without checking with the user first — these are legitimate
 - Pages: `src/{page}/index.njk` — frontmatter sets layout + permalink
 - Always pipe paths through the `withPrefix` filter so they work under both `/` (local) and `/wpcna/` (deployed).
 
+### Sports hub (`/sports/`)
+
+Varsity schedules for White Plains High School, boys and girls, every sport.
+
+- **Source:** ScheduleGalaxy (Section 1's scheduling system), school **719**. The useful
+  endpoints, none of which are documented:
+  - `/schools/719/teams?page=N` — roster, 20 rows/page, 19 pages, 378 teams (42 varsity).
+    Pages past the end still return 200 with repeated rows, so the importer stops when a
+    page repeats rather than trusting a "next" link.
+  - `/schools/719/teams/{id}/schedule/ical.ics?year=YYYY` — the full-season feed, and the
+    only one that works. `year` is the year the season *started* in, so a Nov–Mar winter
+    season lives under the fall year. (`/teams/{id}/ical` is a 404, as are
+    `/schools/719/calendar`, `/feed`, `/leagues`, and `/tournaments`.)
+  - `/schools/719/teams/{id}?load_partial=1` — the lazy-loaded schedule table. Enrichment
+    only: game type (Scrimmage / Regular Season / playoff rounds), notes, end time. It is
+    allowed to fail on its own without losing the game.
+- **Script:** `scripts/update-sports.mjs` (`npm run update-sports`). Owns
+  `src/_data/sports.auto.json` and nothing else. Per-team try/catch; a failed fetch keeps
+  that team's previously known games rather than reading as "season cancelled". Output has
+  no timestamps and stable sort keys, so running it twice produces no diff.
+- **Data:** `src/_data/sports.auto.json` (`teams` + `games`). `src/_data/sportsStore.js` is
+  the display layer — this-week view, per-sport grouping, home/away labels, and the
+  game/meet/match noun per sport.
+- **Pages:** `src/sports/index.njk` (hub) and `src/sports/sport.njk` (per-sport, paginated
+  over `sportsStore.sportsWithSchedules`).
+- **Entry points:** deliberately *not* in the top nav — it is already full. Reachable from
+  the events page callout, the homepage "Useful pages" card (`resources.json`), and the
+  footer.
+- **Marquee games → events list:** the `sports` source in `scripts/update-events.mjs` reads
+  `sports.auto.json` and promotes only home varsity football, Section 1 rivals (New
+  Rochelle, Scarsdale, Stepinac, Mamaroneck, Mount Vernon), senior nights, and postseason
+  games, under the new **Sports** category. Non-playoff picks are capped at 6/month;
+  **playoff games bypass the cap entirely and are marked `featured`** so the events-page
+  curation layer cannot drop them. Scrimmages are excluded unless postseason.
+- **Workflow:** `.github/workflows/update-events.yml` runs `npm run update-sports` once a
+  day (the `15 4 * * *` cron and any manual dispatch), before `npm run update-events`.
+  Events still refresh 3×/day; the sports sweep is ~126 requests so it does not need to.
+
+> **Upstream caveat:** ScheduleGalaxy is sparsely populated by the athletic department. As
+> of 2026-08-07 only **11 varsity games across 6 of 42 teams** were posted, and prior
+> seasons are just as thin — this is not a scraping gap. The hub lists all 42 teams and
+> fills in on its own as schedules are entered.
+
 ### Build quirks
 - Running `npm run build` from inside the sandbox can throw `EPERM` on the static-asset passthrough copy because of file ownership across the mount boundary. The HTML still builds correctly (154 files) — this error is harmless during verification but should not appear when run from the user's own shell.
 - If the dev server stops reflecting changes, run `./restart-dev.command` rather than fighting the watcher.

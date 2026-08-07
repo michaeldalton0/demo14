@@ -12,11 +12,11 @@ const AUTO_EVENTS_PATH = path.join(ROOT, "src", "_data", "events.auto.json");
 const TIME_ZONE = "America/New_York";
 const USER_AGENT =
   "Mozilla/5.0 (compatible; WPCNAEventUpdater/1.0; +https://wp-cna.github.io/demo4/)";
-const LIBRARY_LOOKAHEAD_DAYS = 45;
+const LIBRARY_LOOKAHEAD_DAYS = 120;
 const CITY_MONTHS_AHEAD = 6;
 const PAST_RETENTION_DAYS = 60;
-const LIBRARY_MAX_REPEAT_COUNT = 2;
-const LIBRARY_MONTHLY_LIMIT = 15;
+const LIBRARY_MAX_REPEAT_COUNT = 3;
+const LIBRARY_MONTHLY_LIMIT = 40;
 
 const LIBRARY_ALWAYS_EXCLUDE_PATTERN =
   /\b(homework help|video game time|tiny tots|toy time|storytime|vr storytime|vr fun|movie time|movie night|esl|english conversation|english classes|english for beginners|french conversation|low intermediate english|ged|citizenship classes|do gooders|tech tuesday|d&d|puzzle swap|stitching with friends|learn to crochet|crochet|beginner sewing|sewing class|kids yoga|paws to read|salsa for absolute beginners|read and stitch|book discussion|book club|club\b|minecraft|magic: the gathering|edge advisory board|after hours|afterplay|advisory board|scrabble|lego|board of trustees|appointment only|library closed)\b/i;
@@ -34,8 +34,8 @@ const PARKS_REC_PATTERN =
   /\b(neighborhood nights?|rock the block|music at the market|concerts? at renaissance plaza|movies? (?:in|at|under) the|movie night|pool|aquatics|swim|splash pad|ice rink|skating|ebersole|day camp|summer camp|rec camp|playground|park cleanup|egg hunt|turkey trot|tree lighting|recreation|rec dept|youth bureau|gardella|delfino|battle hill|turnure|kittrell|druss park|liberty park|chatterton|community center)\b/i;
 
 const COUNTY_PARKS_API = "https://parksevents.westchestergov.com/wp-json/tribe/events/v1/events";
-const COUNTY_PARKS_MONTHS_AHEAD = 3;
-const COUNTY_PARKS_MONTHLY_LIMIT = 10;
+const COUNTY_PARKS_MONTHS_AHEAD = 5;
+const COUNTY_PARKS_MONTHLY_LIMIT = 25;
 const COUNTY_PARKS_MAX_PAGES = 8;
 // County venues that are true parks/preserves -> "Parks & Recreation";
 // event venues like the County Center get categorized by content instead.
@@ -44,12 +44,22 @@ const COUNTY_PARK_VENUE_PATTERN = /saxon woods|cranberry lake|silver lake|miller
 const SCHOOL_CALENDAR_ELEMENT_URL = "https://www.whiteplainspublicschools.org/fs/elements/4485";
 const SCHOOL_CALENDAR_PAGE_URL = "https://www.whiteplainspublicschools.org/calendar";
 const SCHOOL_FINE_ARTS_URL = "https://www.whiteplainspublicschools.org/curriculum/fine-arts/fine-arts-calendar";
-const SCHOOL_MONTHS_AHEAD = 4;
-const SCHOOL_MONTHLY_LIMIT = 10;
+const SCHOOL_MONTHS_AHEAD = 5;
+const SCHOOL_MONTHLY_LIMIT = 20;
 // Only community-facing school events belong on a civic site: performances,
 // charity drives, marquee dates, board meetings — not drills or dismissals.
 const NOTABLE_SCHOOL_PATTERN =
   /\b(concert|recital|play|musical|drama|theater|theatre|performance|art show|art exhibit|gallery|band|orchestra|chorus|choir|jazz|board of education|first day of school|last day of school|graduation|commencement|moving.up|turkey bowl|homecoming|fundraiser|charity|food drive|coat drive|toy drive|blood drive|college fair|science fair|book fair|multicultural|heritage night|family night|open house)\b/i;
+
+// Marquee high-school games, read back out of the file update-sports.mjs owns.
+const SPORTS_DATA_PATH = path.join(ROOT, "src", "_data", "sports.auto.json");
+const SPORTS_MONTHLY_LIMIT = 6;
+// Section 1 rivalries worth a spot on the main events list whatever the sport.
+const SPORTS_RIVAL_PATTERN = /\b(new rochelle|scarsdale|stepinac|mamaroneck|mount vernon)\b/i;
+// Postseason games are scheduled late and always lead — no cap, no exceptions.
+const SPORTS_PLAYOFF_PATTERN =
+  /\b(playoffs?|post[- ]?season|sectionals?|regionals?|championships?|semi[- ]?finals?|quarter[- ]?finals?|finals|state qualifier|turkey bowl)\b/i;
+const SPORTS_SPECIAL_PATTERN = /\b(senior night|senior day|homecoming|turkey bowl)\b/i;
 
 const CATEGORY_IMAGES = {
   "Arts": "/assets/img/events/arts.svg",
@@ -61,6 +71,7 @@ const CATEGORY_IMAGES = {
   "Music & Family": "/assets/img/events/music.svg",
   "Parks & Recreation": "/assets/img/events/parks.svg",
   "Seasonal": "/assets/img/events/seasonal.svg",
+  "Sports": "/assets/img/events/sports.svg",
   "Workshop": "/assets/img/events/workshop.svg"
 };
 
@@ -91,7 +102,8 @@ async function main() {
     { id: "bid", fetcher: () => fetchBidEvents(todayParts) },
     { id: "wppac", fetcher: () => fetchWppacEvents(todayParts) },
     { id: "countyparks", fetcher: () => fetchCountyParksEvents(todayParts) },
-    { id: "schools", fetcher: () => fetchSchoolEvents(todayParts) }
+    { id: "schools", fetcher: () => fetchSchoolEvents(todayParts) },
+    { id: "sports", fetcher: () => fetchSportsEvents(todayParts) }
   ];
 
   const collected = [];
@@ -947,6 +959,117 @@ async function fetchSchoolFineArtsCalendar(todayParts) {
   return collected;
 }
 
+/**
+ * Promotes a trickle of marquee games from the sports hub onto the main events
+ * list. scripts/update-sports.mjs owns sports.auto.json; this only reads it.
+ */
+async function fetchSportsEvents(todayParts) {
+  const data = await readJson(SPORTS_DATA_PATH, null);
+
+  if (!data || !Array.isArray(data.games) || !data.games.length) {
+    throw new Error("No sports dataset available yet.");
+  }
+
+  const marquee = data.games
+    .filter((game) => game.startDate && game.startDate >= todayParts.iso)
+    .map((game) => buildSportsEvent(game, todayParts.iso))
+    .filter(Boolean);
+
+  // Postseason games bypass the monthly cap entirely — if the team is playing
+  // for a section title, that belongs on the events page no matter how busy
+  // the month already is.
+  const postseason = marquee.filter((event) => event.featured);
+  const regular = marquee.filter((event) => !event.featured);
+
+  return dedupeImportedEvents([...postseason, ...limitEventsByMonth(regular, SPORTS_MONTHLY_LIMIT)]);
+}
+
+function buildSportsEvent(game, todayIso) {
+  const haystack = `${game.title || ""} ${game.gameType || ""} ${game.notes || ""}`;
+  const isScrimmage = /scrimmage/i.test(game.gameType || "");
+  const isPostseason = SPORTS_PLAYOFF_PATTERN.test(haystack);
+  const isRivalry = SPORTS_RIVAL_PATTERN.test(game.opponent || "");
+  const isSpecial = SPORTS_SPECIAL_PATTERN.test(haystack);
+  const isHome = game.isHome !== false;
+  const isHomeFootball = isHome && /football/i.test(game.sport || "");
+
+  if (!isPostseason && !isRivalry && !isSpecial && !isHomeFootball) {
+    return null;
+  }
+
+  // Preseason scrimmages are not the big game.
+  if (isScrimmage && !isPostseason) {
+    return null;
+  }
+
+  const opponent = cleanText(game.opponent) || "an opponent to be announced";
+  const teamName = cleanText(game.teamName) || `White Plains ${cleanText(game.sport)}`;
+  const venue = cleanText(game.locationName) || (isHome ? "White Plains High School" : "");
+  const title = isHome ? `${teamName} vs. ${opponent}` : `${teamName} at ${opponent}`;
+  const occasion = isPostseason
+    ? "Postseason play."
+    : isSpecial
+      ? "A marquee date on the schedule."
+      : isRivalry
+        ? "A Section 1 rivalry game."
+        : "";
+  const shortSummary = [
+    isHome ? `${teamName} hosts ${opponent}` : `${teamName} travels to face ${opponent}`,
+    venue ? `at ${venue}.` : ".",
+    occasion
+  ]
+    .join(" ")
+    .replace(/\s+\./g, ".")
+    .trim();
+  // Everything a reader needs stays on wp-cna.org — no trip to a third-party site.
+  const details = [
+    `${isHome ? "Home" : "Away"} ${/football|soccer|basketball|volleyball|baseball|softball|hockey|lacrosse/i.test(game.sport || "") ? "game" : "event"}.`,
+    game.startTime ? `Scheduled start ${formatClockLabel(game.startTime)}.` : "Start time to be announced.",
+    venue ? `Venue: ${venue}.` : "",
+    cleanText(game.gameType) && !/regular season/i.test(game.gameType) ? `${cleanText(game.gameType)}.` : "",
+    cleanText(game.notes) ? `Note: ${cleanText(game.notes)}.` : ""
+  ]
+    .filter(Boolean)
+    .join(" ");
+
+  return buildImportedEvent({
+    title,
+    category: "Sports",
+    shortSummary: buildSummary(shortSummary, 165),
+    fullDescription: appendSourceNote(
+      [shortSummary, details].filter(Boolean).join(" "),
+      "Schedules come from the school's athletic department and can change late in the week."
+    ),
+    startDate: game.startDate,
+    endDate: game.startDate,
+    startTime: game.startTime || null,
+    endTime: game.endTime || null,
+    locationName: venue,
+    locationAddress: isHome ? "White Plains, NY" : "",
+    image: imageForCategory("Sports"),
+    flyerPdf: null,
+    // Deliberately internal: the hub is the destination, not a third-party site.
+    // A relative URL yields no dedupe key, so identity falls back to the slug —
+    // still unique per game, so a season cannot collapse into one listing.
+    externalUrl: `/sports/${game.sportSlug || slugify(game.sport || "")}/`,
+    ctaLabel: "See the full schedule",
+    featured: isPostseason,
+    status: deriveStatus(game.startDate, game.startDate, todayIso),
+    tags: dedupeStrings([
+      "sports",
+      cleanText(game.sport).toLowerCase(),
+      cleanText(game.gender).toLowerCase(),
+      "white plains high school",
+      isPostseason ? "playoffs" : "",
+      isRivalry ? "rivalry" : ""
+    ]).map(toTag),
+    organizer: "White Plains High School Athletics",
+    sourceUrl: null,
+    sourceLabel: "White Plains High School Athletics",
+    importSource: "sports"
+  });
+}
+
 function limitEventsByMonth(events, monthlyLimit) {
   const grouped = new Map();
 
@@ -1408,6 +1531,18 @@ function dedupeStrings(values) {
 
 function padNumber(value) {
   return String(value).padStart(2, "0");
+}
+
+function formatClockLabel(value) {
+  const match = /^(\d{2}):(\d{2})$/.exec(String(value || ""));
+
+  if (!match) {
+    return "";
+  }
+
+  const hour = Number(match[1]);
+  const meridiem = hour < 12 ? "a.m." : "p.m.";
+  return `${hour % 12 || 12}:${match[2]} ${meridiem}`;
 }
 
 function slugify(value) {

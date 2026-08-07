@@ -1,0 +1,95 @@
+---
+pagination:
+  data: sportsStore.sportsWithSchedules
+  size: 1
+  alias: entry
+permalink: "sports/{{ entry.sportSlug }}/index.html"
+layout: layouts/base.njk
+bodyClass: sports-page
+eleventyComputed:
+  title: "White Plains {{ entry.sport }} schedule"
+  metaDescription: "Varsity {{ entry.sport }} schedule for White Plains High School."
+---
+{% from "components/macros.njk" import gameCard %}
+
+<section class="page-hero">
+  <div class="wrap">
+    <a class="back-link" href="{{ '/sports/' | withPrefix }}">Sports</a>
+    <p class="eyebrow">{{ entry.genders | join(" &amp; ") | safe }} varsity</p>
+    <h1>{{ entry.sport }}</h1>
+    <p>{{ entry.upcomingLabel }} coming up for White Plains High School. This page refreshes daily as new dates are posted.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">Schedule</p>
+        <h2>Upcoming {{ entry.nounPlural }}</h2>
+      </div>
+      <span class="archive-count">{{ entry.upcomingLabel }}</span>
+    </div>
+
+    {% if entry.upcoming.length %}
+      <div class="card-grid">
+        {% for game in entry.upcoming %}
+          {{ gameCard(game, false) }}
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="empty-state">
+        <h3>No upcoming {{ entry.sport | lower }} {{ entry.nounPlural }}.</h3>
+        <p>The rest of the season has not been posted yet.</p>
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+{% if entry.past.length %}
+  <section class="section section-alt">
+    <div class="wrap">
+      <details class="archive-panel">
+        <summary>
+          <span>
+            <span class="eyebrow">Archive</span>
+            <strong>Earlier {{ entry.nounPlural }}</strong>
+          </span>
+          <span class="archive-count">{{ entry.past.length }} {{ entry.noun if entry.past.length == 1 else entry.nounPlural }}</span>
+        </summary>
+        <div>
+          <p class="archive-intro">Recent {{ entry.nounPlural }} kept here for reference.</p>
+          <div class="card-grid">
+            {% for game in entry.past %}
+              {{ gameCard(game, false) }}
+            {% endfor %}
+          </div>
+        </div>
+      </details>
+    </div>
+  </section>
+{% endif %}
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">Teams</p>
+        <h2>{{ entry.sport }} at White Plains</h2>
+      </div>
+    </div>
+    <div class="card-grid card-grid-2">
+      {% for team in entry.teams %}
+        <article class="resource-card">
+          <p class="eyebrow">{{ team.gender }} {{ team.level }}</p>
+          <h3>{{ team.name }}</h3>
+          {% if team.gameCount %}
+            <p>{{ team.gameCountLabel }} posted this season.</p>
+          {% else %}
+            <p>No {{ team.nounPlural }} posted yet — check back soon.</p>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

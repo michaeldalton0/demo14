@@ -26,7 +26,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | withPrefix }}?v={{ site.assetVersion }}">
   <script defer src="{{ '/assets/js/site.js' | withPrefix }}"></script>
 </head>
-<body>
+<body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
   <a class="skip-link" href="#main">Skip to content</a>
   {% include "components/header.njk" %}
   <main id="main">

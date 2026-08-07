@@ -1,6 +1,6 @@
 {% macro eventCard(event, featured=false, initiallyHidden=false) %}
   <article
-    class="event-card"
+    class="event-card cat-{{ event.categorySlug }}"
     data-event-card
     data-category="{{ event.category }}"
     data-month="{{ event.monthKey }}"
@@ -34,6 +34,38 @@
       <div class="event-card-actions">
         <a class="btn btn-primary" href="{{ event.detailUrl | withPrefix }}" aria-label="View details for {{ event.title }}">Details</a>
       </div>
+    </div>
+  </article>
+{% endmacro %}
+
+{% macro gameCard(game, showSport=true) %}
+  <article
+    class="event-card game-card"
+    data-game-card
+    data-sport="{{ game.sport }}"
+    data-gender="{{ game.gender }}"
+    data-status="{{ game.status }}"
+    data-start-date="{{ game.startDate }}"
+    data-search="{{ game.searchText }}"
+  >
+    <div class="event-card-body">
+      <div class="event-card-top">
+        {% if showSport %}<span class="tag">{{ game.sport }}</span>{% endif %}
+        <span class="tag tag-muted">{{ game.homeAwayLabel }}</span>
+        {% if game.isScrimmage %}<span class="tag tag-muted">Scrimmage</span>{% endif %}
+      </div>
+      <h3>{{ game.teamName }} {{ "vs." if game.isHome else "at" }} {{ game.opponentLabel }}</h3>
+      <p class="event-card-date">{{ game | shortDateLabel }}</p>
+      <div class="event-card-meta">
+        <span>{{ game | timeLabel }}</span>
+        <span>{{ game.venue }}</span>
+      </div>
+      <dl class="game-card-details">
+        <div><dt>Opponent</dt><dd>{{ game.opponentLabel }}</dd></div>
+        <div><dt>{{ game.homeAwayLabel }}</dt><dd>{{ game.venue }}</dd></div>
+        {% if game.gameType %}<div><dt>Type</dt><dd>{{ game.gameType }}</dd></div>{% endif %}
+        {% if game.notes %}<div><dt>Notes</dt><dd>{{ game.notes }}</dd></div>{% endif %}
+      </dl>
     </div>
   </article>
 {% endmacro %}

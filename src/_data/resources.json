@@ -14,6 +14,13 @@
     "eyebrow": "WPCNA"
   },
   {
+    "title": "High school sports",
+    "summary": "Varsity schedules for every White Plains High School team, boys and girls, with the week's games up front.",
+    "url": "/sports/",
+    "ctaLabel": "See schedules",
+    "eyebrow": "Community"
+  },
+  {
     "title": "Community Posting",
     "summary": "How to send community-serving neighborhood and civic information to WPCNA for review.",
     "url": "/posting/",
