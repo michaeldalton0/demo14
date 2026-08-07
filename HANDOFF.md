@@ -138,7 +138,7 @@ Varsity schedules for White Plains High School, boys and girls, every sport.
   footer.
 - **Marquee games → events list:** the `sports` source in `scripts/update-events.mjs` reads
   `sports.auto.json` and promotes only home varsity football, Section 1 rivals (New
-  Rochelle, Scarsdale, Stepinac, Mamaroneck, Mount Vernon), senior nights, and postseason
+  Rochelle, Scarsdale, Stepinac, Mamaroneck, Mount Vernon, Harrison), senior nights, and postseason
   games, under the new **Sports** category. Non-playoff picks are capped at 6/month;
   **playoff games bypass the cap entirely and are marked `featured`** so the events-page
   curation layer cannot drop them. Scrimmages are excluded unless postseason.

@@ -4561,6 +4561,37 @@
     "importSource": "library"
   },
   {
+    "id": "sports-girls-varsity-swimming-diving-vs-harrison-2026-09-08",
+    "slug": "sports-girls-varsity-swimming-diving-vs-harrison-2026-09-08",
+    "title": "Girls Varsity Swimming/Diving vs. Harrison",
+    "category": "Sports",
+    "shortSummary": "Girls Varsity Swimming/Diving hosts Harrison at White Plains High School.",
+    "fullDescription": "Girls Varsity Swimming/Diving hosts Harrison at White Plains High School. A Section 1 rivalry game. Home event. Scheduled start 4:30 p.m.. Venue: White Plains High School. Schedules come from the school's athletic department and can change late in the week.",
+    "startDate": "2026-09-08",
+    "endDate": "2026-09-08",
+    "startTime": "16:30",
+    "endTime": null,
+    "locationName": "White Plains High School",
+    "locationAddress": "White Plains, NY",
+    "image": "/assets/img/events/sports.svg",
+    "flyerPdf": null,
+    "externalUrl": "/sports/swimming-diving/",
+    "ctaLabel": "See the full schedule",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "sports",
+      "swimming/diving",
+      "girls",
+      "white plains high school",
+      "rivalry"
+    ],
+    "organizer": "White Plains High School Athletics",
+    "sourceUrl": "/sports/swimming-diving/",
+    "sourceLabel": "White Plains High School Athletics",
+    "importSource": "sports"
+  },
+  {
     "id": "city-common-council-meeting-2026-09-08",
     "slug": "city-common-council-meeting-2026-09-08",
     "title": "Common Council Meeting",

@@ -55,7 +55,7 @@ const NOTABLE_SCHOOL_PATTERN =
 const SPORTS_DATA_PATH = path.join(ROOT, "src", "_data", "sports.auto.json");
 const SPORTS_MONTHLY_LIMIT = 6;
 // Section 1 rivalries worth a spot on the main events list whatever the sport.
-const SPORTS_RIVAL_PATTERN = /\b(new rochelle|scarsdale|stepinac|mamaroneck|mount vernon)\b/i;
+const SPORTS_RIVAL_PATTERN = /\b(new rochelle|scarsdale|stepinac|mamaroneck|mount vernon|harrison)\b/i;
 // Postseason games are scheduled late and always lead — no cap, no exceptions.
 const SPORTS_PLAYOFF_PATTERN =
   /\b(playoffs?|post[- ]?season|sectionals?|regionals?|championships?|semi[- ]?finals?|quarter[- ]?finals?|finals|state qualifier|turkey bowl)\b/i;
