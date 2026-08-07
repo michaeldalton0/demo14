@@ -469,12 +469,18 @@ function scoreUpcomingSelection(event) {
     score += 14;
   } else if (event.importSource === "city") {
     score += 10;
+  } else if (event.importSource === "countyparks") {
+    score += 10;
+  } else if (event.importSource === "schools") {
+    score += 10;
   } else if (event.importSource === "library") {
     score += 8;
   }
 
   if (event.category === "Food & Downtown" || event.category === "Music & Family") {
     score += 14;
+  } else if (event.category === "Parks & Recreation") {
+    score += 16;
   } else if (event.category === "Family" || event.category === "Arts") {
     score += 11;
   } else if (event.category === "Workshop") {
@@ -491,7 +497,7 @@ function scoreUpcomingSelection(event) {
     score += 14;
   }
 
-  if (/\b(common council meeting|vision zero|housing|financial aid|energy|college|genealogy|narcan|history|white plains)\b/.test(haystack)) {
+  if (/\b(common council meeting|vision zero|housing|financial aid|energy|college|genealogy|narcan|history|white plains|saxon woods|cranberry lake|silver lake|county center)\b/.test(haystack)) {
     score += 9;
   }
 

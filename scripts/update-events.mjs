@@ -27,6 +27,30 @@ const LIBRARY_BROAD_INTEREST_PATTERN =
 const LIBRARY_HIGH_PRIORITY_PATTERN =
   /\b(white plains|county|history|financial aid|college|housing|discrimination|energy|narcan|elder law|genealogy|county legislators|leadership|future is female|artificial intelligence|a\.i\.|3d printing|earth day|heritage|public service|interview|concert|film screening|open mic|poetry)\b/i;
 
+// Recreation Department programming on the city calendar gets its own category
+// so it can be surfaced separately (title/venue based — deliberately specific
+// to avoid catching civic meetings or the word "Parks" in organizer names).
+const PARKS_REC_PATTERN =
+  /\b(neighborhood nights?|rock the block|music at the market|concerts? at renaissance plaza|movies? (?:in|at|under) the|movie night|pool|aquatics|swim|splash pad|ice rink|skating|ebersole|day camp|summer camp|rec camp|playground|park cleanup|egg hunt|turkey trot|tree lighting|recreation|rec dept|youth bureau|gardella|delfino|battle hill|turnure|kittrell|druss park|liberty park|chatterton|community center)\b/i;
+
+const COUNTY_PARKS_API = "https://parksevents.westchestergov.com/wp-json/tribe/events/v1/events";
+const COUNTY_PARKS_MONTHS_AHEAD = 3;
+const COUNTY_PARKS_MONTHLY_LIMIT = 10;
+const COUNTY_PARKS_MAX_PAGES = 8;
+// County venues that are true parks/preserves -> "Parks & Recreation";
+// event venues like the County Center get categorized by content instead.
+const COUNTY_PARK_VENUE_PATTERN = /saxon woods|cranberry lake|silver lake|miller house|preserve|\bpark\b|\bpool\b|trailside/i;
+
+const SCHOOL_CALENDAR_ELEMENT_URL = "https://www.whiteplainspublicschools.org/fs/elements/4485";
+const SCHOOL_CALENDAR_PAGE_URL = "https://www.whiteplainspublicschools.org/calendar";
+const SCHOOL_FINE_ARTS_URL = "https://www.whiteplainspublicschools.org/curriculum/fine-arts/fine-arts-calendar";
+const SCHOOL_MONTHS_AHEAD = 4;
+const SCHOOL_MONTHLY_LIMIT = 10;
+// Only community-facing school events belong on a civic site: performances,
+// charity drives, marquee dates, board meetings — not drills or dismissals.
+const NOTABLE_SCHOOL_PATTERN =
+  /\b(concert|recital|play|musical|drama|theater|theatre|performance|art show|art exhibit|gallery|band|orchestra|chorus|choir|jazz|board of education|first day of school|last day of school|graduation|commencement|moving.up|turkey bowl|homecoming|fundraiser|charity|food drive|coat drive|toy drive|blood drive|college fair|science fair|book fair|multicultural|heritage night|family night|open house)\b/i;
+
 const CATEGORY_IMAGES = {
   "Arts": "/assets/img/events/arts.svg",
   "Civic": "/assets/img/events/civic.svg",
@@ -35,6 +59,7 @@ const CATEGORY_IMAGES = {
   "Food & Downtown": "/assets/img/events/food.svg",
   "Learning": "/assets/img/events/learning.svg",
   "Music & Family": "/assets/img/events/music.svg",
+  "Parks & Recreation": "/assets/img/events/parks.svg",
   "Seasonal": "/assets/img/events/seasonal.svg",
   "Workshop": "/assets/img/events/workshop.svg"
 };
@@ -64,7 +89,9 @@ async function main() {
     { id: "library", fetcher: () => fetchLibraryEvents(todayParts) },
     { id: "city", fetcher: () => fetchCityEvents(todayParts) },
     { id: "bid", fetcher: () => fetchBidEvents(todayParts) },
-    { id: "wppac", fetcher: () => fetchWppacEvents(todayParts) }
+    { id: "wppac", fetcher: () => fetchWppacEvents(todayParts) },
+    { id: "countyparks", fetcher: () => fetchCountyParksEvents(todayParts) },
+    { id: "schools", fetcher: () => fetchSchoolEvents(todayParts) }
   ];
 
   const collected = [];
@@ -337,12 +364,15 @@ async function fetchCityEvents(todayParts) {
       const parsedTimes = parseTimeRange(timeText);
 
       const description = buildCityDescription(title, locationName, locationAddress);
-      const category = categorizeEvent({
-        title,
-        description,
-        organizer: "City of White Plains",
-        tags: locationLines
-      });
+      const isRecEvent = PARKS_REC_PATTERN.test(`${title} ${locationLines.join(" ")}`);
+      const category = isRecEvent
+        ? "Parks & Recreation"
+        : categorizeEvent({
+            title,
+            description,
+            organizer: "City of White Plains",
+            tags: locationLines
+          });
 
       collected.push(
         buildImportedEvent({
@@ -524,7 +554,15 @@ async function fetchWppacEvents(todayParts) {
   const collected = [];
 
   for (const link of links) {
-    const showHtml = await fetchText(link);
+    let showHtml;
+
+    try {
+      showHtml = await fetchText(link);
+    } catch (error) {
+      console.warn(`Skipping WPPAC show page ${link}: ${error.message}`);
+      continue;
+    }
+
     const show = buildWppacEvent(showHtml, link, todayParts);
 
     if (show) {
@@ -633,6 +671,293 @@ function parseMonthRange(text, todayParts) {
     startDate: `${year}-${padNumber(startMonth)}-${padNumber(match[2])}`,
     endDate: `${endYear}-${padNumber(endMonth)}-${padNumber(match[4])}`
   };
+}
+
+async function fetchCountyParksEvents(todayParts) {
+  const endDate = shiftIsoDate(todayParts.iso, COUNTY_PARKS_MONTHS_AHEAD * 31);
+  const collected = [];
+
+  for (let page = 1; page <= COUNTY_PARKS_MAX_PAGES; page += 1) {
+    const url = `${COUNTY_PARKS_API}?per_page=50&page=${page}&start_date=${todayParts.iso}&end_date=${endDate}`;
+    let payload;
+
+    try {
+      payload = await fetchJson(url);
+    } catch (error) {
+      if (page === 1) {
+        throw error;
+      }
+
+      break;
+    }
+
+    const items = Array.isArray(payload.events) ? payload.events : [];
+
+    for (const item of items) {
+      const event = buildCountyParksEvent(item, todayParts.iso);
+
+      if (event) {
+        collected.push(event);
+      }
+    }
+
+    if (!items.length || !payload.next_rest_url) {
+      break;
+    }
+  }
+
+  return limitEventsByMonth(dedupeImportedEvents(collected), COUNTY_PARKS_MONTHLY_LIMIT);
+}
+
+function buildCountyParksEvent(item, todayIso) {
+  const venue = item.venue || {};
+  const venueCity = cleanText(venue.city || "");
+
+  if (!/white plains/i.test(venueCity)) {
+    return null;
+  }
+
+  const title = cleanText(item.title);
+  const startDate = String(item.start_date || "").slice(0, 10);
+
+  if (!title || !startDate || /^cancell?ed/i.test(title)) {
+    return null;
+  }
+
+  const allDay = Boolean(item.all_day);
+  const endDate = String(item.end_date || "").slice(0, 10) || startDate;
+  const startTime = allDay ? null : String(item.start_date || "").slice(11, 16) || null;
+  const endTime = allDay ? null : String(item.end_date || "").slice(11, 16) || null;
+  const description = buildSummary(cleanText(item.description || ""), 600);
+  const venueName = cleanText(venue.venue || "Westchester County Parks");
+  const locationAddress = [cleanText(venue.address), [venueCity, "NY"].filter(Boolean).join(", "), cleanText(venue.zip)]
+    .filter(Boolean)
+    .join(", ");
+  const isParkVenue = COUNTY_PARK_VENUE_PATTERN.test(venueName);
+  const category = isParkVenue
+    ? "Parks & Recreation"
+    : categorizeEvent({
+        title,
+        description,
+        organizer: "Westchester County",
+        tags: [venueName]
+      });
+  const cost = cleanText(item.cost || "");
+  const costNote = cost && !/^free$/i.test(cost) ? `Cost: ${cost}.` : cost ? "Free to attend." : "";
+  const detailUrl = normalizeUrl(item.url);
+  const fullDescription = appendSourceNote(
+    [description, costNote].filter(Boolean).join(" "),
+    "Check the county parks page for registration, tickets, and any schedule updates."
+  );
+
+  return buildImportedEvent({
+    title,
+    category,
+    shortSummary: buildSummary(description || `${title} is on the Westchester County Parks calendar.`, 165),
+    fullDescription,
+    startDate,
+    endDate,
+    startTime,
+    endTime,
+    locationName: venueName,
+    locationAddress: locationAddress || "White Plains, NY",
+    image: imageForCategory(category),
+    flyerPdf: null,
+    externalUrl: detailUrl,
+    ctaLabel: "Open county parks page",
+    featured: false,
+    status: deriveStatus(startDate, endDate, todayIso),
+    tags: dedupeStrings(["county parks", isParkVenue ? "parks & recreation" : "", ...extractKeywordTags(`${title} ${description}`)]).map(toTag),
+    organizer: "Westchester County Parks",
+    sourceUrl: detailUrl,
+    sourceLabel: "County Parks calendar",
+    importSource: "countyparks"
+  });
+}
+
+async function fetchSchoolEvents(todayParts) {
+  const [districtEvents, fineArtsEvents] = await Promise.all([
+    fetchSchoolDistrictCalendar(todayParts).catch((error) => {
+      console.warn(`Schools district calendar failed: ${error.message}`);
+      return [];
+    }),
+    fetchSchoolFineArtsCalendar(todayParts).catch((error) => {
+      console.warn(`Schools fine arts calendar failed: ${error.message}`);
+      return [];
+    })
+  ]);
+
+  return limitEventsByMonth(dedupeImportedEvents([...districtEvents, ...fineArtsEvents]), SCHOOL_MONTHLY_LIMIT);
+}
+
+async function fetchSchoolDistrictCalendar(todayParts) {
+  const months = buildMonthSequence(todayParts, SCHOOL_MONTHS_AHEAD);
+  const collected = [];
+
+  for (const monthEntry of months) {
+    const url = `${SCHOOL_CALENDAR_ELEMENT_URL}?cal_date=${monthEntry.year}-${padNumber(monthEntry.month)}-01`;
+    const html = await fetchText(url);
+    const $ = cheerio.load(html);
+
+    $(".fsCalendarDaybox").each((_, box) => {
+      const container = $(box);
+      const dateEl = container.find(".fsCalendarDate").first();
+      const year = Number(dateEl.attr("data-year"));
+      const monthIndex = Number(dateEl.attr("data-month"));
+      const day = Number(dateEl.attr("data-day"));
+
+      if (!year || Number.isNaN(monthIndex) || !day) {
+        return;
+      }
+
+      const startDate = `${year}-${padNumber(monthIndex + 1)}-${padNumber(day)}`;
+
+      if (startDate < todayParts.iso) {
+        return;
+      }
+
+      container.find(".fsCalendarInfo").each((__, info) => {
+        const entry = $(info);
+        const title = cleanText(entry.find(".fsCalendarEventTitle").first().attr("title") || entry.find(".fsCalendarEventTitle").first().text());
+
+        if (!title || !NOTABLE_SCHOOL_PATTERN.test(title)) {
+          return;
+        }
+
+        const timeText = cleanText(entry.find(".fsTimeRange").first().text());
+        const parsedTimes = /all day/i.test(timeText) ? { startTime: null, endTime: null } : parseTimeRange(timeText);
+        const locationName = cleanText(entry.find(".fsLocation").first().text()) || "White Plains Public Schools";
+        const detectedCategory = categorizeEvent({
+          title,
+          description: "",
+          organizer: "White Plains Public Schools",
+          tags: ["school district"]
+        });
+        const category = detectedCategory === "Community" ? "Learning" : detectedCategory;
+        const description = `${title} is listed on the White Plains City School District calendar.`;
+
+        collected.push(
+          buildImportedEvent({
+            title,
+            category,
+            shortSummary: buildSummary(description, 155),
+            fullDescription: appendSourceNote(description, "Check the district calendar for updates and details."),
+            startDate,
+            endDate: startDate,
+            startTime: parsedTimes.startTime,
+            endTime: parsedTimes.endTime,
+            locationName,
+            locationAddress: "White Plains, NY",
+            image: imageForCategory(category),
+            flyerPdf: null,
+            externalUrl: SCHOOL_CALENDAR_PAGE_URL,
+            ctaLabel: "Open district calendar",
+            featured: false,
+            status: deriveStatus(startDate, startDate, todayParts.iso),
+            tags: dedupeStrings(["schools", "school district", ...extractKeywordTags(title)]).map(toTag),
+            organizer: "White Plains Public Schools",
+            sourceUrl: SCHOOL_CALENDAR_PAGE_URL,
+            sourceLabel: "School district calendar",
+            importSource: "schools"
+          })
+        );
+      });
+    });
+  }
+
+  return collected;
+}
+
+async function fetchSchoolFineArtsCalendar(todayParts) {
+  const html = await fetchText(SCHOOL_FINE_ARTS_URL);
+  const $ = cheerio.load(html);
+  const collected = [];
+  const lines = $("body")
+    .text()
+    .split("\n")
+    .map((line) => cleanText(line))
+    .filter(Boolean);
+
+  for (const line of lines) {
+    const match = line.match(/^([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4})\s*[-–—]\s*(.+)$/);
+
+    if (!match) {
+      continue;
+    }
+
+    const month = MONTH_INDEX[match[1].toLowerCase()];
+    const day = Number(match[2]);
+    const year = Number(match[3]);
+
+    if (!month || !day || !year) {
+      continue;
+    }
+
+    const startDate = `${year}-${padNumber(month)}-${padNumber(day)}`;
+
+    if (startDate < todayParts.iso) {
+      continue;
+    }
+
+    const remainder = match[4];
+    const segments = remainder.split(/\s+[-–—]\s+/);
+    const venue = segments.length > 1 ? cleanText(segments[segments.length - 1]) : "";
+    let titlePart = cleanText(segments.slice(0, Math.max(1, segments.length - 1)).join(" - "));
+    let startTime = null;
+    const timeMatch = titlePart.match(/,\s*((?:\d{1,2})(?::\d{2})?\s*[ap]\.?m\.?)\s*$/i);
+
+    if (timeMatch) {
+      startTime = parseTime(timeMatch[1]);
+      titlePart = cleanText(titlePart.slice(0, timeMatch.index));
+    }
+
+    if (!titlePart) {
+      continue;
+    }
+
+    const description = `${titlePart} is on the White Plains Public Schools fine arts calendar${venue ? ` at ${venue}` : ""}.`;
+
+    collected.push(
+      buildImportedEvent({
+        title: titlePart,
+        category: "Arts",
+        shortSummary: buildSummary(description, 155),
+        fullDescription: appendSourceNote(description, "Check the fine arts calendar for updates and details."),
+        startDate,
+        endDate: startDate,
+        startTime,
+        endTime: null,
+        locationName: venue || "White Plains Public Schools",
+        locationAddress: "White Plains, NY",
+        image: imageForCategory("Arts"),
+        flyerPdf: null,
+        externalUrl: SCHOOL_FINE_ARTS_URL,
+        ctaLabel: "Open fine arts calendar",
+        featured: false,
+        status: deriveStatus(startDate, startDate, todayParts.iso),
+        tags: dedupeStrings(["schools", "fine arts", ...extractKeywordTags(titlePart)]).map(toTag),
+        organizer: "White Plains Public Schools",
+        sourceUrl: SCHOOL_FINE_ARTS_URL,
+        sourceLabel: "WPCSD Fine Arts calendar",
+        importSource: "schools"
+      })
+    );
+  }
+
+  return collected;
+}
+
+function limitEventsByMonth(events, monthlyLimit) {
+  const grouped = new Map();
+
+  for (const event of events) {
+    const monthKey = event.startDate.slice(0, 7);
+    grouped.set(monthKey, [...(grouped.get(monthKey) || []), event]);
+  }
+
+  return [...grouped.entries()]
+    .sort((a, b) => a[0].localeCompare(b[0]))
+    .flatMap(([, monthEvents]) => monthEvents.sort(compareEventsForOutput).slice(0, monthlyLimit));
 }
 
 function normalizeImportedEvent(event, todayIso) {
@@ -1042,12 +1367,33 @@ function normalizeUrl(value) {
 
 function cleanText(value) {
   return collapseWhitespace(
-    String(value || "")
-      .replace(/<[^>]+>/g, " ")
-      .replaceAll("&nbsp;", " ")
-      .replaceAll("&thinsp;", " ")
-      .replace(/\u00a0/g, " ")
+    decodeHtmlEntities(
+      String(value || "")
+        .replace(/<[^>]+>/g, " ")
+        .replaceAll("&nbsp;", " ")
+        .replaceAll("&thinsp;", " ")
+        .replace(/\u00a0/g, " ")
+    )
   );
+}
+
+function decodeHtmlEntities(value) {
+  return String(value || "")
+    .replace(/&#x([0-9a-f]+);/gi, (_, code) => safeCodePoint(parseInt(code, 16)))
+    .replace(/&#(\d+);/g, (_, code) => safeCodePoint(Number(code)))
+    .replaceAll("&amp;", "&")
+    .replaceAll("&quot;", '"')
+    .replaceAll("&apos;", "'")
+    .replaceAll("&lt;", "<")
+    .replaceAll("&gt;", ">");
+}
+
+function safeCodePoint(code) {
+  try {
+    return String.fromCodePoint(code);
+  } catch {
+    return " ";
+  }
 }
 
 function collapseWhitespace(value) {
