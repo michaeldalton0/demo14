@@ -34,6 +34,26 @@ These assets remain in the project and can be reused later, but they are not the
 - Creator: `DanTD`
 - License: `CC BY-SA 4.0`
 
+### Sports hub hero
+
+- File: `src/assets/img/heroes/cna-sports-hero.jpg`
+- Source page: <https://commons.wikimedia.org/wiki/File:Athletics_track_start_line_numbers_1,_2,_3.jpg>
+- Title: `Athletics track start line numbers 1, 2, 3`
+- Creator: `Santeri Viinamäki`
+- License: `CC BY-SA 4.0` — attribution is required and is rendered in the credit
+  bar directly under the hero on `/sports/`. Do not remove it.
+- Notes: Downloaded from Wikimedia Commons and resized to 2200px wide on
+  2026-08-07. Chosen deliberately over game photography: an orange all-weather
+  track with white lane markings carries **no team, no uniform, and no logo at
+  all**, and its orange/white reads as White Plains' own colours (orange, black,
+  white) rather than some other school's. It is also sport-neutral, which suits
+  a hub covering 42 varsity teams across every sport.
+- Rejected alternatives: a Merrimack College night game (blue/white kit and a
+  blue-and-yellow midfield mark — clashed with the WPHS palette) and a Celina
+  High School night game (school name painted across the endzone and spelled out
+  on flags). If this is ever swapped, keep the bar there: no legible branding,
+  and nothing that reads as another school's colours.
+
 ## Neighborhood Placeholder Graphics
 
 The homepage neighborhood section currently uses locally created placeholder graphics:

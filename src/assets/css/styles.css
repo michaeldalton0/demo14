@@ -569,6 +569,7 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
 @media (min-width: 1200px) {
   .image-hero-neighborhoods .image-hero-label,
   .image-hero-events .image-hero-label,
+  .image-hero-sports .image-hero-label,
   .image-hero-posting .image-hero-label,
   .image-hero-agendas .image-hero-label,
   .image-hero-handbook .image-hero-label,
@@ -602,8 +603,15 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
   max-width: 100%;
 }
 
+/* Each span is its own line (via .image-hero-label span { display: block }), so
+   the hand-set three-line break still holds wherever it fits. It must NOT be
+   nowrap: the font bottoms out at its 20pt clamp floor below ~1720px while the
+   label's max-width keeps shrinking with the viewport, so a locked line runs
+   past the orange block instead of reflowing. Let it wrap and it degrades to
+   four lines rather than spilling. */
 .image-hero-home .home-label-desktop-lines span {
-  white-space: nowrap;
+  white-space: normal;
+  overflow-wrap: break-word;
 }
 
 .image-hero-home .home-label-mobile-copy {
@@ -616,6 +624,23 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
 }
 
 .image-hero-events img {
+  object-position: center center;
+}
+
+/* A wider, shorter band than the other heroes: the sports hub is a dense
+   reference page, so the hero should not eat the first screenful. Cropping
+   tighter also favours the lit field and sideline over the empty night sky. */
+/* Kept close to the photo's own 16:9 so object-fit: cover barely crops it —
+   a much wider band forces a big upscale and the track reads as zoomed in.
+   Still shorter than the standard hero so it does not eat the first screenful. */
+.image-hero-sports {
+  aspect-ratio: 1500 / 830;
+  /* Generous, because a tight max-height silently overrides the aspect ratio
+     and re-crops the photo — which is what made the track look zoomed in. */
+  max-height: 84vh;
+}
+
+.image-hero-sports img {
   object-position: center center;
 }
 
@@ -3657,5 +3682,15 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
 
 .game-card-details dd {
   margin: 0;
+  color: var(--ink-secondary);
+}
+
+/* ─── Sports intro strip (sits under the image hero) ─── */
+.sports-page .sports-intro {
+  padding: clamp(1.25rem, 2.2vw, 1.9rem) 0 0;
+}
+
+.sports-page .sports-intro p:not(.eyebrow) {
+  max-width: 46rem;
   color: var(--ink-secondary);
 }

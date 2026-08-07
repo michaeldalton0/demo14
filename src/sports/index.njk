@@ -6,11 +6,21 @@ metaDescription: Varsity schedules for every White Plains High School team, boys
 ---
 {% from "components/macros.njk" import gameCard %}
 
-<section class="page-hero">
+<section class="image-hero image-hero-sports">
+  <img src="{{ site.sportsHeroImage | withPrefix }}" alt="{{ site.sportsHeroImageAlt }}" loading="eager">
+  <h1 class="image-hero-label">Sports</h1>
+</section>
+
+<div class="neighborhood-hero-creditbar">
+  <span>Photo by Santeri Viinamäki</span>
+  <a href="https://commons.wikimedia.org/wiki/File:Athletics_track_start_line_numbers_1,_2,_3.jpg" rel="external noopener">Source</a>
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="external noopener license">CC BY-SA 4.0</a>
+</div>
+
+<section class="section sports-intro">
   <div class="wrap">
     <p class="eyebrow">Tigers athletics</p>
-    <h1>White Plains High School sports</h1>
-    <p>Varsity schedules for every team, boys and girls, pulled straight from the Section 1 scheduling system and refreshed daily.</p>
+    <p>Varsity schedules for every White Plains High School team, boys and girls, pulled straight from the Section 1 scheduling system and refreshed daily.</p>
   </div>
 </section>
 
