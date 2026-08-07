@@ -159,7 +159,12 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
 
 .site-brand-stack {
   flex: 0 0 21.6875vw;
-  align-self: stretch;
+  /* Explicit height, not align-self: stretch — the white divider is this
+     element's border-right, and Safari resolves stretch against a fixed-height
+     flex line differently than Chrome at some zoom levels, leaving the rule
+     short of the header's top edge. A definite height is unambiguous in every
+     engine. (The ≤1199px media query overrides this for the mobile header.) */
+  height: var(--header-h);
   display: flex;
   align-items: center;
   padding: 0 clamp(1rem, 1.75vw, 2.25rem);
@@ -3202,6 +3207,7 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
     flex: 1 1 auto;
     min-width: 0;
     max-width: calc(100% - 4.5rem - var(--mobile-nav-inset));
+    height: auto;
     min-height: var(--header-h);
     border-right: 0;
   }
