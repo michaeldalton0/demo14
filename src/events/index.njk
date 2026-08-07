@@ -20,6 +20,30 @@ metaDescription: A selective calendar of events, meetings, and public life aroun
       <span class="archive-count" data-event-count>{{ eventStore.upcoming.length }} events</span>
     </div>
 
+    <form class="filter-bar" data-event-filters>
+      <label>
+        <span>Search</span>
+        <input type="search" name="search" placeholder="Search events…" autocomplete="off">
+      </label>
+      <label>
+        <span>Category</span>
+        <select name="category">
+          <option value="">All categories</option>
+          {% for category in eventStore.categories %}
+            <option value="{{ category }}">{{ category }}</option>
+          {% endfor %}
+        </select>
+      </label>
+      <label>
+        <span>Sort by</span>
+        <select name="sort">
+          <option value="date">Date</option>
+          <option value="category">Category</option>
+        </select>
+      </label>
+      <button type="reset" class="btn">Clear</button>
+    </form>
+
     {% if eventStore.upcoming.length %}
       <div class="card-grid">
         {% for event in eventStore.upcoming %}

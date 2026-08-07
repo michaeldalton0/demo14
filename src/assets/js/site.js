@@ -126,12 +126,18 @@ updateEventSectionStates(Array.from(new Set([
 if (filterForm) {
   const cards = Array.from(document.querySelectorAll("[data-event-card]"));
   const sections = Array.from(document.querySelectorAll("[data-event-section]"));
+  const grids = Array.from(document.querySelectorAll("[data-event-section] .card-grid"));
+
+  cards.forEach((card, index) => {
+    card.dataset.sortIndex = String(index);
+  });
 
   const apply = () => {
     const fd = new FormData(filterForm);
     const search = String(fd.get("search") || "").trim().toLowerCase();
     const category = String(fd.get("category") || "");
     const month = String(fd.get("month") || "");
+    const sortMode = String(fd.get("sort") || "date");
     const hasActiveFilters = Boolean(search || category || month);
 
     cards.forEach((card) => {
@@ -141,6 +147,21 @@ if (filterForm) {
         (!category || card.dataset.category === category) &&
         (!month || card.dataset.month === month)
       );
+    });
+
+    grids.forEach((grid) => {
+      Array.from(grid.querySelectorAll("[data-event-card]"))
+        .sort((a, b) => {
+          if (sortMode === "category") {
+            const diff = (a.dataset.category || "").localeCompare(b.dataset.category || "");
+            if (diff) {
+              return diff;
+            }
+          }
+
+          return Number(a.dataset.sortIndex) - Number(b.dataset.sortIndex);
+        })
+        .forEach((card) => grid.appendChild(card));
     });
 
     updateEventSectionStates(sections, hasActiveFilters);
