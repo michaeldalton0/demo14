@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { handlePublish, signPosting } from "../src/publish.js";
+import { handleDecline, handlePublish, signPosting } from "../src/publish.js";
 
 const emptyPostings = Buffer.from(JSON.stringify({ postings: [] }), "utf8").toString("base64");
 
@@ -116,4 +116,20 @@ test("keeps the posting published when confirmation delivery fails", async (t) =
 
   assert.match(html, /posting was published, but the submitter confirmation email failed/);
   assert.doesNotMatch(html, /Something went wrong committing the posting/);
+});
+
+test("declines without publishing or emailing the submitter", async () => {
+  const env = testEnv();
+  const token = await signPosting(
+    { kind: "decline", subject: "Test posting" },
+    env.APPROVE_SIGNING_SECRET
+  );
+  const response = await handleDecline({
+    request: new Request(`https://worker.example/decline?token=${token}`),
+    env
+  });
+  const html = await response.text();
+
+  assert.match(html, /Submission declined/);
+  assert.match(html, /No message was sent to the submitter/);
 });

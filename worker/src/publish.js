@@ -296,6 +296,22 @@ export async function handlePublish({ request, env }) {
   }
 }
 
+export async function handleDecline({ request, env }) {
+  const secret = env.APPROVE_SIGNING_SECRET;
+  if (!secret) {
+    return htmlPage("Not configured", "<h1>Not configured</h1><p>The signing secret is missing on the server.</p>");
+  }
+  const token = new URL(request.url).searchParams.get("token");
+  const data = await verifyToken(token, secret);
+  if (!data || data.kind !== "decline") {
+    return htmlPage("Invalid link", "<h1>This decline link is invalid or expired</h1><p>Please re-open the original review email.</p>");
+  }
+  return htmlPage(
+    "Submission declined",
+    `<h1>Submission declined</h1><p>${data.subject ? `“${escapeHtml(data.subject)}” was` : "The submission was"} not published. No message was sent to the submitter.</p>`
+  );
+}
+
 function escapeHtml(s = "") {
   return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }

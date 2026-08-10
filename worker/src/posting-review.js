@@ -23,6 +23,7 @@ const POSTING_MAX_LENGTHS = {
 };
 const REQUIRED_POSTING_FIELDS = [
   "name",
+  "email",
   "subject",
   "category",
   "postingType",
@@ -570,8 +571,8 @@ function buildSubmitterExplanation({ name = "", subject = "", aiReview = null })
   const greeting = name ? `Hello ${String(name).trim()},` : "Hello,";
   const cleanSubject = String(subject || "your submission").trim() || "your submission";
   const reason =
-    (aiReview && safeEmailText(aiReview.reason, 900)) ||
-    "It does not fit our community posting guidelines.";
+    (aiReview && aiReview.recommendation === "NOT_QUALIFIED" && safeEmailText(aiReview.reason, 900)) ||
+    "A WPCNA reviewer decided not to publish this item at this time.";
   const followUp =
     aiReview && aiReview.suggestedFollowUp && aiReview.suggestedFollowUp !== "None."
       ? safeEmailText(aiReview.suggestedFollowUp, 600)
@@ -598,17 +599,20 @@ function buildSubmitterExplanation({ name = "", subject = "", aiReview = null })
   return lines.join("\n");
 }
 
-function formatEmailBody({ review, aiReview, approveUrl, notifyUrl, submitterExplanation, rawSubmission, timestamp, request }) {
+function formatEmailBody({ review, aiReview, approveUrl, declineUrl, notifyUrl, submitterExplanation, rawSubmission, timestamp, request }) {
   const sections = [
     ...formatAiReviewSection(aiReview),
     ...(approveUrl
-      ? (aiReview && aiReview.recommendation === "NEEDS_REVIEW"
-          ? ["", "PUBLISH AS-IS (one click) - review the missing items above first", approveUrl, "Clicking this publishes the posting to the site as-is. Address any gaps above first if needed."]
-          : ["", "APPROVE & PUBLISH (one click)", approveUrl, "Clicking the link above publishes this posting to the site right away."])
+      ? ["", "1) APPROVE & PUBLISH (one click)", approveUrl,
+         "Clicking this publishes the submission to the site. The AI recommendation is advisory; the reviewer makes the final decision."]
+      : []),
+    ...(declineUrl
+      ? ["", "2) DECLINE - NO MESSAGE (one click)", declineUrl,
+         "Clicking this declines the submission without publishing it and without emailing the submitter."]
       : []),
     ...(notifyUrl
-      ? ["", "SEND EXPLANATION TO SUBMITTER (one click)", notifyUrl,
-         "Clicking this emails the submitter the note below explaining why this was not posted. Nothing is sent to them until you click.",
+      ? ["", "3) DECLINE & SEND EXPLANATION (one click)", notifyUrl,
+         "Clicking this declines the submission and emails the submitter the note below. Nothing is sent to them until you click.",
          "", "Preview of the message the submitter will receive:", submitterExplanation || ""]
       : []),
     "",
@@ -808,7 +812,7 @@ export async function handlePostingSubmission({ request, env, corsHeaders, jsonR
 
   let approveUrl = null;
   try {
-    if (aiReview && ["READY_TO_POST", "NEEDS_REVIEW"].includes(aiReview.recommendation) && env.APPROVE_SIGNING_SECRET) {
+    if (env.APPROVE_SIGNING_SECRET) {
       const posting = postingFromSubmission(clean, aiReview);
       const token = await signPosting(
         {
@@ -829,11 +833,23 @@ export async function handlePostingSubmission({ request, env, corsHeaders, jsonR
     console.error("Approve-link build failed:", error);
   }
 
-  // Human-approved "explain to the submitter" link for rejected items only.
+  let declineUrl = null;
+  try {
+    if (env.APPROVE_SIGNING_SECRET) {
+      const declineToken = await signPosting(
+        { kind: "decline", subject: clean.subject || "" },
+        env.APPROVE_SIGNING_SECRET
+      );
+      declineUrl = `${origin}/decline?token=${declineToken}`;
+    }
+  } catch (error) {
+    console.error("Decline-link build failed:", error);
+  }
+
   let notifyUrl = null;
   let submitterExplanation = "";
   try {
-    if (aiReview && aiReview.recommendation === "NOT_QUALIFIED" && env.APPROVE_SIGNING_SECRET && isEmail(clean.email)) {
+    if (env.APPROVE_SIGNING_SECRET && isEmail(clean.email)) {
       submitterExplanation = buildSubmitterExplanation({ name: clean.name, subject: clean.subject, aiReview });
       const notifyToken = await signPosting(
         { kind: "notify", to: clean.email, subject: clean.subject || "", message: submitterExplanation },
@@ -851,6 +867,7 @@ export async function handlePostingSubmission({ request, env, corsHeaders, jsonR
     review,
     aiReview,
     approveUrl,
+    declineUrl,
     notifyUrl,
     submitterExplanation,
     rawSubmission: raw,

@@ -68,7 +68,7 @@ eleventyExcludeFromCollections: true
       <p class="eyebrow">Submission form</p>
       <h2 id="posting-form-heading">Send something for review</h2>
       <p>Use this form to send community information to WPCNA. Submissions are reviewed before posting.</p>
-      <p class="form-note">Email is optional, but it is required if you want a confirmation with the live link after your posting is approved. Your address will not be published.</p>
+      <p class="form-note">Email is required so WPCNA can send an approval confirmation or a decline explanation. Your address will not be published.</p>
 
       <form class="contact-form posting-intake-form" action="{{ site.postingApiUrl }}" method="POST" data-posting-form data-posting-api="{{ site.postingApiUrl }}">
         <input type="hidden" name="pageSource" value="{{ site.baseUrl }}/posting/">
@@ -182,8 +182,8 @@ eleventyExcludeFromCollections: true
             </div>
 
             <div class="form-field">
-              <label for="posting-email">Contact Email (optional)</label>
-              <input id="posting-email" name="email" type="email" autocomplete="email">
+              <label for="posting-email">Contact Email</label>
+              <input id="posting-email" name="email" type="email" autocomplete="email" required>
               <p class="field-help">Required if you want an approval confirmation and live link. Your address will not be published.</p>
             </div>
 
