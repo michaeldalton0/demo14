@@ -668,8 +668,9 @@ function parseEmailList(value = "") {
     .filter((email) => email && isEmail(email));
 }
 
-function postingRecipients(env) {
+export function postingRecipients(env) {
   const recipients = [
+    ...parseEmailList(env.POSTING_RECIPIENT_EMAILS_DEFAULT),
     ...parseEmailList(env.POSTING_RECIPIENT_EMAILS),
     ...parseEmailList(env.POSTING_RECIPIENT_EMAIL)
   ];

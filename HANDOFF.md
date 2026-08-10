@@ -12,7 +12,7 @@
 
 This is a community guide for the White Plains Council of Neighborhood Associations (WPCNA). It replaces an older GoDaddy/wsimg-hosted site at `wp-cna.org`. The migration goal is **no user-facing forwards back to the old site** — every external WPCNA resource should live as a native page here.
 
-Owner: Michael Dalton (President). The WPCNA Contact form sends to `michael@mdalton.com` and CCs `michael.kushman@gmail.com`. Site email links display `info@wpcna.org`, while their underlying `mailto:` BCCs `michael@mdalton.com` (configured via `site.emailMailto` in `src/_data/site.js`).
+Owner: Michael Dalton (President). The WPCNA Contact form sends first to the WPCNA-controlled inbox `wpcna.info@gmail.com` and CCs `michael@mdalton.com` plus `michael.kushman@gmail.com`. Site email links display `info@wpcna.org`, while their underlying `mailto:` BCCs `michael@mdalton.com` (configured via `site.emailMailto` in `src/_data/site.js`).
 
 ---
 
