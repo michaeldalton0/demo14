@@ -36,7 +36,7 @@
     {
       "slug": "health-center",
       "name": "Health Center",
-      "description": "Testing.",
+      "description": "",
       "association": {
         "name": "",
         "url": "",
@@ -67,18 +67,12 @@
       "slug": "battle-hill",
       "name": "Battle Hill",
       "member": true,
-      "description": "Test description.",
+      "description": "Battle Hill is a historic residential neighborhood on the west side of White Plains. Its neighborhood association helps residents stay connected, advocates on local quality-of-life issues, and organizes community programs and events.",
       "association": {
-        "name": "",
-        "url": "",
-        "officers": [
-          {
-            "name": "John",
-            "role": "President",
-            "phone": "555-555-5555",
-            "email": "john@example.com"
-          }
-        ]
+        "name": "Battle Hill Association",
+        "url": "https://battlehillassociation.com/",
+        "email": "BattleHillAsc@Optimum.net",
+        "officers": []
       }
     },
     {
@@ -88,7 +82,7 @@
       "description": "Fisher Hill is a historic neighborhood within walking distance of the central business district of White Plains, NY. Residential development began around 1900, and many of the large vintage homes from that era still define the neighborhood's character today. Fisher Hill is notably diverse in ethnicity, age, and income.",
       "association": {
         "name": "Fisher Hill Association",
-        "url": "",
+        "url": "https://wp-cna.github.io/FHA/",
         "officers": [
           {
             "name": "Michael Dalton",
@@ -125,7 +119,7 @@
       "description": "The White Plains Highlands Civic Association was founded to promote and protect the interests of the residents in the historic neighborhood known as the Highlands and the residents of the City of White Plains. Within walking distance of the wide array of attractions, shopping, and employment opportunities in downtown White Plains, the Highlands is known for its walkable streets, variety of lovely homes, gardens, parks, schools, and houses of worship. The WPHCA is a volunteer organization which raises annual dues to help communicate local issues, hold events and programs of interest, maintain two gardens, and provide scholarships to local high school seniors heading to college. Any Highlands residents are welcome to join the WPHCA and we take pride in our neighborhood’s diversity, active organizations, and community spirit. The neighborhood is generally bounded by Maple Avenue to the north, Greenridge Avenue and Old Mamaroneck Road to the east, Hartsdale and Prescott Avenues to the south and Soundview Avenue to the west.",
       "association": {
         "name": "Highlands Civic Association",
-        "url": "https://www.wphighlands.org.",
+        "url": "https://www.wphighlands.org/",
         "officers": [
           {
             "name": "Bill Brady",

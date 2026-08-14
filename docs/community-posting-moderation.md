@@ -19,6 +19,10 @@ Supported routes:
 - `/`
 - `/posting-review`
 - `/api/posting-review`
+- `/contact`
+- `/api/contact`
+- `/publish`, `/decline`, and `/notify-submitter` (signed moderation links;
+  `GET` shows a confirmation page and only `POST` executes the action)
 
 The static site receives the deployed Worker URL through the `POSTING_API_URL`
 build variable.
@@ -40,12 +44,22 @@ Email delivery — preferred path:
 
 Email delivery — fallback webhook path:
 
-- `POSTING_EMAIL_WEBHOOK_URL`
+- `POSTING_FORM_FALLBACK_URL` — currently the confirmed FormSubmit endpoint in
+  `wrangler.toml`; Resend failures fall through to it.
 - `POSTING_CC_EMAILS`
+
+Moderation and abuse-control bindings:
+
+- `MODERATION_DB` — D1 database used to atomically claim a submission once
+  across publish, decline, and decline-with-explanation choices.
+- `EMAIL_RATE_LIMITER` — 5 form submissions per email address per minute.
+- `IP_RATE_LIMITER` — 20 form submissions per IP address per minute.
 
 Worker vars:
 
 - `ALLOWED_ORIGINS=https://wp-cna.github.io`
+- `LEGACY_ACTIONS_UNTIL=2026-08-29T04:00:00Z` — temporary cutoff for signed
+  review links generated before action IDs and expirations were added.
 - `POSTING_REVIEW_MODEL` (optional) — defaults to `claude-sonnet-4-6`.
   Set to `claude-haiku-4-5-20251001` to cut cost if volume ever grows.
 
@@ -67,8 +81,31 @@ HTML or frontend JavaScript.
 6. The Worker emails a scannable audit report: the AI recommendation and reason
    first, then the original submission, deterministic checks, missing
    information, guideline checklist, and a cleaned-up draft summary when
-   appropriate.
+   appropriate. All three signed action links share one action ID and expire
+   after 14 days. Opening a link only shows a confirmation page; confirming the
+   page sends a POST that claims the shared action ID before doing anything.
 7. The browser receives only a neutral confirmation message.
+
+On POST, the Worker claims the action with one atomic D1
+`INSERT ... ON CONFLICT(action_id) DO NOTHING` and decides ownership from the
+statement's change count. There is no read before this claim. A conflict reads
+the already-recorded choice only to render the useful "already handled" page.
+If the downstream publish or email operation fails after the claim, the row
+remains and the reviewer is directed to handle the submission manually. Any
+database error fails closed rather than risking two different choices.
+
+Signed review links created before this deployment do not contain an action ID
+or expiration. Until `LEGACY_ACTIONS_UNTIL`, the Worker derives a shared action
+ID by normalizing and hashing the submission subject (`posting.title` for
+publish links and `subject` for both decline choices). This preserves
+cross-choice single use during the transition. Legacy links without a subject,
+with a missing/invalid cutoff, or used at or after the cutoff are rejected.
+New-format tokens always keep their own action ID and 14-day expiration.
+
+The `/contact` route accepts the general website contact fields plus an optional
+validated `associationSlug`. It uses the same honeypot, rate-limit bindings,
+Resend recipient configuration, and FormSubmit fallback as posting-review
+email delivery. Association destination addresses remain server-side.
 
 If the Anthropic call fails for any reason, the submission is still emailed to
 WPCNA with an "AI vetting unavailable — review manually" note. Nothing is lost.

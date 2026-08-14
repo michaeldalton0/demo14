@@ -1,7 +1,9 @@
 import { handlePostingSubmission } from "./posting-review.js";
 import { handleDecline, handlePublish, handleNotifySubmitter } from "./publish.js";
+import { handleContactSubmission } from "./contact.js";
 
 const DEFAULT_ALLOWED_ORIGINS = ["https://wp-cna.github.io"];
+const MODERATION_PATHS = new Set(["/publish", "/decline", "/notify-submitter"]);
 
 function allowedOrigins(env) {
   const configured = String(env.ALLOWED_ORIGINS || "")
@@ -58,6 +60,20 @@ export default {
       return new Response(null, { status: 204, headers: corsHeaders || {} });
     }
 
+    // Moderation links are signed capabilities served by this Worker. Their
+    // same-origin confirmation forms POST back to the Worker and are protected
+    // by signature, expiry, and a shared atomic database claim rather than the
+    // public-form CORS allowlist.
+    if (MODERATION_PATHS.has(url.pathname)) {
+      if (url.pathname === "/publish") {
+        return handlePublish({ request, env });
+      }
+      if (url.pathname === "/decline") {
+        return handleDecline({ request, env });
+      }
+      return handleNotifySubmitter({ request, env });
+    }
+
     if (origin && !corsHeaders) {
       return errorResponse("Origin not allowed.", 403);
     }
@@ -70,20 +86,18 @@ export default {
       );
     }
 
-    if (request.method === "GET" && url.pathname === "/publish") {
-      return handlePublish({ request, env });
-    }
-
-    if (request.method === "GET" && url.pathname === "/decline") {
-      return handleDecline({ request, env });
-    }
-
-    if (request.method === "GET" && url.pathname === "/notify-submitter") {
-      return handleNotifySubmitter({ request, env });
-    }
-
     if (url.pathname === "/posting-review" || url.pathname === "/api/posting-review") {
       return handlePostingSubmission({
+        request,
+        env,
+        corsHeaders: corsHeaders || {},
+        jsonResponse,
+        errorResponse
+      });
+    }
+
+    if (url.pathname === "/contact" || url.pathname === "/api/contact") {
+      return handleContactSubmission({
         request,
         env,
         corsHeaders: corsHeaders || {},

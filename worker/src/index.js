@@ -2,10 +2,9 @@ import contentIndex from "./content-index.js";
 import { createRetriever } from "./retrieval.js";
 import { FALLBACK_ANSWER, generateAnswer } from "./openai.js";
 import { handlePostingSubmission } from "./posting-review.js";
+import { enforceIpRateLimit } from "./rate-limit.js";
 
 const QUESTION_MAX_LENGTH = 500;
-const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
-const RATE_LIMIT_MAX = 12;
 const ABUSIVE_PATTERN = /\b(?:kill yourself|kys|nigger|faggot|rape|rapist)\b/i;
 const GREETING_PATTERN = /^(?:hi|hello|hey|hiya|good morning|good afternoon|good evening)(?:\s+there)?[!.?]*$/i;
 const CAPABILITY_PATTERN = /^(?:help|what can you do|what do you do|who are you|how can you help|what should i ask)(?:\??)$/i;
@@ -37,7 +36,6 @@ const LOOKUP_STOP_WORDS = new Set([
   "when",
   "where"
 ]);
-const rateLimitStore = new Map();
 const retrieveSources = createRetriever(contentIndex.items || []);
 
 function normalizeQuestion(value = "") {
@@ -106,26 +104,6 @@ function buildCorsHeaders(origin, env) {
   }
 
   return null;
-}
-
-function isRateLimited(ipAddress) {
-  const now = Date.now();
-
-  for (const [ip, state] of rateLimitStore.entries()) {
-    if (now - state.startedAt > RATE_LIMIT_WINDOW_MS) {
-      rateLimitStore.delete(ip);
-    }
-  }
-
-  const current = rateLimitStore.get(ipAddress);
-
-  if (!current) {
-    rateLimitStore.set(ipAddress, { startedAt: now, count: 1 });
-    return false;
-  }
-
-  current.count += 1;
-  return current.count > RATE_LIMIT_MAX;
 }
 
 function isRejectedQuestion(question) {
@@ -508,10 +486,15 @@ export default {
       return errorResponse("Method not allowed.", 405, corsHeaders || {});
     }
 
-    const ipAddress = request.headers.get("CF-Connecting-IP") || "unknown";
-
-    if (isRateLimited(ipAddress)) {
-      return errorResponse("Too many requests. Please try again in a few minutes.", 429, corsHeaders || {});
+    const ipLimit = await enforceIpRateLimit({
+      env,
+      request,
+      scope: "ask-white-plains",
+      limitedMessage: "Too many questions. Please try again in a minute.",
+      unavailableMessage: "The assistant is not available right now."
+    });
+    if (!ipLimit.ok) {
+      return errorResponse(ipLimit.error, ipLimit.status, corsHeaders || {});
     }
 
     let body;

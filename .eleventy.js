@@ -47,6 +47,39 @@ module.exports = function (eleventyConfig) {
   const pathPrefix = process.env.SITE_PATH_PREFIX || "/";
   const outputDir = process.env.SITE_OUTPUT_DIR || "_site";
 
+  // Eleventy's pagination templates are not all represented in collections.all.
+  // Build a complete, de-duplicated route list so the sitemap covers every
+  // generated detail page rather than only the first paginated item.
+  eleventyConfig.addCollection("sitemapUrls", (collectionApi) => {
+    const eventStore = require("./src/_data/eventStore");
+    const communityPostings = require("./src/_data/communityPostings");
+    const neighborhoodStore = require("./src/_data/neighborhoodStore");
+    const sportsStore = require("./src/_data/sportsStore");
+    const urls = new Set();
+    const placeholderNeighborhoodUrls = new Set(
+      neighborhoodStore.all
+        .filter((neighborhood) => neighborhood.profilePlaceholder)
+        .map((neighborhood) => `/neighborhoods/${neighborhood.slug}/`)
+    );
+    const add = (url) => {
+      if (!url || url === "/404.html" || url === "/robots.txt" || url === "/sitemap.xml") return;
+      if (["/contact-us/", "/contact.html", "/local-events/", "/contact/thanks/"].includes(url)) return;
+      if (placeholderNeighborhoodUrls.has(url)) return;
+      urls.add(url);
+    };
+
+    collectionApi.getAll().forEach((item) => add(item.url));
+
+    eventStore.all.forEach((event) => add(`/events/${event.slug}/`));
+    communityPostings.current.forEach((posting) => add(`/posting/${posting.slug}/`));
+    neighborhoodStore.all
+      .filter((neighborhood) => !neighborhood.profilePlaceholder)
+      .forEach((neighborhood) => add(`/neighborhoods/${neighborhood.slug}/`));
+    sportsStore.sportsWithSchedules.forEach((entry) => add(`/sports/${entry.sportSlug}/`));
+
+    return [...urls].sort();
+  });
+
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   // Content admin (Sveltia CMS) — copy verbatim, don't run it through templating.
   eleventyConfig.addPassthroughCopy({ "src/admin": "admin" });
@@ -56,6 +89,14 @@ module.exports = function (eleventyConfig) {
     if (!path) return base;
     if (path.startsWith("http://") || path.startsWith("https://")) return path;
     return `${base.replace(/\/$/, "")}${path.startsWith("/") ? "" : "/"}${path}`;
+  });
+
+  eleventyConfig.addFilter("absoluteSitemapUrl", (path = "", base = "") => {
+    if (!path) return encodeURI(base);
+    const absolute = path.startsWith("http://") || path.startsWith("https://")
+      ? path
+      : `${base.replace(/\/$/, "")}${path.startsWith("/") ? "" : "/"}${path}`;
+    return encodeURI(absolute);
   });
 
   eleventyConfig.addFilter("withPrefix", (path = "") => {

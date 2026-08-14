@@ -1,8 +1,8 @@
 import { reviewPostingWithAnthropic } from "./anthropic.js";
 import { signPosting, postingFromSubmission } from "./publish.js";
+import { enforceEmailRateLimit, enforceIpRateLimit } from "./rate-limit.js";
 
-const POSTING_RATE_LIMIT_WINDOW_MS = 15 * 60 * 1000;
-const POSTING_RATE_LIMIT_MAX = 5;
+const MODERATION_ACTION_TTL_MS = 14 * 24 * 60 * 60 * 1000;
 const POSTING_MAX_LENGTHS = {
   name: 120,
   email: 254,
@@ -43,8 +43,6 @@ const POSTING_FIELD_LABELS = {
   linksIncluded: "Links included",
   message: "Main description"
 };
-const postingRateLimitStore = new Map();
-
 const RECOMMENDATIONS = {
   ready: "READY FOR HUMAN REVIEW",
   needs: "NEEDS MORE INFORMATION",
@@ -193,30 +191,6 @@ function normalizeEmail(value = "") {
 
 function isEmail(value = "") {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
-}
-
-function getClientIp(request) {
-  return request.headers.get("CF-Connecting-IP") || request.headers.get("X-Forwarded-For") || "unknown";
-}
-
-function isPostingRateLimited(ipAddress) {
-  const now = Date.now();
-
-  for (const [ip, state] of postingRateLimitStore.entries()) {
-    if (now - state.startedAt > POSTING_RATE_LIMIT_WINDOW_MS) {
-      postingRateLimitStore.delete(ip);
-    }
-  }
-
-  const current = postingRateLimitStore.get(ipAddress);
-
-  if (!current) {
-    postingRateLimitStore.set(ipAddress, { startedAt: now, count: 1 });
-    return false;
-  }
-
-  current.count += 1;
-  return current.count > POSTING_RATE_LIMIT_MAX;
 }
 
 async function parseSubmissionRequest(request) {
@@ -603,16 +577,16 @@ function formatEmailBody({ review, aiReview, approveUrl, declineUrl, notifyUrl, 
   const sections = [
     ...formatAiReviewSection(aiReview),
     ...(approveUrl
-      ? ["", "1) APPROVE & PUBLISH (one click)", approveUrl,
-         "Clicking this publishes the submission to the site. The AI recommendation is advisory; the reviewer makes the final decision."]
+      ? ["", "1) REVIEW APPROVE & PUBLISH", approveUrl,
+         "Open the link to review the action, then confirm with the button on the page. Opening the link alone changes nothing. The AI recommendation is advisory; the reviewer makes the final decision."]
       : []),
     ...(declineUrl
-      ? ["", "2) DECLINE - NO MESSAGE (one click)", declineUrl,
-         "Clicking this declines the submission without publishing it and without emailing the submitter."]
+      ? ["", "2) REVIEW DECLINE - NO MESSAGE", declineUrl,
+         "Open the link to review the action, then confirm with the button on the page. The confirmed action declines the submission without publishing it and without emailing the submitter."]
       : []),
     ...(notifyUrl
-      ? ["", "3) DECLINE & SEND EXPLANATION (one click)", notifyUrl,
-         "Clicking this declines the submission and emails the submitter the note below. Nothing is sent to them until you click.",
+      ? ["", "3) REVIEW DECLINE & SEND EXPLANATION", notifyUrl,
+         "Open the link to review the action, then confirm with the button on the page. Nothing is sent to the submitter merely by opening the link.",
          "", "Preview of the message the submitter will receive:", submitterExplanation || ""]
       : []),
     "",
@@ -720,7 +694,7 @@ async function sendViaResend({ env, subject, body, replyTo }) {
 }
 
 async function sendViaWebhook({ env, subject, body, replyTo }) {
-  const webhookUrl = env.POSTING_EMAIL_WEBHOOK_URL;
+  const webhookUrl = env.POSTING_FORM_FALLBACK_URL || env.POSTING_EMAIL_WEBHOOK_URL;
 
   if (!webhookUrl) {
     return false;
@@ -733,7 +707,18 @@ async function sendViaWebhook({ env, subject, body, replyTo }) {
   if (replyTo) {
     payload.set("_replyto", replyTo);
   }
-  const cc = parseEmailList(env.POSTING_CC_EMAILS).join(",");
+  let webhookRecipient = "";
+  try {
+    const pathname = new URL(webhookUrl).pathname.replace(/^\/+|\/+$/g, "");
+    const decodedPath = decodeURIComponent(pathname);
+    webhookRecipient = isEmail(decodedPath) ? normalizeEmail(decodedPath) : "";
+  } catch {
+    webhookRecipient = "";
+  }
+  const cc = [...new Set([
+    ...postingRecipients(env),
+    ...parseEmailList(env.POSTING_CC_EMAILS)
+  ])].filter((email) => email !== webhookRecipient).join(",");
   if (cc) {
     payload.set("_cc", cc);
   }
@@ -755,16 +740,34 @@ async function sendViaWebhook({ env, subject, body, replyTo }) {
   return true;
 }
 
-async function sendPostingReviewEmail({ env, subject, body, replyTo }) {
-  if (await sendViaResend({ env, subject, body, replyTo })) {
-    return;
+export async function sendPostingReviewEmail({ env, subject, body, replyTo }) {
+  const failures = [];
+
+  try {
+    if (await sendViaResend({ env, subject, body, replyTo })) {
+      return;
+    }
+  } catch (error) {
+    failures.push(`Resend: ${String(error && error.message ? error.message : error)}`);
+    console.error(JSON.stringify({
+      message: "Resend delivery failed; trying the configured webhook",
+      error: String(error && error.message ? error.message : error)
+    }));
   }
 
-  if (await sendViaWebhook({ env, subject, body, replyTo })) {
-    return;
+  try {
+    if (await sendViaWebhook({ env, subject, body, replyTo })) {
+      return;
+    }
+  } catch (error) {
+    failures.push(`Webhook: ${String(error && error.message ? error.message : error)}`);
   }
 
-  throw new Error("No posting email provider is configured.");
+  throw new Error(
+    failures.length
+      ? `All configured posting email providers failed. ${failures.join(" | ")}`
+      : "No posting email provider is configured."
+  );
 }
 
 export async function handlePostingSubmission({ request, env, corsHeaders, jsonResponse, errorResponse }) {
@@ -772,10 +775,14 @@ export async function handlePostingSubmission({ request, env, corsHeaders, jsonR
     return errorResponse("Method not allowed.", 405, corsHeaders);
   }
 
-  const ipAddress = getClientIp(request);
-
-  if (isPostingRateLimited(ipAddress)) {
-    return errorResponse("Too many submissions. Please try again in a few minutes.", 429, corsHeaders);
+  const ipLimit = await enforceIpRateLimit({
+    env,
+    request,
+    scope: "forms",
+    limitedMessage: "Too many submissions. Please try again in a minute."
+  });
+  if (!ipLimit.ok) {
+    return errorResponse(ipLimit.error, ipLimit.status, corsHeaders);
   }
 
   let parsed;
@@ -798,6 +805,16 @@ export async function handlePostingSubmission({ request, env, corsHeaders, jsonR
     return errorResponse(validationError, 422, corsHeaders);
   }
 
+  const emailLimit = await enforceEmailRateLimit({
+    env,
+    email: clean.email,
+    scope: "forms",
+    limitedMessage: "Too many submissions for this email address. Please try again in a minute."
+  });
+  if (!emailLimit.ok) {
+    return errorResponse(emailLimit.error, emailLimit.status, corsHeaders);
+  }
+
   const review = reviewPostingSubmission(clean);
 
   let aiReview = null;
@@ -809,13 +826,27 @@ export async function handlePostingSubmission({ request, env, corsHeaders, jsonR
   }
 
   const origin = new URL(request.url).origin;
+  let moderationAction = null;
+  try {
+    if (env.APPROVE_SIGNING_SECRET) {
+      const issuedAt = Date.now();
+      moderationAction = {
+        actionId: crypto.randomUUID(),
+        issuedAt,
+        expiresAt: issuedAt + MODERATION_ACTION_TTL_MS
+      };
+    }
+  } catch (error) {
+    console.error("Moderation action metadata build failed:", error);
+  }
 
   let approveUrl = null;
   try {
-    if (env.APPROVE_SIGNING_SECRET) {
+    if (env.APPROVE_SIGNING_SECRET && moderationAction) {
       const posting = postingFromSubmission(clean, aiReview);
       const token = await signPosting(
         {
+          ...moderationAction,
           kind: "publish",
           posting,
           submitter: isEmail(clean.email)
@@ -835,9 +866,9 @@ export async function handlePostingSubmission({ request, env, corsHeaders, jsonR
 
   let declineUrl = null;
   try {
-    if (env.APPROVE_SIGNING_SECRET) {
+    if (env.APPROVE_SIGNING_SECRET && moderationAction) {
       const declineToken = await signPosting(
-        { kind: "decline", subject: clean.subject || "" },
+        { ...moderationAction, kind: "decline", subject: clean.subject || "" },
         env.APPROVE_SIGNING_SECRET
       );
       declineUrl = `${origin}/decline?token=${declineToken}`;
@@ -849,10 +880,16 @@ export async function handlePostingSubmission({ request, env, corsHeaders, jsonR
   let notifyUrl = null;
   let submitterExplanation = "";
   try {
-    if (env.APPROVE_SIGNING_SECRET && isEmail(clean.email)) {
+    if (env.APPROVE_SIGNING_SECRET && moderationAction && isEmail(clean.email)) {
       submitterExplanation = buildSubmitterExplanation({ name: clean.name, subject: clean.subject, aiReview });
       const notifyToken = await signPosting(
-        { kind: "notify", to: clean.email, subject: clean.subject || "", message: submitterExplanation },
+        {
+          ...moderationAction,
+          kind: "notify",
+          to: clean.email,
+          subject: clean.subject || "",
+          message: submitterExplanation
+        },
         env.APPROVE_SIGNING_SECRET
       );
       notifyUrl = `${origin}/notify-submitter?token=${notifyToken}`;
