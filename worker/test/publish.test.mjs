@@ -9,7 +9,7 @@ function testEnv() {
   return {
     APPROVE_SIGNING_SECRET: "unit-test-signing-secret",
     GITHUB_TOKEN: "unit-test-github-token",
-    GITHUB_REPO: "wp-cna/demo14",
+    GITHUB_REPO: "michaeldalton0/demo14",
     GITHUB_BRANCH: "main",
     POSTINGS_PATH: "src/_data/communityPostings.json",
     SITE_BASE_URL: "https://wp-cna.org",
