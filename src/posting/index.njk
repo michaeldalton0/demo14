@@ -74,11 +74,6 @@ eleventyExcludeFromCollections: true
         <input type="hidden" name="pageSource" value="{{ site.baseUrl }}/posting/">
         <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
 
-        {# Honeypot hidden from real users; catches automated submissions. #}
-        <div class="form-honeypot" hidden aria-hidden="true">
-          <input id="posting-website" name="website" type="text" tabindex="-1" autocomplete="off" aria-label="Website">
-        </div>
-
         <fieldset class="form-section">
           <legend>What is this?</legend>
 

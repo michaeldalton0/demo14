@@ -336,7 +336,6 @@ if (postingForm) {
       message: fd.get("message"),
       description: fd.get("message"),
       _honey: fd.get("_honey"),
-      website: fd.get("website"),
       pageSource: fd.get("pageSource"),
     };
 
