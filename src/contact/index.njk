@@ -13,13 +13,20 @@ metaDescription: Send questions, corrections, meeting information, or neighborho
 
 <section class="section contact-page-section">
   <div class="wrap contact-page">
+    <p class="form-status form-status-success" data-contact-sent hidden>Thank you — your message has been sent. A WPCNA member will get back to you.</p>
+    <script>
+      if (new URLSearchParams(location.search).get("sent") === "1") {
+        document.querySelector("[data-contact-sent]").hidden = false;
+      }
+    </script>
     <form class="contact-form contact-page-form" action="{{ site.contactFormAction }}" method="POST">
       <input type="hidden" name="_subject" value="{{ site.contactFormSubject }}">
       {% if site.contactFormCc %}
         <input type="hidden" name="_cc" value="{{ site.contactFormCc }}">
       {% endif %}
       <input type="hidden" name="_template" value="table">
-      <input type="hidden" name="_next" value="{{ site.baseUrl }}/contact/">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="{{ site.baseUrl }}/contact/?sent=1">
       <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
 
       <div class="form-field">
