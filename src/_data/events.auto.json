@@ -1,59 +1,5 @@
 [
   {
-    "id": "city-outdoor-pools-open-2026-06-14",
-    "slug": "city-outdoor-pools-open-2026-06-14",
-    "title": "Outdoor Pools Open",
-    "category": "Community",
-    "shortSummary": "Outdoor Pools Open is listed on the official White Plains city calendar.",
-    "fullDescription": "Outdoor Pools Open is listed on the official White Plains city calendar. It is set for Gardella Pool - Ferris Ave., Kittrell Pool - Fisher Ave.. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-06-14",
-    "endDate": "2026-06-14",
-    "startTime": "12:00",
-    "endTime": "18:30",
-    "locationName": "Gardella Pool - Ferris Ave.",
-    "locationAddress": "Kittrell Pool - Fisher Ave.",
-    "image": "/assets/img/events/community.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4256&month=6&year=2026&day=14&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4256&month=6&year=2026&day=14&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
-    "id": "city-soccer-fest-block-party-and-fan-fest-2026-06-14",
-    "slug": "city-soccer-fest-block-party-and-fan-fest-2026-06-14",
-    "title": "Soccer Fest - Block Party and Fan Fest",
-    "category": "Community",
-    "shortSummary": "Soccer Fest - Block Party and Fan Fest is listed on the official White Plains city calendar.",
-    "fullDescription": "Soccer Fest - Block Party and Fan Fest is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-06-14",
-    "endDate": "2026-06-14",
-    "startTime": "12:00",
-    "endTime": "21:00",
-    "locationName": "White Plains",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/community.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4294&month=6&year=2026&day=14&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4294&month=6&year=2026&day=14&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
     "id": "city-soccer-fest-crochet-kick-off-crafting-the-classic-soccer-ball-2026-06-15",
     "slug": "city-soccer-fest-crochet-kick-off-crafting-the-classic-soccer-ball-2026-06-15",
     "title": "Soccer Fest - Crochet Kick-off! Crafting the Classic Soccer Ball",
@@ -3400,7 +3346,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/16741089",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "steam",
       "nature & environment",
@@ -3432,7 +3378,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/16455450",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "health and wellness",
       "teens",
@@ -3463,7 +3409,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4351&month=8&year=2026&day=13&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -3490,7 +3436,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/16616497",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "performing arts",
       "adults about 55 and over",
@@ -3520,7 +3466,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4348&month=8&year=2026&day=13&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -4405,6 +4351,33 @@
     "importSource": "city"
   },
   {
+    "id": "city-delfino-park-barbeque-2026-09-03",
+    "slug": "city-delfino-park-barbeque-2026-09-03",
+    "title": "Delfino Park Barbeque",
+    "category": "Parks & Recreation",
+    "shortSummary": "Delfino Park Barbeque is listed on the official White Plains city calendar.",
+    "fullDescription": "Delfino Park Barbeque is listed on the official White Plains city calendar. It is set for Delfino Park, White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-09-03",
+    "endDate": "2026-09-03",
+    "startTime": "11:30",
+    "endTime": "13:30",
+    "locationName": "Delfino Park",
+    "locationAddress": "White Plains, NY",
+    "image": "/assets/img/events/parks.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4543&month=9&year=2026&day=3&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4543&month=9&year=2026&day=3&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
     "id": "library-intro-to-google-sheets-part-1-2026-09-08",
     "slug": "library-intro-to-google-sheets-part-1-2026-09-08",
     "title": "Intro to Google Sheets, Part 1",
@@ -4492,6 +4465,37 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=3608&month=9&year=2026&day=8&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "sports-girls-varsity-tennis-at-harrison-2026-09-10",
+    "slug": "sports-girls-varsity-tennis-at-harrison-2026-09-10",
+    "title": "Girls Varsity Tennis at Harrison",
+    "category": "Sports",
+    "shortSummary": "Girls Varsity Tennis travels to face Harrison at HS Tennis Courts.",
+    "fullDescription": "Girls Varsity Tennis travels to face Harrison at HS Tennis Courts. A Section 1 rivalry game. Away event. Scheduled start 4:30 p.m.. Venue: HS Tennis Courts. Schedules come from the school's athletic department and can change late in the week.",
+    "startDate": "2026-09-10",
+    "endDate": "2026-09-10",
+    "startTime": "16:30",
+    "endTime": null,
+    "locationName": "HS Tennis Courts",
+    "locationAddress": "",
+    "image": "/assets/img/events/sports.svg",
+    "flyerPdf": null,
+    "externalUrl": "/sports/tennis/",
+    "ctaLabel": "See the full schedule",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "sports",
+      "tennis",
+      "girls",
+      "white plains high school",
+      "rivalry"
+    ],
+    "organizer": "White Plains High School Athletics",
+    "sourceUrl": "/sports/tennis/",
+    "sourceLabel": "White Plains High School Athletics",
+    "importSource": "sports"
   },
   {
     "id": "city-9-11-day-of-remembrance-ceremony-2026-09-11",
@@ -5256,6 +5260,37 @@
     "sourceUrl": "https://parksevents.westchestercountyny.gov/event/fireside-nature-storytime-3",
     "sourceLabel": "County Parks calendar",
     "importSource": "countyparks"
+  },
+  {
+    "id": "sports-girls-varsity-tennis-vs-harrison-2026-09-28",
+    "slug": "sports-girls-varsity-tennis-vs-harrison-2026-09-28",
+    "title": "Girls Varsity Tennis vs. Harrison",
+    "category": "Sports",
+    "shortSummary": "Girls Varsity Tennis hosts Harrison at White Plains High School.",
+    "fullDescription": "Girls Varsity Tennis hosts Harrison at White Plains High School. A Section 1 rivalry game. Home event. Scheduled start 4:30 p.m.. Venue: White Plains High School. Schedules come from the school's athletic department and can change late in the week.",
+    "startDate": "2026-09-28",
+    "endDate": "2026-09-28",
+    "startTime": "16:30",
+    "endTime": null,
+    "locationName": "White Plains High School",
+    "locationAddress": "White Plains, NY",
+    "image": "/assets/img/events/sports.svg",
+    "flyerPdf": null,
+    "externalUrl": "/sports/tennis/",
+    "ctaLabel": "See the full schedule",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "sports",
+      "tennis",
+      "girls",
+      "white plains high school",
+      "rivalry"
+    ],
+    "organizer": "White Plains High School Athletics",
+    "sourceUrl": "/sports/tennis/",
+    "sourceLabel": "White Plains High School Athletics",
+    "importSource": "sports"
   },
   {
     "id": "city-common-council-work-session-2026-09-28",
@@ -6548,6 +6583,34 @@
     "importSource": "library"
   },
   {
+    "id": "city-hispanic-heritage-luncheon-2026-10-30",
+    "slug": "city-hispanic-heritage-luncheon-2026-10-30",
+    "title": "Hispanic Heritage Luncheon",
+    "category": "Parks & Recreation",
+    "shortSummary": "Hispanic Heritage Luncheon is listed on the official White Plains city calendar.",
+    "fullDescription": "Hispanic Heritage Luncheon is listed on the official White Plains city calendar. It is set for White Plains Community Center - 65 Mitchell Place, White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-10-30",
+    "endDate": "2026-10-30",
+    "startTime": "11:30",
+    "endTime": "13:30",
+    "locationName": "White Plains Community Center - 65 Mitchell Place",
+    "locationAddress": "White Plains, NY",
+    "image": "/assets/img/events/parks.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4544&month=10&year=2026&day=30&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar",
+      "community center"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4544&month=10&year=2026&day=30&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
     "id": "library-future-is-female-2026-11-02",
     "slug": "library-future-is-female-2026-11-02",
     "title": "Future is Female",
@@ -6929,6 +6992,34 @@
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17056419",
     "sourceLabel": "Library calendar",
     "importSource": "library"
+  },
+  {
+    "id": "city-thanksgiving-luncheon-2026-11-24",
+    "slug": "city-thanksgiving-luncheon-2026-11-24",
+    "title": "Thanksgiving Luncheon",
+    "category": "Parks & Recreation",
+    "shortSummary": "Thanksgiving Luncheon is listed on the official White Plains city calendar.",
+    "fullDescription": "Thanksgiving Luncheon is listed on the official White Plains city calendar. It is set for White Plains Community Center - 65 Mitchell Place, White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-11-24",
+    "endDate": "2026-11-24",
+    "startTime": "11:30",
+    "endTime": "13:30",
+    "locationName": "White Plains Community Center - 65 Mitchell Place",
+    "locationAddress": "White Plains, NY",
+    "image": "/assets/img/events/parks.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4545&month=11&year=2026&day=24&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar",
+      "community center"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4545&month=11&year=2026&day=24&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
   },
   {
     "id": "city-santa-s-mailbox-2026-11-25",
@@ -7700,6 +7791,34 @@
     "importSource": "city"
   },
   {
+    "id": "city-holiday-luncheon-2026-12-15",
+    "slug": "city-holiday-luncheon-2026-12-15",
+    "title": "Holiday Luncheon",
+    "category": "Parks & Recreation",
+    "shortSummary": "Holiday Luncheon is listed on the official White Plains city calendar.",
+    "fullDescription": "Holiday Luncheon is listed on the official White Plains city calendar. It is set for White Plains Community Center - 65 Mitchell Place, White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-12-15",
+    "endDate": "2026-12-15",
+    "startTime": "11:30",
+    "endTime": "13:30",
+    "locationName": "White Plains Community Center - 65 Mitchell Place",
+    "locationAddress": "White Plains, NY",
+    "image": "/assets/img/events/parks.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4546&month=12&year=2026&day=15&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar",
+      "community center"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4546&month=12&year=2026&day=15&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
     "id": "city-planning-board-meeting-2026-12-15",
     "slug": "city-planning-board-meeting-2026-12-15",
     "title": "Planning Board Meeting",
@@ -7835,6 +7954,34 @@
     ],
     "organizer": "City of White Plains",
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4241&month=1&year=2027&day=6&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
+    "id": "city-fall-winter-birthday-luncheon-2027-01-13",
+    "slug": "city-fall-winter-birthday-luncheon-2027-01-13",
+    "title": "Fall/Winter Birthday Luncheon",
+    "category": "Parks & Recreation",
+    "shortSummary": "Fall/Winter Birthday Luncheon is listed on the official White Plains city calendar.",
+    "fullDescription": "Fall/Winter Birthday Luncheon is listed on the official White Plains city calendar. It is set for White Plains Community Center - 65 Mitchell Place, White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2027-01-13",
+    "endDate": "2027-01-13",
+    "startTime": "11:30",
+    "endTime": "13:30",
+    "locationName": "White Plains Community Center - 65 Mitchell Place",
+    "locationAddress": "White Plains, NY",
+    "image": "/assets/img/events/parks.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4547&month=1&year=2027&day=13&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar",
+      "community center"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4547&month=1&year=2027&day=13&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },

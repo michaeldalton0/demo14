@@ -407,7 +407,7 @@
       "slug": "girls-varsity-tennis",
       "sportSlug": "tennis",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270364",
-      "gameCount": 0
+      "gameCount": 2
     },
     {
       "id": "270373",
@@ -582,6 +582,29 @@
       "summary": "Girls Varsity Volleyball v. Roy C Ketcham/ Wappingers JHS"
     },
     {
+      "id": "sports-1527919",
+      "gameId": "1527919",
+      "teamId": "270364",
+      "teamName": "Girls Varsity Tennis",
+      "teamSlug": "girls-varsity-tennis",
+      "sport": "Tennis",
+      "sportSlug": "tennis",
+      "gender": "Girls",
+      "level": "Varsity",
+      "opponent": "Harrison",
+      "isHome": false,
+      "title": "Girls Varsity Tennis at Harrison",
+      "gameType": "Regular Season",
+      "notes": "",
+      "startDate": "2026-09-10",
+      "startTime": "16:30",
+      "endTime": null,
+      "locationName": "HS Tennis Courts",
+      "url": "https://www.schedulegalaxy.com/schools/719/teams/270364/games/1527919",
+      "seasonYear": "2026",
+      "summary": "Girls Varsity Tennis @ Harrison"
+    },
+    {
       "id": "sports-1516065",
       "gameId": "1516065",
       "teamId": "270382",
@@ -674,6 +697,29 @@
       "summary": "Girls Varsity Volleyball @ Valhalla"
     },
     {
+      "id": "sports-1527932",
+      "gameId": "1527932",
+      "teamId": "270364",
+      "teamName": "Girls Varsity Tennis",
+      "teamSlug": "girls-varsity-tennis",
+      "sport": "Tennis",
+      "sportSlug": "tennis",
+      "gender": "Girls",
+      "level": "Varsity",
+      "opponent": "Harrison",
+      "isHome": true,
+      "title": "Girls Varsity Tennis vs. Harrison",
+      "gameType": "Regular Season",
+      "notes": "",
+      "startDate": "2026-09-28",
+      "startTime": "16:30",
+      "endTime": null,
+      "locationName": "White Plains High School",
+      "url": "https://www.schedulegalaxy.com/schools/719/teams/270364/games/1527932",
+      "seasonYear": "2026",
+      "summary": "Girls Varsity Tennis v. Harrison"
+    },
+    {
       "id": "sports-1486639",
       "gameId": "1486639",
       "teamId": "270175",
@@ -711,7 +757,7 @@
       "title": "Girls Varsity Field Hockey vs. Sleepy Hollow",
       "gameType": "Regular Season",
       "notes": "",
-      "startDate": "2026-10-15",
+      "startDate": "2026-10-19",
       "startTime": "17:00",
       "endTime": null,
       "locationName": "White Plains HS",
