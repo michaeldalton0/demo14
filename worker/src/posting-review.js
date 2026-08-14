@@ -795,9 +795,10 @@ export async function handlePostingSubmission({ request, env, corsHeaders, jsonR
 
   const { raw, clean } = parsed;
 
-  if (clean.website) {
-    return jsonResponse({ ok: true, message: "Submission received for review." }, 200, corsHeaders);
-  }
+  // A filled honeypot is only a hint, not proof of a bot: browser autofill and
+  // password managers fill hidden fields too. Never silently discard — flag the
+  // review email instead and let the human moderator decide.
+  const honeypotTripped = Boolean(clean.website);
 
   const validationError = validateSubmission(clean);
 
@@ -899,7 +900,7 @@ export async function handlePostingSubmission({ request, env, corsHeaders, jsonR
   }
 
   const timestamp = new Date().toISOString();
-  const subject = emailSubject(clean.subject, aiReview);
+  const subject = (honeypotTripped ? "[SUSPECTED BOT] " : "") + emailSubject(clean.subject, aiReview);
   const body = formatEmailBody({
     review,
     aiReview,

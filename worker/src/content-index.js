@@ -1,5 +1,5 @@
 export default {
-  "generatedAt": "2026-08-14T20:37:26.636Z",
+  "generatedAt": "2026-08-14T21:19:25.414Z",
   "itemCount": 301,
   "items": [
     {
@@ -54,7 +54,7 @@ export default {
       "url": "/contact/",
       "type": "page",
       "excerpt": "Send questions, corrections, meeting information, or neighborhood news to WPCNA.",
-      "text": "Send questions, corrections, meeting information, or neighborhood news to WPCNA.\n\nContact WPCNA\n\nSend questions, corrections, meeting information, or neighborhood news.\n\nYour message goes to WPCNA for routing. Your email address is used only so a representative can reply."
+      "text": "Send questions, corrections, meeting information, or neighborhood news to WPCNA.\n\nContact WPCNA\n\nSend questions, corrections, meeting information, or neighborhood news.\n\nThank you — your message has been sent. A WPCNA member will get back to you.\n\nYour message goes to WPCNA for routing. Your email address is used only so a representative can reply."
     },
     {
       "id": "page:/contact/",
