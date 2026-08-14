@@ -19,7 +19,7 @@ metaDescription: Send questions, corrections, meeting information, or neighborho
         document.querySelector("[data-contact-sent]").hidden = false;
       }
     </script>
-    <form class="contact-form contact-page-form" action="{{ site.contactFormAction }}" method="POST">
+    <form class="contact-form contact-page-form" id="contact-form" action="{{ site.contactFormAction }}" method="POST" data-contact-form data-contact-api="{{ site.contactApiUrl }}">
       <input type="hidden" name="_subject" value="{{ site.contactFormSubject }}">
       {% if site.contactFormCc %}
         <input type="hidden" name="_cc" value="{{ site.contactFormCc }}">
@@ -27,29 +27,32 @@ metaDescription: Send questions, corrections, meeting information, or neighborho
       <input type="hidden" name="_template" value="table">
       <input type="hidden" name="_captcha" value="false">
       <input type="hidden" name="_next" value="{{ site.baseUrl }}/contact/?sent=1">
+      <input type="hidden" name="association" value="" data-contact-association>
       <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
 
       <div class="form-field">
         <label for="contact-name">Name</label>
-        <input id="contact-name" name="name" type="text" autocomplete="name" required>
+        <input id="contact-name" name="name" type="text" maxlength="120" autocomplete="name" required>
       </div>
 
       <div class="form-field">
         <label for="contact-email">Email</label>
-        <input id="contact-email" name="email" type="email" autocomplete="email" required>
+        <input id="contact-email" name="email" type="email" maxlength="254" autocomplete="email" required>
       </div>
 
       <div class="form-field">
         <label for="contact-subject">Subject</label>
-        <input id="contact-subject" name="topic" type="text" required>
+        <input id="contact-subject" name="topic" type="text" maxlength="160" required>
       </div>
 
       <div class="form-field">
         <label for="contact-message">Message</label>
-        <textarea id="contact-message" name="message" rows="7" required></textarea>
+        <textarea id="contact-message" name="message" rows="7" maxlength="4000" required></textarea>
       </div>
 
-      <button class="btn btn-primary" type="submit">Send message</button>
+      <p class="form-status" data-contact-status role="status" aria-live="polite" aria-atomic="true" hidden></p>
+      <button class="btn btn-primary" type="submit" data-contact-submit>Send message</button>
+      <p class="form-note">Your message goes to WPCNA for routing. Your email address is used only so a representative can reply.</p>
     </form>
   </div>
 </section>

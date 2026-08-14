@@ -44,22 +44,35 @@ eleventyComputed:
       {% if neighborhood.association %}
         <div class="association-block">
           <h2><span>{{ neighborhood.association.name }}</span></h2>
-          <ul>
-            {% for officer in neighborhood.association.officers %}
-              <li>
-                <strong>{{ officer.name }}</strong>, {{ officer.role }}
-                {% if officer.phone %}
-                  <a href="tel:{{ officer.phone | replace('-', '') }}">{{ officer.phone }}</a>
-                {% endif %}
-                {% if officer.email %}
-                  <a href="mailto:{{ officer.email }}">{{ officer.email }}</a>
-                {% endif %}
-              </li>
-            {% endfor %}
-          </ul>
+          {% if neighborhood.association.officers.length %}
+            <ul>
+              {% for officer in neighborhood.association.officers %}
+                <li>
+                  <strong>{{ officer.name }}</strong>, {{ officer.role }}
+                  {% if officer.phone %}
+                    <a href="tel:{{ officer.phone | replace('-', '') }}">{{ officer.phone }}</a>
+                  {% endif %}
+                  {% if officer.email %}
+                    <a href="mailto:{{ officer.email }}">{{ officer.email }}</a>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+          {% if neighborhood.association.email %}
+            <p class="association-website"><a href="mailto:{{ neighborhood.association.email }}">Email the association</a></p>
+          {% endif %}
           {% if neighborhood.association.url %}
             <p class="association-website"><a href="{{ neighborhood.association.url }}" rel="external noopener">Visit the association website</a></p>
           {% endif %}
+        </div>
+      {% endif %}
+
+      {% if neighborhood.member %}
+        <div class="association-block association-contact-fallback">
+          <h2><span>Contact this association</span></h2>
+          <p>Need help reaching a neighborhood representative? WPCNA will route your message to the current association contact without publishing private member addresses.</p>
+          <p class="association-website"><a href="{{ ('/contact/?association=' + neighborhood.slug + '#contact-form') | withPrefix }}">Ask WPCNA to connect you</a></p>
         </div>
       {% endif %}
     </article>

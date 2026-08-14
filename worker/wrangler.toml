@@ -1,22 +1,45 @@
 name = "wpcna-posting-review"
 account_id = "7f9044dada49a97b6c1949e521915a84"
 main = "src/posting-worker.js"
-compatibility_date = "2026-04-21"
+compatibility_date = "2026-08-14"
 
 # Secrets (set with `wrangler secret put`):
 #   ANTHROPIC_API_KEY        <- powers AI vetting
 #   RESEND_API_KEY           <- email delivery
 #   POSTING_RECIPIENT_EMAILS <- primary To recipient(s), comma-separated
 #   POSTING_BCC_EMAILS       <- BCC recipient(s), comma-separated (optional)
-#   GITHUB_TOKEN             <- fine-grained token, Contents:write on GITHUB_REPO (one-click publish)
+#   GITHUB_TOKEN             <- fine-grained token, Contents:write on GITHUB_REPO (confirmed publish)
 #   APPROVE_SIGNING_SECRET   <- random string; signs the Approve & Publish links
 
 [vars]
 ALLOWED_ORIGINS = "https://wp-cna.org,https://www.wp-cna.org,https://wp-cna.github.io"
 POSTING_RECIPIENT_EMAILS_DEFAULT = "wpcna.info@gmail.com,michael@mdalton.com,michael.kushman@gmail.com"
+POSTING_FORM_FALLBACK_URL = "https://formsubmit.co/wpcna.info@gmail.com"
 GITHUB_REPO = "wp-cna/demo14"
 GITHUB_BRANCH = "main"
 POSTINGS_PATH = "src/_data/communityPostings.json"
 SITE_BASE_URL = "https://wp-cna.org"
+CONTACT_SUBJECT_PREFIX = "WPCNA Website Contact"
+LEGACY_ACTIONS_UNTIL = "2026-08-29T04:00:00Z"
 # Vetting model (default in code is claude-sonnet-4-6).
 # POSTING_REVIEW_MODEL = "claude-sonnet-4-6"
+
+[observability]
+enabled = true
+head_sampling_rate = 1
+
+[[d1_databases]]
+binding = "MODERATION_DB"
+database_name = "wpcna-moderation-actions"
+database_id = "5daeb5fd-dcfd-44cf-97ce-05a27742db28"
+migrations_dir = "migrations"
+
+[[ratelimits]]
+name = "EMAIL_RATE_LIMITER"
+namespace_id = "1001"
+simple = { limit = 5, period = 60 }
+
+[[ratelimits]]
+name = "IP_RATE_LIMITER"
+namespace_id = "1002"
+simple = { limit = 20, period = 60 }

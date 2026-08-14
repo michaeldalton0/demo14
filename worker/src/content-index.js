@@ -1,6 +1,6 @@
 export default {
-  "generatedAt": "2026-08-14T11:10:13.850Z",
-  "itemCount": 297,
+  "generatedAt": "2026-08-14T21:19:25.414Z",
+  "itemCount": 301,
   "items": [
     {
       "id": "page:/",
@@ -9,7 +9,7 @@ export default {
       "url": "/",
       "type": "home",
       "excerpt": "The neighborhood-centered civic hub for agendas, events, represented neighborhoods, and useful White Plains information.",
-      "text": "The neighborhood-centered civic hub for agendas, events, represented neighborhoods, and useful White Plains information.\n\nThe Forum for the Neighborhood Associations of White Plains to Share Ideas & Exchange Information The Forum for the Neighborhood Associations of White Plains to Share Ideas & Exchange Information\n\nNeighborhoods\n\nNeighborhood Associations\n\nExplore the neighborhood associations currently represented in WPCNA. Use the map for citywide context, then open an association profile to learn more.\n\nHover or focus a highlighted area on the map or in the list, then select it to open its profile.\n\nAssociation Profiles\n\nBattle Hill\n\nTest description.\n\nJohn, President 555-555-5555\n\nCarhart\n\nCarhart is a compact neighborhood area near the middle of White Plains, positioned between the close-in residential blocks, institutional anchors, and larger south-side neighborhoods around it.\n\nIt is one of the neighborhood associations currently represented through WPCNA, giving residents another point of connection within the council.\n\nFisher Hill\n\nFisher Hill is a historic neighborhood within walking distance of the central business district of White Plains, NY.\n\nResidential development began around 1900, and many of the large vintage homes from that era still define the neighborhood's character today.\n\nFisher Hill is notably diverse in ethnicity, age, and income.\n\nFisher Hill Association\n\nMichael Dalton, President 914-497-7236\n\nJonna Robbins, Vice President\n\nJane Prout, Treasurer\n\nGedney Farms\n\nGedney Farms is a historic residential neighborhood located in the southern portion of White Plains, New York.\n\nCelebrating its 100th anniversary in 2025, the neighborhood is known for its quiet, tree-lined streets, distinctive pre-war homes, and strong sense of community.\n\nFormed in 1925, the Gedney Association is one of the oldest neighborhood associations in the country and is dedicated to preserving and enhancing the neighborhood’s historic character, promoting thoughtful land-use planning, improving neighborhood safety, and fostering community engagement among approximately 506 households.\n\nThe Gedney Association\n\nJohn Sheehan, President\n\nJohn Rand, Vice President\n\nAl Dold, Treasurer\n\nCarol Corbin, Secretary\n\nMelanie Kolby, Information Officer\n\nAssociation website\n\nGedney Meadows\n\nGedney Meadows has a softer, more tucked-away feel than some of the busier south-side corridors.\n\nThe area comes across as calm and residential, with a name that fits its gentler character.\n\nHighlands\n\nThe White Plains Highlands Civic Association was founded to promote and protect the interests of the residents in the historic neighborhood known as the Highlands and the residents of the City of White Plains."
+      "text": "The neighborhood-centered civic hub for agendas, events, represented neighborhoods, and useful White Plains information.\n\nThe Forum for the Neighborhood Associations of White Plains to Share Ideas & Exchange Information The Forum for the Neighborhood Associations of White Plains to Share Ideas & Exchange Information\n\nNeighborhoods\n\nNeighborhood Associations\n\nExplore the neighborhood associations currently represented in WPCNA. Use the map for citywide context, then open an association profile to learn more.\n\nHover or focus a highlighted area on the map or in the list, then select it to open its profile.\n\nAssociation Profiles\n\nBattle Hill\n\nBattle Hill is a historic residential neighborhood on the west side of White Plains.\n\nIts neighborhood association helps residents stay connected, advocates on local quality-of-life issues, and organizes community programs and events.\n\nBattle Hill Association\n\nAssociation website\n\nCarhart\n\nCarhart is a compact neighborhood area near the middle of White Plains, positioned between the close-in residential blocks, institutional anchors, and larger south-side neighborhoods around it.\n\nIt is one of the neighborhood associations currently represented through WPCNA, giving residents another point of connection within the council.\n\nFisher Hill\n\nFisher Hill is a historic neighborhood within walking distance of the central business district of White Plains, NY.\n\nResidential development began around 1900, and many of the large vintage homes from that era still define the neighborhood's character today.\n\nFisher Hill is notably diverse in ethnicity, age, and income.\n\nFisher Hill Association\n\nMichael Dalton, President 914-497-7236\n\nJonna Robbins, Vice President\n\nJane Prout, Treasurer\n\nAssociation website\n\nGedney Farms\n\nGedney Farms is a historic residential neighborhood located in the southern portion of White Plains, New York.\n\nCelebrating its 100th anniversary in 2025, the neighborhood is known for its quiet, tree-lined streets, distinctive pre-war homes, and strong sense of community.\n\nFormed in 1925, the Gedney Association is one of the oldest neighborhood associations in the country and is dedicated to preserving and enhancing the neighborhood’s historic character, promoting thoughtful land-use planning, improving neighborhood safety, and fostering community engagement among approximately 506 households.\n\nThe Gedney Association\n\nJohn Sheehan, President\n\nJohn Rand, Vice President\n\nAl Dold, Treasurer\n\nCarol Corbin, Secretary\n\nMelanie Kolby, Information Officer\n\nAssociation website\n\nGedney Meadows\n\nGedney Meadows has a softer, more tucked-away feel than some of the busier south-side corridors.\n\nThe area comes across as calm and residential, with a name that fits its gentler character.\n\nHighlands"
     },
     {
       "id": "page:/about/",
@@ -39,13 +39,40 @@ export default {
       "text": "How to submit community-relevant information to WPCNA for review and posting on the site.\n\nCommunity\n\nCommunity posting\n\nWPCNA shares community-relevant information from residents and local organizations. Here is how it works.\n\nHow community posting works\n\nWPCNA accepts submissions from residents and community organizations for information that is relevant to White Plains neighborhoods. All submissions are reviewed before anything is posted or shared.\n\nThis is a curated, community-serving channel — not an open bulletin board. We share things that help residents stay informed about civic life, neighborhood activity, and public-interest events in White Plains.\n\nWhat we share\n\nCommunity events (school picnics, neighborhood gatherings, block parties)\n\nNeighborhood initiatives (cleanups, safety walks, beautification efforts)\n\nCivic and educational programs\n\nCity notices (hydrant flushing, road work, public hearings)\n\nSustainability and awareness campaigns\n\nLocal nonprofit and community organization announcements\n\nWhat we don't share\n\nYard sales or personal listings\n\nBusiness advertising or promotions\n\nCommercial services or solicitations\n\nUnreviewed or anonymous submissions\n\nEverything posted through WPCNA should be community-serving, non-commercial, and relevant to White Plains residents.\n\nHow to submit\n\nUse the Community Postings submission form with a clear subject line and the details you would like shared. Please include:\n\nA brief description of what you are sharing\n\nRelevant dates, times, and locations\n\nA contact name and organization (if applicable)\n\nAny links or attachments\n\nWPCNA reviews all submissions. Not everything sent will be posted, and we may edit for clarity or length. If you have questions about whether something fits, just ask.\n\nSubmit\n\nSend us your information\n\nCommunity-relevant submissions can be sent through the review form. All posts are reviewed by WPCNA before sharing.\n\nGuiding principle\n\nCommunity-first\n\nWPCNA is a civic resource, not a classifieds board. Everything we share should serve the broader community and help residents stay connected to neighborhood life in White Plains."
     },
     {
+      "id": "page:/contact-us/",
+      "sourceId": "page:/contact-us/",
+      "title": "Contact WPCNA",
+      "url": "/contact-us/",
+      "type": "page",
+      "excerpt": "Contact WPCNA This address has moved. Open the WPCNA contact page.",
+      "text": "Contact WPCNA\n\nThis address has moved. Open the WPCNA contact page."
+    },
+    {
       "id": "page:/contact/",
       "sourceId": "page:/contact/",
       "title": "Contact WPCNA",
       "url": "/contact/",
       "type": "page",
       "excerpt": "Send questions, corrections, meeting information, or neighborhood news to WPCNA.",
-      "text": "Send questions, corrections, meeting information, or neighborhood news to WPCNA.\n\nContact WPCNA\n\nSend questions, corrections, meeting information, or neighborhood news."
+      "text": "Send questions, corrections, meeting information, or neighborhood news to WPCNA.\n\nContact WPCNA\n\nSend questions, corrections, meeting information, or neighborhood news.\n\nThank you — your message has been sent. A WPCNA member will get back to you.\n\nYour message goes to WPCNA for routing. Your email address is used only so a representative can reply."
+    },
+    {
+      "id": "page:/contact/",
+      "sourceId": "page:/contact/",
+      "title": "Contact WPCNA",
+      "url": "/contact/",
+      "type": "page",
+      "excerpt": "Contact WPCNA This address has moved. Open the WPCNA contact page.",
+      "text": "Contact WPCNA\n\nThis address has moved. Open the WPCNA contact page."
+    },
+    {
+      "id": "page:/contact/thanks/",
+      "sourceId": "page:/contact/thanks/",
+      "title": "Message sent",
+      "url": "/contact/thanks/",
+      "type": "page",
+      "excerpt": "WPCNA has received your message.",
+      "text": "WPCNA has received your message.\n\nContact WPCNA\n\nThanks — your message was sent.\n\nA WPCNA representative will route it to the right neighborhood contact and follow up when needed."
     },
     {
       "id": "page:/events/",
@@ -2178,7 +2205,16 @@ export default {
       "url": "/history/",
       "type": "history",
       "excerpt": "Historical context connected to White Plains neighborhoods, civic life, and current history-related events.",
-      "text": "Historical context connected to White Plains neighborhoods, civic life, and current history-related events.\n\nWhite Plains\n\nWhite Plains history\n\nA short guide to historical threads connected to White Plains neighborhoods and civic life.\n\nScope\n\nHistorical context in the guide\n\nThe current site is mainly a civic guide, not a full local history archive, but some neighborhood pages already point to important historical threads in White Plains.\n\nThose threads include the Battle of White Plains, long-standing institutions and campuses, and neighborhoods with roots in the 1700s, early 1900s, and 1950s.\n\nThe events calendar also picks up history and genealogy programs when current partner sources publish them.\n\nNeighborhood Guide\n\nKeep exploring White Plains\n\nThe neighborhood guide brings together the parts of White Plains where local history, civic life, and neighborhood identity overlap most clearly.\n\nHistoric threads in the neighborhood guide\n\nThese neighborhood pages include visible historical context tied to White Plains.\n\nBattle Hill\n\nTest description.\n\nGood Counsel\n\nDescription coming soon\n\nKirkbride Asylum\n\nDescription coming soon\n\nBryant Gardens\n\nDescription coming soon\n\nGedney Farms\n\nGedney Farms is a historic residential neighborhood located in the southern portion of White Plains, New York.\n\nHistory-related events on the calendar\n\nCurrent listings from approved site sources that touch on local history, preservation, or genealogy.\n\nTIPS for Teens\n\nAug 17, 2026\n\nTIPS (Teen Information and Peer Services) is a leadership program where teens have the opportunity to discuss and learn about topics of community importance,…\n\nTIPS for Teens\n\nAug 24, 2026\n\nTIPS (Teen Information and Peer Services) is a leadership program where teens have the opportunity to discuss and learn about topics of community importance,…\n\nWestchester During the Revolutionary War (History via Igloo)\n\nSep 17, 2026\n\nLearn about Westchester County during the Revolutionary War and what happened throughout the conflict.\n\nOutdoor Movie\n\nOct 2, 2026\n\nOutdoor Movie at Battle of White Plains Park. Details are available from the City.\n\nHispanic Heritage Luncheon\n\nOct 30, 2026\n\nHispanic Heritage Luncheon at White Plains Community Center - 65 Mitchell Place. Details are available from the City."
+      "text": "Historical context connected to White Plains neighborhoods, civic life, and current history-related events.\n\nWhite Plains\n\nWhite Plains history\n\nA short guide to historical threads connected to White Plains neighborhoods and civic life.\n\nScope\n\nHistorical context in the guide\n\nThe current site is mainly a civic guide, not a full local history archive, but some neighborhood pages already point to important historical threads in White Plains.\n\nThose threads include the Battle of White Plains, long-standing institutions and campuses, and neighborhoods with roots in the 1700s, early 1900s, and 1950s.\n\nThe events calendar also picks up history and genealogy programs when current partner sources publish them.\n\nNeighborhood Guide\n\nKeep exploring White Plains\n\nThe neighborhood guide brings together the parts of White Plains where local history, civic life, and neighborhood identity overlap most clearly.\n\nHistoric threads in the neighborhood guide\n\nThese neighborhood pages include visible historical context tied to White Plains.\n\nBattle Hill\n\nBattle Hill is a historic residential neighborhood on the west side of White Plains.\n\nGood Counsel\n\nDescription coming soon\n\nKirkbride Asylum\n\nDescription coming soon\n\nBryant Gardens\n\nDescription coming soon\n\nGedney Farms\n\nGedney Farms is a historic residential neighborhood located in the southern portion of White Plains, New York.\n\nHistory-related events on the calendar\n\nCurrent listings from approved site sources that touch on local history, preservation, or genealogy.\n\nTIPS for Teens\n\nAug 17, 2026\n\nTIPS (Teen Information and Peer Services) is a leadership program where teens have the opportunity to discuss and learn about topics of community importance,…\n\nTIPS for Teens\n\nAug 24, 2026\n\nTIPS (Teen Information and Peer Services) is a leadership program where teens have the opportunity to discuss and learn about topics of community importance,…\n\nWestchester During the Revolutionary War (History via Igloo)\n\nSep 17, 2026\n\nLearn about Westchester County during the Revolutionary War and what happened throughout the conflict.\n\nOutdoor Movie\n\nOct 2, 2026\n\nOutdoor Movie at Battle of White Plains Park. Details are available from the City.\n\nHispanic Heritage Luncheon\n\nOct 30, 2026\n\nHispanic Heritage Luncheon at White Plains Community Center - 65 Mitchell Place. Details are available from the City."
+    },
+    {
+      "id": "page:/local-events/",
+      "sourceId": "page:/local-events/",
+      "title": "WPCNA Events",
+      "url": "/local-events/",
+      "type": "page",
+      "excerpt": "WPCNA Events This address has moved. Open the WPCNA events page.",
+      "text": "WPCNA Events\n\nThis address has moved. Open the WPCNA events page."
     },
     {
       "id": "page:/neighborhood-map/",
@@ -2205,7 +2241,7 @@ export default {
       "url": "/neighborhoods/battle-hill/",
       "type": "neighborhood",
       "excerpt": "Learn about Battle Hill.",
-      "text": "Learn about Battle Hill.\n\nBattle Hill\n\nTest description.\n\nJohn, President 555-555-5555 john@example.com"
+      "text": "Learn about Battle Hill.\n\nBattle Hill\n\nBattle Hill is a historic residential neighborhood on the west side of White Plains. Its neighborhood association helps residents stay connected, advocates on local quality-of-life issues, and organizes community programs and events.\n\nBattle Hill Association\n\nEmail the association\n\nVisit the association website\n\nContact this association\n\nNeed help reaching a neighborhood representative? WPCNA will route your message to the current association contact without publishing private member addresses.\n\nAsk WPCNA to connect you"
     },
     {
       "id": "page:/neighborhoods/brook-hills/",
@@ -2232,7 +2268,7 @@ export default {
       "url": "/neighborhoods/carhart/",
       "type": "neighborhood",
       "excerpt": "Learn about Carhart.",
-      "text": "Learn about Carhart.\n\nCarhart\n\nCarhart is a compact neighborhood area near the middle of White Plains, positioned between the close-in residential blocks, institutional anchors, and larger south-side neighborhoods around it. It is one of the neighborhood associations currently represented through WPCNA, giving residents another point of connection within the council."
+      "text": "Learn about Carhart.\n\nCarhart\n\nCarhart is a compact neighborhood area near the middle of White Plains, positioned between the close-in residential blocks, institutional anchors, and larger south-side neighborhoods around it. It is one of the neighborhood associations currently represented through WPCNA, giving residents another point of connection within the council.\n\nContact this association\n\nNeed help reaching a neighborhood representative? WPCNA will route your message to the current association contact without publishing private member addresses.\n\nAsk WPCNA to connect you"
     },
     {
       "id": "page:/neighborhoods/church-street/",
@@ -2286,7 +2322,7 @@ export default {
       "url": "/neighborhoods/fisher-hill/",
       "type": "neighborhood",
       "excerpt": "Learn about Fisher Hill.",
-      "text": "Learn about Fisher Hill.\n\nFisher Hill\n\nFisher Hill is a historic neighborhood within walking distance of the central business district of White Plains, NY. Residential development began around 1900, and many of the large vintage homes from that era still define the neighborhood's character today. Fisher Hill is notably diverse in ethnicity, age, and income.\n\nFisher Hill Association\n\nMichael Dalton, President 914-497-7236 michael@mdalton.com\n\nJonna Robbins, Vice President\n\nJane Prout, Treasurer"
+      "text": "Learn about Fisher Hill.\n\nFisher Hill\n\nFisher Hill is a historic neighborhood within walking distance of the central business district of White Plains, NY. Residential development began around 1900, and many of the large vintage homes from that era still define the neighborhood's character today. Fisher Hill is notably diverse in ethnicity, age, and income.\n\nFisher Hill Association\n\nMichael Dalton, President 914-497-7236 michael@mdalton.com\n\nJonna Robbins, Vice President\n\nJane Prout, Treasurer\n\nVisit the association website\n\nContact this association\n\nNeed help reaching a neighborhood representative? WPCNA will route your message to the current association contact without publishing private member addresses.\n\nAsk WPCNA to connect you"
     },
     {
       "id": "page:/neighborhoods/fulton-street/",
@@ -2331,7 +2367,7 @@ export default {
       "url": "/neighborhoods/gedney-farms/",
       "type": "neighborhood",
       "excerpt": "Learn about Gedney Farms.",
-      "text": "Learn about Gedney Farms.\n\nGedney Farms\n\nGedney Farms is a historic residential neighborhood located in the southern portion of White Plains, New York. Celebrating its 100th anniversary in 2025, the neighborhood is known for its quiet, tree-lined streets, distinctive pre-war homes, and strong sense of community. Formed in 1925, the Gedney Association is one of the oldest neighborhood associations in the country and is dedicated to preserving and enhancing the neighborhood’s historic character, promoting thoughtful land-use planning, improving neighborhood safety, and fostering community engagement among approximately 506 households.\n\nThe Gedney Association\n\nJohn Sheehan, President\n\nJohn Rand, Vice President\n\nAl Dold, Treasurer\n\nCarol Corbin, Secretary\n\nMelanie Kolby, Information Officer info@gedneyfarms.net\n\nVisit the association website"
+      "text": "Learn about Gedney Farms.\n\nGedney Farms\n\nGedney Farms is a historic residential neighborhood located in the southern portion of White Plains, New York. Celebrating its 100th anniversary in 2025, the neighborhood is known for its quiet, tree-lined streets, distinctive pre-war homes, and strong sense of community. Formed in 1925, the Gedney Association is one of the oldest neighborhood associations in the country and is dedicated to preserving and enhancing the neighborhood’s historic character, promoting thoughtful land-use planning, improving neighborhood safety, and fostering community engagement among approximately 506 households.\n\nThe Gedney Association\n\nJohn Sheehan, President\n\nJohn Rand, Vice President\n\nAl Dold, Treasurer\n\nCarol Corbin, Secretary\n\nMelanie Kolby, Information Officer info@gedneyfarms.net\n\nVisit the association website\n\nContact this association\n\nNeed help reaching a neighborhood representative? WPCNA will route your message to the current association contact without publishing private member addresses.\n\nAsk WPCNA to connect you"
     },
     {
       "id": "page:/neighborhoods/gedney-manor/",
@@ -2349,7 +2385,7 @@ export default {
       "url": "/neighborhoods/gedney-meadows/",
       "type": "neighborhood",
       "excerpt": "Learn about Gedney Meadows.",
-      "text": "Learn about Gedney Meadows.\n\nGedney Meadows\n\nGedney Meadows has a softer, more tucked-away feel than some of the busier south-side corridors. The area comes across as calm and residential, with a name that fits its gentler character."
+      "text": "Learn about Gedney Meadows.\n\nGedney Meadows\n\nGedney Meadows has a softer, more tucked-away feel than some of the busier south-side corridors. The area comes across as calm and residential, with a name that fits its gentler character.\n\nContact this association\n\nNeed help reaching a neighborhood representative? WPCNA will route your message to the current association contact without publishing private member addresses.\n\nAsk WPCNA to connect you"
     },
     {
       "id": "page:/neighborhoods/gedney-park/",
@@ -2403,7 +2439,7 @@ export default {
       "url": "/neighborhoods/highlands/",
       "type": "neighborhood",
       "excerpt": "Learn about Highlands.",
-      "text": "Learn about Highlands.\n\nHighlands\n\nThe White Plains Highlands Civic Association was founded to promote and protect the interests of the residents in the historic neighborhood known as the Highlands and the residents of the City of White Plains. Within walking distance of the wide array of attractions, shopping, and employment opportunities in downtown White Plains, the Highlands is known for its walkable streets, variety of lovely homes, gardens, parks, schools, and houses of worship. The WPHCA is a volunteer organization which raises annual dues to help communicate local issues, hold events and programs of interest, maintain two gardens, and provide scholarships to local high school seniors heading to college. Any Highlands residents are welcome to join the WPHCA and we take pride in our neighborhood’s diversity, active organizations, and community spirit. The neighborhood is generally bounded by Maple Avenue to the north, Greenridge Avenue and Old Mamaroneck Road to the east, Hartsdale and Prescott Avenues to the south and Soundview Avenue to the west.\n\nHighlands Civic Association\n\nBill Brady, President\n\nRobert Kahn, Vice President\n\nVisit the association website"
+      "text": "Learn about Highlands.\n\nHighlands\n\nThe White Plains Highlands Civic Association was founded to promote and protect the interests of the residents in the historic neighborhood known as the Highlands and the residents of the City of White Plains. Within walking distance of the wide array of attractions, shopping, and employment opportunities in downtown White Plains, the Highlands is known for its walkable streets, variety of lovely homes, gardens, parks, schools, and houses of worship. The WPHCA is a volunteer organization which raises annual dues to help communicate local issues, hold events and programs of interest, maintain two gardens, and provide scholarships to local high school seniors heading to college. Any Highlands residents are welcome to join the WPHCA and we take pride in our neighborhood’s diversity, active organizations, and community spirit. The neighborhood is generally bounded by Maple Avenue to the north, Greenridge Avenue and Old Mamaroneck Road to the east, Hartsdale and Prescott Avenues to the south and Soundview Avenue to the west.\n\nHighlands Civic Association\n\nBill Brady, President\n\nRobert Kahn, Vice President\n\nVisit the association website\n\nContact this association\n\nNeed help reaching a neighborhood representative? WPCNA will route your message to the current association contact without publishing private member addresses.\n\nAsk WPCNA to connect you"
     },
     {
       "id": "page:/neighborhoods/hillair-circle/",
@@ -2448,7 +2484,7 @@ export default {
       "url": "/neighborhoods/north-broadway/",
       "type": "neighborhood",
       "excerpt": "Learn about North Broadway.",
-      "text": "Learn about North Broadway.\n\nNorth Broadway\n\nNorth Broadway has one of the most recognizable addresses in White Plains, combining a main route through the city with long-established residential stretches. It feels prominent without feeling overly busy, and it carries some of the north side's older character."
+      "text": "Learn about North Broadway.\n\nNorth Broadway\n\nNorth Broadway has one of the most recognizable addresses in White Plains, combining a main route through the city with long-established residential stretches. It feels prominent without feeling overly busy, and it carries some of the north side's older character.\n\nContact this association\n\nNeed help reaching a neighborhood representative? WPCNA will route your message to the current association contact without publishing private member addresses.\n\nAsk WPCNA to connect you"
     },
     {
       "id": "page:/neighborhoods/north-street/",
@@ -2457,7 +2493,7 @@ export default {
       "url": "/neighborhoods/north-street/",
       "type": "neighborhood",
       "excerpt": "Learn about North Street.",
-      "text": "Learn about North Street.\n\nNorth Street\n\nNorth Street covers a broad stretch of the east and southeast side and is one of the roomier-feeling sections of White Plains. Parts of it are known for larger homes and longer blocks, and the overall impression is residential, established, and spacious."
+      "text": "Learn about North Street.\n\nNorth Street\n\nNorth Street covers a broad stretch of the east and southeast side and is one of the roomier-feeling sections of White Plains. Parts of it are known for larger homes and longer blocks, and the overall impression is residential, established, and spacious.\n\nContact this association\n\nNeed help reaching a neighborhood representative? WPCNA will route your message to the current association contact without publishing private member addresses.\n\nAsk WPCNA to connect you"
     },
     {
       "id": "page:/neighborhoods/old-mamaroneck-road/",
@@ -2475,7 +2511,7 @@ export default {
       "url": "/neighborhoods/old-oak-ridge/",
       "type": "neighborhood",
       "excerpt": "Learn about Old Oak Ridge.",
-      "text": "Learn about Old Oak Ridge.\n\nOld Oak Ridge\n\nOld Oak Ridge is a small east-side pocket with a tucked-in, private feel. It reads as residential and somewhat apart from the busier blocks closer to the core, while still staying well placed for getting around."
+      "text": "Learn about Old Oak Ridge.\n\nOld Oak Ridge\n\nOld Oak Ridge is a small east-side pocket with a tucked-in, private feel. It reads as residential and somewhat apart from the busier blocks closer to the core, while still staying well placed for getting around.\n\nContact this association\n\nNeed help reaching a neighborhood representative? WPCNA will route your message to the current association contact without publishing private member addresses.\n\nAsk WPCNA to connect you"
     },
     {
       "id": "page:/neighborhoods/prospect-park/",
@@ -2511,7 +2547,7 @@ export default {
       "url": "/neighborhoods/rosedale/",
       "type": "neighborhood",
       "excerpt": "Rosedale profile coming soon.",
-      "text": "Rosedale profile coming soon.\n\nRosedale\n\nDescription coming soon\n\nRosedale Residential Association\n\nAnthony Fiorenza, President\n\nShawn Woodford, Vice President\n\nVisit the association website"
+      "text": "Rosedale profile coming soon.\n\nRosedale\n\nDescription coming soon\n\nRosedale Residential Association\n\nAnthony Fiorenza, President\n\nShawn Woodford, Vice President\n\nVisit the association website\n\nContact this association\n\nNeed help reaching a neighborhood representative? WPCNA will route your message to the current association contact without publishing private member addresses.\n\nAsk WPCNA to connect you"
     },
     {
       "id": "page:/neighborhoods/saxon-woods/",

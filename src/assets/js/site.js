@@ -275,6 +275,84 @@ if (homeCarousel) {
   startRotation();
 }
 
+/* General and neighborhood-association contact form */
+const contactForm = document.querySelector("[data-contact-form]");
+
+if (contactForm) {
+  const statusEl = contactForm.querySelector("[data-contact-status]");
+  const submitBtn = contactForm.querySelector("[data-contact-submit]");
+  const subjectField = contactForm.querySelector("#contact-subject");
+  const associationField = contactForm.querySelector("[data-contact-association]");
+  const associationSlug = new URLSearchParams(window.location.search).get("association") || "";
+
+  if (/^[a-z0-9-]{1,80}$/.test(associationSlug)) {
+    const associationName = associationSlug
+      .split("-")
+      .map((part) => part ? part[0].toUpperCase() + part.slice(1) : "")
+      .join(" ");
+    if (associationField) associationField.value = associationSlug;
+    if (subjectField && !subjectField.value) subjectField.value = `Connect me with ${associationName}`;
+  }
+
+  const showContactStatus = (message, isError) => {
+    if (!statusEl) return;
+    statusEl.textContent = message;
+    statusEl.hidden = false;
+    statusEl.className = "form-status " + (isError ? "form-status-error" : "form-status-success");
+  };
+
+  contactForm.addEventListener("submit", async (event) => {
+    const apiUrl = contactForm.dataset.contactApi;
+
+    // Keep FormSubmit as a no-JavaScript/configuration fallback. When the
+    // organization-owned Worker is configured, it provides a real delivery
+    // response without exposing routing addresses to client-side code.
+    if (!apiUrl) return;
+
+    event.preventDefault();
+    if (!contactForm.checkValidity()) {
+      contactForm.reportValidity();
+      return;
+    }
+
+    if (statusEl) statusEl.hidden = true;
+    if (submitBtn) {
+      submitBtn.disabled = true;
+      submitBtn.textContent = "Sending\u2026";
+    }
+
+    const formData = new FormData(contactForm);
+    const payload = {
+      name: formData.get("name"),
+      email: formData.get("email"),
+      topic: formData.get("topic"),
+      message: formData.get("message"),
+      association: formData.get("association"),
+      website: formData.get("_honey")
+    };
+
+    try {
+      const response = await fetch(apiUrl, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+      const data = await response.json().catch(() => ({}));
+      if (!response.ok) throw new Error(data.error || "Message delivery failed");
+      showContactStatus(data.message || "Thanks — your message was sent. WPCNA will route it to the right contact.", false);
+      contactForm.reset();
+    } catch (error) {
+      console.error("[WPCNA] Contact submission failed.", error);
+      showContactStatus("We could not send your message right now. Please try again in a few minutes.", true);
+    } finally {
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.textContent = "Send message";
+      }
+    }
+  });
+}
+
 /* Community posting form */
 const postingForm = document.querySelector("[data-posting-form]");
 

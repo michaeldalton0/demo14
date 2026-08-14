@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import { handlePostingSubmission } from "../src/posting-review.js";
+import { verifyToken } from "../src/publish.js";
 
 function jsonResponse(payload, status = 200, headers = {}) {
   return Response.json(payload, { status, headers });
@@ -80,7 +81,9 @@ test("every review email includes approve and both decline choices", async (t) =
       RESEND_API_KEY: "test-resend-key",
       POSTING_EMAIL_FROM: "WPCNA <postings@wp-cna.org>",
       POSTING_RECIPIENT_EMAILS_DEFAULT:
-        "wpcna.info@gmail.com,michael@mdalton.com,michael.kushman@gmail.com"
+        "wpcna.info@gmail.com,michael@mdalton.com,michael.kushman@gmail.com",
+      IP_RATE_LIMITER: { limit: async () => ({ success: true }) },
+      EMAIL_RATE_LIMITER: { limit: async () => ({ success: true }) }
     },
     corsHeaders: {},
     jsonResponse,
@@ -93,12 +96,24 @@ test("every review email includes approve and both decline choices", async (t) =
     "michael@mdalton.com",
     "michael.kushman@gmail.com"
   ]);
-  assert.match(resendPayload.text, /1\) APPROVE & PUBLISH \(one click\)/);
+  assert.match(resendPayload.text, /1\) REVIEW APPROVE & PUBLISH/);
   assert.match(resendPayload.text, /https:\/\/worker\.example\/publish\?token=/);
-  assert.match(resendPayload.text, /2\) DECLINE - NO MESSAGE \(one click\)/);
+  assert.match(resendPayload.text, /2\) REVIEW DECLINE - NO MESSAGE/);
   assert.match(resendPayload.text, /https:\/\/worker\.example\/decline\?token=/);
-  assert.match(resendPayload.text, /3\) DECLINE & SEND EXPLANATION \(one click\)/);
+  assert.match(resendPayload.text, /3\) REVIEW DECLINE & SEND EXPLANATION/);
   assert.match(resendPayload.text, /https:\/\/worker\.example\/notify-submitter\?token=/);
+  assert.match(resendPayload.text, /Opening the link alone changes nothing/);
+
+  const actionUrls = resendPayload.text.match(/https:\/\/worker\.example\/(?:publish|decline|notify-submitter)\?token=\S+/g);
+  assert.equal(actionUrls.length, 3);
+  const decoded = await Promise.all(actionUrls.map((url) =>
+    verifyToken(new URL(url).searchParams.get("token"), "test-signing-secret")
+  ));
+  assert.equal(new Set(decoded.map((item) => item.actionId)).size, 1);
+  decoded.forEach((item) => {
+    assert.equal(item.expiresAt - item.issuedAt, 14 * 24 * 60 * 60 * 1000);
+    assert.ok(item.expiresAt > Date.now());
+  });
 });
 
 test("submission email is required so all three actions can work", async () => {
@@ -112,7 +127,10 @@ test("submission email is required so all three actions can work", async () => {
   });
   const response = await handlePostingSubmission({
     request,
-    env: {},
+    env: {
+      IP_RATE_LIMITER: { limit: async () => ({ success: true }) },
+      EMAIL_RATE_LIMITER: { limit: async () => ({ success: true }) }
+    },
     corsHeaders: {},
     jsonResponse,
     errorResponse

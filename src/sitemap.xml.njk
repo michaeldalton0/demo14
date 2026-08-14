@@ -4,11 +4,9 @@ eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{% for item in collections.all | reverse %}
-  {% if item.url and item.url != "/404.html" %}
+{% for url in collections.sitemapUrls %}
   <url>
-    <loc>{{ item.url | absoluteUrl(site.baseUrl) }}</loc>
+    <loc>{{ url | absoluteSitemapUrl(site.baseUrl) }}</loc>
   </url>
-  {% endif %}
 {% endfor %}
 </urlset>
