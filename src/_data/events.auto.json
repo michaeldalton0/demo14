@@ -1,122 +1,5 @@
 [
   {
-    "id": "city-pollinator-habitat-nature-tour-2026-06-20",
-    "slug": "city-pollinator-habitat-nature-tour-2026-06-20",
-    "title": "Pollinator Habitat - Nature Tour",
-    "category": "Community",
-    "shortSummary": "Pollinator Habitat - Nature Tour is listed on the official White Plains city calendar.",
-    "fullDescription": "Pollinator Habitat - Nature Tour is listed on the official White Plains city calendar. It is set for Battle Hill Pollinator Park, White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-06-20",
-    "endDate": "2026-06-20",
-    "startTime": "10:00",
-    "endTime": null,
-    "locationName": "Battle Hill Pollinator Park",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/community.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4330&month=6&year=2026&day=20&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4330&month=6&year=2026&day=20&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
-    "id": "city-puerto-rican-flag-raising-festival-2026-06-20",
-    "slug": "city-puerto-rican-flag-raising-festival-2026-06-20",
-    "title": "Puerto Rican Flag Raising/Festival",
-    "category": "Community",
-    "shortSummary": "Puerto Rican Flag Raising/Festival is listed on the official White Plains city calendar.",
-    "fullDescription": "Puerto Rican Flag Raising/Festival is listed on the official White Plains city calendar. It is set for Court St. (between Main St. and Martine Ave.), White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-06-20",
-    "endDate": "2026-06-20",
-    "startTime": "13:00",
-    "endTime": "19:00",
-    "locationName": "Court St. (between Main St. and Martine Ave.)",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/community.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4331&month=6&year=2026&day=20&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4331&month=6&year=2026&day=20&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
-    "id": "bid-puerto-rican-street-fair-2026-06-20",
-    "slug": "bid-puerto-rican-street-fair-2026-06-20",
-    "title": "Puerto Rican Street Fair",
-    "category": "Music & Family",
-    "shortSummary": "Puerto Rican Street Fair June 20 | 1:00 pm – 7:00 pmCourt Street & Renaissance PlazaCelebrate Puerto Rican culture and heritage with a ceremonial flag raising,…",
-    "fullDescription": "Puerto Rican Street Fair June 20 | 1:00 pm – 7:00 pmCourt Street & Renaissance PlazaCelebrate Puerto Rican culture and heritage with a ceremonial flag raising, followed by a festival featuring live music, dance performances, Latin food, artists, crafts, and vendors. Use the BID page for tickets, participating businesses, and weather updates.",
-    "startDate": "2026-06-20",
-    "endDate": "2026-06-20",
-    "startTime": "13:00",
-    "endTime": "19:00",
-    "locationName": "White Plains BID District",
-    "locationAddress": "Downtown White Plains, NY 10601",
-    "image": "/assets/img/events/music.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://wpbid.com/events/puerto-rican-street-fair/",
-    "ctaLabel": "Open event page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "downtown",
-      "bid",
-      "music"
-    ],
-    "organizer": "White Plains Business Improvement District",
-    "sourceUrl": "https://wpbid.com/events/puerto-rican-street-fair/",
-    "sourceLabel": "White Plains BID",
-    "importSource": "bid"
-  },
-  {
-    "id": "library-youth-leadership-institute-2026-06-20",
-    "slug": "library-youth-leadership-institute-2026-06-20",
-    "title": "Youth Leadership Institute",
-    "category": "Civic",
-    "shortSummary": "Alpha Kappa Alpha Sorority, Incorporated &reg; Pi Iota Omega Chapter is seeking students ages 10-13 (all genders) to participate in the Alpha Kappa Alpha…",
-    "fullDescription": "Alpha Kappa Alpha Sorority, Incorporated &reg; Pi Iota Omega Chapter is seeking students ages 10-13 (all genders) to participate in the Alpha Kappa Alpha Youth Leadership Institute (YLI). YLI is a youth-led and highly interactive leadership development program designed to empower and engage youth. Leadership skills will be developed by the \"doing\" approach via interactive workshops, youth-led meetings, committee meetings, committee leadership, and decision making. Registration is required. Leadership Development Activities include: Museums & Exhibits Trips Social Activism Events Community Service Projects Film/Media Projects Visionboard Crafting STEAM Activities Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-06-20",
-    "endDate": "2026-06-20",
-    "startTime": "14:00",
-    "endTime": "17:00",
-    "locationName": "White Plains Public Library, Galaxy Hall",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/civic.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/14610202",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "training and course instruction",
-      "jobs and careers",
-      "fun and games",
-      "educational presentations",
-      "teens",
-      "middle school (grades 6 - 8)",
-      "children",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/14610202",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
     "id": "library-wellness-connection-2026-06-22",
     "slug": "library-wellness-connection-2026-06-22",
     "title": "Wellness Connection",
@@ -2251,7 +2134,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4345&month=8&year=2026&day=3&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4593&month=8&year=2026&day=3&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "past",
@@ -2259,7 +2142,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4345&month=8&year=2026&day=3&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4593&month=8&year=2026&day=3&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -2336,7 +2219,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4272&month=8&year=2026&day=4&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4651&month=8&year=2026&day=4&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "past",
@@ -2344,7 +2227,34 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4272&month=8&year=2026&day=4&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4651&month=8&year=2026&day=4&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
+    "id": "city-court-street-market-2026-08-05",
+    "slug": "city-court-street-market-2026-08-05",
+    "title": "Court Street Market",
+    "category": "Food & Downtown",
+    "shortSummary": "Court Street Market is listed on the official White Plains city calendar.",
+    "fullDescription": "Court Street Market is listed on the official White Plains city calendar. It is set for Court Street Market, Variety of vendors every Wednesday from 8:30am until 3:30pm. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-08-05",
+    "endDate": "2026-08-05",
+    "startTime": "08:30",
+    "endTime": "15:00",
+    "locationName": "Court Street Market",
+    "locationAddress": "Variety of vendors every Wednesday from 8:30am until 3:30pm",
+    "image": "/assets/img/events/food.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4677&month=8&year=2026&day=5&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "past",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4677&month=8&year=2026&day=5&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -2516,7 +2426,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4346&month=8&year=2026&day=6&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4592&month=8&year=2026&day=6&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "past",
@@ -2524,7 +2434,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4346&month=8&year=2026&day=6&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4592&month=8&year=2026&day=6&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -2723,7 +2633,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4347&month=8&year=2026&day=10&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4590&month=8&year=2026&day=10&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "past",
@@ -2731,7 +2641,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4347&month=8&year=2026&day=10&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4590&month=8&year=2026&day=10&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -2830,6 +2740,33 @@
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/15773488",
     "sourceLabel": "Library calendar",
     "importSource": "library"
+  },
+  {
+    "id": "city-court-street-market-2026-08-12",
+    "slug": "city-court-street-market-2026-08-12",
+    "title": "Court Street Market",
+    "category": "Food & Downtown",
+    "shortSummary": "Court Street Market is listed on the official White Plains city calendar.",
+    "fullDescription": "Court Street Market is listed on the official White Plains city calendar. It is set for Court Street Market, Variety of vendors every Wednesday from 8:30am until 3:30pm. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-08-12",
+    "endDate": "2026-08-12",
+    "startTime": "08:30",
+    "endTime": "15:00",
+    "locationName": "Court Street Market",
+    "locationAddress": "Variety of vendors every Wednesday from 8:30am until 3:30pm",
+    "image": "/assets/img/events/food.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4678&month=8&year=2026&day=12&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "past",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4678&month=8&year=2026&day=12&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
   },
   {
     "id": "library-earth-wind-fire-and-zombies-2026-08-12",
@@ -3030,7 +2967,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4351&month=8&year=2026&day=13&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4586&month=8&year=2026&day=13&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "past",
@@ -3038,7 +2975,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4351&month=8&year=2026&day=13&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4586&month=8&year=2026&day=13&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -3087,7 +3024,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4348&month=8&year=2026&day=13&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4589&month=8&year=2026&day=13&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "past",
@@ -3095,7 +3032,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4348&month=8&year=2026&day=13&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4589&month=8&year=2026&day=13&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -3292,7 +3229,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4349&month=8&year=2026&day=17&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4588&month=8&year=2026&day=17&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "past",
@@ -3300,7 +3237,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4349&month=8&year=2026&day=17&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4588&month=8&year=2026&day=17&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -3362,6 +3299,33 @@
     "importSource": "city"
   },
   {
+    "id": "city-court-street-market-2026-08-19",
+    "slug": "city-court-street-market-2026-08-19",
+    "title": "Court Street Market",
+    "category": "Food & Downtown",
+    "shortSummary": "Court Street Market is listed on the official White Plains city calendar.",
+    "fullDescription": "Court Street Market is listed on the official White Plains city calendar. It is set for Court Street Market, Variety of vendors every Wednesday from 8:30am until 3:30pm. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-08-19",
+    "endDate": "2026-08-19",
+    "startTime": "08:30",
+    "endTime": "15:00",
+    "locationName": "Court Street Market",
+    "locationAddress": "Variety of vendors every Wednesday from 8:30am until 3:30pm",
+    "image": "/assets/img/events/food.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4679&month=8&year=2026&day=19&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "past",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4679&month=8&year=2026&day=19&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
     "id": "library-score-meeting-2026-08-19",
     "slug": "library-score-meeting-2026-08-19",
     "title": "SCORE Meeting",
@@ -3379,7 +3343,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/17225062",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "small business and non-profits",
       "adults",
@@ -3408,7 +3372,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/16634423",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "educational presentations",
       "arts and crafts",
@@ -3438,7 +3402,7 @@
     "externalUrl": "https://wpbid.com/events/august-19-downtown-white-plains-rock-the-block/",
     "ctaLabel": "Open event page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "downtown",
       "bid",
@@ -3467,7 +3431,7 @@
     "externalUrl": "https://wpbid.com/events/rock-the-block-2026/",
     "ctaLabel": "Open event page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "downtown",
       "bid",
@@ -3494,16 +3458,16 @@
     "locationAddress": "Mamaroneck Ave. between Maple Ave & East Post Rd.",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4320&month=8&year=2026&day=19&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4613&month=8&year=2026&day=19&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar",
       "downtown"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4320&month=8&year=2026&day=19&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4613&month=8&year=2026&day=19&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -3525,7 +3489,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/15937620",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "writing and poetry",
       "training and course instruction",
@@ -3556,7 +3520,7 @@
     "locationAddress": "Gardella Pool, Ferris Ave.",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4538&month=8&year=2026&day=23&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4557&month=8&year=2026&day=23&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -3564,7 +3528,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4538&month=8&year=2026&day=23&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4557&month=8&year=2026&day=23&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -3643,7 +3607,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4539&month=8&year=2026&day=24&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4576&month=8&year=2026&day=24&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -3651,7 +3615,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4539&month=8&year=2026&day=24&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4576&month=8&year=2026&day=24&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -3749,6 +3713,33 @@
     "importSource": "library"
   },
   {
+    "id": "city-court-street-market-2026-08-26",
+    "slug": "city-court-street-market-2026-08-26",
+    "title": "Court Street Market",
+    "category": "Food & Downtown",
+    "shortSummary": "Court Street Market is listed on the official White Plains city calendar.",
+    "fullDescription": "Court Street Market is listed on the official White Plains city calendar. It is set for Court Street Market, Variety of vendors every Wednesday from 8:30am until 3:30pm. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-08-26",
+    "endDate": "2026-08-26",
+    "startTime": "08:30",
+    "endTime": "15:00",
+    "locationName": "Court Street Market",
+    "locationAddress": "Variety of vendors every Wednesday from 8:30am until 3:30pm",
+    "image": "/assets/img/events/food.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4680&month=8&year=2026&day=26&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4680&month=8&year=2026&day=26&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
     "id": "library-sustainable-westchester-2026-08-26",
     "slug": "library-sustainable-westchester-2026-08-26",
     "title": "Sustainable Westchester",
@@ -3805,6 +3796,34 @@
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17092666",
     "sourceLabel": "Library calendar",
     "importSource": "library"
+  },
+  {
+    "id": "city-covid-19-and-flu-vaccine-clinics-2026-08-27",
+    "slug": "city-covid-19-and-flu-vaccine-clinics-2026-08-27",
+    "title": "Covid-19 and Flu Vaccine Clinics",
+    "category": "Parks & Recreation",
+    "shortSummary": "Covid-19 and Flu Vaccine Clinics is listed on the official White Plains city calendar.",
+    "fullDescription": "Covid-19 and Flu Vaccine Clinics is listed on the official White Plains city calendar. It is set for Covid-19 and Flu Vaccine Clinic, Sunshine Pharmacy will be holding clinics to administer both Covid-19 and Seasonal Flu vaccines. Clinics will be at the white Plains Recreation and Parks Community Center at 65 Mitchell Place., To register, visit https://tinyurl.com/Wpvax2026 or call Sunshine Pharmacy at 914-607-3939, Other Dates:, Thursday, August 27, 10:30 am - 12:30 pm, Tuesday, September 22, 10:30 am - 1:00 pm, Wednesday, October 7, 10:00 am - 2:00 pm, ====================================, Jornada de vacunación contra el COVID-19 y la gripe, Sunshine Pharmacy organizará jornadas para administrar vacunas tanto contra el COVID-19 como contra la gripe estacional. Estas jornadas se llevarán a cabo en el White Plains Recreation and Parks Community Center, ubicado en 65 Mitchell Place., Para registrarse, visite https://tinyurl.com/Wpvax2026 o llame a Sunshine Pharmacy al 914-607-3939., Otras fechas:, Jueves 27 de agosto, de 10:30 a. m. a 12:30 p. m., Martes 22 de septiembre, de 10:30 a. m. a 1:00 p. m., Miércoles 7 de octubre, de 10:00 a. m. a 2:00 p. m.. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-08-27",
+    "endDate": "2026-08-27",
+    "startTime": "10:30",
+    "endTime": "12:30",
+    "locationName": "Covid-19 and Flu Vaccine Clinic",
+    "locationAddress": "Sunshine Pharmacy will be holding clinics to administer both Covid-19 and Seasonal Flu vaccines. Clinics will be at the white Plains Recreation and Parks Community Center at 65 Mitchell Place., To register, visit https://tinyurl.com/Wpvax2026 or call Sunshine Pharmacy at 914-607-3939, Other Dates:, Thursday, August 27, 10:30 am - 12:30 pm, Tuesday, September 22, 10:30 am - 1:00 pm, Wednesday, October 7, 10:00 am - 2:00 pm, ====================================, Jornada de vacunación contra el COVID-19 y la gripe, Sunshine Pharmacy organizará jornadas para administrar vacunas tanto contra el COVID-19 como contra la gripe estacional. Estas jornadas se llevarán a cabo en el White Plains Recreation and Parks Community Center, ubicado en 65 Mitchell Place., Para registrarse, visite https://tinyurl.com/Wpvax2026 o llame a Sunshine Pharmacy al 914-607-3939., Otras fechas:, Jueves 27 de agosto, de 10:30 a. m. a 12:30 p. m., Martes 22 de septiembre, de 10:30 a. m. a 1:00 p. m., Miércoles 7 de octubre, de 10:00 a. m. a 2:00 p. m.",
+    "image": "/assets/img/events/parks.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4693&month=8&year=2026&day=27&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar",
+      "community center"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4693&month=8&year=2026&day=27&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
   },
   {
     "id": "countyparks-dj-days-saxon-woods-pool-2026-08-30",
@@ -3922,6 +3941,33 @@
     "importSource": "schools"
   },
   {
+    "id": "city-court-street-market-2026-09-02",
+    "slug": "city-court-street-market-2026-09-02",
+    "title": "Court Street Market",
+    "category": "Food & Downtown",
+    "shortSummary": "Court Street Market is listed on the official White Plains city calendar.",
+    "fullDescription": "Court Street Market is listed on the official White Plains city calendar. It is set for Court Street Market, Variety of vendors every Wednesday from 8:30am until 3:30pm. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-09-02",
+    "endDate": "2026-09-02",
+    "startTime": "08:30",
+    "endTime": "15:00",
+    "locationName": "Court Street Market",
+    "locationAddress": "Variety of vendors every Wednesday from 8:30am until 3:30pm",
+    "image": "/assets/img/events/food.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4681&month=9&year=2026&day=2&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4681&month=9&year=2026&day=2&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
     "id": "city-music-at-the-market-2026-09-02",
     "slug": "city-music-at-the-market-2026-09-02",
     "title": "Music at the Market",
@@ -3936,7 +3982,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4323&month=9&year=2026&day=2&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4609&month=9&year=2026&day=2&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -3944,7 +3990,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4323&month=9&year=2026&day=2&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4609&month=9&year=2026&day=2&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -3990,7 +4036,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4543&month=9&year=2026&day=3&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4573&month=9&year=2026&day=3&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -3998,7 +4044,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4543&month=9&year=2026&day=3&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4573&month=9&year=2026&day=3&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -4057,6 +4103,33 @@
     ],
     "organizer": "City of White Plains",
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=3608&month=9&year=2026&day=8&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
+    "id": "city-court-street-market-2026-09-09",
+    "slug": "city-court-street-market-2026-09-09",
+    "title": "Court Street Market",
+    "category": "Food & Downtown",
+    "shortSummary": "Court Street Market is listed on the official White Plains city calendar.",
+    "fullDescription": "Court Street Market is listed on the official White Plains city calendar. It is set for Court Street Market, Variety of vendors every Wednesday from 8:30am until 3:30pm. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-09-09",
+    "endDate": "2026-09-09",
+    "startTime": "08:30",
+    "endTime": "15:00",
+    "locationName": "Court Street Market",
+    "locationAddress": "Variety of vendors every Wednesday from 8:30am until 3:30pm",
+    "image": "/assets/img/events/food.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4682&month=9&year=2026&day=9&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4682&month=9&year=2026&day=9&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -4137,7 +4210,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4526&month=9&year=2026&day=11&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4569&month=9&year=2026&day=11&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -4145,7 +4218,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4526&month=9&year=2026&day=11&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4569&month=9&year=2026&day=11&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -4386,6 +4459,33 @@
     "importSource": "city"
   },
   {
+    "id": "city-court-street-market-2026-09-16",
+    "slug": "city-court-street-market-2026-09-16",
+    "title": "Court Street Market",
+    "category": "Food & Downtown",
+    "shortSummary": "Court Street Market is listed on the official White Plains city calendar.",
+    "fullDescription": "Court Street Market is listed on the official White Plains city calendar. It is set for Court Street Market, Variety of vendors every Wednesday from 8:30am until 3:30pm. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-09-16",
+    "endDate": "2026-09-16",
+    "startTime": "08:30",
+    "endTime": "15:00",
+    "locationName": "Court Street Market",
+    "locationAddress": "Variety of vendors every Wednesday from 8:30am until 3:30pm",
+    "image": "/assets/img/events/food.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4683&month=9&year=2026&day=16&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4683&month=9&year=2026&day=16&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
     "id": "library-sustainable-westchester-2026-09-16",
     "slug": "library-sustainable-westchester-2026-09-16",
     "title": "Sustainable Westchester",
@@ -4429,7 +4529,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4324&month=9&year=2026&day=16&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4608&month=9&year=2026&day=16&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -4437,7 +4537,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4324&month=9&year=2026&day=16&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4608&month=9&year=2026&day=16&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -4552,7 +4652,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4550&month=9&year=2026&day=18&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4560&month=9&year=2026&day=18&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -4560,7 +4660,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4550&month=9&year=2026&day=18&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4560&month=9&year=2026&day=18&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -4579,7 +4679,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4527&month=9&year=2026&day=19&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4555&month=9&year=2026&day=19&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -4587,7 +4687,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4527&month=9&year=2026&day=19&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4555&month=9&year=2026&day=19&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -4742,6 +4842,88 @@
     "importSource": "city"
   },
   {
+    "id": "city-covid-19-and-flu-vaccine-clinics-2026-09-22",
+    "slug": "city-covid-19-and-flu-vaccine-clinics-2026-09-22",
+    "title": "Covid-19 and Flu Vaccine Clinics",
+    "category": "Parks & Recreation",
+    "shortSummary": "Covid-19 and Flu Vaccine Clinics is listed on the official White Plains city calendar.",
+    "fullDescription": "Covid-19 and Flu Vaccine Clinics is listed on the official White Plains city calendar. It is set for Covid-19 and Flu Vaccine Clinic, Sunshine Pharmacy will be holding clinics to administer both Covid-19 and Seasonal Flu vaccines. Clinics will be at the white Plains Recreation and Parks Community Center at 65 Mitchell Place., To register, visit https://tinyurl.com/Wpvax2026 or call Sunshine Pharmacy at 914-607-3939, Other Dates:, Thursday, August 27, 10:30 am - 12:30 pm, Tuesday, September 22, 10:30 am - 1:00 pm, Wednesday, October 7, 10:00 am - 2:00 pm, ====================================, Jornada de vacunación contra el COVID-19 y la gripe, Sunshine Pharmacy organizará jornadas para administrar vacunas tanto contra el COVID-19 como contra la gripe estacional. Estas jornadas se llevarán a cabo en el White Plains Recreation and Parks Community Center, ubicado en 65 Mitchell Place., Para registrarse, visite https://tinyurl.com/Wpvax2026 o llame a Sunshine Pharmacy al 914-607-3939., Otras fechas:, Jueves 27 de agosto, de 10:30 a. m. a 12:30 p. m., Martes 22 de septiembre, de 10:30 a. m. a 1:00 p. m., Miércoles 7 de octubre, de 10:00 a. m. a 2:00 p. m.. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-09-22",
+    "endDate": "2026-09-22",
+    "startTime": "10:30",
+    "endTime": "13:00",
+    "locationName": "Covid-19 and Flu Vaccine Clinic",
+    "locationAddress": "Sunshine Pharmacy will be holding clinics to administer both Covid-19 and Seasonal Flu vaccines. Clinics will be at the white Plains Recreation and Parks Community Center at 65 Mitchell Place., To register, visit https://tinyurl.com/Wpvax2026 or call Sunshine Pharmacy at 914-607-3939, Other Dates:, Thursday, August 27, 10:30 am - 12:30 pm, Tuesday, September 22, 10:30 am - 1:00 pm, Wednesday, October 7, 10:00 am - 2:00 pm, ====================================, Jornada de vacunación contra el COVID-19 y la gripe, Sunshine Pharmacy organizará jornadas para administrar vacunas tanto contra el COVID-19 como contra la gripe estacional. Estas jornadas se llevarán a cabo en el White Plains Recreation and Parks Community Center, ubicado en 65 Mitchell Place., Para registrarse, visite https://tinyurl.com/Wpvax2026 o llame a Sunshine Pharmacy al 914-607-3939., Otras fechas:, Jueves 27 de agosto, de 10:30 a. m. a 12:30 p. m., Martes 22 de septiembre, de 10:30 a. m. a 1:00 p. m., Miércoles 7 de octubre, de 10:00 a. m. a 2:00 p. m.",
+    "image": "/assets/img/events/parks.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4694&month=9&year=2026&day=22&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar",
+      "community center"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4694&month=9&year=2026&day=22&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
+    "id": "city-jazzfest-2026-09-23",
+    "slug": "city-jazzfest-2026-09-23",
+    "title": "JazzFest",
+    "category": "Community",
+    "shortSummary": "JazzFest is listed on the official White Plains city calendar.",
+    "fullDescription": "JazzFest is listed on the official White Plains city calendar. It is set for JazzFest Returns!, For more details about performance dates and times go to artswestchester.org/programs/jazzfest. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-09-23",
+    "endDate": "2026-09-23",
+    "startTime": null,
+    "endTime": null,
+    "locationName": "JazzFest Returns!",
+    "locationAddress": "For more details about performance dates and times go to artswestchester.org/programs/jazzfest",
+    "image": "/assets/img/events/community.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4696&month=9&year=2026&day=23&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4696&month=9&year=2026&day=23&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
+    "id": "city-court-street-market-2026-09-23",
+    "slug": "city-court-street-market-2026-09-23",
+    "title": "Court Street Market",
+    "category": "Food & Downtown",
+    "shortSummary": "Court Street Market is listed on the official White Plains city calendar.",
+    "fullDescription": "Court Street Market is listed on the official White Plains city calendar. It is set for Court Street Market, Variety of vendors every Wednesday from 8:30am until 3:30pm. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-09-23",
+    "endDate": "2026-09-23",
+    "startTime": "08:30",
+    "endTime": "15:00",
+    "locationName": "Court Street Market",
+    "locationAddress": "Variety of vendors every Wednesday from 8:30am until 3:30pm",
+    "image": "/assets/img/events/food.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4684&month=9&year=2026&day=23&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4684&month=9&year=2026&day=23&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
     "id": "bid-jazzfest-downtown-white-plains-2026-2026-09-23",
     "slug": "bid-jazzfest-downtown-white-plains-2026-2026-09-23",
     "title": "JazzFest Downtown White Plains 2026",
@@ -4784,7 +4966,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4325&month=9&year=2026&day=23&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4607&month=9&year=2026&day=23&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -4792,7 +4974,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4325&month=9&year=2026&day=23&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4607&month=9&year=2026&day=23&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -4824,6 +5006,33 @@
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16909957",
     "sourceLabel": "Library calendar",
     "importSource": "library"
+  },
+  {
+    "id": "city-jazzfest-2026-09-24",
+    "slug": "city-jazzfest-2026-09-24",
+    "title": "JazzFest",
+    "category": "Community",
+    "shortSummary": "JazzFest is listed on the official White Plains city calendar.",
+    "fullDescription": "JazzFest is listed on the official White Plains city calendar. It is set for JazzFest Returns!, For more details about performance dates and times go to artswestchester.org/programs/jazzfest. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-09-24",
+    "endDate": "2026-09-24",
+    "startTime": null,
+    "endTime": null,
+    "locationName": "JazzFest Returns!",
+    "locationAddress": "For more details about performance dates and times go to artswestchester.org/programs/jazzfest",
+    "image": "/assets/img/events/community.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4696&month=9&year=2026&day=24&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4696&month=9&year=2026&day=24&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
   },
   {
     "id": "library-learn-about-3d-printing-in-the-igloo-2026-09-24",
@@ -4887,6 +5096,33 @@
     "importSource": "city"
   },
   {
+    "id": "city-jazzfest-2026-09-25",
+    "slug": "city-jazzfest-2026-09-25",
+    "title": "JazzFest",
+    "category": "Community",
+    "shortSummary": "JazzFest is listed on the official White Plains city calendar.",
+    "fullDescription": "JazzFest is listed on the official White Plains city calendar. It is set for JazzFest Returns!, For more details about performance dates and times go to artswestchester.org/programs/jazzfest. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-09-25",
+    "endDate": "2026-09-25",
+    "startTime": null,
+    "endTime": null,
+    "locationName": "JazzFest Returns!",
+    "locationAddress": "For more details about performance dates and times go to artswestchester.org/programs/jazzfest",
+    "image": "/assets/img/events/community.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4696&month=9&year=2026&day=25&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4696&month=9&year=2026&day=25&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
     "id": "library-jazz-at-noon-vanisha-gould-2026-09-25",
     "slug": "library-jazz-at-noon-vanisha-gould-2026-09-25",
     "title": "Jazz at Noon: Vanisha Gould",
@@ -4917,6 +5153,33 @@
     "importSource": "library"
   },
   {
+    "id": "city-jazzfest-2026-09-26",
+    "slug": "city-jazzfest-2026-09-26",
+    "title": "JazzFest",
+    "category": "Community",
+    "shortSummary": "JazzFest is listed on the official White Plains city calendar.",
+    "fullDescription": "JazzFest is listed on the official White Plains city calendar. It is set for JazzFest Returns!, For more details about performance dates and times go to artswestchester.org/programs/jazzfest. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-09-26",
+    "endDate": "2026-09-26",
+    "startTime": null,
+    "endTime": null,
+    "locationName": "JazzFest Returns!",
+    "locationAddress": "For more details about performance dates and times go to artswestchester.org/programs/jazzfest",
+    "image": "/assets/img/events/community.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4696&month=9&year=2026&day=26&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4696&month=9&year=2026&day=26&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
     "id": "countyparks-fireside-nature-storytime-2026-09-26",
     "slug": "countyparks-fireside-nature-storytime-2026-09-26",
     "title": "Fireside Nature Storytime",
@@ -4943,6 +5206,60 @@
     "sourceUrl": "https://parksevents.westchestercountyny.gov/event/fireside-nature-storytime-3",
     "sourceLabel": "County Parks calendar",
     "importSource": "countyparks"
+  },
+  {
+    "id": "city-family-fun-wellness-festival-2026-09-26",
+    "slug": "city-family-fun-wellness-festival-2026-09-26",
+    "title": "Family Fun Wellness Festival",
+    "category": "Family",
+    "shortSummary": "Family Fun Wellness Festival is listed on the official White Plains city calendar.",
+    "fullDescription": "Family Fun Wellness Festival is listed on the official White Plains city calendar. It is set for Tibbits Park, White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-09-26",
+    "endDate": "2026-09-26",
+    "startTime": "12:00",
+    "endTime": "16:00",
+    "locationName": "Tibbits Park",
+    "locationAddress": "White Plains, NY",
+    "image": "/assets/img/events/family.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4697&month=9&year=2026&day=26&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4697&month=9&year=2026&day=26&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
+    "id": "city-jazzfest-2026-09-27",
+    "slug": "city-jazzfest-2026-09-27",
+    "title": "JazzFest",
+    "category": "Community",
+    "shortSummary": "JazzFest is listed on the official White Plains city calendar.",
+    "fullDescription": "JazzFest is listed on the official White Plains city calendar. It is set for JazzFest Returns!, For more details about performance dates and times go to artswestchester.org/programs/jazzfest. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-09-27",
+    "endDate": "2026-09-27",
+    "startTime": null,
+    "endTime": null,
+    "locationName": "JazzFest Returns!",
+    "locationAddress": "For more details about performance dates and times go to artswestchester.org/programs/jazzfest",
+    "image": "/assets/img/events/community.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4696&month=9&year=2026&day=27&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4696&month=9&year=2026&day=27&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
   },
   {
     "id": "sports-girls-varsity-tennis-vs-harrison-2026-09-28",
@@ -5004,6 +5321,33 @@
     "importSource": "city"
   },
   {
+    "id": "city-court-street-market-2026-09-30",
+    "slug": "city-court-street-market-2026-09-30",
+    "title": "Court Street Market",
+    "category": "Food & Downtown",
+    "shortSummary": "Court Street Market is listed on the official White Plains city calendar.",
+    "fullDescription": "Court Street Market is listed on the official White Plains city calendar. It is set for Court Street Market, Variety of vendors every Wednesday from 8:30am until 3:30pm. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-09-30",
+    "endDate": "2026-09-30",
+    "startTime": "08:30",
+    "endTime": "15:00",
+    "locationName": "Court Street Market",
+    "locationAddress": "Variety of vendors every Wednesday from 8:30am until 3:30pm",
+    "image": "/assets/img/events/food.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4685&month=9&year=2026&day=30&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4685&month=9&year=2026&day=30&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
     "id": "city-music-at-the-market-2026-09-30",
     "slug": "city-music-at-the-market-2026-09-30",
     "title": "Music at the Market",
@@ -5018,7 +5362,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4326&month=9&year=2026&day=30&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4606&month=9&year=2026&day=30&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -5026,7 +5370,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4326&month=9&year=2026&day=30&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4606&month=9&year=2026&day=30&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -5066,8 +5410,8 @@
     "slug": "library-short-story-film-discussion-series-2026-10-01",
     "title": "Short-Story/Film Discussion Series",
     "category": "Civic",
-    "shortSummary": "Join White Plains Librarian Barbara Wenglin to explore compelling readings from the rich anthology, Best Medicine: Stories of Healing (ed.",
-    "fullDescription": "Join White Plains Librarian Barbara Wenglin to explore compelling readings from the rich anthology, Best Medicine: Stories of Healing (ed. Dalrymple, Everyman&rsquo;s Pocket Classics, 2021). These compelling works by diverse authors, many of whom were themselves physicians, feature tales of illness and healing, both physical and psychological. We will also discuss related film selections at some sessions to view before we meet. The reading for this date is &ldquo;A Doctor&rsquo;s Visit&rdquo; by Anton Chekhov (1898 &ndash; p.15) From a master of the short-story genre, we meet a young assistant doctor from Moscow sent to a small factory town where he concludes that his lonely heiress patient&rsquo;s deep suffering goes beyond her physical health. Copies of the series anthology are available to reserve through the White Plains Catalog with one held at the Reference Desk for reading in the Library. We will meet Thursdays from 2:00 - 4:00 PM on 10/1/26, 10/8/26, 10/29/26, 11/12/26, 12/3/26, 12/17/26, 1/7/27, and 1/21/27. Meeting ID for all sessions is: 880 7463 9775 or phone in at 1 929 205 6099, no password needed. Click This Zoom Link to register once for the full series and join us when you can. The program is supported by The Friends of the White Plains Library. All are welcome, including newcomers! Check the library page for registration, tickets, and any schedule updates.",
+    "shortSummary": "Join White Plains Librarian Barbara Wenglin to explore compelling readings from the rich anthology, The Best Medicine: Stories of Healing (ed.",
+    "fullDescription": "Join White Plains Librarian Barbara Wenglin to explore compelling readings from the rich anthology, The Best Medicine: Stories of Healing (ed. Dalrymple, Everyman&rsquo;s Pocket Classics, 2021). These works by diverse authors, many of whom were themselves physicians, feature tales of illness and healing, both physical and psychological. We will also discuss related film selections at some sessions to view before we meet. The reading for this date is &ldquo;A Doctor&rsquo;s Visit&rdquo; by Anton Chekhov (1898 &ndash; p.15) From a master of the short-story genre, we meet a young assistant doctor from Moscow sent to a small factory town where he concludes that his lonely heiress patient&rsquo;s deep suffering goes beyond her physical health. Copies of the series anthology are available to reserve through the White Plains Catalog with one held at the Reference Desk for reading in the Library. We will meet Thursdays from 2:00 - 4:00 PM on 10/1/26, 10/8/26, 10/29/26, 11/12/26, 12/3/26, 12/17/26, 1/7/27, and 1/21/27. Meeting ID for all sessions is: 880 7463 9775 or phone in at 1 929 205 6099, no password needed. Click This Zoom Link to register once for the full series and join us when you can. The program is supported by The Friends of the White Plains Library. All are welcome, including newcomers! Check the library page for registration, tickets, and any schedule updates.",
     "startDate": "2026-10-01",
     "endDate": "2026-10-01",
     "startTime": "14:00",
@@ -5165,7 +5509,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4528&month=10&year=2026&day=2&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4584&month=10&year=2026&day=2&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -5173,7 +5517,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4528&month=10&year=2026&day=2&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4584&month=10&year=2026&day=2&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -5221,7 +5565,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4529&month=10&year=2026&day=4&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4583&month=10&year=2026&day=4&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -5229,7 +5573,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4529&month=10&year=2026&day=4&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4583&month=10&year=2026&day=4&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -5385,6 +5729,61 @@
     "importSource": "library"
   },
   {
+    "id": "city-court-street-market-2026-10-07",
+    "slug": "city-court-street-market-2026-10-07",
+    "title": "Court Street Market",
+    "category": "Food & Downtown",
+    "shortSummary": "Court Street Market is listed on the official White Plains city calendar.",
+    "fullDescription": "Court Street Market is listed on the official White Plains city calendar. It is set for Court Street Market, Variety of vendors every Wednesday from 8:30am until 3:30pm. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-10-07",
+    "endDate": "2026-10-07",
+    "startTime": "08:30",
+    "endTime": "15:00",
+    "locationName": "Court Street Market",
+    "locationAddress": "Variety of vendors every Wednesday from 8:30am until 3:30pm",
+    "image": "/assets/img/events/food.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4686&month=10&year=2026&day=7&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4686&month=10&year=2026&day=7&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
+    "id": "city-covid-19-and-flu-vaccine-clinics-2026-10-07",
+    "slug": "city-covid-19-and-flu-vaccine-clinics-2026-10-07",
+    "title": "Covid-19 and Flu Vaccine Clinics",
+    "category": "Parks & Recreation",
+    "shortSummary": "Covid-19 and Flu Vaccine Clinics is listed on the official White Plains city calendar.",
+    "fullDescription": "Covid-19 and Flu Vaccine Clinics is listed on the official White Plains city calendar. It is set for Covid-19 and Flu Vaccine Clinic, Sunshine Pharmacy will be holding clinics to administer both Covid-19 and Seasonal Flu vaccines. Clinics will be at the white Plains Recreation and Parks Community Center at 65 Mitchell Place., To register, visit https://tinyurl.com/Wpvax2026 or call Sunshine Pharmacy at 914-607-3939, Other Dates:, Thursday, August 27, 10:30 am - 12:30 pm, Tuesday, September 22, 10:30 am - 1:00 pm, Wednesday, October 7, 10:00 am - 2:00 pm, ====================================, Jornada de vacunación contra el COVID-19 y la gripe, Sunshine Pharmacy organizará jornadas para administrar vacunas tanto contra el COVID-19 como contra la gripe estacional. Estas jornadas se llevarán a cabo en el White Plains Recreation and Parks Community Center, ubicado en 65 Mitchell Place., Para registrarse, visite https://tinyurl.com/Wpvax2026 o llame a Sunshine Pharmacy al 914-607-3939., Otras fechas:, Jueves 27 de agosto, de 10:30 a. m. a 12:30 p. m., Martes 22 de septiembre, de 10:30 a. m. a 1:00 p. m., Miércoles 7 de octubre, de 10:00 a. m. a 2:00 p. m.. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-10-07",
+    "endDate": "2026-10-07",
+    "startTime": "10:00",
+    "endTime": "14:00",
+    "locationName": "Covid-19 and Flu Vaccine Clinic",
+    "locationAddress": "Sunshine Pharmacy will be holding clinics to administer both Covid-19 and Seasonal Flu vaccines. Clinics will be at the white Plains Recreation and Parks Community Center at 65 Mitchell Place., To register, visit https://tinyurl.com/Wpvax2026 or call Sunshine Pharmacy at 914-607-3939, Other Dates:, Thursday, August 27, 10:30 am - 12:30 pm, Tuesday, September 22, 10:30 am - 1:00 pm, Wednesday, October 7, 10:00 am - 2:00 pm, ====================================, Jornada de vacunación contra el COVID-19 y la gripe, Sunshine Pharmacy organizará jornadas para administrar vacunas tanto contra el COVID-19 como contra la gripe estacional. Estas jornadas se llevarán a cabo en el White Plains Recreation and Parks Community Center, ubicado en 65 Mitchell Place., Para registrarse, visite https://tinyurl.com/Wpvax2026 o llame a Sunshine Pharmacy al 914-607-3939., Otras fechas:, Jueves 27 de agosto, de 10:30 a. m. a 12:30 p. m., Martes 22 de septiembre, de 10:30 a. m. a 1:00 p. m., Miércoles 7 de octubre, de 10:00 a. m. a 2:00 p. m.",
+    "image": "/assets/img/events/parks.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4695&month=10&year=2026&day=7&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar",
+      "community center"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4695&month=10&year=2026&day=7&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
     "id": "library-intro-to-microsoft-excel-part-1-2026-10-07",
     "slug": "library-intro-to-microsoft-excel-part-1-2026-10-07",
     "title": "Intro to Microsoft Excel, Part 1",
@@ -5479,8 +5878,8 @@
     "slug": "library-short-story-film-discussion-series-2026-10-08",
     "title": "Short-Story/Film Discussion Series",
     "category": "Civic",
-    "shortSummary": "Join White Plains Librarian Barbara Wenglin to explore compelling readings from the rich anthology, Best Medicine: Stories of Healing (ed.",
-    "fullDescription": "Join White Plains Librarian Barbara Wenglin to explore compelling readings from the rich anthology, Best Medicine: Stories of Healing (ed. Dalrymple, Everyman&rsquo;s Pocket Classics, 2021). These compelling works by diverse authors, many of whom were themselves physicians, feature tales of illness and healing, both physical and psychological. We will also discuss related film selections at some sessions to view before we meet. Documentary Film Discussion Chris and Martina: The Final Set (2026) The enduring tennis rivalry and warm friendship of Chris Evert and Martina Navratilova are highlighted as their bond deepens with parallel cancer diagnoses. Streamed on Netflix. Copies of the series anthology are available to reserve through the White Plains Catalog with one held at the Reference Desk for reading in the Library. We will meet Thursdays from 2:00 - 4:00 PM on 10/8/26, 10/29/26, 11/12/26, 12/3/26, 12/17/26, 1/7/27, and 1/21/27. Meeting ID for all sessions is: 880 7463 9775 or phone in at 1 929 205 6099, no password needed. Click This Zoom Link to register once for the full series and join us when you can. The program is supported by The Friends of the White Plains Library. All are welcome, including newcomers! Check the library page for registration, tickets, and any schedule updates.",
+    "shortSummary": "Join White Plains Librarian Barbara Wenglin to explore compelling readings from the rich anthology, The Best Medicine: Stories of Healing (ed.",
+    "fullDescription": "Join White Plains Librarian Barbara Wenglin to explore compelling readings from the rich anthology, The Best Medicine: Stories of Healing (ed. Dalrymple, Everyman&rsquo;s Pocket Classics, 2021). These works by diverse authors, many of whom were themselves physicians, feature tales of illness and healing, both physical and psychological. We will also discuss related film selections at some sessions to view before we meet. Documentary Film Discussion Chris and Martina: The Final Set (2026) The enduring tennis rivalry and warm friendship of Chris Evert and Martina Navratilova are highlighted as their bond deepens with parallel cancer diagnoses. Streamed on Netflix. Copies of the series anthology are available to reserve through the White Plains Catalog with one held at the Reference Desk for reading in the Library. We will meet Thursdays from 2:00 - 4:00 PM on 10/8/26, 10/29/26, 11/12/26, 12/3/26, 12/17/26, 1/7/27, and 1/21/27. Meeting ID for all sessions is: 880 7463 9775 or phone in at 1 929 205 6099, no password needed. Click This Zoom Link to register once for the full series and join us when you can. The program is supported by The Friends of the White Plains Library. All are welcome, including newcomers! Check the library page for registration, tickets, and any schedule updates.",
     "startDate": "2026-10-08",
     "endDate": "2026-10-08",
     "startTime": "14:00",
@@ -5650,6 +6049,33 @@
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16522047",
     "sourceLabel": "Library calendar",
     "importSource": "library"
+  },
+  {
+    "id": "city-court-street-market-2026-10-14",
+    "slug": "city-court-street-market-2026-10-14",
+    "title": "Court Street Market",
+    "category": "Food & Downtown",
+    "shortSummary": "Court Street Market is listed on the official White Plains city calendar.",
+    "fullDescription": "Court Street Market is listed on the official White Plains city calendar. It is set for Court Street Market, Variety of vendors every Wednesday from 8:30am until 3:30pm. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-10-14",
+    "endDate": "2026-10-14",
+    "startTime": "08:30",
+    "endTime": "15:00",
+    "locationName": "Court Street Market",
+    "locationAddress": "Variety of vendors every Wednesday from 8:30am until 3:30pm",
+    "image": "/assets/img/events/food.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4687&month=10&year=2026&day=14&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4687&month=10&year=2026&day=14&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
   },
   {
     "id": "library-sustainable-westchester-2026-10-14",
@@ -5852,7 +6278,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4531&month=10&year=2026&day=17&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4582&month=10&year=2026&day=17&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -5860,7 +6286,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4531&month=10&year=2026&day=17&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4582&month=10&year=2026&day=17&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -5879,7 +6305,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/learning.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4530&month=10&year=2026&day=18&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4553&month=10&year=2026&day=18&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -5887,7 +6313,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4530&month=10&year=2026&day=18&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4553&month=10&year=2026&day=18&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -6038,6 +6464,33 @@
     ],
     "organizer": "City of White Plains",
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4358&month=10&year=2026&day=20&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
+    "id": "city-court-street-market-2026-10-21",
+    "slug": "city-court-street-market-2026-10-21",
+    "title": "Court Street Market",
+    "category": "Food & Downtown",
+    "shortSummary": "Court Street Market is listed on the official White Plains city calendar.",
+    "fullDescription": "Court Street Market is listed on the official White Plains city calendar. It is set for Court Street Market, Variety of vendors every Wednesday from 8:30am until 3:30pm. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-10-21",
+    "endDate": "2026-10-21",
+    "startTime": "08:30",
+    "endTime": "15:00",
+    "locationName": "Court Street Market",
+    "locationAddress": "Variety of vendors every Wednesday from 8:30am until 3:30pm",
+    "image": "/assets/img/events/food.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4688&month=10&year=2026&day=21&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4688&month=10&year=2026&day=21&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -6211,7 +6664,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4532&month=10&year=2026&day=24&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4581&month=10&year=2026&day=24&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -6219,7 +6672,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4532&month=10&year=2026&day=24&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4581&month=10&year=2026&day=24&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -6378,6 +6831,33 @@
     "importSource": "library"
   },
   {
+    "id": "city-court-street-market-2026-10-28",
+    "slug": "city-court-street-market-2026-10-28",
+    "title": "Court Street Market",
+    "category": "Food & Downtown",
+    "shortSummary": "Court Street Market is listed on the official White Plains city calendar.",
+    "fullDescription": "Court Street Market is listed on the official White Plains city calendar. It is set for Court Street Market, Variety of vendors every Wednesday from 8:30am until 3:30pm. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-10-28",
+    "endDate": "2026-10-28",
+    "startTime": "08:30",
+    "endTime": "15:00",
+    "locationName": "Court Street Market",
+    "locationAddress": "Variety of vendors every Wednesday from 8:30am until 3:30pm",
+    "image": "/assets/img/events/food.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4689&month=10&year=2026&day=28&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4689&month=10&year=2026&day=28&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
     "id": "library-battle-of-white-plains-history-in-the-igloo-2026-10-28",
     "slug": "library-battle-of-white-plains-history-in-the-igloo-2026-10-28",
     "title": "Battle of White Plains (History in the Igloo)",
@@ -6445,8 +6925,8 @@
     "slug": "library-short-story-film-discussion-series-2026-10-29",
     "title": "Short-Story/Film Discussion Series",
     "category": "Civic",
-    "shortSummary": "Join White Plains Librarian Barbara Wenglin to explore compelling readings from the rich anthology, Best Medicine: Stories of Healing (ed.",
-    "fullDescription": "Join White Plains Librarian Barbara Wenglin to explore compelling readings from the rich anthology, Best Medicine: Stories of Healing (ed. Dalrymple, Everyman&rsquo;s Pocket Classics, 2021). These compelling works by diverse authors, many of whom were themselves physicians, feature tales of illness and healing, both physical and psychological. We will also discuss related film selections at some sessions to view before we meet. The reading for this date is &ldquo;Interpreter of Maladies&rdquo; by Jhumpa Lahiri (1999 &ndash; p.147). An interpreter in a doctor&rsquo;s office and tour guide becomes a confidant to the troubled wife/mother of a family touring with him -- when she reveals dark family secrets. Title story from Pulitzer Prize-winning short-story collection. Copies of the series anthology are available to reserve through the White Plains Catalog with one held at the Reference Desk for reading in the Library. We will meet Thursdays from 2:00 - 4:00 PM on 10/29/26, 11/12/26, 12/3/26, 12/17/26, 1/7/27, and 1/21/27. Meeting ID for all sessions is: 880 7463 9775 or phone in at 1 929 205 6099, no password needed. Click This Zoom Link to register once for the full series and join us when you can. The program is supported by The Friends of the White Plains Library. All are welcome, including newcomers! Check the library page for registration, tickets, and any schedule updates.",
+    "shortSummary": "Join White Plains Librarian Barbara Wenglin to explore compelling readings from the rich anthology, The Best Medicine: Stories of Healing (ed.",
+    "fullDescription": "Join White Plains Librarian Barbara Wenglin to explore compelling readings from the rich anthology, The Best Medicine: Stories of Healing (ed. Dalrymple, Everyman&rsquo;s Pocket Classics, 2021). These works by diverse authors, many of whom were themselves physicians, feature tales of illness and healing, both physical and psychological. We will also discuss related film selections at some sessions to view before we meet. The reading for this date is &ldquo;Interpreter of Maladies&rdquo; by Jhumpa Lahiri (1999 &ndash; p.147). An interpreter in a doctor&rsquo;s office and tour guide becomes a confidant to the troubled wife/mother of a family touring with him -- when she reveals dark family secrets. Title story from Pulitzer Prize-winning short-story collection. Copies of the series anthology are available to reserve through the White Plains Catalog with one held at the Reference Desk for reading in the Library. We will meet Thursdays from 2:00 - 4:00 PM on 10/29/26, 11/12/26, 12/3/26, 12/17/26, 1/7/27, and 1/21/27. Meeting ID for all sessions is: 880 7463 9775 or phone in at 1 929 205 6099, no password needed. Click This Zoom Link to register once for the full series and join us when you can. The program is supported by The Friends of the White Plains Library. All are welcome, including newcomers! Check the library page for registration, tickets, and any schedule updates.",
     "startDate": "2026-10-29",
     "endDate": "2026-10-29",
     "startTime": "14:00",
@@ -6484,7 +6964,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4544&month=10&year=2026&day=30&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4558&month=10&year=2026&day=30&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -6493,7 +6973,7 @@
       "community center"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4544&month=10&year=2026&day=30&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4558&month=10&year=2026&day=30&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -6553,6 +7033,33 @@
     ],
     "organizer": "City of White Plains",
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=3610&month=11&year=2026&day=2&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
+    "id": "city-court-street-market-2026-11-04",
+    "slug": "city-court-street-market-2026-11-04",
+    "title": "Court Street Market",
+    "category": "Food & Downtown",
+    "shortSummary": "Court Street Market is listed on the official White Plains city calendar.",
+    "fullDescription": "Court Street Market is listed on the official White Plains city calendar. It is set for Court Street Market, Variety of vendors every Wednesday from 8:30am until 3:30pm. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-11-04",
+    "endDate": "2026-11-04",
+    "startTime": "08:30",
+    "endTime": "15:00",
+    "locationName": "Court Street Market",
+    "locationAddress": "Variety of vendors every Wednesday from 8:30am until 3:30pm",
+    "image": "/assets/img/events/food.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4690&month=11&year=2026&day=4&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4690&month=11&year=2026&day=4&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -6627,7 +7134,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4540&month=11&year=2026&day=10&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4575&month=11&year=2026&day=10&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -6636,7 +7143,34 @@
       "community center"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4540&month=11&year=2026&day=10&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4575&month=11&year=2026&day=10&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
+    "id": "city-court-street-market-2026-11-11",
+    "slug": "city-court-street-market-2026-11-11",
+    "title": "Court Street Market",
+    "category": "Food & Downtown",
+    "shortSummary": "Court Street Market is listed on the official White Plains city calendar.",
+    "fullDescription": "Court Street Market is listed on the official White Plains city calendar. It is set for Court Street Market, Variety of vendors every Wednesday from 8:30am until 3:30pm. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-11-11",
+    "endDate": "2026-11-11",
+    "startTime": "08:30",
+    "endTime": "15:00",
+    "locationName": "Court Street Market",
+    "locationAddress": "Variety of vendors every Wednesday from 8:30am until 3:30pm",
+    "image": "/assets/img/events/food.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4691&month=11&year=2026&day=11&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4691&month=11&year=2026&day=11&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -6655,7 +7189,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4533&month=11&year=2026&day=11&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4562&month=11&year=2026&day=11&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -6663,7 +7197,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4533&month=11&year=2026&day=11&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4562&month=11&year=2026&day=11&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -6846,6 +7380,33 @@
     "importSource": "city"
   },
   {
+    "id": "city-court-street-market-2026-11-18",
+    "slug": "city-court-street-market-2026-11-18",
+    "title": "Court Street Market",
+    "category": "Food & Downtown",
+    "shortSummary": "Court Street Market is listed on the official White Plains city calendar.",
+    "fullDescription": "Court Street Market is listed on the official White Plains city calendar. It is set for Court Street Market, Variety of vendors every Wednesday from 8:30am until 3:30pm. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-11-18",
+    "endDate": "2026-11-18",
+    "startTime": "08:30",
+    "endTime": "15:00",
+    "locationName": "Court Street Market",
+    "locationAddress": "Variety of vendors every Wednesday from 8:30am until 3:30pm",
+    "image": "/assets/img/events/food.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4692&month=11&year=2026&day=18&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4692&month=11&year=2026&day=18&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
     "id": "library-successfully-navigating-college-admissions-2026-11-18",
     "slug": "library-successfully-navigating-college-admissions-2026-11-18",
     "title": "Successfully Navigating College Admissions",
@@ -6984,7 +7545,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4545&month=11&year=2026&day=24&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4570&month=11&year=2026&day=24&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -6993,7 +7554,7 @@
       "community center"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4545&month=11&year=2026&day=24&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4570&month=11&year=2026&day=24&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7012,7 +7573,7 @@
     "locationAddress": "255 Main St.",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=11&year=2026&day=25&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=11&year=2026&day=25&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7020,7 +7581,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=11&year=2026&day=25&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=11&year=2026&day=25&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7039,7 +7600,7 @@
     "locationAddress": "255 Main St.",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=11&year=2026&day=26&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=11&year=2026&day=26&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7047,7 +7608,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=11&year=2026&day=26&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=11&year=2026&day=26&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7066,7 +7627,7 @@
     "locationAddress": "255 Main St.",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=11&year=2026&day=27&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=11&year=2026&day=27&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7074,7 +7635,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=11&year=2026&day=27&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=11&year=2026&day=27&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7093,7 +7654,7 @@
     "locationAddress": "255 Main St.",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=11&year=2026&day=28&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=11&year=2026&day=28&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7101,7 +7662,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=11&year=2026&day=28&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=11&year=2026&day=28&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7120,7 +7681,7 @@
     "locationAddress": "255 Main St.",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=11&year=2026&day=29&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=11&year=2026&day=29&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7128,7 +7689,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=11&year=2026&day=29&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=11&year=2026&day=29&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7147,7 +7708,7 @@
     "locationAddress": "255 Main St.",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=11&year=2026&day=30&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=11&year=2026&day=30&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7155,7 +7716,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=11&year=2026&day=30&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=11&year=2026&day=30&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7202,7 +7763,7 @@
     "locationAddress": "255 Main St.",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=1&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=1&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7210,7 +7771,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=1&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=1&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7229,7 +7790,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4535&month=12&year=2026&day=1&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4579&month=12&year=2026&day=1&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7237,7 +7798,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4535&month=12&year=2026&day=1&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4579&month=12&year=2026&day=1&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7256,7 +7817,7 @@
     "locationAddress": "255 Main St.",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=2&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=2&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7264,7 +7825,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=2&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=2&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7310,7 +7871,7 @@
     "locationAddress": "255 Main St.",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=3&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=3&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7318,7 +7879,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=3&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=3&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7337,7 +7898,7 @@
     "locationAddress": "255 Main St.",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=4&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=4&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7345,7 +7906,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=4&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=4&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7364,7 +7925,7 @@
     "locationAddress": "255 Main St.",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=5&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=5&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7372,7 +7933,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=5&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=5&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7422,7 +7983,7 @@
     "locationAddress": "255 Main St.",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=6&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=6&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7430,7 +7991,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=6&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=6&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7449,7 +8010,7 @@
     "locationAddress": "255 Main St.",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=7&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=7&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7457,7 +8018,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=7&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=7&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7505,7 +8066,7 @@
     "locationAddress": "255 Main St.",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=8&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=8&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7513,7 +8074,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=8&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=8&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7532,7 +8093,7 @@
     "locationAddress": "255 Main St.",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=9&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=9&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7540,7 +8101,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=9&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=9&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7559,7 +8120,7 @@
     "locationAddress": "255 Main St.",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=10&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=10&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7567,7 +8128,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=10&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=10&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7644,7 +8205,7 @@
     "locationAddress": "255 Main St.",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=11&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=11&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7652,7 +8213,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=11&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=11&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7703,7 +8264,7 @@
     "locationAddress": "255 Main St.",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=12&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=12&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7711,7 +8272,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=12&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=12&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7730,7 +8291,7 @@
     "locationAddress": "255 Main St.",
     "image": "/assets/img/events/community.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=13&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=13&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7738,7 +8299,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4534&month=12&year=2026&day=13&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=13&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7757,7 +8318,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4536&month=12&year=2026&day=13&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4578&month=12&year=2026&day=13&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7765,7 +8326,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4536&month=12&year=2026&day=13&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4578&month=12&year=2026&day=13&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7846,7 +8407,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4546&month=12&year=2026&day=15&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4572&month=12&year=2026&day=15&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7855,7 +8416,7 @@
       "community center"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4546&month=12&year=2026&day=15&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4572&month=12&year=2026&day=15&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -7961,7 +8522,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/family.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4537&month=12&year=2026&day=31&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4577&month=12&year=2026&day=31&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -7969,7 +8530,7 @@
       "city calendar"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4537&month=12&year=2026&day=31&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4577&month=12&year=2026&day=31&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -8044,7 +8605,7 @@
     "locationAddress": "White Plains, NY",
     "image": "/assets/img/events/parks.svg",
     "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4547&month=1&year=2027&day=13&calType=0",
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4571&month=1&year=2027&day=13&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
     "status": "upcoming",
@@ -8053,7 +8614,7 @@
       "community center"
     ],
     "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4547&month=1&year=2027&day=13&calType=0",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4571&month=1&year=2027&day=13&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
