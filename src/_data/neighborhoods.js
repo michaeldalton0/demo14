@@ -67,7 +67,7 @@ module.exports = [
           role: "Vice President"
         },
         {
-          name: "Jane Prout",
+          name: "Joann McLaughlin",
           role: "Treasurer"
         }
       ]
