@@ -1,63 +1,5 @@
 [
   {
-    "id": "city-white-plains-urban-renewal-agency-special-meeting-2026-06-23",
-    "slug": "city-white-plains-urban-renewal-agency-special-meeting-2026-06-23",
-    "title": "White Plains Urban Renewal Agency Special Meeting",
-    "category": "Civic",
-    "shortSummary": "White Plains Urban Renewal Agency Special Meeting is listed on the official White Plains city calendar.",
-    "fullDescription": "White Plains Urban Renewal Agency Special Meeting is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-06-23",
-    "endDate": "2026-06-23",
-    "startTime": "14:00",
-    "endTime": null,
-    "locationName": "White Plains",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/civic.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4353&month=6&year=2026&day=23&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar",
-      "public meeting"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4353&month=6&year=2026&day=23&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
-    "id": "library-america-250-the-importance-of-revolutionary-war-pensions-2026-06-23",
-    "slug": "library-america-250-the-importance-of-revolutionary-war-pensions-2026-06-23",
-    "title": "America 250: The Importance of Revolutionary War Pensions",
-    "category": "Learning",
-    "shortSummary": "It's America's 250th birthday, and for researchers across the country, Revolutionary War Pensions offer up valuable information about a veteran's life,…",
-    "fullDescription": "It's America's 250th birthday, and for researchers across the country, Revolutionary War Pensions offer up valuable information about a veteran's life, family, and service. This program shares how to find pensions, the information often available, and interpretation tips that are helpful to genealogists and researchers alike! Presented in collaboration with Ruth Keeler Memorial Library, White Plains Public Library, Eastchester Public Library and The Field Library. Registration is required. Click Here To Register. Click Here to Join the Zoom Directly. Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-06-23",
-    "endDate": "2026-06-23",
-    "startTime": "19:00",
-    "endTime": "20:00",
-    "locationName": "White Plains Public Library, Ask Staff For More Information",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/learning.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16692151",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "history & genealogy",
-      "educational presentations",
-      "adults",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16692151",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
     "id": "city-music-at-the-market-2026-06-24",
     "slug": "city-music-at-the-market-2026-06-24",
     "title": "Music at the Market",
@@ -2493,7 +2435,7 @@
     "externalUrl": "https://wppac.com/shows/trolls-jr/",
     "ctaLabel": "Open show page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "performing arts",
       "theater"
