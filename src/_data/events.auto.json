@@ -1,59 +1,5 @@
 [
   {
-    "id": "city-soccer-fest-story-time-with-a-professional-soccer-player-2026-06-28",
-    "slug": "city-soccer-fest-story-time-with-a-professional-soccer-player-2026-06-28",
-    "title": "Soccer Fest - Story Time with a Professional Soccer Player",
-    "category": "Community",
-    "shortSummary": "Soccer Fest - Story Time with a Professional Soccer Player is listed on the official White Plains city calendar.",
-    "fullDescription": "Soccer Fest - Story Time with a Professional Soccer Player is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-06-28",
-    "endDate": "2026-06-28",
-    "startTime": "14:00",
-    "endTime": null,
-    "locationName": "White Plains",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/community.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4300&month=6&year=2026&day=28&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4300&month=6&year=2026&day=28&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
-    "id": "city-soccer-fest-watch-party-2026-06-28",
-    "slug": "city-soccer-fest-watch-party-2026-06-28",
-    "title": "Soccer Fest - Watch Party",
-    "category": "Community",
-    "shortSummary": "Soccer Fest - Watch Party is listed on the official White Plains city calendar.",
-    "fullDescription": "Soccer Fest - Watch Party is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-06-28",
-    "endDate": "2026-06-28",
-    "startTime": "16:00",
-    "endTime": "01:30",
-    "locationName": "White Plains",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/community.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4299&month=6&year=2026&day=28&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4299&month=6&year=2026&day=28&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
     "id": "wppac-anastasia-youth-edition-2026-06-29",
     "slug": "wppac-anastasia-youth-edition-2026-06-29",
     "title": "Anastasia: Youth Edition",
@@ -3488,7 +3434,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4693&month=8&year=2026&day=27&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar",
       "community center"
@@ -3516,7 +3462,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4700&month=8&year=2026&day=27&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -8104,6 +8050,33 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=3611&month=12&year=2026&day=7&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "countyparks-derek-hough-dance-for-the-holidays-2026-12-07",
+    "slug": "countyparks-derek-hough-dance-for-the-holidays-2026-12-07",
+    "title": "Derek Hough Dance for the Holidays",
+    "category": "Community",
+    "shortSummary": "This event is a joyous celebration of the most festive time of the year!",
+    "fullDescription": "This event is a joyous celebration of the most festive time of the year! Check the county parks page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-12-07",
+    "endDate": "2026-12-07",
+    "startTime": "20:00",
+    "endTime": "22:00",
+    "locationName": "Westchester County Center",
+    "locationAddress": "198 Central Avenue, White Plains, NY, 10606",
+    "image": "/assets/img/events/community.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://parksevents.westchestercountyny.gov/event/derek-hough-dance-for-the-holidays",
+    "ctaLabel": "Open county parks page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "county parks"
+    ],
+    "organizer": "Westchester County Parks",
+    "sourceUrl": "https://parksevents.westchestercountyny.gov/event/derek-hough-dance-for-the-holidays",
+    "sourceLabel": "County Parks calendar",
+    "importSource": "countyparks"
   },
   {
     "id": "city-santa-s-mailbox-2026-12-08",

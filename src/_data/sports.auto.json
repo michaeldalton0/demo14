@@ -429,7 +429,7 @@
       "slug": "girls-varsity-volleyball",
       "sportSlug": "volleyball",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270382",
-      "gameCount": 3
+      "gameCount": 4
     },
     {
       "id": "270400",
@@ -488,6 +488,29 @@
       "url": "https://www.schedulegalaxy.com/schools/719/teams/270175/games/1517878",
       "seasonYear": "2026",
       "summary": "Boys Varsity Football v. Harrison"
+    },
+    {
+      "id": "sports-1534602",
+      "gameId": "1534602",
+      "teamId": "270382",
+      "teamName": "Girls Varsity Volleyball",
+      "teamSlug": "girls-varsity-volleyball",
+      "sport": "Volleyball",
+      "sportSlug": "volleyball",
+      "gender": "Girls",
+      "level": "Varsity",
+      "opponent": "Harrison",
+      "isHome": true,
+      "title": "Girls Varsity Volleyball vs. Harrison",
+      "gameType": "Scrimmage",
+      "notes": "",
+      "startDate": "2026-09-01",
+      "startTime": "15:00",
+      "endTime": null,
+      "locationName": "White Plains High School",
+      "url": "https://www.schedulegalaxy.com/schools/719/teams/270382/games/1534602",
+      "seasonYear": "2026",
+      "summary": "Girls Varsity Volleyball v. Harrison"
     },
     {
       "id": "sports-1518781",
