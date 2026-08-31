@@ -4365,6 +4365,34 @@
     "importSource": "city"
   },
   {
+    "id": "library-white-plains-beautification-foundation-2026-09-22",
+    "slug": "library-white-plains-beautification-foundation-2026-09-22",
+    "title": "White Plains Beautification Foundation",
+    "category": "Learning",
+    "shortSummary": "Contact the Beautification Foundtaion for more informatiuon at info@wpbf.org or phone 914-683-5108",
+    "fullDescription": "Contact the Beautification Foundtaion for more informatiuon at info@wpbf.org or phone 914-683-5108 Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-09-22",
+    "endDate": "2026-09-22",
+    "startTime": "18:00",
+    "endTime": "20:00",
+    "locationName": "White Plains Public Library, Community Room",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/17212608",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17212608",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
+  },
+  {
     "id": "city-jazzfest-2026-09-23",
     "slug": "city-jazzfest-2026-09-23",
     "title": "JazzFest",
