@@ -44,7 +44,7 @@
       "slug": "boys-varsity-basketball",
       "sportSlug": "basketball",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270076",
-      "gameCount": 0
+      "gameCount": 1
     },
     {
       "id": "270067",
@@ -572,7 +572,7 @@
       "isHome": true,
       "title": "Girls Varsity Volleyball vs. Roy C Ketcham/ Wappingers JHS",
       "gameType": "Regular Season",
-      "notes": "",
+      "notes": "Jefferson Gym",
       "startDate": "2026-09-08",
       "startTime": "17:00",
       "endTime": null,
@@ -787,6 +787,29 @@
       "url": "https://www.schedulegalaxy.com/schools/719/teams/270166/games/1516163",
       "seasonYear": "2026",
       "summary": "Girls Varsity Field Hockey v. Sleepy Hollow"
+    },
+    {
+      "id": "sports-1536321",
+      "gameId": "1536321",
+      "teamId": "270076",
+      "teamName": "Boys Varsity Basketball",
+      "teamSlug": "boys-varsity-basketball",
+      "sport": "Basketball",
+      "sportSlug": "basketball",
+      "gender": "Boys",
+      "level": "Varsity",
+      "opponent": "Roy C Ketcham/ Wappingers JHS",
+      "isHome": false,
+      "title": "Boys Varsity Basketball at Roy C Ketcham/ Wappingers JHS",
+      "gameType": "Regular Season",
+      "notes": "",
+      "startDate": "2026-12-08",
+      "startTime": "18:30",
+      "endTime": null,
+      "locationName": "Roy C. Ketcham HS",
+      "url": "https://www.schedulegalaxy.com/schools/719/teams/270076/games/1536321",
+      "seasonYear": "2026",
+      "summary": "Boys Varsity Basketball @ Roy C Ketcham/ Wappingers JHS"
     }
   ]
 }
