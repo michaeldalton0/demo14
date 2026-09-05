@@ -88,7 +88,7 @@
       "slug": "girls-varsity-cheerleading",
       "sportSlug": "cheerleading",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270103",
-      "gameCount": 0
+      "gameCount": 1
     },
     {
       "id": "270112",
@@ -741,6 +741,29 @@
       "url": "https://www.schedulegalaxy.com/schools/719/teams/270364/games/1527932",
       "seasonYear": "2026",
       "summary": "Girls Varsity Tennis v. Harrison"
+    },
+    {
+      "id": "sports-1537483",
+      "gameId": "1537483",
+      "teamId": "270103",
+      "teamName": "Girls Varsity Cheerleading",
+      "teamSlug": "girls-varsity-cheerleading",
+      "sport": "Cheerleading",
+      "sportSlug": "cheerleading",
+      "gender": "Girls",
+      "level": "Varsity",
+      "opponent": "Roy C Ketcham/ Wappingers JHS (Fall)",
+      "isHome": true,
+      "title": "Girls Varsity Cheerleading vs. Roy C Ketcham/ Wappingers JHS (Fall)",
+      "gameType": "Regular Season",
+      "notes": "",
+      "startDate": "2026-10-09",
+      "startTime": "00:00",
+      "endTime": null,
+      "locationName": "White Plains High School",
+      "url": "https://www.schedulegalaxy.com/schools/719/teams/270103/games/1537483",
+      "seasonYear": "2026",
+      "summary": "Girls Varsity Cheerleading v. Roy C Ketcham/ Wappingers JHS (Fall)"
     },
     {
       "id": "sports-1486639",
