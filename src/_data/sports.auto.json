@@ -55,7 +55,7 @@
       "slug": "girls-varsity-basketball",
       "sportSlug": "basketball",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270067",
-      "gameCount": 0
+      "gameCount": 1
     },
     {
       "id": "270085",
@@ -833,6 +833,29 @@
       "url": "https://www.schedulegalaxy.com/schools/719/teams/270076/games/1536321",
       "seasonYear": "2026",
       "summary": "Boys Varsity Basketball @ Roy C Ketcham/ Wappingers JHS"
+    },
+    {
+      "id": "sports-1538484",
+      "gameId": "1538484",
+      "teamId": "270067",
+      "teamName": "Girls Varsity Basketball",
+      "teamSlug": "girls-varsity-basketball",
+      "sport": "Basketball",
+      "sportSlug": "basketball",
+      "gender": "Girls",
+      "level": "Varsity",
+      "opponent": "Albany High School",
+      "isHome": true,
+      "title": "Girls Varsity Basketball vs. Albany High School",
+      "gameType": "Regular Season",
+      "notes": "",
+      "startDate": "2026-12-19",
+      "startTime": "14:00",
+      "endTime": null,
+      "locationName": "White Plains High School",
+      "url": "https://www.schedulegalaxy.com/schools/719/teams/270067/games/1538484",
+      "seasonYear": "2026",
+      "summary": "Girls Varsity Basketball v. Albany High School"
     }
   ]
 }

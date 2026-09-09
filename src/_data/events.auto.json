@@ -30,36 +30,6 @@
     "importSource": "wppac"
   },
   {
-    "id": "library-earring-making-workshop-2026-07-10",
-    "slug": "library-earring-making-workshop-2026-07-10",
-    "title": "Earring Making Workshop",
-    "category": "Workshop",
-    "shortSummary": "Joan Lloyd donates hundreds of pairs of beaded earrings every year to women's shelters.",
-    "fullDescription": "Joan Lloyd donates hundreds of pairs of beaded earrings every year to women's shelters. Participants can create beautiful beaded earrings for themselves and for women who are domestic violence survivors. Check out the full lineup of crafting and stitching classes! Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-07-10",
-    "endDate": "2026-07-10",
-    "startTime": "14:00",
-    "endTime": "16:00",
-    "locationName": "White Plains Public Library, Auditorium",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/workshop.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16304080",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "arts and crafts",
-      "adults about 55 and over",
-      "adults",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16304080",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
     "id": "bid-white-plains-soccer-fest-2026-07-11",
     "slug": "bid-white-plains-soccer-fest-2026-07-11",
     "title": "White Plains Soccer Fest",
@@ -3236,7 +3206,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/17085083",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "digital technology",
       "adults",
@@ -3265,7 +3235,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=3608&month=9&year=2026&day=8&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar",
       "public meeting",
@@ -6776,6 +6746,35 @@
     "importSource": "library"
   },
   {
+    "id": "library-affordable-housing-in-white-plains-2026-11-09",
+    "slug": "library-affordable-housing-in-white-plains-2026-11-09",
+    "title": "Affordable Housing in White Plains",
+    "category": "Learning",
+    "shortSummary": "All About the City of White Plains Affordable Rental Housing Program.",
+    "fullDescription": "All About the City of White Plains Affordable Rental Housing Program. Participants will learn about the City's Affordable Rental Housing Program: program guidelines, participating buildings, and how to apply. Participants will meet with Program representatives and learn about other affordable housing resources. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-09",
+    "startTime": "17:30",
+    "endTime": "19:30",
+    "locationName": "White Plains Public Library, Classroom 1",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/17385100",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "other city department program",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17385100",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
+  },
+  {
     "id": "city-sugar-the-play-2026-11-10",
     "slug": "city-sugar-the-play-2026-11-10",
     "title": "Sugar: The Play",
@@ -7913,6 +7912,35 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=8&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "library-affordable-housing-in-white-plains-2026-12-08",
+    "slug": "library-affordable-housing-in-white-plains-2026-12-08",
+    "title": "Affordable Housing in White Plains",
+    "category": "Learning",
+    "shortSummary": "All About the City of White Plains Affordable Rental Housing Program.",
+    "fullDescription": "All About the City of White Plains Affordable Rental Housing Program. Participants will learn about the City's Affordable Rental Housing Program: program guidelines, participating buildings, and how to apply. Participants will meet with Program representatives and learn about other affordable housing resources. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-12-08",
+    "endDate": "2026-12-08",
+    "startTime": "17:30",
+    "endTime": "19:30",
+    "locationName": "White Plains Public Library, Classroom 1",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/17385101",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "other city department program",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17385101",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
   },
   {
     "id": "city-santa-s-mailbox-2026-12-09",
