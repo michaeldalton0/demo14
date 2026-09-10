@@ -462,7 +462,7 @@
       "slug": "boys-varsity-wrestling",
       "sportSlug": "wrestling",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270409",
-      "gameCount": 0
+      "gameCount": 1
     }
   ],
   "games": [
@@ -856,6 +856,29 @@
       "url": "https://www.schedulegalaxy.com/schools/719/teams/270067/games/1538484",
       "seasonYear": "2026",
       "summary": "Girls Varsity Basketball v. Albany High School"
+    },
+    {
+      "id": "sports-1538876",
+      "gameId": "1538876",
+      "teamId": "270409",
+      "teamName": "Boys Varsity Wrestling",
+      "teamSlug": "boys-varsity-wrestling",
+      "sport": "Wrestling",
+      "sportSlug": "wrestling",
+      "gender": "Boys",
+      "level": "Varsity",
+      "opponent": "Roy C Ketcham/ Wappingers JHS",
+      "isHome": true,
+      "title": "Boys Varsity Wrestling vs. Roy C Ketcham/ Wappingers JHS",
+      "gameType": "Regular Season",
+      "notes": "",
+      "startDate": "2027-01-07",
+      "startTime": "17:00",
+      "endTime": null,
+      "locationName": "White Plains HS",
+      "url": "https://www.schedulegalaxy.com/schools/719/teams/270409/games/1538876",
+      "seasonYear": "2026",
+      "summary": "Boys Varsity Wrestling v. Roy C Ketcham/ Wappingers JHS"
     }
   ]
 }
