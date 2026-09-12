@@ -30,60 +30,6 @@
     "importSource": "wppac"
   },
   {
-    "id": "city-neighborhood-nights-2026-07-13",
-    "slug": "city-neighborhood-nights-2026-07-13",
-    "title": "Neighborhood Nights",
-    "category": "Community",
-    "shortSummary": "Neighborhood Nights is listed on the official White Plains city calendar.",
-    "fullDescription": "Neighborhood Nights is listed on the official White Plains city calendar. It is set for Thomas H. Slater Center, White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-07-13",
-    "endDate": "2026-07-13",
-    "startTime": "18:30",
-    "endTime": null,
-    "locationName": "Thomas H. Slater Center",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/community.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4339&month=7&year=2026&day=13&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4339&month=7&year=2026&day=13&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
-    "id": "city-design-review-board-2026-07-13",
-    "slug": "city-design-review-board-2026-07-13",
-    "title": "Design Review Board",
-    "category": "Civic",
-    "shortSummary": "Design Review Board is listed on the official White Plains city calendar.",
-    "fullDescription": "Design Review Board is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-07-13",
-    "endDate": "2026-07-13",
-    "startTime": "19:00",
-    "endTime": "21:00",
-    "locationName": "White Plains",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/civic.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4524&month=7&year=2026&day=13&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4524&month=7&year=2026&day=13&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
     "id": "library-unearth-a-story-2026-07-14",
     "slug": "library-unearth-a-story-2026-07-14",
     "title": "Unearth a Story",
@@ -3296,7 +3242,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4569&month=9&year=2026&day=11&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -3418,6 +3364,33 @@
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17112139",
     "sourceLabel": "Library calendar",
     "importSource": "library"
+  },
+  {
+    "id": "city-design-review-board-2026-09-14",
+    "slug": "city-design-review-board-2026-09-14",
+    "title": "Design Review Board",
+    "category": "Civic",
+    "shortSummary": "Design Review Board is listed on the official White Plains city calendar.",
+    "fullDescription": "Design Review Board is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-09-14",
+    "endDate": "2026-09-14",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "locationName": "White Plains",
+    "locationAddress": "White Plains, NY",
+    "image": "/assets/img/events/civic.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4701&month=9&year=2026&day=14&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4701&month=9&year=2026&day=14&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
   },
   {
     "id": "city-transportation-commission-meeting-2026-09-15",
@@ -3568,34 +3541,6 @@
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/15733483",
     "sourceLabel": "Library calendar",
     "importSource": "library"
-  },
-  {
-    "id": "city-planning-board-meeting-2026-09-15",
-    "slug": "city-planning-board-meeting-2026-09-15",
-    "title": "Planning Board Meeting",
-    "category": "Civic",
-    "shortSummary": "Planning Board Meeting is listed on the official White Plains city calendar.",
-    "fullDescription": "Planning Board Meeting is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-09-15",
-    "endDate": "2026-09-15",
-    "startTime": "19:00",
-    "endTime": null,
-    "locationName": "White Plains",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/civic.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4357&month=9&year=2026&day=15&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "upcoming",
-    "tags": [
-      "city calendar",
-      "public meeting"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4357&month=9&year=2026&day=15&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
   },
   {
     "id": "city-court-street-market-2026-09-16",
@@ -4036,6 +3981,34 @@
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17212608",
     "sourceLabel": "Library calendar",
     "importSource": "library"
+  },
+  {
+    "id": "city-planning-board-meeting-2026-09-22",
+    "slug": "city-planning-board-meeting-2026-09-22",
+    "title": "Planning Board Meeting",
+    "category": "Civic",
+    "shortSummary": "Planning Board Meeting is listed on the official White Plains city calendar.",
+    "fullDescription": "Planning Board Meeting is listed on the official White Plains city calendar. It is set for Meeting moved to September 22nd in order to have a quorum., White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-09-22",
+    "endDate": "2026-09-22",
+    "startTime": "19:00",
+    "endTime": null,
+    "locationName": "Meeting moved to September 22nd in order to have a quorum.",
+    "locationAddress": "White Plains, NY",
+    "image": "/assets/img/events/civic.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4357&month=9&year=2026&day=22&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar",
+      "public meeting"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4357&month=9&year=2026&day=22&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
   },
   {
     "id": "city-jazzfest-2026-09-23",
@@ -8508,6 +8481,35 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4241&month=1&year=2027&day=6&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "library-zumba-at-the-library-2027-01-09",
+    "slug": "library-zumba-at-the-library-2027-01-09",
+    "title": "Zumba at the Library!",
+    "category": "Learning",
+    "shortSummary": "Zumba at the Library!",
+    "fullDescription": "Zumba at the Library! Get moving, have fun, and enjoy an energetic Zumba workout at the library! Join us for an upbeat, beginner-friendly fitness session featuring lively music and easy-to-follow dance moves. All fitness levels are welcome. No dance experience is necessary&mdash;just bring your energy and have fun! Participation in White Plains Public Library programs is voluntary. By taking part in this activity, you acknowledge that you are responsible for your own well-being and accept any risks associated with participation, including the possibility of physical injury. The White Plains Public Library, its employees, trustees, volunteers, and representatives shall not be held liable for any injury, loss, or damage resulting from your participation in this program. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2027-01-09",
+    "endDate": "2027-01-09",
+    "startTime": "10:30",
+    "endTime": "11:30",
+    "locationName": "White Plains Public Library, Auditorium",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/17165318",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "health and wellness",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17165318",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
   },
   {
     "id": "city-fall-winter-birthday-luncheon-2027-01-13",
