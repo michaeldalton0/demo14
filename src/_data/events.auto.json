@@ -30,64 +30,6 @@
     "importSource": "wppac"
   },
   {
-    "id": "city-neighborhood-nights-2026-07-16",
-    "slug": "city-neighborhood-nights-2026-07-16",
-    "title": "Neighborhood Nights",
-    "category": "Learning",
-    "shortSummary": "Neighborhood Nights is listed on the official White Plains city calendar.",
-    "fullDescription": "Neighborhood Nights is listed on the official White Plains city calendar. It is set for Library Auditorium, White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-07-16",
-    "endDate": "2026-07-16",
-    "startTime": "18:30",
-    "endTime": null,
-    "locationName": "Library Auditorium",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/learning.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4340&month=7&year=2026&day=16&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4340&month=7&year=2026&day=16&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
-    "id": "library-comit-noviembre-reception-2026-07-16",
-    "slug": "library-comit-noviembre-reception-2026-07-16",
-    "title": "Comité Noviembre - Reception",
-    "category": "Learning",
-    "shortSummary": "The evening will feature an intimate discussion with Chairwoman Teresa Santiago, accompanied by featured artists, music, light bites, and refreshments.",
-    "fullDescription": "The evening will feature an intimate discussion with Chairwoman Teresa Santiago, accompanied by featured artists, music, light bites, and refreshments. The event is free but registration is required. Comit&eacute; Noviembre is a NY-based organization committed to preserving, honoring, and celebrating the deep cultural roots and lived experiences of the Puerto Rican diaspora in New York, across the U.S., and on the island. The exhibit will be on view in the Library's Museum Gallery through September 1. &iexcl;Que Viva Puerto Rico! Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-07-16",
-    "endDate": "2026-07-16",
-    "startTime": "19:00",
-    "endTime": "20:45",
-    "locationName": "White Plains Public Library, Museum Gallery",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/learning.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16835609",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "art exhibit and gallery opening",
-      "families",
-      "adults about 55 and over",
-      "adults",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16835609",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
     "id": "library-tech-skills-for-success-2026-07-17",
     "slug": "library-tech-skills-for-success-2026-07-17",
     "title": "Tech Skills for SUCCESS",
@@ -3115,7 +3057,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/17112139",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "books and authors",
       "adults about 55 and over",
@@ -3145,7 +3087,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4701&month=9&year=2026&day=14&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -4456,34 +4398,6 @@
     "importSource": "library"
   },
   {
-    "id": "wppac-dear-evan-hansen-2026-10-02",
-    "slug": "wppac-dear-evan-hansen-2026-10-02",
-    "title": "Dear Evan Hansen",
-    "category": "Arts",
-    "shortSummary": "Featuring a Tony Award-winning book by Steven Levenson (Fosse/Verdon), and a score by Grammy®, Tony®, Emmy® and Academy Award® winners Benj Pasek and Justin Paul…",
-    "fullDescription": "Featuring a Tony Award-winning book by Steven Levenson (Fosse/Verdon), and a score by Grammy®, Tony®, Emmy® and Academy Award® winners Benj Pasek and Justin Paul (The Greatest Showman, La La Land, Dogfight, James and the Giant Peach) $50 – $69 (Including Fees | Prices subject to change) Use the show page for tickets and the full performance schedule.",
-    "startDate": "2026-10-02",
-    "endDate": "2026-10-25",
-    "startTime": null,
-    "endTime": null,
-    "locationName": "White Plains Performing Arts Center",
-    "locationAddress": "11 City Place, 3rd Floor, White Plains, NY 10601",
-    "image": "/assets/img/events/arts.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://wppac.com/shows/dear-evan-hansen/",
-    "ctaLabel": "Open show page",
-    "featured": false,
-    "status": "upcoming",
-    "tags": [
-      "performing arts",
-      "theater"
-    ],
-    "organizer": "White Plains Performing Arts Center",
-    "sourceUrl": "https://wppac.com/shows/dear-evan-hansen/",
-    "sourceLabel": "WPPAC",
-    "importSource": "wppac"
-  },
-  {
     "id": "library-the-salem-witch-trials-reckoning-and-reclaiming-2026-10-02",
     "slug": "library-the-salem-witch-trials-reckoning-and-reclaiming-2026-10-02",
     "title": "The Salem Witch Trials: Reckoning and Reclaiming",
@@ -4721,9 +4635,9 @@
     "importSource": "city"
   },
   {
-    "id": "library-stretch-you-dough-2026-10-06",
-    "slug": "library-stretch-you-dough-2026-10-06",
-    "title": "Stretch you dough",
+    "id": "library-stretch-your-dough-meals-on-a-budget-2026-10-06",
+    "slug": "library-stretch-your-dough-meals-on-a-budget-2026-10-06",
+    "title": "Stretch Your Dough: Meals on a Budget",
     "category": "Civic",
     "shortSummary": "Learn practical strategies for preparing nutritious, delicious meals without overspending.",
     "fullDescription": "Learn practical strategies for preparing nutritious, delicious meals without overspending. In this interactive workshop, participants will discover budget-friendly meal planning tips, smart grocery shopping techniques, and creative ways to make ingredients go further. Presented by Feeding Westchester, this program will help you maximize your food budget while creating healthy and satisfying meals for yourself and your family. Food samples will be provided Check the library page for registration, tickets, and any schedule updates.",
@@ -4988,12 +4902,12 @@
     "importSource": "library"
   },
   {
-    "id": "library-concerts-in-motion-2026-10-09",
-    "slug": "library-concerts-in-motion-2026-10-09",
-    "title": "Concerts in Motion",
+    "id": "library-hispanic-heritage-concert-2026-10-09",
+    "slug": "library-hispanic-heritage-concert-2026-10-09",
+    "title": "Hispanic Heritage Concert",
     "category": "Learning",
-    "shortSummary": "A concert for Highlighting Hispanic Heritage month.",
-    "fullDescription": "A concert for Highlighting Hispanic Heritage month. Check the library page for registration, tickets, and any schedule updates.",
+    "shortSummary": "Check the library page for registration, tickets, and any schedule updates.",
+    "fullDescription": "Check the library page for registration, tickets, and any schedule updates.",
     "startDate": "2026-10-09",
     "endDate": "2026-10-09",
     "startTime": "14:00",
@@ -5008,6 +4922,7 @@
     "status": "upcoming",
     "tags": [
       "performing arts",
+      "international and multicultural",
       "adults about 55 and over",
       "adults",
       "library"
@@ -5222,6 +5137,35 @@
     "importSource": "city"
   },
   {
+    "id": "library-meet-sustainable-westchester-2026-10-14",
+    "slug": "library-meet-sustainable-westchester-2026-10-14",
+    "title": "Meet Sustainable Westchester!",
+    "category": "Learning",
+    "shortSummary": "For more information contact Daniel Zitomer, Program Coordinator/Energy Advisor, at 914-242-4725 ext 114 or daniel@sustainablewestchester.org",
+    "fullDescription": "For more information contact Daniel Zitomer, Program Coordinator/Energy Advisor, at 914-242-4725 ext 114 or daniel@sustainablewestchester.org Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-10-14",
+    "endDate": "2026-10-14",
+    "startTime": "10:30",
+    "endTime": "12:30",
+    "locationName": "White Plains Public Library, Lobby",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/17428092",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "nature & environment",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17428092",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
+  },
+  {
     "id": "library-virtual-clean-energy-workforce-opportuntiy-2026-10-14",
     "slug": "library-virtual-clean-energy-workforce-opportuntiy-2026-10-14",
     "title": "Virtual Clean Energy Workforce Opportuntiy",
@@ -5251,35 +5195,6 @@
     ],
     "organizer": "White Plains Public Library",
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17128804",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
-    "id": "library-intro-to-microsoft-excel-part-2-2026-10-14",
-    "slug": "library-intro-to-microsoft-excel-part-2-2026-10-14",
-    "title": "Intro to Microsoft Excel, Part 2",
-    "category": "Learning",
-    "shortSummary": "This class is for those who can create a simple spreadsheet and use formulas in Excel.",
-    "fullDescription": "This class is for those who can create a simple spreadsheet and use formulas in Excel. Learn to use the fill handle and more complex formulas and formatting. Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-10-14",
-    "endDate": "2026-10-14",
-    "startTime": "16:00",
-    "endTime": "17:15",
-    "locationName": "White Plains Public Library, Community Room",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/learning.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/17217628",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "upcoming",
-    "tags": [
-      "digital technology",
-      "adults",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17217628",
     "sourceLabel": "Library calendar",
     "importSource": "library"
   },
@@ -7812,35 +7727,6 @@
     "importSource": "library"
   },
   {
-    "id": "wppac-disney-s-frozen-2026-12-11",
-    "slug": "wppac-disney-s-frozen-2026-12-11",
-    "title": "Disney’S Frozen",
-    "category": "Arts",
-    "shortSummary": "Based on the Academy Award-winning animated feature film, Disney’s Frozen includes all the film’s beloved songs by Kristen Anderson-Lopez and Robert Lopez, along…",
-    "fullDescription": "Based on the Academy Award-winning animated feature film, Disney’s Frozen includes all the film’s beloved songs by Kristen Anderson-Lopez and Robert Lopez, along with new music written exclusively for the stage. $50 – $69 (Including Fees | Prices subject to change) Use the show page for tickets and the full performance schedule.",
-    "startDate": "2026-12-11",
-    "endDate": "2027-01-03",
-    "startTime": null,
-    "endTime": null,
-    "locationName": "White Plains Performing Arts Center",
-    "locationAddress": "11 City Place, 3rd Floor, White Plains, NY 10601",
-    "image": "/assets/img/events/arts.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://wppac.com/shows/disneys-frozen/",
-    "ctaLabel": "Open show page",
-    "featured": false,
-    "status": "upcoming",
-    "tags": [
-      "performing arts",
-      "theater",
-      "music"
-    ],
-    "organizer": "White Plains Performing Arts Center",
-    "sourceUrl": "https://wppac.com/shows/disneys-frozen/",
-    "sourceLabel": "WPPAC",
-    "importSource": "wppac"
-  },
-  {
     "id": "city-santa-s-mailbox-2026-12-11",
     "slug": "city-santa-s-mailbox-2026-12-11",
     "title": "Santa's Mailbox",
@@ -8553,34 +8439,5 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4362&month=2&year=2027&day=16&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
-  },
-  {
-    "id": "wppac-9-to-5-2027-04-09",
-    "slug": "wppac-9-to-5-2027-04-09",
-    "title": "9 To 5",
-    "category": "Arts",
-    "shortSummary": "9 to 5, with music and lyrics by Dolly Parton and book by Patricia Resnick, is based on the seminal 1980 hit movie.",
-    "fullDescription": "9 to 5, with music and lyrics by Dolly Parton and book by Patricia Resnick, is based on the seminal 1980 hit movie. Set in the late 1970’s, this hilarious story of friendship and revenge in the Rolodex era is outrageous, thought-provoking and even a little romantic. $50 – $69 (Including Fees | Prices subject to change) Use the show page for tickets and the full performance schedule.",
-    "startDate": "2027-04-09",
-    "endDate": "2027-05-02",
-    "startTime": null,
-    "endTime": null,
-    "locationName": "White Plains Performing Arts Center",
-    "locationAddress": "11 City Place, 3rd Floor, White Plains, NY 10601",
-    "image": "/assets/img/events/arts.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://wppac.com/shows/9-to-5/",
-    "ctaLabel": "Open show page",
-    "featured": false,
-    "status": "upcoming",
-    "tags": [
-      "performing arts",
-      "theater",
-      "music"
-    ],
-    "organizer": "White Plains Performing Arts Center",
-    "sourceUrl": "https://wppac.com/shows/9-to-5/",
-    "sourceLabel": "WPPAC",
-    "importSource": "wppac"
   }
 ]
