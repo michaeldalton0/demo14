@@ -3392,6 +3392,34 @@
     "importSource": "city"
   },
   {
+    "id": "bid-jazzfest-downtown-white-plains-2026-2026-09-23",
+    "slug": "bid-jazzfest-downtown-white-plains-2026-2026-09-23",
+    "title": "JazzFest Downtown White Plains 2026",
+    "category": "Food & Downtown",
+    "shortSummary": "Celebrating its 15th year, JazzFest White Plains returns this fall with a bold, artist-driven lineup that reflects the vitality of jazz today.",
+    "fullDescription": "Celebrating its 15th year, JazzFest White Plains returns this fall with a bold, artist-driven lineup that reflects the vitality of jazz today. Across five days, 19 performances will bring legendary artists, contemporary innovators and emerging voices to downtown White Plains. Featuring five GRAMMY Award winners. Use the BID page for tickets, participating businesses, and weather updates.",
+    "startDate": "2026-09-23",
+    "endDate": "2026-09-23",
+    "startTime": "12:00",
+    "endTime": null,
+    "locationName": "Downtown White Plains",
+    "locationAddress": "Downtown White Plains, NY 10601",
+    "image": "/assets/img/events/food.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://wpbid.com/events/jazzfest-downtown-white-plains-2026/",
+    "ctaLabel": "Open event page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "downtown",
+      "bid"
+    ],
+    "organizer": "White Plains Business Improvement District",
+    "sourceUrl": "https://wpbid.com/events/jazzfest-downtown-white-plains-2026/",
+    "sourceLabel": "White Plains BID",
+    "importSource": "bid"
+  },
+  {
     "id": "city-music-at-the-market-2026-09-23",
     "slug": "city-music-at-the-market-2026-09-23",
     "title": "Music at the Market",
@@ -3507,6 +3535,34 @@
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16978096",
     "sourceLabel": "Library calendar",
     "importSource": "library"
+  },
+  {
+    "id": "bid-jazz-stroll-2026-2026-09-24",
+    "slug": "bid-jazz-stroll-2026-2026-09-24",
+    "title": "Jazz Stroll 2026",
+    "category": "Food & Downtown",
+    "shortSummary": "JAZZ STROLL: THURSDAY, SEPT.",
+    "fullDescription": "JAZZ STROLL: THURSDAY, SEPT. 24 Stroll through the heart of downtown White Plains and experience the energy of live improvised jazz and poetry. Begin your creative evening at Chazz Palminteri and enjoy delicious Italian appetizers or pasta. Next, head over to Shiraz Kitchen & Wine. Use the BID page for tickets, participating businesses, and weather updates.",
+    "startDate": "2026-09-24",
+    "endDate": "2026-09-24",
+    "startTime": "17:30",
+    "endTime": "21:00",
+    "locationName": "Downtown White Plains",
+    "locationAddress": "Downtown White Plains, NY 10601",
+    "image": "/assets/img/events/food.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://wpbid.com/events/jazz-stroll-2026/",
+    "ctaLabel": "Open event page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "downtown",
+      "bid"
+    ],
+    "organizer": "White Plains Business Improvement District",
+    "sourceUrl": "https://wpbid.com/events/jazz-stroll-2026/",
+    "sourceLabel": "White Plains BID",
+    "importSource": "bid"
   },
   {
     "id": "city-consolidated-annual-performance-and-evaluation-report-caper-public-hearing-2026-09-24",
@@ -3700,6 +3756,34 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4696&month=9&year=2026&day=27&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "bid-sunday-jazz-alfresco-2026-09-27",
+    "slug": "bid-sunday-jazz-alfresco-2026-09-27",
+    "title": "Sunday Jazz Alfresco",
+    "category": "Food & Downtown",
+    "shortSummary": "SUNDAY, SEPT. 27Sunday Jazz Alfresco Join us for JazzFest’s grand finale, Jazz Al Fresco, on Sunday, September 27th, 2026. Enjoy dining in the open, vibrant air of…",
+    "fullDescription": "SUNDAY, SEPT. 27Sunday Jazz Alfresco Join us for JazzFest’s grand finale, Jazz Al Fresco, on Sunday, September 27th, 2026. Enjoy dining in the open, vibrant air of our downtown street – on Mamaroneck Ave. between E. Post Rd and Maple Ave. The event will begin. Use the BID page for tickets, participating businesses, and weather updates.",
+    "startDate": "2026-09-27",
+    "endDate": "2026-09-27",
+    "startTime": "12:15",
+    "endTime": "19:30",
+    "locationName": "Downtown White Plains",
+    "locationAddress": "Downtown White Plains, NY 10601",
+    "image": "/assets/img/events/food.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://wpbid.com/events/sunday-jazz-alfresco/",
+    "ctaLabel": "Open event page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "downtown",
+      "bid"
+    ],
+    "organizer": "White Plains Business Improvement District",
+    "sourceUrl": "https://wpbid.com/events/sunday-jazz-alfresco/",
+    "sourceLabel": "White Plains BID",
+    "importSource": "bid"
   },
   {
     "id": "sports-girls-varsity-tennis-vs-harrison-2026-09-28",
@@ -4529,6 +4613,34 @@
     "sourceUrl": "/sports/football/",
     "sourceLabel": "White Plains High School Athletics",
     "importSource": "sports"
+  },
+  {
+    "id": "bid-oktoberfest-2026-2026-10-11",
+    "slug": "bid-oktoberfest-2026-2026-10-11",
+    "title": "Oktoberfest 2026",
+    "category": "Food & Downtown",
+    "shortSummary": "Downtown White Plains OktoberFest returns!",
+    "fullDescription": "Downtown White Plains OktoberFest returns! Sunday October 11, 2026 from 1pm to 6pm on Mamaroneck Ave. between Maple Ave. and Quarropas St. Rain or Shine Oktoberfest returns for another year…bigger and better! Come celebrate with us and thousands of locals and visitors in the heart. Use the BID page for tickets, participating businesses, and weather updates.",
+    "startDate": "2026-10-11",
+    "endDate": "2026-10-11",
+    "startTime": "13:00",
+    "endTime": "18:00",
+    "locationName": "Downtown White Plains",
+    "locationAddress": "Downtown White Plains, NY 10601",
+    "image": "/assets/img/events/food.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://wpbid.com/events/oktoberfest-2026/",
+    "ctaLabel": "Open event page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "downtown",
+      "bid"
+    ],
+    "organizer": "White Plains Business Improvement District",
+    "sourceUrl": "https://wpbid.com/events/oktoberfest-2026/",
+    "sourceLabel": "White Plains BID",
+    "importSource": "bid"
   },
   {
     "id": "library-the-battle-of-white-plains-washington-and-howe-in-westchester-2026-10-11",
