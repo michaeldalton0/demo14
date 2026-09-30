@@ -3903,6 +3903,33 @@
     "importSource": "city"
   },
   {
+    "id": "city-help-paint-the-new-white-plains-mural-2026-10-04",
+    "slug": "city-help-paint-the-new-white-plains-mural-2026-10-04",
+    "title": "Help Paint the New White Plains Mural",
+    "category": "Community",
+    "shortSummary": "Help Paint the New White Plains Mural is listed on the official White Plains city calendar.",
+    "fullDescription": "Help Paint the New White Plains Mural is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-10-04",
+    "endDate": "2026-10-04",
+    "startTime": "12:00",
+    "endTime": "14:00",
+    "locationName": "White Plains",
+    "locationAddress": "White Plains, NY",
+    "image": "/assets/img/events/community.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4707&month=10&year=2026&day=4&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4707&month=10&year=2026&day=4&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
     "id": "library-annual-pollinators-of-white-plains-2026-10-04",
     "slug": "library-annual-pollinators-of-white-plains-2026-10-04",
     "title": "Annual Pollinators of White Plains",
