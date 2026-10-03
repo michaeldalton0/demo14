@@ -55,7 +55,7 @@
       "slug": "girls-varsity-basketball",
       "sportSlug": "basketball",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270067",
-      "gameCount": 1
+      "gameCount": 0
     },
     {
       "id": "270085",
@@ -88,7 +88,7 @@
       "slug": "girls-varsity-cheerleading",
       "sportSlug": "cheerleading",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270103",
-      "gameCount": 0
+      "gameCount": 1
     },
     {
       "id": "270112",
@@ -165,7 +165,7 @@
       "slug": "girls-varsity-field-hockey",
       "sportSlug": "field-hockey",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270166",
-      "gameCount": 1
+      "gameCount": 2
     },
     {
       "id": "270175",
@@ -743,6 +743,29 @@
       "summary": "Girls Varsity Tennis v. Harrison"
     },
     {
+      "id": "sports-1537483",
+      "gameId": "1537483",
+      "teamId": "270103",
+      "teamName": "Girls Varsity Cheerleading",
+      "teamSlug": "girls-varsity-cheerleading",
+      "sport": "Cheerleading",
+      "sportSlug": "cheerleading",
+      "gender": "Girls",
+      "level": "Varsity",
+      "opponent": "Roy C Ketcham/ Wappingers JHS (Fall)",
+      "isHome": true,
+      "title": "Girls Varsity Cheerleading vs. Roy C Ketcham/ Wappingers JHS (Fall)",
+      "gameType": "Regular Season",
+      "notes": "",
+      "startDate": "2026-10-09",
+      "startTime": "00:00",
+      "endTime": null,
+      "locationName": "White Plains High School",
+      "url": "https://www.schedulegalaxy.com/schools/719/teams/270103/games/1537483",
+      "seasonYear": "2026",
+      "summary": "Girls Varsity Cheerleading v. Roy C Ketcham/ Wappingers JHS (Fall)"
+    },
+    {
       "id": "sports-1486639",
       "gameId": "1486639",
       "teamId": "270175",
@@ -766,6 +789,29 @@
       "summary": "Boys Varsity Football v. Roy C Ketcham/ Wappingers JHS"
     },
     {
+      "id": "sports-1516163",
+      "gameId": "1516163",
+      "teamId": "270166",
+      "teamName": "Girls Varsity Field Hockey",
+      "teamSlug": "girls-varsity-field-hockey",
+      "sport": "Field Hockey",
+      "sportSlug": "field-hockey",
+      "gender": "Girls",
+      "level": "Varsity",
+      "opponent": "Sleepy Hollow",
+      "isHome": true,
+      "title": "Girls Varsity Field Hockey vs. Sleepy Hollow",
+      "gameType": "Regular Season",
+      "notes": "",
+      "startDate": "2026-10-19",
+      "startTime": "17:00",
+      "endTime": null,
+      "locationName": "White Plains HS",
+      "url": "https://www.schedulegalaxy.com/schools/719/teams/270166/games/1516163",
+      "seasonYear": "2026",
+      "summary": "Girls Varsity Field Hockey v. Sleepy Hollow"
+    },
+    {
       "id": "sports-1536321",
       "gameId": "1536321",
       "teamId": "270076",
@@ -787,29 +833,6 @@
       "url": "https://www.schedulegalaxy.com/schools/719/teams/270076/games/1536321",
       "seasonYear": "2026",
       "summary": "Boys Varsity Basketball @ Roy C Ketcham/ Wappingers JHS"
-    },
-    {
-      "id": "sports-1538484",
-      "gameId": "1538484",
-      "teamId": "270067",
-      "teamName": "Girls Varsity Basketball",
-      "teamSlug": "girls-varsity-basketball",
-      "sport": "Basketball",
-      "sportSlug": "basketball",
-      "gender": "Girls",
-      "level": "Varsity",
-      "opponent": "Albany High School",
-      "isHome": true,
-      "title": "Girls Varsity Basketball vs. Albany High School",
-      "gameType": "Regular Season",
-      "notes": "",
-      "startDate": "2026-12-19",
-      "startTime": "14:00",
-      "endTime": null,
-      "locationName": "White Plains High School",
-      "url": "https://www.schedulegalaxy.com/schools/719/teams/270067/games/1538484",
-      "seasonYear": "2026",
-      "summary": "Girls Varsity Basketball v. Albany High School"
     },
     {
       "id": "sports-1538876",
