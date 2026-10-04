@@ -4141,6 +4141,34 @@
     "importSource": "library"
   },
   {
+    "id": "bid-oktoberfest-2026-2026-10-11",
+    "slug": "bid-oktoberfest-2026-2026-10-11",
+    "title": "Oktoberfest 2026",
+    "category": "Food & Downtown",
+    "shortSummary": "Downtown White Plains OktoberFest returns!",
+    "fullDescription": "Downtown White Plains OktoberFest returns! Sunday October 11, 2026 from 1pm to 6pm on Mamaroneck Ave. between Maple Ave. and Quarropas St. Rain or Shine Oktoberfest returns for another year…bigger and better! Come celebrate with us and thousands of locals and visitors in the heart. Use the BID page for tickets, participating businesses, and weather updates.",
+    "startDate": "2026-10-11",
+    "endDate": "2026-10-11",
+    "startTime": "13:00",
+    "endTime": "18:00",
+    "locationName": "Downtown White Plains",
+    "locationAddress": "Downtown White Plains, NY 10601",
+    "image": "/assets/img/events/food.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://wpbid.com/events/oktoberfest-2026/",
+    "ctaLabel": "Open event page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "downtown",
+      "bid"
+    ],
+    "organizer": "White Plains Business Improvement District",
+    "sourceUrl": "https://wpbid.com/events/oktoberfest-2026/",
+    "sourceLabel": "White Plains BID",
+    "importSource": "bid"
+  },
+  {
     "id": "library-the-battle-of-white-plains-washington-and-howe-in-westchester-2026-10-11",
     "slug": "library-the-battle-of-white-plains-washington-and-howe-in-westchester-2026-10-11",
     "title": "The Battle of White Plains: Washington & Howe in Westchester",
