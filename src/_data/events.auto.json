@@ -4174,7 +4174,7 @@
     "endDate": "2026-10-15",
     "startTime": "17:00",
     "endTime": "17:45",
-    "locationName": "White Plains Public Library, The Igloo - Optimum Technology Room",
+    "locationName": "White Plains Public Library",
     "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
     "image": "/assets/img/events/learning.svg",
     "flyerPdf": null,
@@ -7091,33 +7091,6 @@
     "importSource": "city"
   },
   {
-    "id": "countyparks-derek-hough-dance-for-the-holidays-2026-12-07",
-    "slug": "countyparks-derek-hough-dance-for-the-holidays-2026-12-07",
-    "title": "Derek Hough Dance for the Holidays",
-    "category": "Community",
-    "shortSummary": "This event is a joyous celebration of the most festive time of the year!",
-    "fullDescription": "This event is a joyous celebration of the most festive time of the year! Check the county parks page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-12-07",
-    "endDate": "2026-12-07",
-    "startTime": "20:00",
-    "endTime": "22:00",
-    "locationName": "Westchester County Center",
-    "locationAddress": "198 Central Avenue, White Plains, NY, 10606",
-    "image": "/assets/img/events/community.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://parksevents.westchestercountyny.gov/event/derek-hough-dance-for-the-holidays",
-    "ctaLabel": "Open county parks page",
-    "featured": false,
-    "status": "upcoming",
-    "tags": [
-      "county parks"
-    ],
-    "organizer": "Westchester County Parks",
-    "sourceUrl": "https://parksevents.westchestercountyny.gov/event/derek-hough-dance-for-the-holidays",
-    "sourceLabel": "County Parks calendar",
-    "importSource": "countyparks"
-  },
-  {
     "id": "city-santa-s-mailbox-2026-12-08",
     "slug": "city-santa-s-mailbox-2026-12-08",
     "title": "Santa's Mailbox",
@@ -7370,35 +7343,6 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=12&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
-  },
-  {
-    "id": "countyparks-miller-house-open-house-2026-12-12",
-    "slug": "countyparks-miller-house-open-house-2026-12-12",
-    "title": "Miller House Open House",
-    "category": "Parks & Recreation",
-    "shortSummary": "Drop-in to visit the former home of the Ann and Elijah Miller family, an average colonial Westchester family whose lives were changed forever when Washington and…",
-    "fullDescription": "Drop-in to visit the former home of the Ann and Elijah Miller family, an average colonial Westchester family whose lives were changed forever when Washington and his army fought for American independence. Located at 140 Virginia Rd, White Plains, NY 10603. Check the county parks page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-12-12",
-    "endDate": "2026-12-12",
-    "startTime": "11:00",
-    "endTime": "13:00",
-    "locationName": "Miller House",
-    "locationAddress": "140 Virginia Road, White Plains, NY",
-    "image": "/assets/img/events/parks.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://parksevents.westchestercountyny.gov/event/miller-house-open-house-2/2026-12-12",
-    "ctaLabel": "Open county parks page",
-    "featured": false,
-    "status": "upcoming",
-    "tags": [
-      "county parks",
-      "parks & recreation",
-      "family"
-    ],
-    "organizer": "Westchester County Parks",
-    "sourceUrl": "https://parksevents.westchestercountyny.gov/event/miller-house-open-house-2/2026-12-12",
-    "sourceLabel": "County Parks calendar",
-    "importSource": "countyparks"
   },
   {
     "id": "city-santa-s-mailbox-2026-12-13",
