@@ -4106,6 +4106,33 @@
     "importSource": "library"
   },
   {
+    "id": "city-design-review-board-2026-10-14",
+    "slug": "city-design-review-board-2026-10-14",
+    "title": "Design Review Board",
+    "category": "Civic",
+    "shortSummary": "Design Review Board is listed on the official White Plains city calendar.",
+    "fullDescription": "Design Review Board is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-10-14",
+    "endDate": "2026-10-14",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "locationName": "White Plains",
+    "locationAddress": "White Plains, NY",
+    "image": "/assets/img/events/civic.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4709&month=10&year=2026&day=14&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4709&month=10&year=2026&day=14&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
     "id": "library-yoga-for-teens-2026-10-15",
     "slug": "library-yoga-for-teens-2026-10-15",
     "title": "Yoga for Teens",
