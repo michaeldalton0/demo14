@@ -3833,6 +3833,33 @@
     "importSource": "city"
   },
   {
+    "id": "city-white-plains-to-debut-community-mural-on-october-15-2026-10-15",
+    "slug": "city-white-plains-to-debut-community-mural-on-october-15-2026-10-15",
+    "title": "White Plains to Debut Community Mural on October 15",
+    "category": "Community",
+    "shortSummary": "White Plains to Debut Community Mural on October 15 is listed on the official White Plains city calendar.",
+    "fullDescription": "White Plains to Debut Community Mural on October 15 is listed on the official White Plains city calendar. It is set for 70 Church Street, corner of Church Street & Hamilton Avenue, White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-10-15",
+    "endDate": "2026-10-15",
+    "startTime": "15:30",
+    "endTime": null,
+    "locationName": "70 Church Street, corner of Church Street & Hamilton Avenue",
+    "locationAddress": "White Plains, NY",
+    "image": "/assets/img/events/community.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4710&month=10&year=2026&day=15&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4710&month=10&year=2026&day=15&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
     "id": "library-yoga-for-teens-2026-10-15",
     "slug": "library-yoga-for-teens-2026-10-15",
     "title": "Yoga for Teens",
