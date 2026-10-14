@@ -63,12 +63,13 @@ collections:
             widget: list
             summary: "{{fields.title}} - {{fields.startDate}}"
             fields:
-              - { name: slug, label: "Slug (URL part)", widget: string }
+              - { name: slug, label: "Slug (URL part)", widget: string, pattern: ['^[^/:]+$', "A slug can't contain a web address (no / or :). Use a short name like breast-cancer-awareness-2026, and put the web address in the Link box."], hint: "A short name for this posting's own page, e.g. breast-cancer-awareness-2026. Lowercase letters, numbers and dashes work best. Not a web address." }
               - { name: title, label: "Title", widget: string }
               - { name: category, label: "Category", widget: string }
               - { name: sourceLabel, label: "Source / organizer", widget: string }
               - { name: status, label: "Status", widget: select, options: ["upcoming", "past"], default: "upcoming" }
-              - { name: startDate, label: "Date", widget: string, hint: "YYYY-MM-DD" }
+              - { name: startDate, label: "Date", widget: string, pattern: ['^\d{4}-\d{2}-\d{2}$', "Use the form YYYY-MM-DD, e.g. 2026-10-01"], hint: "YYYY-MM-DD, e.g. 2026-10-01. For something that runs for a while, use the first day and fill in End date too." }
+              - { name: endDate, label: "End date", widget: string, required: false, pattern: ['^\d{4}-\d{2}-\d{2}$', "Use the form YYYY-MM-DD, e.g. 2026-10-31"], hint: "Optional. YYYY-MM-DD. For a posting that runs over several days or a whole month; it stays on the site through this date." }
               - { name: startTime, label: "Start time", widget: string, required: false }
               - { name: endTime, label: "End time", widget: string, required: false }
               - { name: displayTime, label: "Display time (text)", widget: string, required: false }

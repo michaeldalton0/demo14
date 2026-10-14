@@ -35,21 +35,22 @@
       "linkLabel": ""
     },
     {
-      "slug": "https://emailer.emfluence.com/viewaswebpage/966FF6CF-1131-4863-97B4-5AEFE5D1BF45",
+      "slug": "breast-cancer-awareness-month-2026",
       "title": "BREAST CANCER AWARENESS MONTH",
       "category": "Healthcare",
       "sourceLabel": "White Plains Hospital",
       "status": "upcoming",
-      "startDate": "October",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
       "startTime": "",
       "endTime": "",
-      "displayTime": "",
+      "displayTime": "All month",
       "locationName": "White Plains Hospital",
       "locationAddress": "",
       "shortSummary": "Health Matters - Brought to you by White Plains Hospital \nOctober is Breast Cancer Awareness Month.",
       "fullDescription": "Health Matters - Brought to you by White Plains Hospital - October is Breast Cancer Awareness Month.  Click on the Hospital link below for more information.\nhttps://emailer.emfluence.com/viewaswebpage/966FF6CF-1131-4863-97B4-5AEFE5D1BF45",
-      "externalUrl": "",
-      "linkLabel": ""
+      "externalUrl": "https://emailer.emfluence.com/viewaswebpage/966FF6CF-1131-4863-97B4-5AEFE5D1BF45",
+      "linkLabel": "Read the hospital's message"
     }
   ]
 }
