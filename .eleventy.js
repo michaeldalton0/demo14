@@ -101,12 +101,32 @@ module.exports = function (eleventyConfig) {
     }).format(new Date(year, month - 1, 1));
   });
 
+  // Escape text and turn any http(s) web address in it into a clickable link
+  // (opens in a new tab). Trailing punctuation stays outside the link.
+  function linkifyText(text = "") {
+    const s = String(text);
+    const re = /https?:\/\/[^\s<>"]+/gi;
+    let out = "";
+    let last = 0;
+    let m;
+    while ((m = re.exec(s))) {
+      const url = m[0].replace(/[.,;:!?)\]'’”]+$/, "");
+      out += escapeHtml(s.slice(last, m.index));
+      out += `<a class="text-link" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(url)}</a>`;
+      last = m.index + url.length;
+      re.lastIndex = last;
+    }
+    return out + escapeHtml(s.slice(last));
+  }
+
+  eleventyConfig.addFilter("linkify", (text = "") => linkifyText(text));
+
   eleventyConfig.addFilter("paragraphs", (text = "") => {
     return String(text)
       .split(/\n\s*\n/)
       .map((p) => p.trim())
       .filter(Boolean)
-      .map((p) => `<p>${escapeHtml(p)}</p>`)
+      .map((p) => `<p>${linkifyText(p)}</p>`)
       .join("");
   });
 

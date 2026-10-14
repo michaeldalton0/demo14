@@ -32,9 +32,17 @@ function toSearchText(posting) {
     .toLowerCase();
 }
 
+// Optional "Link" set in the admin; only plain http(s) addresses are used.
+function externalLink(posting) {
+  const url = typeof posting.externalUrl === "string" ? posting.externalUrl.trim() : "";
+  if (!/^https?:\/\/\S+$/i.test(url)) return null;
+  return { label: (posting.linkLabel || "").trim() || "Read more", url };
+}
+
 function withDerivedFields(posting) {
   const detailUrl = `/posting/${posting.slug}/`;
   const monthKey = posting.startDate.slice(0, 7);
+  const link = externalLink(posting);
 
   return {
     ...posting,
@@ -43,7 +51,9 @@ function withDerivedFields(posting) {
     detailUrl,
     monthKey,
     cardActionLabel: "Posting details",
-    primaryAction: {
+    externalLink: link,
+    // With a Link, the detail page's sidebar button opens it.
+    primaryAction: link || {
       label: "Posting details",
       url: `${detailUrl}#about-this-posting`
     },

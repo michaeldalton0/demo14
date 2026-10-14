@@ -76,6 +76,8 @@ collections:
               - { name: locationAddress, label: "Location address", widget: string, required: false }
               - { name: shortSummary, label: "Short summary (card)", widget: text }
               - { name: fullDescription, label: "Full description", widget: text }
+              - { name: externalUrl, label: "Link (web address)", widget: string, required: false, pattern: ['^https?://\S+$', "Paste a full web address starting with http:// or https://"], hint: "Optional. Paste a full web address (starting with https://) and the posting shows a button that opens it, e.g. a hospital article or event page." }
+              - { name: linkLabel, label: "Link button text", widget: string, required: false, hint: 'Optional. The words on the button, e.g. "Read more". Leave blank and it says "Read more".' }
 
   - name: agendas
     label: "Agendas & Minutes"

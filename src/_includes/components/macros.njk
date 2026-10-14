@@ -97,6 +97,9 @@
       <p class="event-card-summary">{{ posting.shortSummary }}</p>
       <div class="event-card-actions">
         <a class="btn btn-primary" href="{{ posting.detailUrl | withPrefix }}" aria-label="View posting details for {{ posting.title }}">{{ posting.cardActionLabel or "Posting details" }}</a>
+        {% if posting.externalLink %}
+          <a class="btn btn-outline" href="{{ posting.externalLink.url }}" target="_blank" rel="noopener">{{ posting.externalLink.label }}</a>
+        {% endif %}
       </div>
     </div>
   </article>

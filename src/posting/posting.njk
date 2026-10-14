@@ -13,7 +13,7 @@ eleventyComputed:
 <section class="page-hero">
   <div class="wrap">
     <h1>{{ posting.title }}</h1>
-    <p>{{ posting.shortSummary }}</p>
+    <p>{{ posting.shortSummary | linkify | safe }}</p>
   </div>
 </section>
 

@@ -3700,3 +3700,7 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
   max-width: 46rem;
   color: var(--ink-secondary);
 }
+
+/* Web addresses typed into posting text become links (linkify filter). */
+.text-link { text-decoration: underline; overflow-wrap: anywhere; word-break: break-word; }
+.event-card-actions { flex-wrap: wrap; }
