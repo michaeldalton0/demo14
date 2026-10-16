@@ -3554,7 +3554,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4710&month=10&year=2026&day=15&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -3581,7 +3581,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/17199705",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "health and wellness",
       "fun and games",
@@ -3611,7 +3611,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/15261911",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "educational presentations",
       "digital technology",
