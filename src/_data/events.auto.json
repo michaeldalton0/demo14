@@ -3588,7 +3588,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/17408469",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "educational presentations",
       "arts and crafts",
@@ -3618,7 +3618,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/17158508",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "training and course instruction",
       "educational presentations",
@@ -3650,7 +3650,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/17139793",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "training and course instruction",
       "educational presentations",
@@ -3683,7 +3683,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4146&month=10&year=2026&day=19&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar",
       "public meeting"
@@ -4813,6 +4813,36 @@
     "importSource": "city"
   },
   {
+    "id": "library-common-ground-civility-2026-11-04",
+    "slug": "library-common-ground-civility-2026-11-04",
+    "title": "Common Ground: Civility",
+    "category": "Learning",
+    "shortSummary": "Find new ways to communicate with civility!",
+    "fullDescription": "Find new ways to communicate with civility! Join our table leaders to engage with the importance of compromise, listening, and respectful communication. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-11-04",
+    "endDate": "2026-11-04",
+    "startTime": "18:00",
+    "endTime": "20:00",
+    "locationName": "White Plains Public Library, Auditorium",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/17499615",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "educational presentations",
+      "teens",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17499615",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
+  },
+  {
     "id": "library-virtual-poetry-open-mic-2026-11-04",
     "slug": "library-virtual-poetry-open-mic-2026-11-04",
     "title": "Virtual Poetry Open Mic",
@@ -4961,6 +4991,34 @@
     ],
     "organizer": "White Plains Public Library",
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17445438",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
+  },
+  {
+    "id": "library-community-blood-pressure-screening-2026-11-09",
+    "slug": "library-community-blood-pressure-screening-2026-11-09",
+    "title": "Community Blood Pressure Screening",
+    "category": "Learning",
+    "shortSummary": "Students from New York College School of Medicine will provide free, walk-up blood pressure screening.",
+    "fullDescription": "Students from New York College School of Medicine will provide free, walk-up blood pressure screening. Participants will receive a written record of their readings and basic educational information. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-09",
+    "startTime": "16:00",
+    "endTime": "20:00",
+    "locationName": "White Plains Public Library, Lobby",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/17685472",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17685472",
     "sourceLabel": "Library calendar",
     "importSource": "library"
   },
@@ -6134,6 +6192,36 @@
     "importSource": "city"
   },
   {
+    "id": "library-wellness-connection-2026-11-30",
+    "slug": "library-wellness-connection-2026-11-30",
+    "title": "Wellness Connection",
+    "category": "Learning",
+    "shortSummary": "Join Jeffrey from Inclure, a program developed by the Harris Project & WJCS that brings teens together for fun, supportive, and wellness-centered programming.",
+    "fullDescription": "Join Jeffrey from Inclure, a program developed by the Harris Project & WJCS that brings teens together for fun, supportive, and wellness-centered programming. Each week, we&rsquo;ll explore different ways to improve physical, mental, and emotional well-being. Whether it's through stress management techniques, light movement, or guided breathing exercises, teens will develop skills to build confidence, foster positive relationships, and enhance their overall sense of well-being. For teens in grades 7-12 on a first-come, first-served basis. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-11-30",
+    "endDate": "2026-11-30",
+    "startTime": "16:00",
+    "endTime": "17:00",
+    "locationName": "White Plains Public Library, Auditorium",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/17682455",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "health and wellness",
+      "fun and games",
+      "teens",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17682455",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
+  },
+  {
     "id": "city-common-council-work-session-2026-11-30",
     "slug": "city-common-council-work-session-2026-11-30",
     "title": "Common Council Work Session",
@@ -6530,6 +6618,36 @@
     "importSource": "city"
   },
   {
+    "id": "library-wellness-connection-2026-12-07",
+    "slug": "library-wellness-connection-2026-12-07",
+    "title": "Wellness Connection",
+    "category": "Learning",
+    "shortSummary": "Join Jeffrey from Inclure, a program developed by the Harris Project & WJCS that brings teens together for fun, supportive, and wellness-centered programming.",
+    "fullDescription": "Join Jeffrey from Inclure, a program developed by the Harris Project & WJCS that brings teens together for fun, supportive, and wellness-centered programming. Each week, we&rsquo;ll explore different ways to improve physical, mental, and emotional well-being. Whether it's through stress management techniques, light movement, or guided breathing exercises, teens will develop skills to build confidence, foster positive relationships, and enhance their overall sense of well-being. For teens in grades 7-12 on a first-come, first-served basis. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-12-07",
+    "endDate": "2026-12-07",
+    "startTime": "16:00",
+    "endTime": "17:00",
+    "locationName": "White Plains Public Library, Auditorium",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/17682456",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "health and wellness",
+      "fun and games",
+      "teens",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17682456",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
+  },
+  {
     "id": "city-common-council-meeting-2026-12-07",
     "slug": "city-common-council-meeting-2026-12-07",
     "title": "Common Council Meeting",
@@ -6921,6 +7039,36 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4578&month=12&year=2026&day=13&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "library-wellness-connection-2026-12-14",
+    "slug": "library-wellness-connection-2026-12-14",
+    "title": "Wellness Connection",
+    "category": "Learning",
+    "shortSummary": "Join Jeffrey from Inclure, a program developed by the Harris Project & WJCS that brings teens together for fun, supportive, and wellness-centered programming.",
+    "fullDescription": "Join Jeffrey from Inclure, a program developed by the Harris Project & WJCS that brings teens together for fun, supportive, and wellness-centered programming. Each week, we&rsquo;ll explore different ways to improve physical, mental, and emotional well-being. Whether it's through stress management techniques, light movement, or guided breathing exercises, teens will develop skills to build confidence, foster positive relationships, and enhance their overall sense of well-being. For teens in grades 7-12 on a first-come, first-served basis. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-12-14",
+    "endDate": "2026-12-14",
+    "startTime": "16:00",
+    "endTime": "17:00",
+    "locationName": "White Plains Public Library, Auditorium",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/17682457",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "health and wellness",
+      "fun and games",
+      "teens",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17682457",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
   },
   {
     "id": "library-cuny-information-session-2026-12-14",
