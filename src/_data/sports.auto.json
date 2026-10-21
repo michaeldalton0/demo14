@@ -352,7 +352,7 @@
       "slug": "girls-varsity-soccer",
       "sportSlug": "soccer",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270319",
-      "gameCount": 1
+      "gameCount": 2
     },
     {
       "id": "270328",
@@ -810,6 +810,29 @@
       "url": "https://www.schedulegalaxy.com/schools/719/teams/270166/games/1516163",
       "seasonYear": "2026",
       "summary": "Girls Varsity Field Hockey v. Sleepy Hollow"
+    },
+    {
+      "id": "sports-1555022",
+      "gameId": "1555022",
+      "teamId": "270319",
+      "teamName": "Girls Varsity Soccer",
+      "teamSlug": "girls-varsity-soccer",
+      "sport": "Soccer",
+      "sportSlug": "soccer",
+      "gender": "Girls",
+      "level": "Varsity",
+      "opponent": "John Jay HS/ Van Wyck JHS",
+      "isHome": true,
+      "title": "Girls Varsity Soccer vs. John Jay HS/ Van Wyck JHS",
+      "gameType": "Regular Season (Sectional Tournament)",
+      "notes": "",
+      "startDate": "2026-10-26",
+      "startTime": "18:30",
+      "endTime": null,
+      "locationName": "White Plains HS",
+      "url": "https://www.schedulegalaxy.com/schools/719/teams/270319/games/1555022",
+      "seasonYear": "2026",
+      "summary": "Girls Varsity Soccer v. John Jay HS/ Van Wyck JHS"
     },
     {
       "id": "sports-1536321",
