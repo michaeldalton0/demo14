@@ -1,33 +1,5 @@
 [
   {
-    "id": "wppac-trolls-jr-2026-08-10",
-    "slug": "wppac-trolls-jr-2026-08-10",
-    "title": "Trolls Jr.",
-    "category": "Arts",
-    "shortSummary": "Trolls JR. is based on the irreverent DreamWorks Animation movie franchise and features a colorful, wondrous world populated by hilariously unforgettable…",
-    "fullDescription": "Trolls JR. is based on the irreverent DreamWorks Animation movie franchise and features a colorful, wondrous world populated by hilariously unforgettable characters. The show follows the overly optimistic Trolls, constantly with a song on their lips, and the comically pessimistic Bergens, who are only happy when they have Trolls in their stomach. $23 Use the show page for tickets and the full performance schedule.",
-    "startDate": "2026-08-10",
-    "endDate": "2026-08-22",
-    "startTime": null,
-    "endTime": null,
-    "locationName": "White Plains Performing Arts Center",
-    "locationAddress": "11 City Place, 3rd Floor, White Plains, NY 10601",
-    "image": "/assets/img/events/arts.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://wppac.com/shows/trolls-jr/",
-    "ctaLabel": "Open show page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "performing arts",
-      "theater"
-    ],
-    "organizer": "White Plains Performing Arts Center",
-    "sourceUrl": "https://wppac.com/shows/trolls-jr/",
-    "sourceLabel": "WPPAC",
-    "importSource": "wppac"
-  },
-  {
     "id": "city-city-pools-close-2026-08-23",
     "slug": "city-city-pools-close-2026-08-23",
     "title": "City Pools Close",
@@ -3768,7 +3740,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4688&month=10&year=2026&day=21&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -3795,7 +3767,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/17396222",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "small business and non-profits",
       "adults",
@@ -3824,7 +3796,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/17217680",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "digital technology",
       "adults",
@@ -3853,7 +3825,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/15261762",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "educational presentations",
       "digital technology",
@@ -3886,7 +3858,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/16748716",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "educational presentations",
       "teens",
@@ -4552,35 +4524,6 @@
     "importSource": "library"
   },
   {
-    "id": "library-consulado-movil-en-white-plains-2026-10-30",
-    "slug": "library-consulado-movil-en-white-plains-2026-10-30",
-    "title": "Consulado Movil en White Plains",
-    "category": "Learning",
-    "shortSummary": "Agenda tu cita: jueves 29 de octubre, a partir de las 9 a.m.",
-    "fullDescription": "Agenda tu cita: jueves 29 de octubre, a partir de las 9 a.m. nuevayork.consulado.gov.co Consulte los requisitios y prepare los documentos con anticipacion. Para el pasaporte, solo debe presentar la cedula. Para hacerle envio, deber llevar sobre cetificado de Post Office y $20 dolares en estanpillas. Schedule your appointment: Thursday, October 29, starting at 9 a.m. nuevayork.consulado.gov.co Check the requirements and prepare your documents in advance. For a passport, you only need to present your national ID card (*c&eacute;dula*). If you would like it mailed to you, you must bring a certified mail envelope from the Post Office and $20 worth of postage stamps. Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-10-30",
-    "endDate": "2026-10-30",
-    "startTime": "09:00",
-    "endTime": "16:00",
-    "locationName": "White Plains Public Library, Auditorium,Community Room,Museum Gallery",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/learning.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/17507100",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "upcoming",
-    "tags": [
-      "educational presentations",
-      "adults",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17507100",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
     "id": "library-chair-yoga-with-maria-madhavi-2026-10-30",
     "slug": "library-chair-yoga-with-maria-madhavi-2026-10-30",
     "title": "Chair Yoga with Maria Madhavi",
@@ -4881,9 +4824,9 @@
     "fullDescription": "All viewpoints are welcome in this respectful, inclusive space designed to foster dialogue, reflection, and understanding. Using the World Caf&eacute; model, participants will engage in small-group discussions guided by table captains, with opportunities to interact with a variety of voices throughout the evening. Check the library page for registration, tickets, and any schedule updates.",
     "startDate": "2026-11-04",
     "endDate": "2026-11-04",
-    "startTime": "18:00",
+    "startTime": "18:30",
     "endTime": "20:00",
-    "locationName": "White Plains Public Library, Auditorium",
+    "locationName": "White Plains Public Library",
     "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
     "image": "/assets/img/events/learning.svg",
     "flyerPdf": null,
