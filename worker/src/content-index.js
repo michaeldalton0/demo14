@@ -1,5 +1,5 @@
 export default {
-  "generatedAt": "2026-10-23T10:00:19.258Z",
+  "generatedAt": "2026-10-23T15:09:08.882Z",
   "itemCount": 319,
   "items": [
     {
@@ -1236,6 +1236,15 @@ export default {
       "text": "Come learn to make small accordion books and create coptic stitch journals of your own!\n\nWorkshop\n\nBookbinding & Journalmaking Workshop\n\nCome learn to make small accordion books and create coptic stitch journals of your own!\n\nAbout this event\n\nCome learn to make small accordion books and create coptic stitch journals of your own! Great for personal use or as gifts for your family and friends Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nUpcoming\n\nDate\n\nSaturday, November 21, 2026\n\nTime\n\n11:00 AM - 12:30 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nEarring Making Workshop\n\nOct 23, 2026\n\nJoan Lloyd donates hundreds of pairs of beaded earrings every year to women's shelters.\n\nRepair Cafe Teen Volunteer Training\n\nNov 2, 2026\n\nWe're looking for teens who want to learn skills and help repair fabric items at the White Plains Repair Cafe.\n\nRepair Cafe Teen Volunteer Training\n\nNov 14, 2026\n\nWe're looking for teens who want to learn skills and help repair fabric items at the White Plains Repair Cafe."
     },
     {
+      "id": "page:/events/library-bubble-comedy-and-music-show-featuring-turtle-dance-music-2026-12-29/",
+      "sourceId": "page:/events/library-bubble-comedy-and-music-show-featuring-turtle-dance-music-2026-12-29/",
+      "title": "Bubble, Comedy and Music Show featuring Turtle Dance Music",
+      "url": "/events/library-bubble-comedy-and-music-show-featuring-turtle-dance-music-2026-12-29/",
+      "type": "event",
+      "excerpt": "Turtle Dance Music presents a Bubble, Comedy and Music Show: Reading Rocks!",
+      "text": "Turtle Dance Music presents a Bubble, Comedy and Music Show: Reading Rocks!\n\nLearning\n\nBubble, Comedy and Music Show featuring Turtle Dance Music\n\nTurtle Dance Music presents a Bubble, Comedy and Music Show: Reading Rocks!\n\nAbout this event\n\nTurtle Dance Music presents a Bubble, Comedy and Music Show: Reading Rocks! features wonderful classic and original children's songs and tales. The show engages children with songs, comedy, dance, and music technology. Join us for this novel performance which will be accompanied by visual and sensory experiences. Kids will dance, sing, laugh, use their imaginations and connect with new friends. The show is crafted to be inclusive for all children, including children on the Autism Spectrum, and a great time for parents and teachers! Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nUpcoming\n\nDate\n\nTuesday, December 29, 2026\n\nTime\n\n11:00 AM - 12:00 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nStep into a Safari: VR Search and Find!\n\nNov 7, 2026\n\nExperience Virtual Reality (VR) without a headset in the Library's panoramic content room.\n\nStep into a Safari: VR Search and Find!\n\nNov 10, 2026\n\nExperience Virtual Reality (VR) without a headset in the Library's panoramic content room.\n\nUnder the Sea: VR Search and Find!\n\nAug 25, 2026\n\nExperience Virtual Reality (VR) without a headset in the Library's panoramic content room."
+    },
+    {
       "id": "page:/events/library-chair-yoga-with-maria-madhavi-2026-10-16/",
       "sourceId": "page:/events/library-chair-yoga-with-maria-madhavi-2026-10-16/",
       "title": "Chair Yoga with Maria Madhavi",
@@ -2089,15 +2098,6 @@ export default {
       "type": "event",
       "excerpt": "Contact the Beautification Foundation for more information at info@wpbf.org or phone 914-683-5108",
       "text": "Contact the Beautification Foundation for more information at info@wpbf.org or phone 914-683-5108\n\nLearning\n\nWhite Plains Beautification Foundation\n\nContact the Beautification Foundation for more information at info@wpbf.org or phone 914-683-5108\n\nAbout this event\n\nContact the Beautification Foundation for more information at info@wpbf.org or phone 914-683-5108 Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nPast\n\nDate\n\nTuesday, September 22, 2026\n\nTime\n\n6:00 PM - 8:00 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nBlood Drive\n\nAug 25, 2026\n\nMake your appointment online here, for questions and more information, contact Camilo Rubio at 914-784-4637 or crubio@nybc.org.\n\nSustainable Westchester\n\nAug 26, 2026\n\nFor more information contact Daniel Zitomer, Program Coordinator/Energy Advisor, at 914-242-4725 ext 114 or daniel@sustainablewestchester.org\n\nInternational Overdose Awareness Day Event\n\nAug 31, 2026\n\nInternational Overdose Awareness Day is observed in more than 40 countries as a time to raise awareness about overdose, reduce stigma, and remember lives that…"
-    },
-    {
-      "id": "page:/events/library-white-plains-beautification-foundation-2026-11-17/",
-      "sourceId": "page:/events/library-white-plains-beautification-foundation-2026-11-17/",
-      "title": "White Plains Beautification Foundation",
-      "url": "/events/library-white-plains-beautification-foundation-2026-11-17/",
-      "type": "event",
-      "excerpt": "Contact the Foundation at info@wpbf.org or 914-683-5108 for details or visit their website at https://wpbf.org",
-      "text": "Contact the Foundation at info@wpbf.org or 914-683-5108 for details or visit their website at https://wpbf.org\n\nLearning\n\nWhite Plains Beautification Foundation\n\nContact the Foundation at info@wpbf.org or 914-683-5108 for details or visit their website at https://wpbf.org\n\nAbout this event\n\nContact the Foundation at info@wpbf.org or 914-683-5108 for details or visit their website at https://wpbf.org Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nUpcoming\n\nDate\n\nTuesday, November 17, 2026\n\nTime\n\n6:00 PM - 8:00 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nChair Yoga with Maria Madhavi\n\nOct 23, 2026\n\nThis low-impact practice is designed to improve flexibility, balance, strength, and relaxation while using a chair for support.\n\nUnited Nations Day 2026\n\nOct 24, 2026\n\nSponsored by the City of White Plains Youth Bureau.\n\nThe Legend of Sleepy Hollow (History via Igloo)\n\nOct 27, 2026\n\nLearn about Washington Irving's \"The Legend of Sleepy Hollow\" and how it is a part of Westchester's local history."
     },
     {
       "id": "page:/events/library-white-plains-in-1776-history-via-igloo-2026-10-15/",
