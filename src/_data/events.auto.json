@@ -31,66 +31,6 @@
     "importSource": "wppac"
   },
   {
-    "id": "library-blood-drive-2026-08-25",
-    "slug": "library-blood-drive-2026-08-25",
-    "title": "Blood Drive",
-    "category": "Learning",
-    "shortSummary": "Make your appointment online here , for questions and more information, contact Camilo Rubio at 914-784-4637 or crubio@nybc.org .",
-    "fullDescription": "Make your appointment online here , for questions and more information, contact Camilo Rubio at 914-784-4637 or crubio@nybc.org . Note also, this link to the donor requirements/eligibility. Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-08-25",
-    "endDate": "2026-08-25",
-    "startTime": "13:00",
-    "endTime": "19:00",
-    "locationName": "White Plains Public Library, Auditorium",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/learning.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16031563",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "health and wellness",
-      "adults",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16031563",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
-    "id": "library-under-the-sea-vr-search-and-find-2026-08-25",
-    "slug": "library-under-the-sea-vr-search-and-find-2026-08-25",
-    "title": "Under the Sea: VR Search and Find!",
-    "category": "Learning",
-    "shortSummary": "Experience Virtual Reality (VR) without a headset in the Library's panoramic content room.",
-    "fullDescription": "Experience Virtual Reality (VR) without a headset in the Library's panoramic content room. Technology installed by Igloo Vision and funded by the Library Foundation/Optimum. Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-08-25",
-    "endDate": "2026-08-25",
-    "startTime": "13:00",
-    "endTime": "13:30",
-    "locationName": "White Plains Public Library, The Igloo - Optimum Technology Room",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/learning.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/15773489",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "fun and games",
-      "digital technology",
-      "families",
-      "children",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/15773489",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
     "id": "city-court-street-market-2026-08-26",
     "slug": "city-court-street-market-2026-08-26",
     "title": "Court Street Market",
@@ -3922,7 +3862,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4581&month=10&year=2026&day=24&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -3949,7 +3889,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4708&month=10&year=2026&day=24&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -3976,7 +3916,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/16653798",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "other city department program",
       "teens",
@@ -4006,7 +3946,7 @@
     "externalUrl": "https://parksevents.westchestercountyny.gov/event/freestyle-jam-2026",
     "ctaLabel": "Open county parks page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "county parks",
       "free"
@@ -4536,7 +4476,7 @@
     "endDate": "2026-10-31",
     "startTime": "15:00",
     "endTime": "16:00",
-    "locationName": "White Plains Public Library, Auditorium,Museum Gallery",
+    "locationName": "White Plains Public Library, Auditorium",
     "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
     "image": "/assets/img/events/learning.svg",
     "flyerPdf": null,
@@ -5830,7 +5770,7 @@
     "title": "Soap Making Class",
     "category": "Workshop",
     "shortSummary": "Ever wondered how a few simple oils can turn into a luxurious, bubbly bar of soap?",
-    "fullDescription": "Ever wondered how a few simple oils can turn into a luxurious, bubbly bar of soap? Join us for a beginner-friendly workshop where we?ll show you how to ditch the store-bought chemicals and create your own custom soap at home. Check out the full lineup of sewing and crafting classes here! Check the library page for registration, tickets, and any schedule updates.",
+    "fullDescription": "Ever wondered how a few simple oils can turn into a luxurious, bubbly bar of soap? Join us for a beginner-friendly workshop where we'll show you how to ditch the store-bought chemicals and create your own custom soap at home. Check out the full lineup of sewing and crafting classes here! Check the library page for registration, tickets, and any schedule updates.",
     "startDate": "2026-11-22",
     "endDate": "2026-11-22",
     "startTime": "13:00",
