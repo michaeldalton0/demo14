@@ -31,61 +31,6 @@
     "importSource": "wppac"
   },
   {
-    "id": "city-covid-19-and-flu-vaccine-clinics-2026-08-27",
-    "slug": "city-covid-19-and-flu-vaccine-clinics-2026-08-27",
-    "title": "Covid-19 and Flu Vaccine Clinics",
-    "category": "Parks & Recreation",
-    "shortSummary": "Covid-19 and Flu Vaccine Clinics is listed on the official White Plains city calendar.",
-    "fullDescription": "Covid-19 and Flu Vaccine Clinics is listed on the official White Plains city calendar. It is set for Covid-19 and Flu Vaccine Clinic, Sunshine Pharmacy will be holding clinics to administer both Covid-19 and Seasonal Flu vaccines. Clinics will be at the white Plains Recreation and Parks Community Center at 65 Mitchell Place., To register, visit https://tinyurl.com/Wpvax2026 or call Sunshine Pharmacy at 914-607-3939, Other Dates:, Thursday, August 27, 10:30 am - 12:30 pm, Tuesday, September 22, 10:30 am - 1:00 pm, Wednesday, October 7, 10:00 am - 2:00 pm, ====================================, Jornada de vacunación contra el COVID-19 y la gripe, Sunshine Pharmacy organizará jornadas para administrar vacunas tanto contra el COVID-19 como contra la gripe estacional. Estas jornadas se llevarán a cabo en el White Plains Recreation and Parks Community Center, ubicado en 65 Mitchell Place., Para registrarse, visite https://tinyurl.com/Wpvax2026 o llame a Sunshine Pharmacy al 914-607-3939., Otras fechas:, Jueves 27 de agosto, de 10:30 a. m. a 12:30 p. m., Martes 22 de septiembre, de 10:30 a. m. a 1:00 p. m., Miércoles 7 de octubre, de 10:00 a. m. a 2:00 p. m.. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-08-27",
-    "endDate": "2026-08-27",
-    "startTime": "10:30",
-    "endTime": "12:30",
-    "locationName": "Covid-19 and Flu Vaccine Clinic",
-    "locationAddress": "Sunshine Pharmacy will be holding clinics to administer both Covid-19 and Seasonal Flu vaccines. Clinics will be at the white Plains Recreation and Parks Community Center at 65 Mitchell Place., To register, visit https://tinyurl.com/Wpvax2026 or call Sunshine Pharmacy at 914-607-3939, Other Dates:, Thursday, August 27, 10:30 am - 12:30 pm, Tuesday, September 22, 10:30 am - 1:00 pm, Wednesday, October 7, 10:00 am - 2:00 pm, ====================================, Jornada de vacunación contra el COVID-19 y la gripe, Sunshine Pharmacy organizará jornadas para administrar vacunas tanto contra el COVID-19 como contra la gripe estacional. Estas jornadas se llevarán a cabo en el White Plains Recreation and Parks Community Center, ubicado en 65 Mitchell Place., Para registrarse, visite https://tinyurl.com/Wpvax2026 o llame a Sunshine Pharmacy al 914-607-3939., Otras fechas:, Jueves 27 de agosto, de 10:30 a. m. a 12:30 p. m., Martes 22 de septiembre, de 10:30 a. m. a 1:00 p. m., Miércoles 7 de octubre, de 10:00 a. m. a 2:00 p. m.",
-    "image": "/assets/img/events/parks.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4693&month=8&year=2026&day=27&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar",
-      "community center"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4693&month=8&year=2026&day=27&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
-    "id": "city-city-of-white-plains-real-estate-committee-2026-08-27",
-    "slug": "city-city-of-white-plains-real-estate-committee-2026-08-27",
-    "title": "City of White Plains Real Estate Committee",
-    "category": "Civic",
-    "shortSummary": "City of White Plains Real Estate Committee is listed on the official White Plains city calendar.",
-    "fullDescription": "City of White Plains Real Estate Committee is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-08-27",
-    "endDate": "2026-08-27",
-    "startTime": "13:00",
-    "endTime": null,
-    "locationName": "White Plains",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/civic.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4700&month=8&year=2026&day=27&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4700&month=8&year=2026&day=27&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
     "id": "countyparks-dj-days-saxon-woods-pool-2026-08-30",
     "slug": "countyparks-dj-days-saxon-woods-pool-2026-08-30",
     "title": "DJ Days – Saxon Woods Pool",
@@ -3890,7 +3835,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4712&month=10&year=2026&day=26&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar",
       "public meeting"
@@ -3918,7 +3863,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4268&month=10&year=2026&day=26&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar",
       "city hall"
@@ -3946,7 +3891,7 @@
     "externalUrl": "/sports/soccer/",
     "ctaLabel": "See the full schedule",
     "featured": true,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "sports",
       "soccer",
@@ -7815,6 +7760,37 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4362&month=2&year=2027&day=16&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "library-at-the-farm-vr-search-and-find-copy-2027-02-23",
+    "slug": "library-at-the-farm-vr-search-and-find-copy-2027-02-23",
+    "title": "At the Farm: VR Search and Find! copy",
+    "category": "Learning",
+    "shortSummary": "For children ages 2+ and their families.",
+    "fullDescription": "For children ages 2+ and their families. Come see how many farm animals you can find on the Igloo walls! Please pick up free tickets at the Trove desk starting 30 minutes before the program. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2027-02-23",
+    "endDate": "2027-02-23",
+    "startTime": "12:30",
+    "endTime": "13:00",
+    "locationName": "White Plains Public Library, The Igloo - Optimum Technology Room",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/17629704",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "fun and games",
+      "digital technology",
+      "families",
+      "children",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17629704",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
   },
   {
     "id": "city-conservation-board-meeting-2027-03-15",
