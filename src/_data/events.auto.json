@@ -4061,12 +4061,12 @@
     "importSource": "library"
   },
   {
-    "id": "library-navigating-your-career-with-confidence-2026-10-28",
-    "slug": "library-navigating-your-career-with-confidence-2026-10-28",
-    "title": "Navigating Your Career with Confidence",
+    "id": "library-navigating-your-career-search-without-burnout-2026-10-28",
+    "slug": "library-navigating-your-career-search-without-burnout-2026-10-28",
+    "title": "Navigating Your Career Search Without Burnout",
     "category": "Learning",
-    "shortSummary": "A successful career search starts with setting realistic goals and creating a manageable routine rather than applying to every opportunity you see.",
-    "fullDescription": "A successful career search starts with setting realistic goals and creating a manageable routine rather than applying to every opportunity you see. Come learn how to balance consistent effort with self-care. You can stay motivated and focused throughout the job-search process! This program is hosted by Sister's Village E4, a collaboration between the YWCA White Plains and Central Westchester, Women's Mentoring Network, and the Westchester Office for Women. Check the library page for registration, tickets, and any schedule updates.",
+    "shortSummary": "Please join us to learn how to balance consistent effort with self-care.",
+    "fullDescription": "Please join us to learn how to balance consistent effort with self-care. We will share how to stay motivated and focused throughout the job-search process! Anna helps professionals, founders, and organizational leaders at all levels achieve their dreams and lead with authentic presence, confidence, and fulfillment - all from a place of inner harmony and peace. Sister's Village E4th is a collaborative of the YWCA White Plains & Central Westchester, the Women's Mentoring Network, Inc., in partnership with Westchester County Office for Women. Check the library page for registration, tickets, and any schedule updates.",
     "startDate": "2026-10-28",
     "endDate": "2026-10-28",
     "startTime": "18:00",
@@ -4268,6 +4268,35 @@
     "importSource": "library"
   },
   {
+    "id": "countyparks-23rd-annual-fall-westchester-county-home-show-2026-10-31",
+    "slug": "countyparks-23rd-annual-fall-westchester-county-home-show-2026-10-31",
+    "title": "23rd Annual Fall Westchester County Home Show",
+    "category": "Arts",
+    "shortSummary": "As one of Westchester County’s premier home expos, this highly anticipated event continues to be a vital resource for homeowners, contractors, and industry…",
+    "fullDescription": "As one of Westchester County’s premier home expos, this highly anticipated event continues to be a vital resource for homeowners, contractors, and industry professionals seeking the latest home improvement trends and services. Tickets are available at the venue the day of: $10 (adults); $8 (seniors 65+); free for children under 12. Also: Nov. 1, 11 a.m. – 4 p.m. Get details: https://countycenter.biz/event/23rd-annual-fall-westchester-county-home-show/ Check the county parks page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-10-31",
+    "endDate": "2026-10-31",
+    "startTime": "11:00",
+    "endTime": "17:00",
+    "locationName": "Westchester County Center",
+    "locationAddress": "198 Central Avenue, White Plains, NY, 10606",
+    "image": "/assets/img/events/arts.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://parksevents.westchestercountyny.gov/event/23rd-annual-fall-westchester-county-home-show/2026-10-31",
+    "ctaLabel": "Open county parks page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "county parks",
+      "tickets",
+      "free"
+    ],
+    "organizer": "Westchester County Parks",
+    "sourceUrl": "https://parksevents.westchestercountyny.gov/event/23rd-annual-fall-westchester-county-home-show/2026-10-31",
+    "sourceLabel": "County Parks calendar",
+    "importSource": "countyparks"
+  },
+  {
     "id": "library-salsa-with-addie-2026-10-31",
     "slug": "library-salsa-with-addie-2026-10-31",
     "title": "Salsa with Addie",
@@ -4295,6 +4324,35 @@
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17106204",
     "sourceLabel": "Library calendar",
     "importSource": "library"
+  },
+  {
+    "id": "countyparks-23rd-annual-fall-westchester-county-home-show-2026-11-01",
+    "slug": "countyparks-23rd-annual-fall-westchester-county-home-show-2026-11-01",
+    "title": "23rd Annual Fall Westchester County Home Show",
+    "category": "Arts",
+    "shortSummary": "As one of Westchester County’s premier home expos, this highly anticipated event continues to be a vital resource for homeowners, contractors, and industry…",
+    "fullDescription": "As one of Westchester County’s premier home expos, this highly anticipated event continues to be a vital resource for homeowners, contractors, and industry professionals seeking the latest home improvement trends and services. Tickets are available at the venue the day of: $10 (adults); $8 (seniors 65+); free for children under 12. Also: Nov. 1, 11 a.m. – 4 p.m. Get details: https://countycenter.biz/event/23rd-annual-fall-westchester-county-home-show/ Check the county parks page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-11-01",
+    "endDate": "2026-11-01",
+    "startTime": "11:00",
+    "endTime": "16:00",
+    "locationName": "Westchester County Center",
+    "locationAddress": "198 Central Avenue, White Plains, NY, 10606",
+    "image": "/assets/img/events/arts.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://parksevents.westchestercountyny.gov/event/23rd-annual-fall-westchester-county-home-show/2026-11-01",
+    "ctaLabel": "Open county parks page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "county parks",
+      "tickets",
+      "free"
+    ],
+    "organizer": "Westchester County Parks",
+    "sourceUrl": "https://parksevents.westchestercountyny.gov/event/23rd-annual-fall-westchester-county-home-show/2026-11-01",
+    "sourceLabel": "County Parks calendar",
+    "importSource": "countyparks"
   },
   {
     "id": "library-future-is-female-2026-11-02",
@@ -5479,6 +5537,35 @@
     "importSource": "library"
   },
   {
+    "id": "countyparks-miller-house-open-house-2026-11-21",
+    "slug": "countyparks-miller-house-open-house-2026-11-21",
+    "title": "Miller House Open House",
+    "category": "Parks & Recreation",
+    "shortSummary": "Drop-in to visit the former home of the Ann and Elijah Miller family, an average colonial Westchester family whose lives were changed forever when Washington and…",
+    "fullDescription": "Drop-in to visit the former home of the Ann and Elijah Miller family, an average colonial Westchester family whose lives were changed forever when Washington and his army fought for American independence. Located at 140 Virginia Rd, White Plains, NY 10603. Check the county parks page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-11-21",
+    "endDate": "2026-11-21",
+    "startTime": "11:00",
+    "endTime": "13:00",
+    "locationName": "Miller House",
+    "locationAddress": "140 Virginia Road, White Plains, NY",
+    "image": "/assets/img/events/parks.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://parksevents.westchestercountyny.gov/event/miller-house-open-house-2/2026-11-21",
+    "ctaLabel": "Open county parks page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "county parks",
+      "parks & recreation",
+      "family"
+    ],
+    "organizer": "Westchester County Parks",
+    "sourceUrl": "https://parksevents.westchestercountyny.gov/event/miller-house-open-house-2/2026-11-21",
+    "sourceLabel": "County Parks calendar",
+    "importSource": "countyparks"
+  },
+  {
     "id": "library-functional-3d-printing-2026-11-21",
     "slug": "library-functional-3d-printing-2026-11-21",
     "title": "\"Functional\" 3D Printing",
@@ -6365,6 +6452,33 @@
     "importSource": "city"
   },
   {
+    "id": "countyparks-derek-hough-dance-for-the-holidays-2026-12-07",
+    "slug": "countyparks-derek-hough-dance-for-the-holidays-2026-12-07",
+    "title": "Derek Hough Dance for the Holidays",
+    "category": "Community",
+    "shortSummary": "This event is a joyous celebration of the most festive time of the year!",
+    "fullDescription": "This event is a joyous celebration of the most festive time of the year! Check the county parks page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-12-07",
+    "endDate": "2026-12-07",
+    "startTime": "20:00",
+    "endTime": "22:00",
+    "locationName": "Westchester County Center",
+    "locationAddress": "198 Central Avenue, White Plains, NY, 10606",
+    "image": "/assets/img/events/community.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://parksevents.westchestercountyny.gov/event/derek-hough-dance-for-the-holidays",
+    "ctaLabel": "Open county parks page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "county parks"
+    ],
+    "organizer": "Westchester County Parks",
+    "sourceUrl": "https://parksevents.westchestercountyny.gov/event/derek-hough-dance-for-the-holidays",
+    "sourceLabel": "County Parks calendar",
+    "importSource": "countyparks"
+  },
+  {
     "id": "city-santa-s-mailbox-2026-12-08",
     "slug": "city-santa-s-mailbox-2026-12-08",
     "title": "Santa's Mailbox",
@@ -6647,6 +6761,35 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=12&year=2026&day=12&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "countyparks-miller-house-open-house-2026-12-12",
+    "slug": "countyparks-miller-house-open-house-2026-12-12",
+    "title": "Miller House Open House",
+    "category": "Parks & Recreation",
+    "shortSummary": "Drop-in to visit the former home of the Ann and Elijah Miller family, an average colonial Westchester family whose lives were changed forever when Washington and…",
+    "fullDescription": "Drop-in to visit the former home of the Ann and Elijah Miller family, an average colonial Westchester family whose lives were changed forever when Washington and his army fought for American independence. Located at 140 Virginia Rd, White Plains, NY 10603. Check the county parks page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-12-12",
+    "endDate": "2026-12-12",
+    "startTime": "11:00",
+    "endTime": "13:00",
+    "locationName": "Miller House",
+    "locationAddress": "140 Virginia Road, White Plains, NY",
+    "image": "/assets/img/events/parks.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://parksevents.westchestercountyny.gov/event/miller-house-open-house-2/2026-12-12",
+    "ctaLabel": "Open county parks page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "county parks",
+      "parks & recreation",
+      "family"
+    ],
+    "organizer": "Westchester County Parks",
+    "sourceUrl": "https://parksevents.westchestercountyny.gov/event/miller-house-open-house-2/2026-12-12",
+    "sourceLabel": "County Parks calendar",
+    "importSource": "countyparks"
   },
   {
     "id": "city-santa-s-mailbox-2026-12-13",
@@ -7358,9 +7501,9 @@
     "importSource": "city"
   },
   {
-    "id": "library-who-am-i-2027-02-01",
-    "slug": "library-who-am-i-2027-02-01",
-    "title": "Who am I",
+    "id": "library-who-am-i-a-poetry-writing-and-open-mic-experience-2027-02-01",
+    "slug": "library-who-am-i-a-poetry-writing-and-open-mic-experience-2027-02-01",
+    "title": "Who am I? A Poetry writing and Open Mic Experience",
     "category": "Learning",
     "shortSummary": "Who Am I? Poetry Writing & Open Mic Experience Participants will engage in a powerful self-reflective writing experience designed to explore self-identity,…",
     "fullDescription": "Who Am I? Poetry Writing & Open Mic Experience Participants will engage in a powerful self-reflective writing experience designed to explore self-identity, self-expression, and self-determination. Through guided prompts and creative writing exercises, participants will be encouraged to reflect on their experiences, values, strengths, dreams, culture, and the unique qualities that make them who they are. Each participant will have the opportunity to write their own &ldquo;Who Am I?&rdquo; poem&mdash;a personal piece that celebrates their voice, identity, and individual story. The experience will conclude with an Open Mic, where participants will be invited to step forward and recite their poems in a supportive and empowering environment. Tom Ray is a four-time published author and poet, Spoken Word Artist, and Teaching Artist. Through poetry and creative expression, Tom creates opportunities for participants to discover their voice, tell their stories, and build confidence through the power of the written and spoken word. Check the library page for registration, tickets, and any schedule updates.",
