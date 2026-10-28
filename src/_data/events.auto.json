@@ -7324,6 +7324,35 @@
     "importSource": "city"
   },
   {
+    "id": "library-a-century-of-homes-2027-01-14",
+    "slug": "library-a-century-of-homes-2027-01-14",
+    "title": "A Century of Homes:",
+    "category": "Civic",
+    "shortSummary": "Have you ever wondered why your house has that weird nook that seems to serve no purpose?",
+    "fullDescription": "Have you ever wondered why your house has that weird nook that seems to serve no purpose? Or why most houses in the Highlands don&rsquo;t have a first-floor bathroom? Were Tudor houses all the rage with certain builders in Westchester, or was there a national fascination with the style? If you&rsquo;ve ever pondered these mysteries while strolling through White Plains and admiring its architecture, you&rsquo;re not alone! As the Highlands neighborhood celebrates its centennial, the White Plains Highlands Civic Association is taking a closer look at the homes that give the neighborhood its character. With so many houses built in the 1910s and 1920s, what design trends were shaping the era? What construction innovations made new distinctive features possible? And was Westchester ahead of its time in neighborhood planning and architecture? The panel will feature John Fry, co-founder of Nexus Creative Architecture Planning and Design. Drawing on 40 years in the field and a passion for residential architectural history, John and his colleagues will explore the stories behind our neighborhoods, the architectural trends that shaped them, and the fun (and sometimes puzzling!) quirks of our homes. A Q&A will follow. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2027-01-14",
+    "endDate": "2027-01-14",
+    "startTime": "18:00",
+    "endTime": "19:45",
+    "locationName": "White Plains Public Library, Auditorium",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/civic.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/17756841",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "educational presentations",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17756841",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
+  },
+  {
     "id": "library-annual-pollinators-of-white-plains-2027-01-17",
     "slug": "library-annual-pollinators-of-white-plains-2027-01-17",
     "title": "Annual Pollinators of White Plains",
