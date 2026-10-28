@@ -33,7 +33,7 @@
       "slug": "boys-varsity-baseball",
       "sportSlug": "baseball",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270058",
-      "gameCount": 0
+      "gameCount": 1
     },
     {
       "id": "270076",
@@ -165,7 +165,7 @@
       "slug": "girls-varsity-field-hockey",
       "sportSlug": "field-hockey",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270166",
-      "gameCount": 2
+      "gameCount": 3
     },
     {
       "id": "270175",
@@ -176,7 +176,7 @@
       "slug": "boys-varsity-football",
       "sportSlug": "football",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270175",
-      "gameCount": 2
+      "gameCount": 1
     },
     {
       "id": "270184",
@@ -341,7 +341,7 @@
       "slug": "boys-varsity-soccer",
       "sportSlug": "soccer",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270310",
-      "gameCount": 2
+      "gameCount": 3
     },
     {
       "id": "270319",
@@ -352,7 +352,7 @@
       "slug": "girls-varsity-soccer",
       "sportSlug": "soccer",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270319",
-      "gameCount": 2
+      "gameCount": 3
     },
     {
       "id": "270328",
@@ -466,29 +466,6 @@
     }
   ],
   "games": [
-    {
-      "id": "sports-1517878",
-      "gameId": "1517878",
-      "teamId": "270175",
-      "teamName": "Boys Varsity Football",
-      "teamSlug": "boys-varsity-football",
-      "sport": "Football",
-      "sportSlug": "football",
-      "gender": "Boys",
-      "level": "Varsity",
-      "opponent": "Harrison",
-      "isHome": true,
-      "title": "Boys Varsity Football vs. Harrison",
-      "gameType": "Scrimmage (w/Mamaroneck, Byram Hills, Port Chester)",
-      "notes": "2 BUSES",
-      "startDate": "2026-08-28",
-      "startTime": "18:00",
-      "endTime": null,
-      "locationName": "White Plains High School",
-      "url": "https://www.schedulegalaxy.com/schools/719/teams/270175/games/1517878",
-      "seasonYear": "2026",
-      "summary": "Boys Varsity Football v. Harrison"
-    },
     {
       "id": "sports-1534602",
       "gameId": "1534602",
@@ -835,6 +812,75 @@
       "summary": "Girls Varsity Soccer v. John Jay HS/ Van Wyck JHS"
     },
     {
+      "id": "sports-1556979",
+      "gameId": "1556979",
+      "teamId": "270166",
+      "teamName": "Girls Varsity Field Hockey",
+      "teamSlug": "girls-varsity-field-hockey",
+      "sport": "Field Hockey",
+      "sportSlug": "field-hockey",
+      "gender": "Girls",
+      "level": "Varsity",
+      "opponent": "John Jay HS/ Van Wyck JHS",
+      "isHome": false,
+      "title": "Girls Varsity Field Hockey at John Jay HS/ Van Wyck JHS",
+      "gameType": "Regular Season (Sectionals)",
+      "notes": "",
+      "startDate": "2026-10-29",
+      "startTime": "16:30",
+      "endTime": null,
+      "locationName": "JJ Turf",
+      "url": "https://www.schedulegalaxy.com/schools/719/teams/270166/games/1556979",
+      "seasonYear": "2026",
+      "summary": "Girls Varsity Field Hockey @ John Jay HS/ Van Wyck JHS"
+    },
+    {
+      "id": "sports-1557375",
+      "gameId": "1557375",
+      "teamId": "270310",
+      "teamName": "Boys Varsity Soccer",
+      "teamSlug": "boys-varsity-soccer",
+      "sport": "Soccer",
+      "sportSlug": "soccer",
+      "gender": "Boys",
+      "level": "Varsity",
+      "opponent": "Sleepy Hollow (Pioneer)",
+      "isHome": false,
+      "title": "Boys Varsity Soccer at Sleepy Hollow (Pioneer)",
+      "gameType": "Regular Season",
+      "notes": "",
+      "startDate": "2026-11-19",
+      "startTime": "16:00",
+      "endTime": null,
+      "locationName": "HS Gym",
+      "url": "https://www.schedulegalaxy.com/schools/719/teams/270310/games/1557375",
+      "seasonYear": "2026",
+      "summary": "Boys Varsity Soccer @ Sleepy Hollow (Pioneer)"
+    },
+    {
+      "id": "sports-1557376",
+      "gameId": "1557376",
+      "teamId": "270319",
+      "teamName": "Girls Varsity Soccer",
+      "teamSlug": "girls-varsity-soccer",
+      "sport": "Soccer",
+      "sportSlug": "soccer",
+      "gender": "Girls",
+      "level": "Varsity",
+      "opponent": "Sleepy Hollow (Pioneer)",
+      "isHome": false,
+      "title": "Girls Varsity Soccer at Sleepy Hollow (Pioneer)",
+      "gameType": "Regular Season",
+      "notes": "",
+      "startDate": "2026-11-19",
+      "startTime": "16:00",
+      "endTime": null,
+      "locationName": "HS Gym",
+      "url": "https://www.schedulegalaxy.com/schools/719/teams/270319/games/1557376",
+      "seasonYear": "2026",
+      "summary": "Girls Varsity Soccer @ Sleepy Hollow (Pioneer)"
+    },
+    {
       "id": "sports-1536321",
       "gameId": "1536321",
       "teamId": "270076",
@@ -902,6 +948,29 @@
       "url": "https://www.schedulegalaxy.com/schools/719/teams/270409/games/1538876",
       "seasonYear": "2026",
       "summary": "Boys Varsity Wrestling v. Roy C Ketcham/ Wappingers JHS"
+    },
+    {
+      "id": "sports-1556425",
+      "gameId": "1556425",
+      "teamId": "270058",
+      "teamName": "Boys Varsity Baseball",
+      "teamSlug": "boys-varsity-baseball",
+      "sport": "Baseball",
+      "sportSlug": "baseball",
+      "gender": "Boys",
+      "level": "Varsity",
+      "opponent": "Roy C Ketcham/ Wappingers JHS",
+      "isHome": false,
+      "title": "Boys Varsity Baseball at Roy C Ketcham/ Wappingers JHS",
+      "gameType": "Regular Season",
+      "notes": "",
+      "startDate": "2027-03-30",
+      "startTime": "17:00",
+      "endTime": null,
+      "locationName": "RCK Baseball Field",
+      "url": "https://www.schedulegalaxy.com/schools/719/teams/270058/games/1556425",
+      "seasonYear": "2026",
+      "summary": "Boys Varsity Baseball @ Roy C Ketcham/ Wappingers JHS"
     }
   ]
 }
