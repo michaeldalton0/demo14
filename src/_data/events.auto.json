@@ -1,33 +1,5 @@
 [
   {
-    "id": "countyparks-dj-days-saxon-woods-pool-2026-08-30",
-    "slug": "countyparks-dj-days-saxon-woods-pool-2026-08-30",
-    "title": "DJ Days – Saxon Woods Pool",
-    "category": "Parks & Recreation",
-    "shortSummary": "Spend your summer at Westchester County Pools and Beaches!",
-    "fullDescription": "Spend your summer at Westchester County Pools and Beaches! Check the county parks page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-08-30",
-    "endDate": "2026-08-30",
-    "startTime": "12:00",
-    "endTime": "16:00",
-    "locationName": "Saxon Woods Park",
-    "locationAddress": "1800 Mamaroneck Avenue, White Plains, NY, 10605",
-    "image": "/assets/img/events/parks.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://parksevents.westchestercountyny.gov/event/dj-days-saxon-woods-pool/2026-08-30",
-    "ctaLabel": "Open county parks page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "county parks",
-      "parks & recreation"
-    ],
-    "organizer": "Westchester County Parks",
-    "sourceUrl": "https://parksevents.westchestercountyny.gov/event/dj-days-saxon-woods-pool/2026-08-30",
-    "sourceLabel": "County Parks calendar",
-    "importSource": "countyparks"
-  },
-  {
     "id": "library-international-overdose-awareness-day-event-2026-08-31",
     "slug": "library-international-overdose-awareness-day-event-2026-08-31",
     "title": "International Overdose Awareness Day Event",
@@ -4103,7 +4075,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/17114309",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "history & genealogy",
       "educational presentations",
@@ -4133,7 +4105,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/17268750",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "educational presentations",
       "adults",
@@ -4162,7 +4134,7 @@
     "externalUrl": "/sports/field-hockey/",
     "ctaLabel": "See the full schedule",
     "featured": true,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "sports",
       "field hockey",
@@ -4193,7 +4165,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/17678631",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "health and wellness",
       "fun and games",
