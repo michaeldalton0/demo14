@@ -44,7 +44,7 @@
       "slug": "boys-varsity-basketball",
       "sportSlug": "basketball",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270076",
-      "gameCount": 1
+      "gameCount": 2
     },
     {
       "id": "270067",
@@ -856,6 +856,29 @@
       "url": "https://www.schedulegalaxy.com/schools/719/teams/270076/games/1536321",
       "seasonYear": "2026",
       "summary": "Boys Varsity Basketball @ Roy C Ketcham/ Wappingers JHS"
+    },
+    {
+      "id": "sports-1559240",
+      "gameId": "1559240",
+      "teamId": "270076",
+      "teamName": "Boys Varsity Basketball",
+      "teamSlug": "boys-varsity-basketball",
+      "sport": "Basketball",
+      "sportSlug": "basketball",
+      "gender": "Boys",
+      "level": "Varsity",
+      "opponent": "Harrison",
+      "isHome": true,
+      "title": "Boys Varsity Basketball vs. Harrison",
+      "gameType": "Regular Season (Harry Jefferson Showcase)",
+      "notes": "",
+      "startDate": "2026-12-12",
+      "startTime": "13:00",
+      "endTime": null,
+      "locationName": "White Plains High School",
+      "url": "https://www.schedulegalaxy.com/schools/719/teams/270076/games/1559240",
+      "seasonYear": "2026",
+      "summary": "Boys Varsity Basketball v. Harrison"
     },
     {
       "id": "sports-1538484",

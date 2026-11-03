@@ -1,32 +1,5 @@
 [
   {
-    "id": "city-delfino-park-barbeque-2026-09-03",
-    "slug": "city-delfino-park-barbeque-2026-09-03",
-    "title": "Delfino Park Barbeque",
-    "category": "Parks & Recreation",
-    "shortSummary": "Delfino Park Barbeque is listed on the official White Plains city calendar.",
-    "fullDescription": "Delfino Park Barbeque is listed on the official White Plains city calendar. It is set for Delfino Park, White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-09-03",
-    "endDate": "2026-09-03",
-    "startTime": "11:30",
-    "endTime": "13:30",
-    "locationName": "Delfino Park",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/parks.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4573&month=9&year=2026&day=3&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4573&month=9&year=2026&day=3&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
     "id": "library-intro-to-google-sheets-part-1-2026-09-08",
     "slug": "library-intro-to-google-sheets-part-1-2026-09-08",
     "title": "Intro to Google Sheets, Part 1",
@@ -4203,7 +4176,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/17115851",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "books and authors",
       "adults about 55 and over",
@@ -4233,7 +4206,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/17221868",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "volunteering",
       "arts and crafts",
@@ -4263,7 +4236,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=3610&month=11&year=2026&day=2&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar",
       "public meeting",
@@ -6652,6 +6625,37 @@
     "sourceUrl": "https://parksevents.westchestercountyny.gov/event/miller-house-open-house-2/2026-12-12",
     "sourceLabel": "County Parks calendar",
     "importSource": "countyparks"
+  },
+  {
+    "id": "sports-boys-varsity-basketball-vs-harrison-2026-12-12",
+    "slug": "sports-boys-varsity-basketball-vs-harrison-2026-12-12",
+    "title": "Boys Varsity Basketball vs. Harrison",
+    "category": "Sports",
+    "shortSummary": "Boys Varsity Basketball hosts Harrison at White Plains High School.",
+    "fullDescription": "Boys Varsity Basketball hosts Harrison at White Plains High School. A Section 1 rivalry game. Home game. Scheduled start 1:00 p.m.. Venue: White Plains High School. Schedules come from the school's athletic department and can change late in the week.",
+    "startDate": "2026-12-12",
+    "endDate": "2026-12-12",
+    "startTime": "13:00",
+    "endTime": null,
+    "locationName": "White Plains High School",
+    "locationAddress": "White Plains, NY",
+    "image": "/assets/img/events/sports.svg",
+    "flyerPdf": null,
+    "externalUrl": "/sports/basketball/",
+    "ctaLabel": "See the full schedule",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "sports",
+      "basketball",
+      "boys",
+      "white plains high school",
+      "rivalry"
+    ],
+    "organizer": "White Plains High School Athletics",
+    "sourceUrl": "/sports/basketball/",
+    "sourceLabel": "White Plains High School Athletics",
+    "importSource": "sports"
   },
   {
     "id": "city-santa-s-mailbox-2026-12-13",
