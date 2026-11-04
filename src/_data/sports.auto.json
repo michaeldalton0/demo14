@@ -55,7 +55,7 @@
       "slug": "girls-varsity-basketball",
       "sportSlug": "basketball",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270067",
-      "gameCount": 1
+      "gameCount": 2
     },
     {
       "id": "270085",
@@ -341,7 +341,7 @@
       "slug": "boys-varsity-soccer",
       "sportSlug": "soccer",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270310",
-      "gameCount": 2
+      "gameCount": 1
     },
     {
       "id": "270319",
@@ -374,7 +374,7 @@
       "slug": "boys-varsity-swimming-diving",
       "sportSlug": "swimming-diving",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270346",
-      "gameCount": 0
+      "gameCount": 1
     },
     {
       "id": "270337",
@@ -466,29 +466,6 @@
     }
   ],
   "games": [
-    {
-      "id": "sports-1491231",
-      "gameId": "1491231",
-      "teamId": "270310",
-      "teamName": "Boys Varsity Soccer",
-      "teamSlug": "boys-varsity-soccer",
-      "sport": "Soccer",
-      "sportSlug": "soccer",
-      "gender": "Boys",
-      "level": "Varsity",
-      "opponent": "Roy C Ketcham/ Wappingers JHS",
-      "isHome": false,
-      "title": "Boys Varsity Soccer at Roy C Ketcham/ Wappingers JHS",
-      "gameType": "Regular Season",
-      "notes": "",
-      "startDate": "2026-09-04",
-      "startTime": "17:00",
-      "endTime": null,
-      "locationName": "RCK Sod Soccer Field",
-      "url": "https://www.schedulegalaxy.com/schools/719/teams/270310/games/1491231",
-      "seasonYear": "2026",
-      "summary": "Boys Varsity Soccer @ Roy C Ketcham/ Wappingers JHS"
-    },
     {
       "id": "sports-1502194",
       "gameId": "1502194",
@@ -925,6 +902,52 @@
       "url": "https://www.schedulegalaxy.com/schools/719/teams/270409/games/1538876",
       "seasonYear": "2026",
       "summary": "Boys Varsity Wrestling v. Roy C Ketcham/ Wappingers JHS"
+    },
+    {
+      "id": "sports-1559945",
+      "gameId": "1559945",
+      "teamId": "270067",
+      "teamName": "Girls Varsity Basketball",
+      "teamSlug": "girls-varsity-basketball",
+      "sport": "Basketball",
+      "sportSlug": "basketball",
+      "gender": "Girls",
+      "level": "Varsity",
+      "opponent": "Harrison",
+      "isHome": true,
+      "title": "Girls Varsity Basketball vs. Harrison",
+      "gameType": "Regular Season",
+      "notes": "",
+      "startDate": "2027-01-14",
+      "startTime": "16:30",
+      "endTime": null,
+      "locationName": "White Plains High School",
+      "url": "https://www.schedulegalaxy.com/schools/719/teams/270067/games/1559945",
+      "seasonYear": "2026",
+      "summary": "Girls Varsity Basketball v. Harrison"
+    },
+    {
+      "id": "sports-1560282",
+      "gameId": "1560282",
+      "teamId": "270346",
+      "teamName": "Boys Varsity Swimming/Diving",
+      "teamSlug": "boys-varsity-swimming-diving",
+      "sport": "Swimming/Diving",
+      "sportSlug": "swimming-diving",
+      "gender": "Boys",
+      "level": "Varsity",
+      "opponent": "Harrison",
+      "isHome": false,
+      "title": "Boys Varsity Swimming/Diving at Harrison",
+      "gameType": "Regular Season",
+      "notes": "",
+      "startDate": "2027-01-20",
+      "startTime": "17:00",
+      "endTime": null,
+      "locationName": "LMK Pool",
+      "url": "https://www.schedulegalaxy.com/schools/719/teams/270346/games/1560282",
+      "seasonYear": "2026",
+      "summary": "Boys Varsity Swimming/Diving @ Harrison"
     },
     {
       "id": "sports-1556425",
