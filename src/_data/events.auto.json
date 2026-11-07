@@ -4379,7 +4379,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/16611375",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "parents and caregivers",
       "health and wellness",
@@ -4508,6 +4508,33 @@
     ],
     "organizer": "City of White Plains",
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4706&month=11&year=2026&day=9&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
+    "id": "city-design-review-board-2026-11-09",
+    "slug": "city-design-review-board-2026-11-09",
+    "title": "Design Review Board",
+    "category": "Civic",
+    "shortSummary": "Design Review Board is listed on the official White Plains city calendar.",
+    "fullDescription": "Design Review Board is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-09",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "locationName": "White Plains",
+    "locationAddress": "White Plains, NY",
+    "image": "/assets/img/events/civic.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4716&month=11&year=2026&day=9&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4716&month=11&year=2026&day=9&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
