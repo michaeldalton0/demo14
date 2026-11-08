@@ -429,7 +429,7 @@
       "slug": "girls-varsity-volleyball",
       "sportSlug": "volleyball",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270382",
-      "gameCount": 3
+      "gameCount": 2
     },
     {
       "id": "270400",
@@ -466,29 +466,6 @@
     }
   ],
   "games": [
-    {
-      "id": "sports-1502194",
-      "gameId": "1502194",
-      "teamId": "270382",
-      "teamName": "Girls Varsity Volleyball",
-      "teamSlug": "girls-varsity-volleyball",
-      "sport": "Volleyball",
-      "sportSlug": "volleyball",
-      "gender": "Girls",
-      "level": "Varsity",
-      "opponent": "Roy C Ketcham/ Wappingers JHS",
-      "isHome": true,
-      "title": "Girls Varsity Volleyball vs. Roy C Ketcham/ Wappingers JHS",
-      "gameType": "Regular Season",
-      "notes": "Jefferson Gym",
-      "startDate": "2026-09-08",
-      "startTime": "17:00",
-      "endTime": null,
-      "locationName": "White Plains HS",
-      "url": "https://www.schedulegalaxy.com/schools/719/teams/270382/games/1502194",
-      "seasonYear": "2026",
-      "summary": "Girls Varsity Volleyball v. Roy C Ketcham/ Wappingers JHS"
-    },
     {
       "id": "sports-1518479",
       "gameId": "1518479",
