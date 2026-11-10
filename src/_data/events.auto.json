@@ -4565,6 +4565,34 @@
     "importSource": "city"
   },
   {
+    "id": "city-board-of-ethics-meeting-2026-11-13",
+    "slug": "city-board-of-ethics-meeting-2026-11-13",
+    "title": "Board of Ethics Meeting",
+    "category": "Civic",
+    "shortSummary": "Board of Ethics Meeting is listed on the official White Plains city calendar.",
+    "fullDescription": "Board of Ethics Meeting is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-11-13",
+    "endDate": "2026-11-13",
+    "startTime": "15:00",
+    "endTime": null,
+    "locationName": "White Plains",
+    "locationAddress": "White Plains, NY",
+    "image": "/assets/img/events/civic.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4717&month=11&year=2026&day=13&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar",
+      "public meeting"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4717&month=11&year=2026&day=13&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
     "id": "library-repair-cafe-teen-volunteer-training-2026-11-14",
     "slug": "library-repair-cafe-teen-volunteer-training-2026-11-14",
     "title": "Repair Cafe Teen Volunteer Training",
@@ -6742,6 +6770,38 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4572&month=12&year=2026&day=15&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "library-smiles-through-slime-2026-12-15",
+    "slug": "library-smiles-through-slime-2026-12-15",
+    "title": "Smiles Through Slime",
+    "category": "Workshop",
+    "shortSummary": "Smiles Through Slime is a fun, hands-on workshop where kids can make their own slime to take home while learning about the science behind it!",
+    "fullDescription": "Smiles Through Slime is a fun, hands-on workshop where kids can make their own slime to take home while learning about the science behind it! As part of this initiative, we will also be donating slime-making kits to pediatric patients at local children's hospitals. Workshop participants will have the opportunity to help assemble these kits! Space is limited. Registration is required. Presented as part of a Girl Scout Gold Award project. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-12-15",
+    "endDate": "2026-12-15",
+    "startTime": "16:00",
+    "endTime": "17:00",
+    "locationName": "White Plains Public Library, Galaxy Hall",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/workshop.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/17701928",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "educational presentations",
+      "arts and crafts",
+      "middle school (grades 6 - 8)",
+      "elementary school (grades 1 - 6)",
+      "children",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17701928",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
   },
   {
     "id": "city-planning-board-meeting-2026-12-15",
