@@ -407,7 +407,7 @@
       "slug": "girls-varsity-tennis",
       "sportSlug": "tennis",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270364",
-      "gameCount": 2
+      "gameCount": 1
     },
     {
       "id": "270373",
@@ -429,7 +429,7 @@
       "slug": "girls-varsity-volleyball",
       "sportSlug": "volleyball",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270382",
-      "gameCount": 2
+      "gameCount": 1
     },
     {
       "id": "270400",
@@ -466,52 +466,6 @@
     }
   ],
   "games": [
-    {
-      "id": "sports-1527919",
-      "gameId": "1527919",
-      "teamId": "270364",
-      "teamName": "Girls Varsity Tennis",
-      "teamSlug": "girls-varsity-tennis",
-      "sport": "Tennis",
-      "sportSlug": "tennis",
-      "gender": "Girls",
-      "level": "Varsity",
-      "opponent": "Harrison",
-      "isHome": false,
-      "title": "Girls Varsity Tennis at Harrison",
-      "gameType": "Regular Season",
-      "notes": "",
-      "startDate": "2026-09-10",
-      "startTime": "16:30",
-      "endTime": null,
-      "locationName": "HS Tennis Courts",
-      "url": "https://www.schedulegalaxy.com/schools/719/teams/270364/games/1527919",
-      "seasonYear": "2026",
-      "summary": "Girls Varsity Tennis @ Harrison"
-    },
-    {
-      "id": "sports-1516065",
-      "gameId": "1516065",
-      "teamId": "270382",
-      "teamName": "Girls Varsity Volleyball",
-      "teamSlug": "girls-varsity-volleyball",
-      "sport": "Volleyball",
-      "sportSlug": "volleyball",
-      "gender": "Girls",
-      "level": "Varsity",
-      "opponent": "Sleepy Hollow",
-      "isHome": false,
-      "title": "Girls Varsity Volleyball at Sleepy Hollow",
-      "gameType": "Regular Season",
-      "notes": "",
-      "startDate": "2026-09-10",
-      "startTime": "18:00",
-      "endTime": null,
-      "locationName": "HS Gym",
-      "url": "https://www.schedulegalaxy.com/schools/719/teams/270382/games/1516065",
-      "seasonYear": "2026",
-      "summary": "Girls Varsity Volleyball @ Sleepy Hollow"
-    },
     {
       "id": "sports-1497624",
       "gameId": "1497624",

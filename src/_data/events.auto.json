@@ -1,36 +1,5 @@
 [
   {
-    "id": "sports-girls-varsity-tennis-at-harrison-2026-09-10",
-    "slug": "sports-girls-varsity-tennis-at-harrison-2026-09-10",
-    "title": "Girls Varsity Tennis at Harrison",
-    "category": "Sports",
-    "shortSummary": "Girls Varsity Tennis travels to face Harrison at HS Tennis Courts.",
-    "fullDescription": "Girls Varsity Tennis travels to face Harrison at HS Tennis Courts. A Section 1 rivalry game. Away event. Scheduled start 4:30 p.m.. Venue: HS Tennis Courts. Schedules come from the school's athletic department and can change late in the week.",
-    "startDate": "2026-09-10",
-    "endDate": "2026-09-10",
-    "startTime": "16:30",
-    "endTime": null,
-    "locationName": "HS Tennis Courts",
-    "locationAddress": "",
-    "image": "/assets/img/events/sports.svg",
-    "flyerPdf": null,
-    "externalUrl": "/sports/tennis/",
-    "ctaLabel": "See the full schedule",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "sports",
-      "tennis",
-      "girls",
-      "white plains high school",
-      "rivalry"
-    ],
-    "organizer": "White Plains High School Athletics",
-    "sourceUrl": "/sports/tennis/",
-    "sourceLabel": "White Plains High School Athletics",
-    "importSource": "sports"
-  },
-  {
     "id": "city-9-11-day-of-remembrance-ceremony-2026-09-11",
     "slug": "city-9-11-day-of-remembrance-ceremony-2026-09-11",
     "title": "9/11 Day of Remembrance Ceremony",
@@ -4358,7 +4327,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/17685472",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "adults",
       "library"
@@ -4386,7 +4355,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4706&month=11&year=2026&day=9&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -4413,7 +4382,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4716&month=11&year=2026&day=9&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -6224,6 +6193,35 @@
     "importSource": "city"
   },
   {
+    "id": "library-affordable-housing-in-white-plains-2026-12-08",
+    "slug": "library-affordable-housing-in-white-plains-2026-12-08",
+    "title": "Affordable Housing in White Plains",
+    "category": "Civic",
+    "shortSummary": "Sponsored by the City of White Plains Planning Department.",
+    "fullDescription": "Sponsored by the City of White Plains Planning Department. For more information, call 914-422-1300. Registration is recommended. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-12-08",
+    "endDate": "2026-12-08",
+    "startTime": "17:30",
+    "endTime": "19:30",
+    "locationName": "White Plains Public Library, Classroom 1",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/civic.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/17385101",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "other city department program",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17385101",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
+  },
+  {
     "id": "library-how-to-help-cats-in-your-neighborhood-2026-12-08",
     "slug": "library-how-to-help-cats-in-your-neighborhood-2026-12-08",
     "title": "How to Help Cats in Your Neighborhood",
@@ -7104,6 +7102,35 @@
     "importSource": "city"
   },
   {
+    "id": "library-affordable-housing-in-white-plains-2027-01-13",
+    "slug": "library-affordable-housing-in-white-plains-2027-01-13",
+    "title": "Affordable Housing in White Plains",
+    "category": "Civic",
+    "shortSummary": "Sponsored by the City of White Plains Planning Department.",
+    "fullDescription": "Sponsored by the City of White Plains Planning Department. For more information, call 914-422-1300. Registration is recommended. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2027-01-13",
+    "endDate": "2027-01-13",
+    "startTime": "17:30",
+    "endTime": "19:30",
+    "locationName": "White Plains Public Library, Classroom 1",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/civic.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/17385102",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "other city department program",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17385102",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
+  },
+  {
     "id": "sports-girls-varsity-basketball-vs-harrison-2027-01-14",
     "slug": "sports-girls-varsity-basketball-vs-harrison-2027-01-14",
     "title": "Girls Varsity Basketball vs. Harrison",
@@ -7639,6 +7666,35 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4574&month=2&year=2027&day=11&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "library-affordable-housing-in-white-plains-2027-02-11",
+    "slug": "library-affordable-housing-in-white-plains-2027-02-11",
+    "title": "Affordable Housing in White Plains",
+    "category": "Civic",
+    "shortSummary": "Sponsored by the City of White Plains Planning Department.",
+    "fullDescription": "Sponsored by the City of White Plains Planning Department. For more information, call 914-422-1300. Registration is recommended. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2027-02-11",
+    "endDate": "2027-02-11",
+    "startTime": "17:30",
+    "endTime": "19:30",
+    "locationName": "White Plains Public Library, Classroom 1",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/civic.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/17385103",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "other city department program",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17385103",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
   },
   {
     "id": "city-conservation-board-meeting-2027-02-15",
