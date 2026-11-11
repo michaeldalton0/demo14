@@ -1,32 +1,5 @@
 [
   {
-    "id": "city-9-11-day-of-remembrance-ceremony-2026-09-11",
-    "slug": "city-9-11-day-of-remembrance-ceremony-2026-09-11",
-    "title": "9/11 Day of Remembrance Ceremony",
-    "category": "Parks & Recreation",
-    "shortSummary": "9/11 Day of Remembrance Ceremony is listed on the official White Plains city calendar.",
-    "fullDescription": "9/11 Day of Remembrance Ceremony is listed on the official White Plains city calendar. It is set for Liberty Park, White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-09-11",
-    "endDate": "2026-09-11",
-    "startTime": "08:30",
-    "endTime": null,
-    "locationName": "Liberty Park",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/parks.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4569&month=9&year=2026&day=11&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4569&month=9&year=2026&day=11&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
     "id": "countyparks-saxon-woods-garage-sale-2026-09-12",
     "slug": "countyparks-saxon-woods-garage-sale-2026-09-12",
     "title": "Saxon Woods Garage Sale",
@@ -4409,7 +4382,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/16636152",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "fun and games",
       "digital technology",
@@ -4440,7 +4413,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/16813453",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "health and wellness",
       "educational presentations",
@@ -4471,7 +4444,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/17523523",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "digital technology",
       "adults",
@@ -4500,7 +4473,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4575&month=11&year=2026&day=10&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar",
       "community center"
@@ -6793,6 +6766,7 @@
     "tags": [
       "educational presentations",
       "arts and crafts",
+      "teens",
       "middle school (grades 6 - 8)",
       "elementary school (grades 1 - 6)",
       "children",
