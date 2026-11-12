@@ -1,89 +1,5 @@
 [
   {
-    "id": "countyparks-saxon-woods-garage-sale-2026-09-12",
-    "slug": "countyparks-saxon-woods-garage-sale-2026-09-12",
-    "title": "Saxon Woods Garage Sale",
-    "category": "Parks & Recreation",
-    "shortSummary": "The Westchester County Parks popular Garage Sale returns to Saxon Woods Park in White Plains, Saturday, Sept.",
-    "fullDescription": "The Westchester County Parks popular Garage Sale returns to Saxon Woods Park in White Plains, Saturday, Sept. Check the county parks page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-09-12",
-    "endDate": "2026-09-12",
-    "startTime": "10:00",
-    "endTime": "16:00",
-    "locationName": "Saxon Woods Park",
-    "locationAddress": "1800 Mamaroneck Avenue, White Plains, NY, 10605",
-    "image": "/assets/img/events/parks.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://parksevents.westchestercountyny.gov/event/saxon-woods-garage-sale",
-    "ctaLabel": "Open county parks page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "county parks",
-      "parks & recreation"
-    ],
-    "organizer": "Westchester County Parks",
-    "sourceUrl": "https://parksevents.westchestercountyny.gov/event/saxon-woods-garage-sale",
-    "sourceLabel": "County Parks calendar",
-    "importSource": "countyparks"
-  },
-  {
-    "id": "countyparks-fireside-nature-storytime-2026-09-12",
-    "slug": "countyparks-fireside-nature-storytime-2026-09-12",
-    "title": "Fireside Nature Storytime",
-    "category": "Parks & Recreation",
-    "shortSummary": "Enjoy children’s stories amongst the trees, with a campfire to keep warm!",
-    "fullDescription": "Enjoy children’s stories amongst the trees, with a campfire to keep warm! Check the county parks page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-09-12",
-    "endDate": "2026-09-12",
-    "startTime": "11:00",
-    "endTime": "12:00",
-    "locationName": "Cranberry Lake Preserve",
-    "locationAddress": "1609 Old Orchard Street, North White Plains, NY, 10604",
-    "image": "/assets/img/events/parks.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://parksevents.westchestercountyny.gov/event/fireside-nature-storytime-4",
-    "ctaLabel": "Open county parks page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "county parks",
-      "parks & recreation"
-    ],
-    "organizer": "Westchester County Parks",
-    "sourceUrl": "https://parksevents.westchestercountyny.gov/event/fireside-nature-storytime-4",
-    "sourceLabel": "County Parks calendar",
-    "importSource": "countyparks"
-  },
-  {
-    "id": "countyparks-back-to-school-nature-escape-2026-09-12",
-    "slug": "countyparks-back-to-school-nature-escape-2026-09-12",
-    "title": "Back-To-School Nature Escape",
-    "category": "Parks & Recreation",
-    "shortSummary": "Join preserve staff for an escape into nature this back-to-school season!",
-    "fullDescription": "Join preserve staff for an escape into nature this back-to-school season! Check the county parks page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-09-12",
-    "endDate": "2026-09-12",
-    "startTime": "12:30",
-    "endTime": "14:30",
-    "locationName": "Cranberry Lake Preserve",
-    "locationAddress": "1609 Old Orchard Street, North White Plains, NY, 10604",
-    "image": "/assets/img/events/parks.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://parksevents.westchestercountyny.gov/event/back-to-school-nature-escape-2",
-    "ctaLabel": "Open county parks page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "county parks",
-      "parks & recreation"
-    ],
-    "organizer": "Westchester County Parks",
-    "sourceUrl": "https://parksevents.westchestercountyny.gov/event/back-to-school-nature-escape-2",
-    "sourceLabel": "County Parks calendar",
-    "importSource": "countyparks"
-  },
-  {
     "id": "library-future-is-female-2026-09-14",
     "slug": "library-future-is-female-2026-09-14",
     "title": "Future is Female",
@@ -4501,7 +4417,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4691&month=11&year=2026&day=11&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -4528,7 +4444,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4562&month=11&year=2026&day=11&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -5162,6 +5078,34 @@
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17139841",
     "sourceLabel": "Library calendar",
     "importSource": "library"
+  },
+  {
+    "id": "bid-sip-and-sew-at-loola-doola-collective-2026-11-20",
+    "slug": "bid-sip-and-sew-at-loola-doola-collective-2026-11-20",
+    "title": "Sip & Sew at Loola Doola Collective",
+    "category": "Learning",
+    "shortSummary": "Downtown Meetups Presents:Sip & Sew at Loola Doola CollectiveFriday, November 20 | 6 pm – 8 pm Beginner-friendly sewing, drinks & light bites $5 RSVP | Limited…",
+    "fullDescription": "Downtown Meetups Presents:Sip & Sew at Loola Doola CollectiveFriday, November 20 | 6 pm – 8 pm Beginner-friendly sewing, drinks & light bites $5 RSVP | Limited Spots Learn a new skill, enjoy some refreshments, and leave with your own handmade creation. Use the BID page for tickets, participating businesses, and weather updates.",
+    "startDate": "2026-11-20",
+    "endDate": "2026-11-20",
+    "startTime": "18:00",
+    "endTime": "20:00",
+    "locationName": "Downtown White Plains",
+    "locationAddress": "Downtown White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://wpbid.com/events/sip-sew-at-loola-doola-collective/",
+    "ctaLabel": "Open event page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "downtown",
+      "bid"
+    ],
+    "organizer": "White Plains Business Improvement District",
+    "sourceUrl": "https://wpbid.com/events/sip-sew-at-loola-doola-collective/",
+    "sourceLabel": "White Plains BID",
+    "importSource": "bid"
   },
   {
     "id": "city-repair-cafe-2026-11-21",
