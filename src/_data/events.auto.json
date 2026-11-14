@@ -1,62 +1,5 @@
 [
   {
-    "id": "library-future-is-female-2026-09-14",
-    "slug": "library-future-is-female-2026-09-14",
-    "title": "Future is Female",
-    "category": "Learning",
-    "shortSummary": "The premise of this highly praised work, set in 1930-31 Paris and London, and based on a true event, is that five famous female mystery writers, including…",
-    "fullDescription": "The premise of this highly praised work, set in 1930-31 Paris and London, and based on a true event, is that five famous female mystery writers, including Dorothy Sayers and Agatha Christie, form a secret society to solve a real murder, in order to prove they are equal to men in a male-dominated literary world. This book is available through our catalog in the Library&rsquo;s physical collection and as both an ebook and audiobook in Libby. To join, Click This Zoom Link . You can also use the following phone number to call in: +1 929 436 2866 US (New York). Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-09-14",
-    "endDate": "2026-09-14",
-    "startTime": "14:00",
-    "endTime": "15:00",
-    "locationName": "White Plains Public Library, Ask Staff For More Information",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/learning.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/17112139",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "books and authors",
-      "adults about 55 and over",
-      "adults",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/17112139",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
-    "id": "city-design-review-board-2026-09-14",
-    "slug": "city-design-review-board-2026-09-14",
-    "title": "Design Review Board",
-    "category": "Civic",
-    "shortSummary": "Design Review Board is listed on the official White Plains city calendar.",
-    "fullDescription": "Design Review Board is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-09-14",
-    "endDate": "2026-09-14",
-    "startTime": "19:00",
-    "endTime": "21:00",
-    "locationName": "White Plains",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/civic.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4701&month=9&year=2026&day=14&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4701&month=9&year=2026&day=14&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
     "id": "city-transportation-commission-meeting-2026-09-15",
     "slug": "city-transportation-commission-meeting-2026-09-15",
     "title": "Transportation Commission Meeting",
@@ -4525,7 +4468,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4717&month=11&year=2026&day=13&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar",
       "public meeting"
