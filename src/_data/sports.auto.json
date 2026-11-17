@@ -429,7 +429,7 @@
       "slug": "girls-varsity-volleyball",
       "sportSlug": "volleyball",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270382",
-      "gameCount": 1
+      "gameCount": 0
     },
     {
       "id": "270400",
@@ -466,29 +466,6 @@
     }
   ],
   "games": [
-    {
-      "id": "sports-1507193",
-      "gameId": "1507193",
-      "teamId": "270382",
-      "teamName": "Girls Varsity Volleyball",
-      "teamSlug": "girls-varsity-volleyball",
-      "sport": "Volleyball",
-      "sportSlug": "volleyball",
-      "gender": "Girls",
-      "level": "Varsity",
-      "opponent": "Valhalla",
-      "isHome": false,
-      "title": "Girls Varsity Volleyball at Valhalla",
-      "gameType": "Regular Season",
-      "notes": "",
-      "startDate": "2026-09-17",
-      "startTime": "16:30",
-      "endTime": null,
-      "locationName": "Kensico Gym",
-      "url": "https://www.schedulegalaxy.com/schools/719/teams/270382/games/1507193",
-      "seasonYear": "2026",
-      "summary": "Girls Varsity Volleyball @ Valhalla"
-    },
     {
       "id": "sports-1527932",
       "gameId": "1527932",

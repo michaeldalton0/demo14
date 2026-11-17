@@ -1,40 +1,5 @@
 [
   {
-    "id": "library-westchester-during-the-revolutionary-war-history-via-igloo-2026-09-17",
-    "slug": "library-westchester-during-the-revolutionary-war-history-via-igloo-2026-09-17",
-    "title": "Westchester During the Revolutionary War (History via Igloo)",
-    "category": "Learning",
-    "shortSummary": "Learn about Westchester County during the Revolutionary War and what happened throughout the conflict.",
-    "fullDescription": "Learn about Westchester County during the Revolutionary War and what happened throughout the conflict. Held in the Library's panoramic Igloo content room (near the Trove entrance on the 2nd floor), funded by the Library Foundation and Optimum. Presented by Digital Media Specialist Austin Olney. Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-09-17",
-    "endDate": "2026-09-17",
-    "startTime": "17:00",
-    "endTime": "17:45",
-    "locationName": "White Plains Public Library, The Igloo - Optimum Technology Room",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/learning.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16978331",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "history & genealogy",
-      "educational presentations",
-      "digital technology",
-      "teens",
-      "middle school (grades 6 - 8)",
-      "high school (grades 9 - 12)",
-      "adults about 55 and over",
-      "adults",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16978331",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
     "id": "library-hispanic-heritage-month-arepas-2026-09-18",
     "slug": "library-hispanic-heritage-month-arepas-2026-09-18",
     "title": "Hispanic Heritage Month: Arepas",
@@ -4349,7 +4314,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4715&month=11&year=2026&day=16&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -4376,7 +4341,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/17221870",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "volunteering",
       "arts and crafts",
@@ -4406,7 +4371,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/16967770",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "training and course instruction",
       "jobs and careers",
@@ -4440,7 +4405,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/17213597",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "training and course instruction",
       "small business and non-profits",
@@ -4472,7 +4437,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4147&month=11&year=2026&day=16&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar",
       "public meeting"
@@ -4561,8 +4526,8 @@
     "status": "upcoming",
     "tags": [
       "books and authors",
-      "elementary school (grades 1 - 6)",
       "children",
+      "elementary school (grades 1 - 6)",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -4590,8 +4555,8 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "health and wellness",
       "educational presentations",
+      "health and wellness",
       "adults",
       "library"
     ],
@@ -4732,8 +4697,8 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "jobs and careers",
       "educational presentations",
+      "jobs and careers",
       "adults",
       "library"
     ],
@@ -4763,10 +4728,10 @@
     "status": "upcoming",
     "tags": [
       "educational presentations",
-      "teens",
-      "parents",
-      "families",
       "adults",
+      "families",
+      "parents",
+      "teens",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -4794,13 +4759,13 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "jobs and careers",
-      "educational presentations",
       "digital technology",
-      "teens",
-      "parents",
-      "high school (grades 9 - 12)",
+      "educational presentations",
+      "jobs and careers",
       "adults about 55 and over",
+      "high school (grades 9 - 12)",
+      "parents",
+      "teens",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -4828,11 +4793,11 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "training and course instruction",
-      "educational presentations",
       "arts and crafts",
-      "adults about 55 and over",
+      "educational presentations",
+      "training and course instruction",
       "adults",
+      "adults about 55 and over",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -4915,11 +4880,11 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "steam",
-      "fun and games",
       "arts and crafts",
-      "families",
+      "fun and games",
+      "steam",
       "children",
+      "families",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -4948,8 +4913,8 @@
     "status": "upcoming",
     "tags": [
       "arts and crafts",
-      "teens",
       "adults",
+      "teens",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -5006,8 +4971,8 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "educational presentations",
       "digital technology",
+      "educational presentations",
       "adults",
       "library"
     ],
@@ -5036,10 +5001,10 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "fun and games",
       "arts and crafts",
-      "adults about 55 and over",
+      "fun and games",
       "adults",
+      "adults about 55 and over",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -5067,11 +5032,11 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "nature & environment",
-      "educational presentations",
       "digital technology",
-      "adults about 55 and over",
+      "educational presentations",
+      "nature & environment",
       "adults",
+      "adults about 55 and over",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -5127,10 +5092,10 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "fun and games",
       "digital technology",
-      "families",
+      "fun and games",
       "children",
+      "families",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -5159,8 +5124,8 @@
     "status": "upcoming",
     "tags": [
       "books and authors",
-      "elementary school (grades 1 - 6)",
       "children",
+      "elementary school (grades 1 - 6)",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -5435,8 +5400,8 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "health and wellness",
       "fun and games",
+      "health and wellness",
       "teens",
       "library"
     ],
@@ -5493,12 +5458,12 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "training and course instruction",
       "educational presentations",
-      "teens",
-      "parents",
-      "adults about 55 and over",
+      "training and course instruction",
       "adults",
+      "adults about 55 and over",
+      "parents",
+      "teens",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -5608,8 +5573,8 @@
     "status": "upcoming",
     "tags": [
       "writing and poetry",
-      "teens",
       "adults",
+      "teens",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -5718,12 +5683,12 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "parents and caregivers",
       "health and wellness",
-      "parents",
-      "children",
-      "birth to 24 months",
+      "parents and caregivers",
       "adults",
+      "birth to 24 months",
+      "children",
+      "parents",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -5832,8 +5797,8 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "health and wellness",
       "fun and games",
+      "health and wellness",
       "teens",
       "library"
     ],
@@ -5862,8 +5827,8 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "international and multicultural",
       "art exhibit and gallery opening",
+      "international and multicultural",
       "adults",
       "library"
     ],
@@ -6147,8 +6112,8 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "educational presentations",
       "digital technology",
+      "educational presentations",
       "adults",
       "library"
     ],
@@ -6233,11 +6198,11 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "training and course instruction",
-      "educational presentations",
       "arts and crafts",
-      "adults about 55 and over",
+      "educational presentations",
+      "training and course instruction",
       "adults",
+      "adults about 55 and over",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -6406,8 +6371,8 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "health and wellness",
       "fun and games",
+      "health and wellness",
       "teens",
       "library"
     ],
@@ -6436,12 +6401,12 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "training and course instruction",
       "educational presentations",
-      "teens",
-      "parents",
-      "high school (grades 9 - 12)",
+      "training and course instruction",
       "adults",
+      "high school (grades 9 - 12)",
+      "parents",
+      "teens",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -6526,12 +6491,12 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "educational presentations",
       "arts and crafts",
-      "teens",
-      "middle school (grades 6 - 8)",
-      "elementary school (grades 1 - 6)",
+      "educational presentations",
       "children",
+      "elementary school (grades 1 - 6)",
+      "middle school (grades 6 - 8)",
+      "teens",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -6587,11 +6552,11 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "nature & environment",
-      "educational presentations",
       "digital technology",
-      "adults about 55 and over",
+      "educational presentations",
+      "nature & environment",
       "adults",
+      "adults about 55 and over",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -6648,8 +6613,8 @@
     "status": "upcoming",
     "tags": [
       "books and authors",
-      "elementary school (grades 1 - 6)",
       "children",
+      "elementary school (grades 1 - 6)",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -6704,13 +6669,13 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "jobs and careers",
-      "educational presentations",
       "digital technology",
-      "teens",
-      "parents",
-      "high school (grades 9 - 12)",
+      "educational presentations",
+      "jobs and careers",
       "adults about 55 and over",
+      "high school (grades 9 - 12)",
+      "parents",
+      "teens",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -6738,11 +6703,11 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "performing arts",
       "fun and games",
-      "children",
-      "ages 4 - 6",
+      "performing arts",
       "ages 2 - 4",
+      "ages 4 - 6",
+      "children",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -6771,8 +6736,8 @@
     "status": "upcoming",
     "tags": [
       "books and authors",
-      "elementary school (grades 1 - 6)",
       "children",
+      "elementary school (grades 1 - 6)",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -6910,12 +6875,12 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "training and course instruction",
       "educational presentations",
-      "teens",
-      "parents",
-      "adults about 55 and over",
+      "training and course instruction",
       "adults",
+      "adults about 55 and over",
+      "parents",
+      "teens",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -7233,10 +7198,10 @@
     "status": "upcoming",
     "tags": [
       "educational presentations",
-      "teens",
-      "parents",
-      "families",
       "adults",
+      "families",
+      "parents",
+      "teens",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -7265,8 +7230,8 @@
     "status": "upcoming",
     "tags": [
       "arts and crafts",
-      "adults about 55 and over",
       "adults",
+      "adults about 55 and over",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -7294,15 +7259,15 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "books and authors",
       "arts and crafts",
-      "teens",
-      "parents",
-      "middle school (grades 6 - 8)",
-      "high school (grades 9 - 12)",
-      "grades 4 - 6",
-      "children",
+      "books and authors",
       "adults",
+      "children",
+      "grades 4 - 6",
+      "high school (grades 9 - 12)",
+      "middle school (grades 6 - 8)",
+      "parents",
+      "teens",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -7417,10 +7382,10 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "fun and games",
       "digital technology",
-      "families",
+      "fun and games",
       "children",
+      "families",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -7477,10 +7442,10 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "fun and games",
       "digital technology",
-      "families",
+      "fun and games",
       "children",
+      "families",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -7677,10 +7642,10 @@
     "featured": false,
     "status": "upcoming",
     "tags": [
-      "fun and games",
       "digital technology",
-      "families",
+      "fun and games",
       "children",
+      "families",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -7737,8 +7702,8 @@
     "status": "upcoming",
     "tags": [
       "arts and crafts",
-      "adults about 55 and over",
       "adults",
+      "adults about 55 and over",
       "library"
     ],
     "organizer": "White Plains Public Library",
@@ -7767,10 +7732,10 @@
     "status": "upcoming",
     "tags": [
       "educational presentations",
-      "teens",
-      "parents",
-      "families",
       "adults",
+      "families",
+      "parents",
+      "teens",
       "library"
     ],
     "organizer": "White Plains Public Library",
