@@ -231,7 +231,7 @@
       "slug": "boys-varsity-ice-hockey",
       "sportSlug": "ice-hockey",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270229",
-      "gameCount": 3
+      "gameCount": 4
     },
     {
       "id": "270220",
@@ -764,6 +764,29 @@
       "url": "https://www.schedulegalaxy.com/schools/719/teams/270067/games/1538484",
       "seasonYear": "2026",
       "summary": "Girls Varsity Basketball v. Albany High School"
+    },
+    {
+      "id": "sports-1570585",
+      "gameId": "1570585",
+      "teamId": "270229",
+      "teamName": "Boys Varsity Ice Hockey",
+      "teamSlug": "boys-varsity-ice-hockey",
+      "sport": "Ice Hockey",
+      "sportSlug": "ice-hockey",
+      "gender": "Boys",
+      "level": "Varsity",
+      "opponent": "Our Lady of Lourdes",
+      "isHome": false,
+      "title": "Boys Varsity Ice Hockey at Our Lady of Lourdes",
+      "gameType": "Regular Season",
+      "notes": "",
+      "startDate": "2026-12-21",
+      "startTime": "19:15",
+      "endTime": null,
+      "locationName": "",
+      "url": "https://www.schedulegalaxy.com/schools/719/teams/270229/games/1570585",
+      "seasonYear": "2026",
+      "summary": "Boys Varsity Ice Hockey @ Our Lady of Lourdes"
     },
     {
       "id": "sports-1538876",
