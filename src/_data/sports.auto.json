@@ -77,7 +77,7 @@
       "slug": "girls-varsity-bowling",
       "sportSlug": "bowling",
       "scheduleUrl": "https://www.schedulegalaxy.com/schools/719/teams/270094",
-      "gameCount": 0
+      "gameCount": 2
     },
     {
       "id": "270103",
@@ -743,6 +743,29 @@
       "summary": "Boys Varsity Ice Hockey @ Harrison"
     },
     {
+      "id": "sports-1571027",
+      "gameId": "1571027",
+      "teamId": "270094",
+      "teamName": "Girls Varsity Bowling",
+      "teamSlug": "girls-varsity-bowling",
+      "sport": "Bowling",
+      "sportSlug": "bowling",
+      "gender": "Girls",
+      "level": "Varsity",
+      "opponent": "Harrison",
+      "isHome": true,
+      "title": "Girls Varsity Bowling vs. Harrison",
+      "gameType": "Regular Season",
+      "notes": "",
+      "startDate": "2026-12-09",
+      "startTime": "15:45",
+      "endTime": null,
+      "locationName": "Bowlerland",
+      "url": "https://www.schedulegalaxy.com/schools/719/teams/270094/games/1571027",
+      "seasonYear": "2026",
+      "summary": "Girls Varsity Bowling v. Harrison"
+    },
+    {
       "id": "sports-1559240",
       "gameId": "1559240",
       "teamId": "270076",
@@ -856,6 +879,29 @@
       "url": "https://www.schedulegalaxy.com/schools/719/teams/270067/games/1559945",
       "seasonYear": "2026",
       "summary": "Girls Varsity Basketball v. Harrison"
+    },
+    {
+      "id": "sports-1571068",
+      "gameId": "1571068",
+      "teamId": "270094",
+      "teamName": "Girls Varsity Bowling",
+      "teamSlug": "girls-varsity-bowling",
+      "sport": "Bowling",
+      "sportSlug": "bowling",
+      "gender": "Girls",
+      "level": "Varsity",
+      "opponent": "Harrison",
+      "isHome": true,
+      "title": "Girls Varsity Bowling vs. Harrison",
+      "gameType": "Regular Season",
+      "notes": "",
+      "startDate": "2027-01-20",
+      "startTime": "15:45",
+      "endTime": null,
+      "locationName": "Bowlerland",
+      "url": "https://www.schedulegalaxy.com/schools/719/teams/270094/games/1571068",
+      "seasonYear": "2026",
+      "summary": "Girls Varsity Bowling v. Harrison"
     },
     {
       "id": "sports-1560282",
