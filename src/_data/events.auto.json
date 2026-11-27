@@ -1,32 +1,5 @@
 [
   {
-    "id": "city-jazzfest-2026-09-27",
-    "slug": "city-jazzfest-2026-09-27",
-    "title": "JazzFest",
-    "category": "Community",
-    "shortSummary": "JazzFest is listed on the official White Plains city calendar.",
-    "fullDescription": "JazzFest is listed on the official White Plains city calendar. It is set for JazzFest Returns!, For more details about performance dates and times go to artswestchester.org/programs/jazzfest. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-09-27",
-    "endDate": "2026-09-27",
-    "startTime": null,
-    "endTime": null,
-    "locationName": "JazzFest Returns!",
-    "locationAddress": "For more details about performance dates and times go to artswestchester.org/programs/jazzfest",
-    "image": "/assets/img/events/community.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4696&month=9&year=2026&day=27&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4696&month=9&year=2026&day=27&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
     "id": "sports-girls-varsity-tennis-vs-harrison-2026-09-28",
     "slug": "sports-girls-varsity-tennis-vs-harrison-2026-09-28",
     "title": "Girls Varsity Tennis vs. Harrison",
@@ -4490,7 +4463,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4580&month=11&year=2026&day=26&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -4517,7 +4490,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4718&month=11&year=2026&day=26&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
